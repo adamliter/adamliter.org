@@ -1,0 +1,428 @@
+/*
+PURPOSE:
+----------------------------------------------------
+This CSS sheet is for my personal website.
+----------------------------------------------------
+
+UPDATES AND CHANGELOG:
+----------------------------------------------------
+- 2013-10-16
+	- Added centering to entire footer div
+	- Added classes and ids for images in the blog
+- 2013-09-26
+	- Moved the assignment of the z-indices for the
+	nav bar to the PHP templates file
+- 2013-09-23
+	- Changed link colors in the footer to #5BA2D7
+	- Added #header a:hover{color:#B22613;text-decoration:none;},
+	since it didn't seem to be picked up from the main body
+	styling section.
+- 2013-09-22
+	- Inception
+----------------------------------------------------
+
+RIGHTS:
+----------------------------------------------------
+I place this CSS style under the Creative Commons 
+Attribution-NonCommercial-ShareAlike 
+3.0 Unported License:
+http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US
+
+Modify and use as you wish, though not for commercial purposes.
+Attribute and share under a similar license!
+----------------------------------------------------
+*/
+
+
+/*
+MAIN BODY STYLING:
+----------------------------------------------------
+*/
+
+body{
+	font-family: "Palatino Linotype", Palatino, serif;
+	color: black;
+	background-color: #FFFFFF;
+	font-weight: 300;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #B22613;
+	text-decoration: none;
+}
+
+p{
+	text-align: justify;
+}
+
+blockquote{
+	background: #F0F0F0;
+	border-left: 0.2em solid #000000;
+	margin: 1.5em 1.5em;
+	padding: 0.5em 0.5em;
+	quotes: "\201C""\201D""\2018""\2019";
+	text-align: justify;
+}
+
+blockquote:before{
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+
+blockquote p{
+	display: inline;
+}
+
+/*
+DIV CONTAINERS AND SOME STYLING THEREOF:
+----------------------------------------------------
+*/
+
+#main-wrapper{
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	width: 60em;
+}
+
+#header-wrapper{
+	width:80%;
+	margin: 0 auto;
+	padding-bottom: 1em;
+}
+
+#page-title{
+	position: inherit;
+	width:100%;
+	font-size: xx-large;
+	font-family:"Zapf Chancery", cursive;
+	font-weight: 900;
+	color: #B22613;
+	text-decoration: none;
+	border: none;
+}
+
+#page-title a{
+	color: #B22613;
+}
+
+#page-title table{
+	width: 100%;
+}
+
+#page-title table td.left{
+	text-align: left;
+	vertical-align:middle;
+}
+
+#page-title table td.right{
+	text-align: right;
+	vertical-align:middle;
+}
+
+#header{
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	border-bottom: 0.188em solid #8E8E8E;
+}
+
+#header a:hover{
+	color: #B22613;
+	text-decoration: none;
+}
+
+#content-wrapper{
+	width: 80%;
+	clear: both;
+	margin: 0 auto;
+	background-color: #F0F0F0;
+	border-radius: 1.5em;
+	border: 0.2em solid #000000;
+}
+
+#content{
+	width:80%;
+	margin: 0 auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#content a{
+	color: #5BA2D7;
+}
+
+#content h1,h2,h3,h4,h5,h6{
+	color: #B22613;
+	font-family:"Zapf Chancery", cursive; 
+}
+
+#footer-wrapper{
+	display: block;
+	width:80%;
+	margin:0 auto;
+	padding: 0.5em 0.5em 0em 0.5em;
+}
+
+#footer{
+	width:100%;
+	margin: 0 auto;
+	font-size: 0.45em;
+	font-weight:900;
+	font-stretch: expanded;
+	text-align: center;
+}
+
+#footer p{
+	text-align: center;
+}
+
+#footer a,a:hover{
+	color: #5BA2D7;
+}
+
+/*
+NAVIGATION MENU STYLING:
+----------------------------------------------------
+*/
+
+article.tab-nav{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 4.8em;
+}
+
+article.tab-nav section{
+	position: absolute;
+	display: block;
+	top: 1.8em;
+	left: 0;
+	width: 100%;
+	height: 1.4em;
+	padding: 0em 0em 0.625em 0em;
+	background-color: #F0F0F0;
+	border-radius: 0em 0.313em 0.313em 0.313em;
+	z-index: 0;
+	border: 0.063em solid #000000;
+}
+
+/*
+Adding this functionality into the PHP templates so that the 
+topmost level of the nav bar can update dynamically
+based on the current working directory.
+----------------------------------------------------------
+article.tab-nav section:first-child{
+	z-index: 1;
+}
+*/
+
+article.tab-nav section h2{
+	position: absolute;
+	font-family: "Palatino Linotype", Palatino, serif;
+	font-size: 1em;
+	font-weight: normal;
+	width: 7.5em;
+	height: 1.725em;
+	top: -1.8em;
+	left: -0.063em;
+	padding: 0;
+	margin: 0;
+	background-color: #F0F0F0;
+	border-radius: 0.313em 0.313em 0em 0em;
+	border-top: 0.063em solid #000000;
+	border-left: 0.063em solid #000000;
+	border-right: 0.063em solid #000000;
+	
+}
+
+article.tab-nav section:nth-child(2) h2{
+	left: 7.563em;
+}
+
+article.tab-nav section:nth-child(3) h2{
+	left: 15.188em;
+}
+
+article.tab-nav section:nth-child(4) h2{
+	left: 22.813em;
+}
+
+article.tab-nav section:nth-child(5) h2{
+	left: 30.438em;
+}
+
+article.tab-nav section h2 a{
+	display: block;
+	width: 100%;
+	line-height: 1.6em;
+	text-align: center;
+	text-decoration: none;
+	outline: 0 none;
+}
+
+article.tab-nav section:hover,
+article.tab-nav section:hover h2{
+	background-color: #F0F0F0;
+	z-index: 10;
+}
+
+article.tab-nav section,
+article.tab-nav section h2{
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+ul.tabmenu{
+    width:100%;
+    text-align:left;
+    list-style:none;
+    line-height: 0.2em;
+    padding: 0em 2em 0em 2em;
+    position:relative;
+}
+
+ul.tabmenu:after{
+    content:'.'; height: 0; clear: both; display: block; visibility: hidden;
+}
+        
+ul.tabmenu li{
+    display:inline;
+    list-style:none; padding:0em 1em 0em 1em;
+    margin: 0 auto;
+}
+
+/*
+My addition for styling the navigation menu with
+curly braces on hover and current page indication.
+----------------------------------------------------
+*/
+
+.profile{
+	text-decoration: none;
+	border: 0;
+	color: black;
+}
+
+.profile:hover{
+	text-decoration: none;
+}
+
+.profile:hover:before{
+	color: black;
+}
+
+.profile:hover:after{
+	color: black;
+}
+
+.profile:before{
+	color: #F0F0F0;
+	border: 0;
+	content: "{";
+	font-size: larger;
+	font-weight: 500;
+}
+
+.profile:after{
+	color: #F0F0F0;
+	border: 0;
+	content: "}";
+	font-size: larger;
+	font-weight: 500;
+}
+
+.current{
+	color: #5BA2D7;
+}
+
+.current:before{
+	color: black;
+	content: "{";
+	font-size: larger;
+	font-weight: 500;
+}
+
+.current:after{
+	color: black;
+	content: "}";
+	font-size: larger;
+	font-weight: 500;	
+}
+
+/*
+STUFF FOR THE BLOG:
+----------------------------------------------------
+*/
+
+#img-blog {
+	width: auto !important; /*override the width below*/
+	max-width: 100%;
+	width: 600px;
+	text-align: center; 
+}
+
+.img-blog {
+	background: transparent;
+	padding: 8px;
+	border: 1px solid #999999;	
+}
+
+.img-blog-caption {
+	text-align:center;
+	margin-top:4px;
+	font-size: smaller;
+}
+
+#blog-post-date{
+	display:inline-block;
+	width: 5em;
+	height: 10em;
+	line-height: 10em;
+	text-align: center;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+#blog-post-brace{
+	display: inline-block;
+	width: 2em;
+	height: 10em;
+	line-height: 10em;
+	text-align: center;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+#blog-post-content{
+	position: relative;
+	display: inline-block;
+	width: 30em;
+	height: 10em;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+#blog-floater{
+	float: left;
+	height: 50%;
+	width: 100%;
+	margin-bottom: -5em;
+}
+
+#blog-post-content-child{
+	clear: both;
+	height: 10em;
+}
