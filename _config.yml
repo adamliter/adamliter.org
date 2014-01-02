@@ -1,0 +1,10 @@
+name: "Adam Liter"
+description: "Adam's personal website"
+
+url: "http://adamliter.org"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+pygments: true
