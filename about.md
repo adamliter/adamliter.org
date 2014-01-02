@@ -1,6 +1,7 @@
 ---
 title: Adam Liter | About
 layout: main-default-about
+date: 2014-01-02
 ---
 
 ## About Me

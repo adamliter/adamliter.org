@@ -1,6 +1,7 @@
 ---
 title: Adam Liter | Contact
 layout: main-default-contact
+date: 2014-01-02
 ---
 
 ## Contact Information
