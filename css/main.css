@@ -6,6 +6,12 @@ This CSS sheet is for my personal website.
 
 UPDATES AND CHANGELOG:
 ----------------------------------------------------
+- 2014-05-29
+	- 4.0 CC license
+	- New fonts
+		- page-title = Italianno
+		- h1 - h6 = Raleway
+		- main text = Computer Modern
 - 2013-10-16
 	- Added centering to entire footer div
 	- Added classes and ids for images in the blog
@@ -25,14 +31,62 @@ RIGHTS:
 ----------------------------------------------------
 I place this CSS style under the Creative Commons 
 Attribution-NonCommercial-ShareAlike 
-3.0 Unported License:
-http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US
+4.0 International License:
+http://creativecommons.org/licenses/by-nc-sa/4.0/
 
 Modify and use as you wish, though not for commercial purposes.
 Attribute and share under a similar license!
 ----------------------------------------------------
 */
 
+/*
+FONTS:
+----------------------------------------------------
+*/
+
+@font-face{
+	font-family: MyItalianno;
+	src: url('fonts/italianno.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+		 url('fonts/italianno.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face{
+	font-family: MyRaleway;
+	src: url('fonts/raleway.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+		 url('fonts/raleway.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face{
+	font-family: MyComputerModern;
+	src: url('fonts/cmunrm.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+		 url('fonts/cmunrm.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: MyComputerModern;
+	src: url('fonts/cmunbx.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+		 url('fonts/cmunbx.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: MyComputerModern;
+	src: url('fonts/cmunti.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+		 url('fonts/cmunti.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: MyComputerModern;
+	src: url('fonts/cmunbi.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+		 url('fonts/cmunbi.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+	font-weight: bold;
+	font-style: italic;
+}
 
 /*
 MAIN BODY STYLING:
@@ -40,7 +94,7 @@ MAIN BODY STYLING:
 */
 
 body{
-	font-family: "Palatino Linotype", Palatino, serif;
+	font-family: MyComputerModern, Palatino, serif;
 	color: black;
 	background-color: #F8F8F8;
 	font-weight: 300;
@@ -101,7 +155,7 @@ DIV CONTAINERS AND SOME STYLING THEREOF:
 	position: inherit;
 	width:100%;
 	font-size: xx-large;
-	font-family:"Zapf Chancery", cursive;
+	font-family: MyItalianno, cursive;
 	font-weight: 900;
 	color: #B22613;
 	text-decoration: none;
@@ -160,7 +214,7 @@ DIV CONTAINERS AND SOME STYLING THEREOF:
 
 #content h1,h2,h3,h4,h5,h6{
 	color: #B22613;
-	font-family:"Zapf Chancery", cursive; 
+	font-family: MyRaleway, sans-serif; 
 }
 
 #footer-wrapper{
