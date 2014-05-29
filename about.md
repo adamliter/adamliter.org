@@ -1,7 +1,7 @@
 ---
 title: Adam Liter | About
 layout: main-default-about
-date: 2014-01-02
+date: 2014-05-29
 ---
 
 ## About Me
@@ -14,7 +14,7 @@ In a <del>nutshell</del> bulleted list of no particular order:
 - Coffee
 - Em dashes
 					
-I'm currently a student at Michigan State University, studying linguistics and philosophy. For more about that, see my [academic page](http://academic.adamliter.org).
+I'm currently a student at Michigan State University, studying linguistics and philosophy. For more about that, see my [academic page](http://adamliter.org/academic/).
 					
 Through a good bit of na&#239;vet&#233; concerned with wanting to make a difference, I've cultivated an identity as a hardened (read: cynical) activist, though an activist nonetheless. My views about politics and activism have been heavily influenced by many, though I think two people in particular are worth mentioning: Tabitha Skervin (a friend) &amp; [Guante](http://guante.info).
 					

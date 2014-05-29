@@ -1,0 +1,15 @@
+{% include blog-header.html %}
+
+<div id="content">
+	
+	<h2>{{ page.title }}</h2>
+    <h3>{{ page.date | date_to_long_string }}</h3>
+    <p style="font-size:smaller">
+    <span style="font-weight:800;">Categories</span>: {{ page.categories | join: ', ' }} <span style="color:#8E8E8E;font-weight:300;font-size:x-large;vertical-align:middle;">|</span> <span style="font-weight:800;">Tags</span>: {{ page.tags | join: ', ' }}
+    </p>
+			
+	{{ content }}
+					
+</div><!-- END content div-->		
+
+{% include blog-footer.html %}
