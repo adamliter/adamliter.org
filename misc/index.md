@@ -1,12 +1,12 @@
 ---
 title: Adam Liter | Miscellaneous
 layout: misc-default
-date: 2014-01-03
+date: 2014-05-29
 ---
 
 ## Linguistics Summaries
 
-This is a [series of summaries](http://blog.adamliter.org/linguistics-summaries/) of some of the work in linguistics that I've read. This series is largely for my purposes, though I thought I would put them on the web in case they end up being useful to anyone else. Nonetheless, the main purpose of this series is as a memory aid for me, so it is possible&#8212;perhaps likely&#8212;that they might not be that helpful to others.
+This is a [series of summaries](http://adamliter.org/blog/linguistics-summaries/) of some of the work in linguistics that I've read. This series is largely for my purposes, though I thought I would put them on the web in case they end up being useful to anyone else. Nonetheless, the main purpose of this series is as a memory aid for me, so it is possible&#8212;perhaps likely&#8212;that they might not be that helpful to others.
 
 ## LaTeX &amp; Semantics
 
@@ -14,4 +14,4 @@ I'm currently developing some macros for typesetting work in semantics (a subfie
 			
 ## Obligatory Conglomeration of Links
 
-On [this page](http://misc.adamliter.org/links/), you will find links to places on the web that I enjoy and/or find useful.
+On [this page](http://adamliter.org/misc/links/), you will find links to places on the web that I enjoy and/or find useful.
