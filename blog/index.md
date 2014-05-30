@@ -23,7 +23,7 @@ layout: blog-default
 </div>
 -->
 <div id="blog-post-content">
-<math>
+<math overflow="truncate">
 	<mtext> {{ post.date | date:"%Y-%m-%d" }} </mtext>
 	<mspace width="1em" />
 	<mfenced open="{" close="">
