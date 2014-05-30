@@ -22,6 +22,7 @@ layout: blog-default
 </div>
 </div>
 -->
+<math>
 <mtext> {{ post.date | date:"%Y-%m-%d" }} </mtext>
 <mfenced open="{" close="">
 <mtable>
@@ -30,4 +31,5 @@ layout: blog-default
 <mrow><mtext>Tags: {{ post.tags | join: ', ' }} </mtext></mrow>
 </mtable>
 </mfenced>
+</math>
 {% endfor %} 
