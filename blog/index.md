@@ -39,9 +39,9 @@ layout: blog-default
 \text{ {{ post.date | date:"%Y-%m-%d" }} }
 \quad
 \begin{cases}
-\text{\textsc{title}: {{ post.title }} } \\\\
-\text{\textsc{categories}: {{ post.categories | join: ', ' }}} \\\\
-\text{\textsc{tags}: {{ post.tags | join: ', ' }}} \\\\
+\text{Title: {{ post.title }} } \\\\
+\text{Categories: {{ post.categories | join: ', ' }}} \\\\
+\text{Tags: {{ post.tags | join: ', ' }}} \\\\
 \end{cases}
 \\)
 {% endfor %} 
