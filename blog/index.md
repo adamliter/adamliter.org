@@ -36,7 +36,8 @@ layout: blog-default
 </math>
 -->
 <div id="blog-post-content">
-\\(
+
+$
 \text{ {{ post.date | date:"%Y-%m-%d" }} }
 \quad
 \begin{cases}
@@ -44,6 +45,7 @@ layout: blog-default
 \text{Categories: {{ post.categories | join: ', ' }}} \\\\
 \text{Tags: {{ post.tags | join: ', ' }}} \\\\
 \end{cases}
-\\)
+$
+
 </div>
 {% endfor %} 
