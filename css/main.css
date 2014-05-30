@@ -446,6 +446,7 @@ STUFF FOR THE BLOG:
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
+	word-wrap: break-word;
 }
 
 #blog-post-brace{
