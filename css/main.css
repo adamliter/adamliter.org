@@ -460,7 +460,9 @@ STUFF FOR THE BLOG:
 }
 
 #blog-post-content{
-	display: inline-block;
+	display: block;
+	width: 100%;
+	float: left;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
