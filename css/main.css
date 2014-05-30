@@ -451,6 +451,9 @@ STUFF FOR THE BLOG:
 #blog-post-meta{
 	width: 80%;
 	display: inline;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 /*
