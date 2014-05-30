@@ -7,6 +7,8 @@ layout: blog-default
 ### {{ y }}
 {% endif %}
 
+... still under construction; please bear with me ...
+
 <!--
 <div id="blog-post-date">
 <span style="font-weight:900"> {{ post.date | date:"%Y-%m-%d" }} </span>
