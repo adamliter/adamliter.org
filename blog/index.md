@@ -31,6 +31,7 @@ asdf
 -->
 <math>
 <mtext> {{ post.date | date:"%Y-%m-%d" }} </mtext>
+<mspace width="2em" />
 <mfenced open="{" close="">
 <mtable columnalign="left">
 <mrow><mtext>Title:&nbsp;</mtext><mtext href="{{ post.url }}" linebreak="goodbreak">{{ post.title }}</mtext></mrow>
