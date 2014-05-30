@@ -37,10 +37,10 @@ layout: blog-default
 -->
 <div id="blog-post-content">
 \(
-\text{ {{ post.date | date:"%Y-%m-%d" }} }
+\text{{{ post.date | date:"%Y-%m-%d" }}}
 \quad
 \begin{cases}
-\text{Title: \href{ {{ post.url }} }{ {{ post.title }} } } \\
+\text{Title: \href{{{ post.url }}}{{{ post.title }}}} \\
 \text{Categories: {{ post.categories | join: ', ' }}} \\
 \text{Tags: {{ post.tags | join: ', ' }}} \\
 \end{cases}
