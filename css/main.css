@@ -443,12 +443,12 @@ STUFF FOR THE BLOG:
 
 #blog-post-date{
 	width: 20%;
-	display:inline-block;
+	display:inline;
 }
 
 #blog-post-meta{
 	width: 80%;
-	display: inline-block;
+	display: inline;
 }
 
 /*
