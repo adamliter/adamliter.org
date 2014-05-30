@@ -39,9 +39,9 @@ layout: blog-default
 \text{2014-01-05}
 \quad
 \begin{cases}
-\text{Lorem ipsum …} \\
-\text{Lorem ipsum …} \\
-\text{Lorem ipsum …} \\
+\text{Lorem ipsum …} \\\\
+\text{Lorem ipsum …} \\\\
+\text{Lorem ipsum …} \\\\
 \end{cases}
 \\]
 {% endfor %} 
