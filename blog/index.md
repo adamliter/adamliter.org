@@ -29,7 +29,7 @@ layout: blog-default
 		<math>
 			<mtable columnalign="left">
 				<mrow><mphantom><mtext>Title:</mtext></mphantom></mrow>
-				<mrow><mtext> {{ post.date | date:"%Y-%m-%d" }} </mtext><mspace width="1em"></mspace></mrow>
+				<mrow><mtext> {{ post.date | date:"%Y-%m-%d" }} </mtext><mspace width="0.75em"></mspace></mrow>
 				<mrow><mphantom><mtext>Tags:</mtext></mphantom></mrow>
 			</mtable>
 		</math>
