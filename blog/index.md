@@ -35,13 +35,13 @@ layout: blog-default
 	</mfenced>
 </math>
 -->
-\\[
-\text{2014-01-05}
+\\(
+\text{ {{ post.date | date:"%Y-%m-%d" }} }
 \quad
 \begin{cases}
 \text{Lorem ipsum …} \\\\
 \text{Lorem ipsum …} \\\\
 \text{Lorem ipsum …} \\\\
 \end{cases}
-\\]
+\\)
 {% endfor %} 
