@@ -3,12 +3,9 @@ title: Adam Liter | Blog
 layout: blog-default
 ---
 ## Blog Entries
-Under construction.
-<!--
 {% for post in site.posts %} {% capture y %} {{post.date | date:"%Y"}} {% endcapture %} {% if year != y %} {% assign year = y %}
 ### {{ y }}
 {% endif %}
--->
 <!--
 <div id="blog-post-date">
 <span style="font-weight:900"> {{ post.date | date:"%Y-%m-%d" }} </span>
@@ -25,7 +22,7 @@ Under construction.
 </div>
 </div>
 -->
-<!--
+<div id="blog-post-content">
 <math>
 	<mtext> {{ post.date | date:"%Y-%m-%d" }} </mtext>
 	<mspace width="1em" />
@@ -37,7 +34,7 @@ Under construction.
 	</mtable>
 	</mfenced>
 </math>
--->
+</div>
 <!--
 <div id="blog-post-content">
 \(
@@ -51,6 +48,4 @@ Under construction.
 \)
 </div>
 -->
-<!--
 {% endfor %}
--->
