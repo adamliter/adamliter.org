@@ -22,10 +22,10 @@ layout: blog-default
 </div>
 </div>
 -->
-<math>
+<math maxwidth="38.4em">
 <mtext> {{ post.date | date:"%Y-%m-%d" }} </mtext>
 <mfenced open="{" close="">
-<mtable columnalign="left" width="38.4em">
+<mtable columnalign="left">
 <mrow><mtext>Title:&nbsp;</mtext><mtext href="{{ post.url }}">{{ post.title }}</mtext></mrow>
 <mrow><mtext>Categories: {{ post.categories | join: ', ' }} </mtext></mrow>
 <mrow><mtext>Tags: {{ post.tags | join: ', ' }} </mtext></mrow>
