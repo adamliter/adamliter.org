@@ -460,7 +460,9 @@ STUFF FOR THE BLOG:
 }
 
 #blog-post-content{
-	word-wrap: break-word;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 /*
