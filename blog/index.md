@@ -6,6 +6,7 @@ layout: blog-default
 {% for post in site.posts %} {% capture y %} {{post.date | date:"%Y"}} {% endcapture %} {% if year != y %} {% assign year = y %}
 ### {{ y }}
 {% endif %}
+<!--
 <div id="blog-post-date">
 <span style="font-weight:900"> {{ post.date | date:"%Y-%m-%d" }} </span>
 </div>
@@ -20,4 +21,13 @@ layout: blog-default
 <p><span style="font-size:small">Tags: {{ post.tags | join: ', ' }} </span></p>
 </div>
 </div>
+-->
+\[
+\text{ {{ post.date | date:"%Y-%m-%d" }} } \quad
+\begin{cases}
+\text{Title: <a href="{{ post.url }}"> {{ post.title }} </a>} \\
+\text{Categories: {{ post.categories | join: ', ' }} } \\
+\text{Tags: {{ post.tags | join: ', ' }} } \\
+\end{cases}
+\]
 {% endfor %} 
