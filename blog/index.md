@@ -23,14 +23,14 @@ layout: blog-default
 </div>
 -->
 <math>
-<mtext> {{ post.date | date:"%Y-%m-%d" }} </mtext>
-<mspace width="1em" />
-<mfenced open="{" close="">
-<mtable columnalign="left" width="container">
-<mtr><mtext>Title:&nbsp;</mtext><mtext href="{{ post.url }}">{{ post.title }}</mtext></mtr>
-<mtr><mtext>Categories: {{ post.categories | join: ', ' }} </mtext></mtr>
-<mtr><mtext>Tags: {{ post.tags | join: ', ' }} </mtext></mtr>
-</mtable>
-</mfenced>
+	<mtext> {{ post.date | date:"%Y-%m-%d" }} </mtext>
+	<mspace width="1em" />
+	<mfenced open="{" close="">
+	<mtable columnalign="left">
+		<mtr><mtext>Title:&nbsp;</mtext><mtext href="{{ post.url }}">{{ post.title }}</mtext></mtr>
+		<mtr><mtext>Categories: {{ post.categories | join: ', ' }} </mtext></mtr>
+		<mtr><mtext>Tags: {{ post.tags | join: ', ' }} </mtext></mtr>
+	</mtable>
+	</mfenced>
 </math>
 {% endfor %} 
