@@ -439,6 +439,8 @@ STUFF FOR THE BLOG:
 
 #blog-post-wrapper{
 	width: 100%;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 #blog-post-date{
