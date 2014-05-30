@@ -462,9 +462,11 @@ STUFF FOR THE BLOG:
 #blog-post-content{
 	display: inline-block;
 	width: 100%;
-	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 /*
