@@ -22,12 +22,12 @@ layout: blog-default
 </div>
 </div>
 -->
-\[
-\text{ {{ post.date | date:"%Y-%m-%d" }} } \quad
-\begin{cases}
-\text{Title: <a href="{{ post.url }}"> {{ post.title }} </a>} \\
-\text{Categories: {{ post.categories | join: ', ' }} } \\
-\text{Tags: {{ post.tags | join: ', ' }} } \\
-\end{cases}
-\]
+<mtext> {{ post.date | date:"%Y-%m-%d" }} </mtext>
+<mfenced open="{" close="">
+<mtable>
+<mrow><mtext>Title: <a href="{{ post.url }}"> {{ post.title }} </a></mtext></mrow>
+<mrow><mtext>Categories: {{ post.categories | join: ', ' }} </mtext></mrow>
+<mrow><mtext>Tags: {{ post.tags | join: ', ' }} </mtext></mrow>
+</mtable>
+</mfenced>
 {% endfor %} 
