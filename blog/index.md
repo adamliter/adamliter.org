@@ -22,8 +22,13 @@ layout: blog-default
 </div>
 </div>
 -->
-<math maxwidth="38.4em">
+<div id="blog-post-date">
+<math>
 <mtext> {{ post.date | date:"%Y-%m-%d" }} </mtext>
+</math>
+</div>
+<div id="blog-post-content">
+<math>
 <mfenced open="{" close="">
 <mtable columnalign="left">
 <mrow><mtext>Title:&nbsp;</mtext><mtext href="{{ post.url }}">{{ post.title }}</mtext></mrow>
@@ -32,4 +37,5 @@ layout: blog-default
 </mtable>
 </mfenced>
 </math>
+</div>
 {% endfor %} 
