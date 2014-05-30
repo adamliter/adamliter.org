@@ -3,6 +3,8 @@ title: Adam Liter | Blog
 layout: blog-default
 ---
 ## Blog Entries
+Under construction.
+<!--
 {% for post in site.posts %} {% capture y %} {{post.date | date:"%Y"}} {% endcapture %} {% if year != y %} {% assign year = y %}
 ### {{ y }}
 {% endif %}
@@ -35,15 +37,18 @@ layout: blog-default
 	</mfenced>
 </math>
 -->
+<!--
 <div id="blog-post-content">
 \(
 \text{ {{ post.date | date:"%Y-%m-%d" }} }
 \quad
 \begin{cases}
-\text{Title: \\href{ {{ post.url }} }{ {{ post.title }} } } \\
+\text{Title: \href{ {{ post.url }} }{ {{ post.title }} } } \\
 \text{Categories: {{ post.categories | join: ', ' }}} \\
 \text{Tags: {{ post.tags | join: ', ' }}} \\
 \end{cases}
 \)
 </div>
-{% endfor %} 
+-->
+{% endfor %}
+-->
