@@ -28,9 +28,9 @@ layout: blog-default
 	<mfenced open="{" close="">
 	<mstyle display="block">
 	<mtable columnalign="left">
-		<mtr><mtext>Title:&nbsp;</mtext><mtext href="{{ post.url }}">{{ post.title }}</mtext></mtr>
-		<mtr><mtext>Categories: {{ post.categories | join: ', ' }} </mtext></mtr>
-		<mtr><mtext>Tags: {{ post.tags | join: ', ' }} </mtext></mtr>
+		<mrow><mtext>Title:&nbsp;</mtext><mtext href="{{ post.url }}">{{ post.title }}</mtext></mrow>
+		<mrow><mtext>Categories: {{ post.categories | join: ', ' }} </mtext></mrow>
+		<mrow><mtext>Tags: {{ post.tags | join: ', ' }} </mtext></mrow>
 	</mtable>
 	</mstyle>
 	</mfenced>
