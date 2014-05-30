@@ -437,36 +437,18 @@ STUFF FOR THE BLOG:
 	font-size: smaller;
 }
 
-#blog-post-date{
-	display:inline-block;
-	width: 5em;
-	height: 10em;
-	line-height: 10em;
-	text-align: center;
-	overflow: hidden;
-	margin: 0;
-	padding: 0;
-}
-
-#blog-post-brace{
-	display: inline-block;
-	width: 2em;
-	height: 10em;
-	line-height: 10em;
-	text-align: center;
-	overflow: hidden;
-	margin: 0;
-	padding: 0;
-}
-
-#blog-post-content{
-	display: inline-block;
+#blog-post-wrapper{
 	width: 100%;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	padding-top: 1em;
-	padding-bottom: 1em;
+}
+
+#blog-post-date{
+	width: 20%;
+	display:inline-block;
+}
+
+#blog-post-meta{
+	width: 80%;
+	display: inline-block;
 }
 
 /*
