@@ -26,7 +26,7 @@ layout: blog-default
 <mtext> {{ post.date | date:"%Y-%m-%d" }} </mtext>
 <mfenced open="{" close="">
 <mtable>
-<mrow><mtext mathvariant="MyComputerModern">Title: </mtext><mtext href="{{ post.url }}">{{ post.title }}</mtext></mrow>
+<mrow><mtext>Title:$nbsp;</mtext><mtext href="{{ post.url }}">{{ post.title }}</mtext></mrow>
 <mrow><mtext>Categories: {{ post.categories | join: ', ' }} </mtext></mrow>
 <mrow><mtext>Tags: {{ post.tags | join: ', ' }} </mtext></mrow>
 </mtable>
