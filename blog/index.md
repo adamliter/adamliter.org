@@ -22,17 +22,20 @@ layout: blog-default
 </div>
 </div>
 -->
+<div id="blog-post-date">
 <math>
 	<mtext> {{ post.date | date:"%Y-%m-%d" }} </mtext>
 	<mspace width="1em" />
+</div>
+<div id="blog-post-content">
+<math>
 	<mfenced open="{" close="">
-	<mstyle overflow="linebreak">
 	<mtable columnalign="left">
 		<mrow><mtext>Title:&nbsp;</mtext><mtext href="{{ post.url }}">{{ post.title }}</mtext></mrow>
 		<mrow><mtext>Categories: {{ post.categories | join: ', ' }} </mtext></mrow>
 		<mrow><mtext>Tags: {{ post.tags | join: ', ' }} </mtext></mrow>
 	</mtable>
-	</mstyle>
 	</mfenced>
 </math>
+</div>
 {% endfor %} 
