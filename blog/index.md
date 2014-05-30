@@ -27,9 +27,9 @@ layout: blog-default
 <mspace width="1em" />
 <mfenced open="{" close="">
 <mtable columnalign="left">
-<mrow><mtext>Title:&nbsp;</mtext><mtext href="{{ post.url }}" linebreak="goodbreak">{{ post.title }}</mtext></mrow>
-<mrow><mtext>Categories: {{ post.categories | join: ', ' }} </mtext></mrow>
-<mrow><mtext>Tags: {{ post.tags | join: ', ' }} </mtext></mrow>
+<mtr><mtext>Title:&nbsp;</mtext><mtext href="{{ post.url }}">{{ post.title }}</mtext></mtr>
+<mtr><mtext>Categories: {{ post.categories | join: ', ' }} </mtext></mtr>
+<mtr><mtext>Tags: {{ post.tags | join: ', ' }} </mtext></mtr>
 </mtable>
 </mfenced>
 </math>
