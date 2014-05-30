@@ -133,6 +133,10 @@ blockquote p{
 	display: inline;
 }
 
+math{
+	font-family: MyComputerModern important!, Palatino, serif;
+}
+
 /*
 DIV CONTAINERS AND SOME STYLING THEREOF:
 ----------------------------------------------------
