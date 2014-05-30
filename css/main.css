@@ -460,6 +460,11 @@ STUFF FOR THE BLOG:
 }
 
 #blog-post-content{
+	word-wrap: break-word;
+}
+
+/*
+#blog-post-content{
 	position: relative;
 	display: inline-block;
 	width: 30em;
@@ -468,6 +473,7 @@ STUFF FOR THE BLOG:
 	margin: 0;
 	padding: 0;
 }
+*/
 
 #blog-floater{
 	float: left;

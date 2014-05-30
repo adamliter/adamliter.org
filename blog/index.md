@@ -35,6 +35,7 @@ layout: blog-default
 	</mfenced>
 </math>
 -->
+<div id="blog-post-content">
 \\(
 \text{ {{ post.date | date:"%Y-%m-%d" }} }
 \quad
@@ -44,4 +45,5 @@ layout: blog-default
 \text{Tags: {{ post.tags | join: ', ' }}} \\\\
 \end{cases}
 \\)
+</div>
 {% endfor %} 
