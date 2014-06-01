@@ -39,17 +39,17 @@ layout: blog-default
 				<mtable columnalign="left">
 					<mtr>
 						<mtd>
-							<mtext mathcolor="#B22613">Title:&nbsp;</mtext><mtext href="{{ post.url }}">{{ post.title }}</mtext>
+							<mtext mathcolor="#B22613">title:&nbsp;</mtext><mtext href="{{ post.url }}">{{ post.title }}</mtext>
 						</mtd>
 					</mtr>
 					<mtr>
 						<mtd>
-							<mtext>Categories: {{ post.categories | join: ', ' }}</mtext>
+							<mtext mathcolor="#B22613">categories:&nbsp;</mtext><mtext>{{ post.categories | join: ', ' }}</mtext>
 						</mtd>
 					</mtr>
 					<mtr>
 						<mtd>
-							<mtext>Tags: {{ post.tags | join: ', ' }}</mtext>
+							<mtext mathcolor="#B22613">tags:&nbsp;</mtext><mtext>{{ post.tags | join: ', ' }}</mtext>
 						</mtd>
 					</mtr>
 				</mtable>
