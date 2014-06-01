@@ -10,57 +10,52 @@ layout: blog-default
 ### {{ y }}
 {% endif %}
 
-<!--
-<div id="blog-post-date">
-<span style="font-weight:900"> {{ post.date | date:"%Y-%m-%d" }} </span>
-</div>
-<div id="blog-post-brace">
-<span style="font-size:700%">{</span>
-</div>
-<div id="blog-post-content">
-<div id="blog-floater"></div>
-<div id="blog-post-content-child">
-<p><span style="font-size:small">Title: <a href="{{ post.url }}"> {{ post.title }} </a></span></p>
-<p><span style="font-size:small">Categories: {{ post.categories | join: ', ' }} </span></p>
-<p><span style="font-size:small">Tags: {{ post.tags | join: ', ' }} </span></p>
-</div>
-</div>
--->
-
 <div class="blog-post-wrapper">
 	<div class="blog-post-date">
+	<!-- Make use of the <mphantom> to ensure that these two divs are the same height -->
 		<math>
 			<mtable columnalign="left">
-				<mrow><mphantom><mtext>Title:</mtext></mphantom></mrow>
-				<mrow><mtext> {{ post.date | date:"%Y-%m-%d" }} </mtext><mspace width="0.5em"></mspace></mrow>
-				<mrow><mphantom><mtext>Tags:</mtext></mphantom></mrow>
+				<mtr>
+					<mtd>
+						<mphantom><mtext>Title:</mtext></mphantom>
+					</mtd>
+				</mtr>
+				<mtr>
+					<mtd>
+						<mtext> {{ post.date | date:"%Y-%m-%d" }} </mtext><mspace width="0.5em"></mspace>
+					</mtd>
+				</mtr>
+				<mtr>
+					<mtd>
+						<mphantom><mtext>Tags:</mtext></mphantom>
+					</mtd>
+				</mtr>
 			</mtable>
 		</math>
 	</div>
 	<div class="blog-post-meta">
-		<math overflow="linebreak">
+		<math>
 			<mfenced open="{" close="">
-			<mtable columnalign="left">
-				<mrow><mtext>Title:&nbsp;</mtext><mtext href="{{ post.url }}">{{ post.title }}</mtext></mrow>
-				<mrow><mtext>Categories: {{ post.categories | join: ', ' }} </mtext></mrow>
-				<mrow><mtext>Tags: {{ post.tags | join: ', ' }} </mtext></mrow>
-			</mtable>
+				<mtable columnalign="left">
+					<mtr>
+						<mtd>
+							<mtext>Title:&nbsp;</mtext><mtext href="{{ post.url }}">{{ post.title }}</mtext>
+						</mtd>
+					</mtr>
+					<mtr>
+						<mtd>
+							<mtext>Categories: {{ post.categories | join: ', ' }}</mtext>
+						</mtd>
+					</mtr>
+					<mtr>
+						<mtd>
+							<mtext>Tags: {{ post.tags | join: ', ' }}</mtext>
+						</mtd>
+					</mtr>
+				</mtable>
 			</mfenced>
 		</math>
 	</div>
 </div>
 
-<!--
-<div id="blog-post-content">
-\(
-\text{ {{ post.date | date:"%Y-%m-%d" }} }
-\quad
-\begin{cases}
-\text{Title: \href{ {{ post.url }} }{ {{ post.title }} } } \\
-\text{Categories: {{ post.categories | join: ', ' }}} \\
-\text{Tags: {{ post.tags | join: ', ' }}} \\
-\end{cases}
-\)
-</div>
--->
 {% endfor %}
