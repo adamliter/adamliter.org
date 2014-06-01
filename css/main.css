@@ -445,6 +445,7 @@ STUFF FOR THE BLOG INDEX PAGES:
 .blog-post-date{
 	width: 20%;
 	display: inline;
+	font-weight: bolder;
 }
 
 .blog-post-meta{
