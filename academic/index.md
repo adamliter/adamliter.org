@@ -12,8 +12,8 @@ I'm also President (er&#8230;, well, 'Prime Minister', technically) of [qUALMS](
 
 If you really want to&#8212;though I'm not sure why you would want to&#8212;you can do the following here:
 
-- [Figure out what I'm (currently) interested in researching](http://academic.adamliter.org/interests)
-- [Take a look at current and former work&#8212;that is, work over which my embarrassment is not great enough to prevent me from putting it online](http://academic.adamliter.org/work)
+- [Figure out what I'm (currently) interested in researching](http://adamliter.org/academic/interests)
+- [Take a look at current and former work&#8212;that is, work over which my embarrassment is not great enough to prevent me from putting it online](http://adamliter.org/academic/work)
 - [Take a look at my CV](http://adamliter.org/content/adamlitercv.pdf)
 - [Go figure out what this 'qUALMS' business is about](http://www.msu.edu/~qualms)
 	
