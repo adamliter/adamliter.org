@@ -6,6 +6,9 @@ This CSS sheet is for my personal website.
 
 UPDATES AND CHANGELOG:
 ----------------------------------------------------
+- 2014-05-31
+	- Deleted old styling for the blog index pages
+	- Fixed issue with class and id use
 - 2014-05-29
 	- 4.0 CC license
 	- New fonts
@@ -134,7 +137,7 @@ blockquote p{
 }
 
 /*
-DIV CONTAINERS AND SOME STYLING THEREOF:
+MAIN DIV CONTAINERS AND SOME STYLING THEREOF:
 ----------------------------------------------------
 */
 
@@ -266,16 +269,6 @@ article.tab-nav section{
 	z-index: 0;
 	border: 0.063em solid #000000;
 }
-
-/*
-Adding this functionality into the PHP templates so that the 
-topmost level of the nav bar can update dynamically
-based on the current working directory.
-----------------------------------------------------------
-article.tab-nav section:first-child{
-	z-index: 1;
-}
-*/
 
 article.tab-nav section h2{
 	position: absolute;
@@ -436,6 +429,11 @@ STUFF FOR THE BLOG:
 	margin-top:4px;
 	font-size: smaller;
 }
+
+/*
+STUFF FOR THE BLOG INDEX PAGES:
+----------------------------------------------------
+*/
 
 .blog-post-wrapper{
 	width: 100%;
