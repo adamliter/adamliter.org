@@ -36,7 +36,7 @@ layout: blog-default
 	<div class="blog-post-meta">
 		<math>
 			<mfenced open="{" close="">
-				<mtable columnalign="left">
+				<mtable columnalign="left" overflow="truncate">
 					<mtr>
 						<mtd>
 							<mtext>Title:&nbsp;</mtext><mtext href="{{ post.url }}">{{ post.title }}</mtext>
