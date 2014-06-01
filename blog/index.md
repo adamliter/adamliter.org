@@ -27,8 +27,8 @@ layout: blog-default
 </div>
 -->
 
-<div id="blog-post-wrapper">
-	<div id="blog-post-date">
+<div class="blog-post-wrapper">
+	<div class="blog-post-date">
 		<math>
 			<mtable columnalign="left">
 				<mrow><mphantom><mtext>Title:</mtext></mphantom></mrow>
@@ -37,7 +37,7 @@ layout: blog-default
 			</mtable>
 		</math>
 	</div>
-	<div id="blog-post-meta">
+	<div class="blog-post-meta">
 		<math overflow="linebreak">
 			<mfenced open="{" close="">
 			<mtable columnalign="left">
