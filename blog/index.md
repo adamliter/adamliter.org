@@ -17,17 +17,17 @@ layout: blog-default
 			<mtable columnalign="left">
 				<mtr>
 					<mtd>
-						<mphantom><mtext>Title:</mtext></mphantom>
+						<mphantom><mtext>title:</mtext></mphantom>
 					</mtd>
 				</mtr>
 				<mtr>
 					<mtd>
-						<mtext> {{ post.date | date:"%Y-%m-%d" }} </mtext><mspace width="0.5em"></mspace>
+						<mtext mathvariant="bold"> {{ post.date | date:"%Y-%m-%d" }} </mtext><mspace width="0.5em"></mspace>
 					</mtd>
 				</mtr>
 				<mtr>
 					<mtd>
-						<mphantom><mtext>Tags:</mtext></mphantom>
+						<mphantom><mtext>tags:</mtext></mphantom>
 					</mtd>
 				</mtr>
 			</mtable>
