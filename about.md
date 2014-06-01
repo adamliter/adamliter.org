@@ -1,7 +1,7 @@
 ---
 title: Adam Liter | About
 layout: main-default-about
-date: 2014-05-29
+date: 2014-06-01
 ---
 
 ## About Me
@@ -14,16 +14,22 @@ In a <del>nutshell</del> bulleted list of no particular order:
 - Coffee
 - Em dashes
 					
-I'm currently a student at Michigan State University, studying linguistics and philosophy. For more about that, see my [academic page](http://adamliter.org/academic/).
+I grew up in occupied Dakota territory, or just outside of Minneapolis, Minnesota. For the last four years, I have been living in occupied Anishinaabe territory, attending Michigan State University.
+
+I have a B.A. in linguistics and a B.A. in philosophy from Michigan State; I'm currently pursuing an M.A. in linguistics, also at Michigan State. For more about my academic work, see my [academic page][academic].
 					
-Through a good bit of na&#239;vet&#233; concerned with wanting to make a difference, I've cultivated an identity as a hardened (read: cynical) activist, though an activist nonetheless. My views about politics and activism have been heavily influenced by many, though I think two people in particular are worth mentioning: Tabitha Skervin (a friend) &amp; [Guante](http://guante.info).
+My senior year of high school was when I began organizing, though my experiences and the relationships that I made in my undergraduate years were most formative for my views on politics, organizing, and anti-oppressive praxis. Currently, I'm working with a nascent collective, called the [Dis-orientation Collective][DOC]. Check it out, and get involved if you're interested!
 					
-I **really** like coffee. I worked as a barista, off-and-on, for a few years at the [Dunn Bros at the Smith Douglas More House](https://www.facebook.com/pages/Dunn-Bros-at-the-Smith-Douglas-More-House/133169107463?fref=ts).
+I **really** like coffee. I worked as a barista, off-and-on, for a few years at the [Dunn Bros at the Smith Douglas More House][DB].
 					
-And I also really fucking like em dashes&#8212;I probably use them too much in my writing&#8212;, I think, because they're the best tool for approximating how I tend to speak:
+And I also really fucking like em dashes&#8212;I probably use them too much in my writing&#8212;, I think, because they're the best tool for approximating how I tend to speak (*i.e.*, non-linearly):
 					
 <blockquote>
 The em dash, m dash, m-rule, or "mutton" (&#8212;) often demarcates a break of thought or some similar interpolation stronger than the interpolation demarcated by parentheses &#8211; <a href="https://en.wikipedia.org/wiki/Dash#Em_dash">Wikipedia</a>
 </blockquote>
 					
-As a result, I tend to have a lot of typographical splotches in my writing that look like '&#8212;,'. I actually think this looks kinda cool. Sorry grammatical and typographical purists.
+As a result, there are a lot of typographical splotches in my writing that look like '&#8212;,'. I actually think this looks kinda cool. Sorry grammatical and typographical purists.
+
+[academic]: http://adamliter.org/academic/
+[DOC]: http://dis-orientation.info/
+[DB]: https://www.facebook.com/pages/Dunn-Bros-at-the-Smith-Douglas-More-House/133169107463
