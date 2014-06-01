@@ -13,7 +13,7 @@ layout: blog-default
 <div class="blog-post-wrapper">
 	<div class="blog-post-date">
 	<!-- Make use of the <mphantom> to ensure that these two divs are the same height -->
-		<math>
+		<math display="block">
 			<mtable columnalign="left">
 				<mtr>
 					<mtd>
@@ -34,7 +34,7 @@ layout: blog-default
 		</math>
 	</div>
 	<div class="blog-post-meta">
-		<math>
+		<math display="block">
 			<mfenced open="{" close="">
 				<mtable columnalign="left" overflow="truncate">
 					<mtr>
