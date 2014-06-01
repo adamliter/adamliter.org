@@ -22,7 +22,7 @@ My senior year of high school was when I began organizing, though my experiences
 
 Currently, I'm working with a nascent collective, called the [Dis-orientation Collective][DOC]. Check it out, and get involved if you're interested!
 					
-I **really** like coffee. I worked as a barista, off-and-on, for a few years at the [Dunn Bros at the Smith Douglas More House][DB].
+I *really* like coffee. I worked as a barista, off-and-on, for a few years at the [Dunn Bros at the Smith Douglas More House][DB].
 					
 And I also really fucking like em dashes&#8212;I probably use them too much in my writing&#8212;, I think, because they're the best tool for approximating how I tend to speak (*i.e.*, non-linearly):
 					
