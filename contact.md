@@ -8,7 +8,7 @@ date: 2014-06-01
 					
 Email is definitely the best way to reach me. If I don't respond within the day, I'm probably dead.
 
-<table style="border-spacing: 1em;">
+<table style="border-spacing: 1em 0em;">
 	<tr>
 		<td>
 			&#8226;
