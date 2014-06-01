@@ -1,7 +1,7 @@
 ---
 title: Adam Liter | Contact
 layout: main-default-contact
-date: 2014-01-02
+date: 2014-06-01
 ---
 
 ## Contact Information
@@ -32,3 +32,13 @@ Email is definitely the best way to reach me. If I don't respond within the day,
 		</td>
 	</tr>
 </table>
+
+Other places you can find me on the internet include:
+
+- [Facebook][facebook]
+- [Twitter][twitter]
+- [TeX.SX][tex-sx]
+
+[facebook]: https://www.facebook.com/adam.liter.7
+[twitter]: https://twitter.com/adam_liter
+[tex-sx]: http://tex.stackexchange.com/users/32888/adam-liter
