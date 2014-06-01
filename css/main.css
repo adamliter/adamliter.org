@@ -418,7 +418,7 @@ STUFF FOR THE BLOG:
 ----------------------------------------------------
 */
 
-#img-blog {
+.img-blog-wrapper {
 	width: auto !important; /*override the width below*/
 	max-width: 100%;
 	width: 600px;

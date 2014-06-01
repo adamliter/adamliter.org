@@ -20,14 +20,14 @@ Am Sonntag liefen wir ein bisschen mehr um Stuttgart herum, damit ich die Stadt 
 
 #### Montag, 4. Juli
 
-<div id="img-blog">
+<div class="img-blog-wrapper">
 <img class="img-blog" width="600px" alt="Die Burg Esslingens" src="http://i.imgur.com/tTkK4Wl.jpg" />
 <div class="img-blog-caption">Die Burg Esslingens</div>
 </div>
 
 Am Montag musste ich früh aufstehen, um zur Schule zu fahren. Die Schule ist vielleicht nur 5 oder 10 Kilometer weit von Patricias WG, aber es war trotzdem ein bisschen früh. An diesem Tag beobachten wir einfach ein paar verschiedene Unterrichte. Die Patricia sagte mir, dass sie normalerweise 11 Lehrstunde pro Woche unterrichtet. Nach einer Weile ging ich ein bisschen früh aus der Schule aus, um Esslingen zu erfahren. Ich ging zur Burg Esslingens, und es war _echt_ schön. Es hat sich eindeutig gelohnt auch wenn ich so hochklettern musste und auch wenn ich so schwitzte. Ich lag mich hin und las ein bisschen. Neben mir spielten ein paar Männern Badminton. Die Sonne schien, und es war richtig schön, trotzdem ich ein bisschen rot wurde. Nach einer Weile kriegte ich ein bisschen Hunger, und ich ging deswegen hoch zum Restaurant bei der Burg. Ich aß ein Apfelstrudel mit Eis und hatte auch einen grünen Tee. Danach ging ich wieder zurück nach Patricias WG, wo ich ein bisschen Zeit mit ihren Mitbewohner verpasste. Ich lernte dadurch ein bisschen Schwäbisch, nämlich „Ois isch koins, aber zwoi isch oins.”
 
-<div id="img-blog">
+<div class="img-blog-wrapper">
 <img class="img-blog" alt="Apfelstrudel mit Eis" src="http://i.imgur.com/1H5nhcv.jpg" />
 <div class="img-blog-caption">Apfelstrudel mit Eis</div>
 </div>

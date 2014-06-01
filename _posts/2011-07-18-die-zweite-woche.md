@@ -21,7 +21,7 @@ Am Mittwoch gingen wir zur Hauptschule und danach hatten wir Seminar. An der Hau
 
 #### Donnerstag, 14. Juli
 
-<div id="img-blog">
+<div class="img-blog-wrapper">
 <img class="img-blog" width="300px" src="http://i.imgur.com/QpwLGZp.jpg" alt="Tübinger Schloss"/>
 <div class="img-blog-caption">Tübinger Schloss</div>
 </div>
