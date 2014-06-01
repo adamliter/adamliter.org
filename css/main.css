@@ -437,7 +437,7 @@ STUFF FOR THE BLOG INDEX PAGES:
 
 .blog-post-wrapper{
 	width: 100%;
-	font-size: smaller;
+	font-size: x-small;
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
@@ -445,13 +445,9 @@ STUFF FOR THE BLOG INDEX PAGES:
 .blog-post-date{
 	width: 20%;
 	display: inline;
-	font-weight: bold;
 }
 
 .blog-post-meta{
 	width: 80%;
 	display: inline;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	overflow: hidden;
 }
