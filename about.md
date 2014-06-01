@@ -20,7 +20,7 @@ I have a B.A. in linguistics and a B.A. in philosophy from Michigan State; I'm c
 					
 My senior year of high school was when I began organizing, though my experiences and the relationships that I made in my undergraduate years were most formative for my views on politics, organizing, and anti-oppressive praxis. (Though these views are still growing and evolving and will hopefully always be growing and evolving.)
 
-Currently, I'm working with a nascent collective, called the [Dis-orientation Collective][DOC]. Check it out, and get involved if you're interested!
+Currently, I'm working with a nascent collective called the [Dis-orientation Collective][DOC]. Check it out, and get involved if you're interested!
 					
 I *really* like coffee. I worked as a barista, off-and-on, for a few years at the [Dunn Bros at the Smith Douglas More House][DB].
 					
