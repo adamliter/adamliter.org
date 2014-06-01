@@ -437,7 +437,7 @@ STUFF FOR THE BLOG INDEX PAGES:
 
 .blog-post-wrapper{
 	width: 100%;
-	font-size: x-small;
+	font-size: x-small; /* Smaller than I would like it; but until text wrapping is implemented in MathML */
 	padding-top: 1em;
 	padding-bottom: 1em;
 }

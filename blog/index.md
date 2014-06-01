@@ -4,8 +4,6 @@ layout: blog-default
 ---
 ## Blog Entries
 
-<p style="text-align:center;">... still under construction; please bear with me ...</p>
-
 {% for post in site.posts %} {% capture y %} {{post.date | date:"%Y"}} {% endcapture %} {% if year != y %} {% assign year = y %}
 ### {{ y }}
 {% endif %}
