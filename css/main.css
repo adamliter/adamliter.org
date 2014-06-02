@@ -232,7 +232,7 @@ MAIN DIV CONTAINERS AND SOME STYLING THEREOF:
 #footer{
 	width:100%;
 	margin: 0 auto;
-	font-size: xx-small;
+	font-size: 0.35em;
 	font-weight:900;
 	font-stretch: expanded;
 	text-align: center;
