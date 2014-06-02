@@ -421,6 +421,7 @@ STUFF FOR THE BLOG:
 .meta-info table{
 	font-size: smaller;
 	border-spacing: 3em 0em;
+	margin: 0 auto;
 }
 
 .meta-info th{
