@@ -57,4 +57,6 @@ layout: blog-default
 	</div>
 </div>
 
+{% else %}
+<p>There are currently no blog posts in the <code>linguistics summaries</code> category.</p>
 {% endfor %}

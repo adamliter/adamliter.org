@@ -56,4 +56,6 @@ layout: blog-linguistics
 	</div>
 </div>
 
+{% else %}
+<p>There are currently no blog posts in the <code>linguistics</code> category.</p>
 {% endfor %}

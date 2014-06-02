@@ -56,4 +56,6 @@ layout: blog-travel
 	</div>
 </div>
 
+{% else %}
+<p>There are currently no blog posts in the <code>travel</code> category.</p>
 {% endfor %}

@@ -56,4 +56,6 @@ layout: blog-philosophy
 	</div>
 </div>
 
+{% else %}
+<p>There are currently no blog posts in the <code>philosophy</code> category.</p>
 {% endfor %}
