@@ -164,14 +164,14 @@ MAIN DIV CONTAINERS AND SOME STYLING THEREOF:
 }
 
 #header-wrapper{
-	width:80%;
+	width: 80%;
 	margin: 0 auto;
 	padding-bottom: 1em;
 }
 
 #page-title{
 	position: inherit;
-	width:100%;
+	width: 100%;
 	font-size: xx-large;
 	font-family: MyItalianno, cursive;
 	font-weight: 900;
@@ -190,12 +190,12 @@ MAIN DIV CONTAINERS AND SOME STYLING THEREOF:
 
 #page-title table td.left{
 	text-align: left;
-	vertical-align:middle;
+	vertical-align: middle;
 }
 
 #page-title table td.right{
 	text-align: right;
-	vertical-align:middle;
+	vertical-align: middle;
 }
 
 #header{
@@ -237,8 +237,8 @@ MAIN DIV CONTAINERS AND SOME STYLING THEREOF:
 
 #footer-wrapper{
 	display: block;
-	width:80%;
-	margin:0 auto;
+	width: 80%;
+	margin: 0 auto;
 	padding: 0.5em 0.5em 0em 0.5em;
 }
 
@@ -287,7 +287,7 @@ article.tab-nav section{
 
 article.tab-nav section h2{
 	position: absolute;
-	font-family: "Palatino Linotype", Palatino, serif;
+	font-family: MyComputerModern, Palatino, serif;
 	font-size: 1em;
 	font-weight: normal;
 	width: 7.5em;
@@ -345,21 +345,26 @@ article.tab-nav section h2{
 }
 
 ul.tabmenu{
-    width:100%;
-    text-align:left;
-    list-style:none;
+    width: 100%;
+    text-align: left;
+    list-style: none;
     line-height: 0.2em;
     padding: 0em 2em 0em 2em;
-    position:relative;
+    position: relative;
 }
 
 ul.tabmenu:after{
-    content:'.'; height: 0; clear: both; display: block; visibility: hidden;
+    content: '.';
+    height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
 }
         
 ul.tabmenu li{
-    display:inline;
-    list-style:none; padding:0em 1em 0em 1em;
+    display: inline;
+    list-style: none;
+    padding: 0em 1em 0em 1em;
     margin: 0 auto;
 }
 
@@ -466,8 +471,8 @@ STUFF FOR THE BLOG:
 }
 
 .img-blog-caption {
-	text-align:center;
-	margin-top:4px;
+	text-align: center;
+	margin-top: 4px;
 	font-size: smaller;
 }
 
