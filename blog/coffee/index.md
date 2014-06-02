@@ -4,6 +4,7 @@ layout: blog-coffee
 ---
 ## Coffee-Related Blog Entries
 
+
 {% for post in site.categories.coffee %}
 {% if forloop.length == 0 %}
 There are currently no blog posts in the <code>coffee</code> category.
@@ -14,7 +15,6 @@ There are currently no blog posts in the <code>coffee</code> category.
 {% if year != y %}
 {% assign year = y %}
 ### {{ y }}
-{% endif %}
 {% endif %}
 
 <div class="blog-post-wrapper">
@@ -65,4 +65,5 @@ There are currently no blog posts in the <code>coffee</code> category.
 	</div>
 </div>
 
+{% endif %}
 {% endfor %}
