@@ -5,6 +5,9 @@ url: "http://adamliter.org"
 
 paginate: 10
 
+gems:
+- jekyll-sitemap
+
 markdown: rdiscount
 permalink: pretty
-pygments: true
+highlighter: pygments
