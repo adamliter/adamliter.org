@@ -6,7 +6,7 @@ date: 2014-06-01
 
 ## About Me
 					
-In a <del>nutshell</del> bulleted list of no particular order:
+### In a <del>nutshell</del> bulleted list of no particular order:
 
 - Language
 - Philosophy
@@ -14,7 +14,7 @@ In a <del>nutshell</del> bulleted list of no particular order:
 - Coffee
 - Em dashes
 
-And now in some brief, expository paragraphs:
+### And now in some brief, expository paragraphs:
 			
 I grew up in occupied Dakota territory, or just outside of Minneapolis, Minnesota. For the last four years, I have been living in occupied Anishinaabe territory, attending Michigan State University.
 
