@@ -20,7 +20,7 @@ I grew up in occupied Dakota territory, or just outside of Minneapolis, Minnesot
 
 I have a B.A. in linguistics and a B.A. in philosophy from Michigan State; I'm currently pursuing an M.A. in linguistics, also at Michigan State. For more about my academic work, see my [academic page][academic].
 					
-My senior year of high school was when I began organizing, though my experiences and the relationships that I made in my undergraduate years at university were most formative for my views on politics, organizing, and anti-oppressive praxis. (Though these views are still growing and evolving and will hopefully always be growing and evolving.)
+My senior year of high school was when I began organizing, though my experiences and the relationships that I made in my undergraduate years were most formative for my views on politics, organizing, and anti-oppressive praxis. (Though these views are still growing and evolving and will hopefully always be growing and evolving.)
 
 Currently, I'm working with a nascent collective called the [Dis-orientation Collective][DOC]. Check it out, and get involved if you're interested!
 					
