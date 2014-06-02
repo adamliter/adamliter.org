@@ -418,6 +418,11 @@ STUFF FOR THE BLOG:
 	text-align: center;
 }
 
+.meta-info ul{
+	margin: 0em;
+	padding: 0em;
+}
+
 .meta-info table{
 	font-size: smaller;
 	border-spacing: 3em 0em;
