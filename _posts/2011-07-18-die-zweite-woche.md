@@ -39,4 +39,4 @@ Am Sontag stand ich auch ziemlich spät auf. Wir hatten uns überlegt, nach Dach
 
 #### Zweiter Podcast
 
--> The video for this podcast seems to have been lost.<-
+<iframe width="420" height="315" src="//www.youtube.com/embed/4jB_HqRTejs?rel=0" frameborder="0" allowfullscreen></iframe>
