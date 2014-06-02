@@ -13,7 +13,9 @@ In a <del>nutshell</del> bulleted list of no particular order:
 - Activism
 - Coffee
 - Em dashes
-					
+
+And now in some brief, expository paragraphs:
+			
 I grew up in occupied Dakota territory, or just outside of Minneapolis, Minnesota. For the last four years, I have been living in occupied Anishinaabe territory, attending Michigan State University.
 
 I have a B.A. in linguistics and a B.A. in philosophy from Michigan State; I'm currently pursuing an M.A. in linguistics, also at Michigan State. For more about my academic work, see my [academic page][academic].
