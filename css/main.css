@@ -6,6 +6,8 @@ This CSS sheet is for my personal website.
 
 UPDATES AND CHANGELOG:
 ----------------------------------------------------
+- 2014-06-01
+	- Added meta-info class for blog post pages
 - 2014-05-31
 	- Deleted old styling for the blog index pages
 	- Fixed issue with class and id use
@@ -410,6 +412,19 @@ curly braces on hover and current page indication.
 STUFF FOR THE BLOG:
 ----------------------------------------------------
 */
+
+.meta-info{
+	width: 100%;
+	text-align: center;
+}
+
+.meta-info table{
+	font-size: smaller;
+}
+
+.meta-info th{
+	color: #B22613;
+}
 
 .img-blog-wrapper {
 	width: auto !important; /*override the width below*/
