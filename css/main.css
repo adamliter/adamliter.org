@@ -7,6 +7,7 @@ This CSS sheet is for my personal website.
 UPDATES AND CHANGELOG:
 ----------------------------------------------------
 - 2014-06-01
+	- Added Computer Modern Typewriter and made it the code font
 	- Added meta-info class for blog post pages
 - 2014-05-31
 	- Deleted old styling for the blog index pages
@@ -77,7 +78,7 @@ FONTS:
 	font-style: normal;
 }
 
-@font-face {
+@font-face{
 	font-family: MyComputerModern;
 	src: url('fonts/cmunti.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 		 url('fonts/cmunti.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
@@ -85,12 +86,20 @@ FONTS:
 	font-style: italic;
 }
 
-@font-face {
+@font-face{
 	font-family: MyComputerModern;
 	src: url('fonts/cmunbi.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 		 url('fonts/cmunbi.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 	font-weight: bold;
 	font-style: italic;
+}
+
+@font-face{
+	font-family: MyComputerModernTypewriter;
+	src: url('fonts/cmuntt.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+		 url('fonts/cmuntt.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+	font-weight: normal;
+	font-style: normal;
 }
 
 /*
@@ -136,6 +145,10 @@ blockquote:before{
 
 blockquote p{
 	display: inline;
+}
+
+code{
+	font-family: MyComputerModernTypewriter;
 }
 
 /*
