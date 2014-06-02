@@ -24,4 +24,6 @@ Am Sonntag machten wir nicht viel. Sandrina und ich schlafen viel. Wir arbeitete
 
 #### Erster Podcast
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/SnTtztrDwhk?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="embed-video-center">
+	<iframe width="420" height="315" src="//www.youtube.com/embed/SnTtztrDwhk?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>

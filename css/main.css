@@ -6,6 +6,8 @@ This CSS sheet is for my personal website.
 
 UPDATES AND CHANGELOG:
 ----------------------------------------------------
+- 2014-06-02
+	- Added div for embedding videos in center
 - 2014-06-01
 	- Added Computer Modern Typewriter and made it the code font
 	- Added meta-info class for blog post pages
@@ -455,6 +457,12 @@ STUFF FOR THE BLOG:
 .meta-info td{
 	text-align: left;
 	vertical-align: top;
+}
+
+.embed-video-center{
+	margin: 0 auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 .img-blog-wrapper {
