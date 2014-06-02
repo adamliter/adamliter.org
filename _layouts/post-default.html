@@ -20,18 +20,18 @@
     			<td>
 					<ul>
 						{% for category in page.categories %}
-							{% if forloop.length == 0 %}
-							<p>None listed.</p>
-							{% else %}
 							<li>{{ category }}</li>
-							{% endif %}
+						{% else %}
+							<p>None listed.</p>
 						{% endfor %}
 					</ul>
     			</td>
     			<td>
 					<ul>
 						{% for tag in page.tags %}
-						<li>{{ tag }}</li>
+							<li>{{ tag }}</li>
+						{% else %}
+							<p>None listed.</p>
 						{% endfor %}
 					</ul>
     			</td>
