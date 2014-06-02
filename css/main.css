@@ -153,6 +153,10 @@ code{
 	font-family: MyComputerModernTypewriter;
 }
 
+strong{
+	font-weight: bold;
+}
+
 /*
 MAIN DIV CONTAINERS AND SOME STYLING THEREOF:
 ----------------------------------------------------
