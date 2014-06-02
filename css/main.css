@@ -461,6 +461,7 @@ STUFF FOR THE BLOG:
 
 .embed-video-center{
 	margin: 0 auto;
+	text-align: center;
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
