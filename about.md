@@ -32,7 +32,7 @@ And I also really fucking like em dashes&#8212;I probably use them too much in m
 The em dash, m dash, m-rule, or "mutton" (&#8212;) often demarcates a break of thought or some similar interpolation stronger than the interpolation demarcated by parentheses &#8211; <a href="https://en.wikipedia.org/wiki/Dash#Em_dash">Wikipedia</a>
 </blockquote>
 					
-As a result, there are a lot of typographical splotches in my writing that look like '&#8212;,'. I actually think this looks kinda cool. `#SorryNotSorry` grammatical purists.
+As a result, there are a lot of typographical splotches in my writing that look like '&#8212;,'. I actually think this looks kinda cool. `#SorryNotSorry` grammatical purists &amp; prescriptivists.
 
 [academic]: http://adamliter.org/academic/
 [DOC]: http://dis-orientation.info/
