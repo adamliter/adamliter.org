@@ -4,10 +4,7 @@ layout: blog-coffee
 ---
 ## Coffee-Related Blog Entries
 
-
-{% for post in site.categories.coffee %} {% if forloop.length == 0 %}
-There are currently no blog posts in the <code>coffee</code> category.
-{% else %} {% capture y %} {{post.date | date:"%Y"}} {% endcapture %} {% if year != y %} {% assign year = y %}
+{% for post in site.categories.coffee %} {% capture y %} {{post.date | date:"%Y"}} {% endcapture %} {% if year != y %} {% assign year = y %}
 ### {{ y }}
 {% endif %}
 
@@ -59,5 +56,4 @@ There are currently no blog posts in the <code>coffee</code> category.
 	</div>
 </div>
 
-{% endif %}
 {% endfor %}
