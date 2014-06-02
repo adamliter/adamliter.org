@@ -53,19 +53,19 @@ FONTS:
 */
 
 @font-face{
-	font-family: MyItalianno;
+	font-family: 'MyItalianno';
 	src: url('fonts/italianno.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 		 url('fonts/italianno.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
 @font-face{
-	font-family: MyRaleway;
+	font-family: 'MyRaleway';
 	src: url('fonts/raleway.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 		 url('fonts/raleway.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
 @font-face{
-	font-family: MyComputerModern;
+	font-family: 'MyComputerModern';
 	src: url('fonts/cmunrm.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 		 url('fonts/cmunrm.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 	font-weight: normal;
@@ -73,7 +73,7 @@ FONTS:
 }
 
 @font-face{
-	font-family: MyComputerModern;
+	font-family: 'MyComputerModern';
 	src: url('fonts/cmunbx.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 		 url('fonts/cmunbx.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 	font-weight: bold;
@@ -81,7 +81,7 @@ FONTS:
 }
 
 @font-face{
-	font-family: MyComputerModern;
+	font-family: 'MyComputerModern';
 	src: url('fonts/cmunti.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 		 url('fonts/cmunti.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 	font-weight: normal;
@@ -89,7 +89,7 @@ FONTS:
 }
 
 @font-face{
-	font-family: MyComputerModern;
+	font-family: 'MyComputerModern';
 	src: url('fonts/cmunbi.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 		 url('fonts/cmunbi.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 	font-weight: bold;
@@ -97,7 +97,7 @@ FONTS:
 }
 
 @font-face{
-	font-family: MyComputerModernTypewriter;
+	font-family: 'MyComputerModernTypewriter';
 	src: url('fonts/cmuntt.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 		 url('fonts/cmuntt.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 	font-weight: normal;
