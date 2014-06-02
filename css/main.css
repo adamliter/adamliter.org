@@ -8,6 +8,7 @@ UPDATES AND CHANGELOG:
 ----------------------------------------------------
 - 2014-06-02
 	- Added div for embedding videos in center
+	- Added bold declaration for strong because of weird font stuff
 - 2014-06-01
 	- Added Computer Modern Typewriter and made it the code font
 	- Added meta-info class for blog post pages
@@ -154,7 +155,7 @@ code{
 }
 
 strong{
-	font-weight: bold;
+	font-weight: bold; /* This is necessary for some reason since I am using my own font */
 }
 
 /*
