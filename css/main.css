@@ -420,10 +420,15 @@ STUFF FOR THE BLOG:
 
 .meta-info table{
 	font-size: smaller;
+	border-spacing: 3em 0em;
 }
 
 .meta-info th{
 	color: #B22613;
+}
+
+.meta-info td{
+	text-align: left;
 }
 
 .img-blog-wrapper {
