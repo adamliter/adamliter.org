@@ -21,7 +21,7 @@
 					<ul>
 						{% for category in page.categories %}
 							{% if forloop.length == 0 %}
-							None listed.
+							<p>None listed.</p>
 							{% else %}
 							<li>{{ category }}</li>
 							{% endif %}
