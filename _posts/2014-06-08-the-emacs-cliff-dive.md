@@ -2,8 +2,8 @@
 post_author: Adam Liter
 date: 2014-06-08
 layout: post-default
-slug: starting-the-emacs-cliff-dive
-title: "Starting the Emacs cliff dive"
+slug: the-emacs-cliff-dive
+title: "The Emacs cliff dive"
 categories:
 - Coding
 tags:
