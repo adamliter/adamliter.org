@@ -19,6 +19,10 @@ When it comes down to it, I'm really not a programmer or a computer scientists. 
 
 So anyway, I'm going to try to learn Emacs. Who knows if I will succeed. Perhaps not. But I wanted to start out doing things right, and I came across this series of three blog posts ([1][partone], [2][parttwo], [3][partthree]) by [Yusuke Tsutsumi][yusuke], which, I think, are really helpful for trying to start learning Emacs the right way, where 'right way' here means maintaing a `~/.emacs.d/` directory that can be cloned on any machine and reproduce the same environment.
 
+* * *
+
+#### Notes
+
 [^1]: And, of course, LaTeX.
 
 [orgmode]: http://orgmode.org/
