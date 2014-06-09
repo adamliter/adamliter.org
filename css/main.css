@@ -6,6 +6,8 @@ This CSS sheet is for my personal website.
 
 UPDATES AND CHANGELOG:
 ----------------------------------------------------
+- 2014-06-09
+        - Switched colors of current and profile
 - 2014-06-02
 	- Added div for embedding videos in center
 	- Added bold declaration for strong because of weird font stuff
@@ -54,55 +56,55 @@ FONTS:
 */
 
 @font-face{
-	font-family: 'MyItalianno';
-	src: url('fonts/italianno.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-		 url('fonts/italianno.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    font-family: 'MyItalianno';
+    src: url('fonts/italianno.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('fonts/italianno.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
 @font-face{
-	font-family: 'MyRaleway';
-	src: url('fonts/raleway.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-		 url('fonts/raleway.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    font-family: 'MyRaleway';
+    src: url('fonts/raleway.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('fonts/raleway.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
 @font-face{
-	font-family: 'MyComputerModern';
-	src: url('fonts/cmunrm.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-		 url('fonts/cmunrm.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'MyComputerModern';
+    src: url('fonts/cmunrm.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('fonts/cmunrm.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face{
-	font-family: 'MyComputerModern';
-	src: url('fonts/cmunbx.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-		 url('fonts/cmunbx.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-	font-weight: bold;
-	font-style: normal;
+    font-family: 'MyComputerModern';
+    src: url('fonts/cmunbx.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('fonts/cmunbx.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    font-weight: bold;
+    font-style: normal;
 }
 
 @font-face{
-	font-family: 'MyComputerModern';
-	src: url('fonts/cmunti.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-		 url('fonts/cmunti.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-	font-weight: normal;
-	font-style: italic;
+    font-family: 'MyComputerModern';
+    src: url('fonts/cmunti.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('fonts/cmunti.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    font-weight: normal;
+    font-style: italic;
 }
 
 @font-face{
-	font-family: 'MyComputerModern';
-	src: url('fonts/cmunbi.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-		 url('fonts/cmunbi.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-	font-weight: bold;
-	font-style: italic;
+    font-family: 'MyComputerModern';
+    src: url('fonts/cmunbi.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('fonts/cmunbi.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    font-weight: bold;
+    font-style: italic;
 }
 
 @font-face{
-	font-family: 'MyComputerModernTypewriter';
-	src: url('fonts/cmuntt.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-		 url('fonts/cmuntt.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'MyComputerModernTypewriter';
+    src: url('fonts/cmuntt.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('fonts/cmuntt.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*
@@ -111,51 +113,51 @@ MAIN BODY STYLING:
 */
 
 body{
-	font-family: MyComputerModern, Palatino, serif;
-	color: black;
-	background-color: #F8F8F8;
-	font-weight: 300;
+    font-family: MyComputerModern, Palatino, serif;
+    color: black;
+    background-color: #F8F8F8;
+    font-weight: 300;
 }
 
 a{
-	color: black;
-	text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 a:hover{
-	color: #B22613;
-	text-decoration: none;
+    color: #B22613;
+    text-decoration: none;
 }
 
 p{
-	text-align: justify;
+    text-align: justify;
 }
 
 blockquote{
-	background: #F0F0F0;
-	border-left: 0.2em solid #000000;
-	margin: 1.5em 1.5em;
-	padding: 0.5em 0.5em;
-	quotes: "\201C""\201D""\2018""\2019";
-	text-align: justify;
+    background: #F0F0F0;
+    border-left: 0.2em solid #000000;
+    margin: 1.5em 1.5em;
+    padding: 0.5em 0.5em;
+    quotes: "\201C""\201D""\2018""\2019";
+    text-align: justify;
 }
 
 blockquote:before{
-	line-height: 0.1em;
-	margin-right: 0.25em;
-	vertical-align: -0.4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
 }
 
 blockquote p{
-	display: inline;
+    display: inline;
 }
 
 code{
-	font-family: MyComputerModernTypewriter;
+    font-family: MyComputerModernTypewriter;
 }
 
 strong{
-	font-weight: bold; /* This is necessary for some reason since I am using my own font */
+    font-weight: bold; /* This is necessary for some reason since I am using my own font */
 }
 
 /*
@@ -164,106 +166,106 @@ MAIN DIV CONTAINERS AND SOME STYLING THEREOF:
 */
 
 #main-wrapper{
-	display: block;
-	margin: 0 auto;
-	position: relative;
-	width: 60em;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 60em;
 }
 
 #header-wrapper{
-	width: 80%;
-	margin: 0 auto;
-	padding-bottom: 1em;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 1em;
 }
 
 #page-title{
-	position: inherit;
-	width: 100%;
-	font-size: xx-large;
-	font-family: MyItalianno, cursive;
-	font-weight: 900;
-	color: #B22613;
-	text-decoration: none;
-	border: none;
+    position: inherit;
+    width: 100%;
+    font-size: xx-large;
+    font-family: MyItalianno, cursive;
+    font-weight: 900;
+    color: #B22613;
+    text-decoration: none;
+    border: none;
 }
 
 #page-title a{
-	color: #B22613;
+    color: #B22613;
 }
 
 #page-title table{
-	width: 100%;
+    width: 100%;
 }
 
 #page-title table td.left{
-	text-align: left;
-	vertical-align: middle;
+    text-align: left;
+    vertical-align: middle;
 }
 
 #page-title table td.right{
-	text-align: right;
-	vertical-align: middle;
+    text-align: right;
+    vertical-align: middle;
 }
 
 #header{
-	width: 100%;
-	margin: 0 auto;
-	display: block;
-	border-bottom: 0.188em solid #8E8E8E;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-bottom: 0.188em solid #8E8E8E;
 }
 
 #header a:hover{
-	color: #B22613;
-	text-decoration: none;
+    color: #5BA2D7;
+    text-decoration: none;
 }
 
 #content-wrapper{
-	width: 80%;
-	clear: both;
-	margin: 0 auto;
-	background-color: #F0F0F0;
-	border-radius: 1.5em;
-	border: 0.2em solid #000000;
+    width: 80%;
+    clear: both;
+    margin: 0 auto;
+    background-color: #F0F0F0;
+    border-radius: 1.5em;
+    border: 0.2em solid #000000;
 }
 
 #content{
-	width:80%;
-	margin: 0 auto;
-	padding-top: 1em;
-	padding-bottom: 1em;
+    width:80%;
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 #content a{
-	color: #5BA2D7;
+    color: #5BA2D7;
 }
 
 #content h1,h2,h3,h4,h5,h6{
-	color: #B22613;
-	font-family: MyRaleway, sans-serif; 
+    color: #B22613;
+    font-family: MyRaleway, sans-serif; 
 }
 
 #footer-wrapper{
-	display: block;
-	width: 80%;
-	margin: 0 auto;
-	padding: 0.5em 0.5em 0em 0.5em;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.5em 0.5em 0em 0.5em;
 }
 
 #footer{
-	width:100%;
-	margin: 0 auto;
-	font-size: 0.45em;
-	font-weight:900;
-	font-stretch: expanded;
-	text-align: center;
+    width:100%;
+    margin: 0 auto;
+    font-size: 0.45em;
+    font-weight:900;
+    font-stretch: expanded;
+    text-align: center;
 }
 
 #footer p{
-	text-align: center;
+    text-align: center;
 }
 
 #footer a,a:hover{
-	color: #5BA2D7;
+    color: #5BA2D7;
 }
 
 /*
@@ -272,83 +274,83 @@ NAVIGATION MENU STYLING:
 */
 
 article.tab-nav{
-	position: relative;
-	display: block;
-	width: 100%;
-	height: 4.8em;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 4.8em;
 }
 
 article.tab-nav section{
-	position: absolute;
-	display: block;
-	top: 1.8em;
-	left: 0;
-	width: 100%;
-	height: 1.4em;
-	padding: 0em 0em 0.625em 0em;
-	background-color: #F0F0F0;
-	border-radius: 0em 0.313em 0.313em 0.313em;
-	z-index: 0;
-	border: 0.063em solid #000000;
+    position: absolute;
+    display: block;
+    top: 1.8em;
+    left: 0;
+    width: 100%;
+    height: 1.4em;
+    padding: 0em 0em 0.625em 0em;
+    background-color: #F0F0F0;
+    border-radius: 0em 0.313em 0.313em 0.313em;
+    z-index: 0;
+    border: 0.063em solid #000000;
 }
 
 article.tab-nav section h2{
-	position: absolute;
-	font-family: MyComputerModern, Palatino, serif;
-	font-size: 1em;
-	font-weight: normal;
-	width: 7.5em;
-	height: 1.725em;
-	top: -1.8em;
-	left: -0.063em;
-	padding: 0;
-	margin: 0;
-	background-color: #F0F0F0;
-	border-radius: 0.313em 0.313em 0em 0em;
-	border-top: 0.063em solid #000000;
-	border-left: 0.063em solid #000000;
-	border-right: 0.063em solid #000000;
+    position: absolute;
+    font-family: MyComputerModern, Palatino, serif;
+    font-size: 1em;
+    font-weight: normal;
+    width: 7.5em;
+    height: 1.725em;
+    top: -1.8em;
+    left: -0.063em;
+    padding: 0;
+    margin: 0;
+    background-color: #F0F0F0;
+    border-radius: 0.313em 0.313em 0em 0em;
+    border-top: 0.063em solid #000000;
+    border-left: 0.063em solid #000000;
+    border-right: 0.063em solid #000000;
 	
 }
 
 article.tab-nav section:nth-child(2) h2{
-	left: 7.563em;
+    left: 7.563em;
 }
 
 article.tab-nav section:nth-child(3) h2{
-	left: 15.188em;
+    left: 15.188em;
 }
 
 article.tab-nav section:nth-child(4) h2{
-	left: 22.813em;
+    left: 22.813em;
 }
 
 article.tab-nav section:nth-child(5) h2{
-	left: 30.438em;
+    left: 30.438em;
 }
 
 article.tab-nav section h2 a{
-	display: block;
-	width: 100%;
-	line-height: 1.6em;
-	text-align: center;
-	text-decoration: none;
-	outline: 0 none;
+    display: block;
+    width: 100%;
+    line-height: 1.6em;
+    text-align: center;
+    text-decoration: none;
+    outline: 0 none;
 }
 
 article.tab-nav section:hover,
 article.tab-nav section:hover h2{
-	background-color: #F0F0F0;
-	z-index: 10;
+    background-color: #F0F0F0;
+    z-index: 10;
 }
 
 article.tab-nav section,
 article.tab-nav section h2{
-	-webkit-transition: all 500ms ease;
-	-moz-transition: all 500ms ease;
-	-ms-transition: all 500ms ease;
-	-o-transition: all 500ms ease;
-	transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
 }
 
 ul.tabmenu{
@@ -382,55 +384,55 @@ curly braces on hover and current page indication.
 */
 
 .profile{
-	text-decoration: none;
-	border: 0;
-	color: black;
+    text-decoration: none;
+    border: 0;
+    color: black;
 }
 
 .profile:hover{
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .profile:hover:before{
-	color: black;
+    color: black;
 }
 
 .profile:hover:after{
-	color: black;
+    color: black;
 }
 
 .profile:before{
-	color: #F0F0F0;
-	border: 0;
-	content: "{";
-	font-size: larger;
-	font-weight: 500;
+    color: #F0F0F0;
+    border: 0;
+    content: "{";
+    font-size: larger;
+    font-weight: 500;
 }
 
 .profile:after{
-	color: #F0F0F0;
-	border: 0;
-	content: "}";
-	font-size: larger;
-	font-weight: 500;
+    color: #F0F0F0;
+    border: 0;
+    content: "}";
+    font-size: larger;
+    font-weight: 500;
 }
 
 .current{
-	color: #5BA2D7;
+    color: #B22613;
 }
 
 .current:before{
-	color: black;
-	content: "{";
-	font-size: larger;
-	font-weight: 500;
+    color: black;
+    content: "{";
+    font-size: larger;
+    font-weight: 500;
 }
 
 .current:after{
-	color: black;
-	content: "}";
-	font-size: larger;
-	font-weight: 500;	
+    color: black;
+    content: "}";
+    font-size: larger;
+    font-weight: 500;	
 }
 
 /*
@@ -439,55 +441,55 @@ STUFF FOR THE BLOG:
 */
 
 .meta-info{
-	width: 100%;
-	text-align: center;
+    width: 100%;
+    text-align: center;
 }
 
 .meta-info ul{
-	margin: 0em;
-	padding: 0em;
+    margin: 0em;
+    padding: 0em;
 }
 
 .meta-info table{
-	font-size: smaller;
-	border-spacing: 3em 0em;
-	margin: 0 auto;
+    font-size: smaller;
+    border-spacing: 3em 0em;
+    margin: 0 auto;
 }
 
 .meta-info th{
-	text-align: left;
-	color: #B22613;
+    text-align: left;
+    color: #B22613;
 }
 
 .meta-info td{
-	text-align: left;
-	vertical-align: top;
+    text-align: left;
+    vertical-align: top;
 }
 
 .embed-video-center{
-	margin: 0 auto;
-	text-align: center;
-	padding-top: 1em;
-	padding-bottom: 1em;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
-.img-blog-wrapper {
-	width: auto !important; /*override the width below*/
-	max-width: 100%;
-	width: 600px;
-	text-align: center; 
+.img-blog-wrapper{
+    width: auto !important; /*override the width below*/
+    max-width: 100%;
+    width: 600px;
+    text-align: center; 
 }
 
-.img-blog {
-	background: transparent;
-	padding: 8px;
-	border: 1px solid #999999;	
+.img-blog{
+    background: transparent;
+    padding: 8px;
+    border: 1px solid #999999;	
 }
 
-.img-blog-caption {
-	text-align: center;
-	margin-top: 4px;
-	font-size: smaller;
+.img-blog-caption{
+    text-align: center;
+    margin-top: 4px;
+    font-size: smaller;
 }
 
 /*
@@ -496,18 +498,18 @@ STUFF FOR THE BLOG INDEX PAGES:
 */
 
 .blog-post-wrapper{
-	width: 100%;
-	font-size: x-small; /* Smaller than I would like it; but until text wrapping is implemented in MathML */
-	padding-top: 1em;
-	padding-bottom: 1em;
+    width: 100%;
+    font-size: x-small; /* Smaller than I would like it; but until text wrapping is implemented in MathML */
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .blog-post-date{
-	width: 20%;
-	display: inline;
+    width: 20%;
+    display: inline;
 }
 
 .blog-post-meta{
-	width: 80%;
-	display: inline;
+    width: 80%;
+    display: inline;
 }
