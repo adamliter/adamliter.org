@@ -11,8 +11,8 @@ gems:
 markdown: rdiscount
 
 rdiscount:
-extensions:
-- footnotes
+ extensions:
+  - footnotes
 
 permalink: pretty
 highlighter: pygments
