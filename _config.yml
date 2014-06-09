@@ -1,15 +1,18 @@
 name: "Adam Liter"
 description: "Adam Liter's personal webpage."
 
-url: "http://adamliter.org"
+url: "http://adamliter.org/"
 
 paginate: 10
 
 gems:
 - jekyll-sitemap
 
-markdown: rdiscount
+markdown: kramdown
 
+# For enabling footnotes
+# if the markdown converter
+# is rdiscount
 rdiscount:
  extensions:
   - footnotes
