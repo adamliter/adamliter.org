@@ -442,7 +442,7 @@ FOOTNOTE STYLING
 */
 
 .footnotes:before{
-    content: <hr></hr><h4>Notes</h4>;
+    content: "<hr></hr><h4>Notes</h4>";
 }
 
 /*
