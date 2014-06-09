@@ -13,7 +13,7 @@ tags:
 
 #### Rationale
 
-When it comes down to it, I'm really not a coder or a programmer. I just dabble in various things because I find it interesting, and I also find that there are some great ways to increase productivity with certain tools (and, of course, LaTeX). In particular, I'm interested in learning Emacs because of [`org-mode`][orgmode]. This [article][workflow] by [Kieran Healy][kieran] makes, I think, a good case for learning Emacs (and `org-mode`) if you work in the social sciences (and I think this applies for the hard sciences, like linguistics, too).
+When it comes down to it, I'm really not a programmer or a computer scientists. I just dabble in various things because I find it interesting, and I also find that there are some great ways to increase productivity with certain tools (and, of course, LaTeX). In particular, I'm interested in learning Emacs because of [`org-mode`][orgmode]. This [article][workflow] by [Kieran Healy][kieran] makes, I think, a good case for learning Emacs (and `org-mode`) if you work in the social sciences (and I think this applies for the hard sciences, like linguistics, too).
 
 #### Resources
 
