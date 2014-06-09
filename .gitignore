@@ -1,2 +1,5 @@
 # Ignore .DS_Store from Mac OS
-/.DS_Store
+*.DS_Store
+
+# Ignore auto-save files from Emacs
+*.*~
