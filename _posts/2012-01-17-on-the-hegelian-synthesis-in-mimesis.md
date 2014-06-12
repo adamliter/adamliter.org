@@ -13,10 +13,16 @@ tags:
 - mimesis
 ---
 
+* * *
+
+**Note**: This post was written for a graduate level course in the English department at MSU (ENG 802), called "Literary Criticism and Theory: Does Language Think Us?"
+
+* * *
+
 In chapter 15 of _Mimesis: The Representation of Reality in Western Literature_, entitled _The Faux Dévot_, Erich Auerbach traces the mixing of two initially disjoint literary styles—namely, a higher style (associated with the genre of tragedy and the sublime) and a lower style (associated with the genre of comedy, the empiricism of everyday experience, and the distinctly human, or “creatural," component thereof)—to their resurgent separation as manifest in the French classicism of the 17th century.
 
 
-> "In the tragedies of French classicism as will be self-evident after all that has been said, the strictest seclusion of the tragic personages and the tragic action from everything below them prevails. Even the prince’s immediate entourage is drawn upon only for a few figures indispensable to the action, or confidants; everyone else is _on_. The people are referred to but rarely and only in the most general terms." (382)
+> In the tragedies of French classicism as will be self-evident after all that has been said, the strictest seclusion of the tragic personages and the tragic action from everything below them prevails. Even the prince’s immediate entourage is drawn upon only for a few figures indispensable to the action, or confidants; everyone else is _on_. The people are referred to but rarely and only in the most general terms. (382)
 
 
 Let me be up front. I intend to focus on the interpretation of the sentence, "everyone else is _on_," and its bearing on the chapter as a whole. I was not able to find the original German text of this passage, which is unfortunate since there are a variety of translations in German for the English preposition "on" that would help greatly to elucidate the intended meaning of the sentence. Nonetheless, I think there are two distinct lines of interpretation for this sentence that are each—in their own rights—worth examining.
@@ -32,9 +38,3 @@ Other than simply indicating the eventual (re)mixing of the two styles, this rea
 This economic and cultural leveling thus seems to be an ideal (or complete) version of the dialectical process in which thesis and antithesis have been synthesized (contrast this with the incomplete synthesizing of the two styles that Auerbach describes in chapter 3, _The Arrest of Peter Valvomeres_). Finally, and what is surely closer to home for Auerbach, such a reading of the preposition "on" points to what must have been an incomprehensible yearning for such a leveling—namely, the fact of being a German Jew in the (post-)Nazi era.
 
 Ultimately then, what I think justifies this perhaps 'stretched' reading is the surely correct conclusion that Auerbach must be desirous of (the Hegelian synthesis of) an equitable and interdependent society as contrasted with a society in which categorical dependencies (e.g. one class/race/gender being dependent on another) create the distinct possibility of terrible human conflict, suffering, and subjugation. In light of this, it seems one could advance the claim—a claim that this _explication de texte_ does not necessarily purport to defend (for it would require much more than this single analysis) but nonetheless supports—that Auerbach’s _Mimesis_ attempted to facilitate or direct the literary (and aesthetic) leveling aspect of this "economic and cultural leveling process."
-
-
-
----------
-
-*Note: This post was written for a graduate level course in the English department at MSU (ENG 802), called "Literary Criticism and Theory: Does Language Think Us?"
