@@ -1,4 +1,4 @@
-.---
+---
 post_author: Adam Liter
 date: 2013-05-27 21:50:32+00:00
 layout: post-default
@@ -14,8 +14,6 @@ tags:
 - passives
 - syntax
 ---
-
-[^1]
 
 #### Claim 
 
