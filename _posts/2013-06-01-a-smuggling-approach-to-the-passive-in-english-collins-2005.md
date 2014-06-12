@@ -43,7 +43,7 @@ Pesetsky, D. (1995). _Zero Syntax: Experiencers and Cascades_. Cambridge, MA: Th
 #### Notes
 
 [^1]: It was later pointed out to me by Alan that what I have argued is a strength of Collins's analysis (section 2), is not actually necessarily a strength of the analysis&mdash;at least not straightforwardly&mdash;since there are arguably different Θ-roles involved in dative shifted constructions (_cf_. Pesetsky 1995). Compare:
-
+    {:.footnote-level-one-example}
     1. {:.footnote-level-one-example}
         1. {:.footnote-level-two-example} John sent the gift to Mary
         2. {:.footnote-level-two-example} John sent Mary the gift
