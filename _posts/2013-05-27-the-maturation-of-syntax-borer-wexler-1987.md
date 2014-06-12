@@ -59,21 +59,6 @@ Given that such theoretical assumptions seem to explain the data, the data _a fo
 
 * * *
 
-#### Notes
-	
-[^1]: For an explanation of what exactly intrinsic and extrinsic ordering explanations mean, see pp. 125-126.
-
-	
-[^2]: However, see Yang (2002) for an explanation of the triggering problem using the principles and parameters framework. If Yang is correct, then this conceptual argument, at least as it is reconstructed here, is unsound&mdash;specifically, (P3) is false.
-
-	
-[^3]: Of course, this conceptual argument doesn't 'disprove' the Continuity Hypothesis. It just establishes that it is _a priori_ unlikely; it might still be supported by empirical data, though Borer & Wexler argue that the empirical data also favors the Maturation Hypothesis, not the Continuity Hypothesis. Nonetheless, they do seem to put a lot of stock in the conceptual argument for the Maturation Hypothesis (_cf._ note 4).
-
-	
-[^4]: Indeed, they write that "[e]ven if maturation plays a key role in language acquisition, it may turn out, under deeper analysis, and considering a wider array of phenomena, that the particular Maturation Hypothesis has to be reformulated. It would be surprising if this were not the case" (166). That is to say, they seem to put more stock in the conceptual argument for the Maturation Hypothesis, rather than in purportedly having identified an instance of one such principle that undergoes maturation.
-
-* * *
-
 #### References
 
 Borer, H. and Wexler, K. (1987). The Maturation of Syntax. In Roeper, T. and Williams, E., editors, _Parameter Setting and Language Acquisition_, pages 123–172. Dordrecht: Reidel.
@@ -96,3 +81,18 @@ Yang, C. (2002). _Knowledge and Learning in Natural Language_. Oxford: Oxford Un
     Publisher = {Reidel},
     Title = {The Maturation of Syntax},
     Year = {1987}}
+
+* * *
+
+#### Notes
+	
+[^1]: For an explanation of what exactly intrinsic and extrinsic ordering explanations mean, see pp. 125-126.
+
+	
+[^2]: However, see Yang (2002) for an explanation of the triggering problem using the principles and parameters framework. If Yang is correct, then this conceptual argument, at least as it is reconstructed here, is unsound&mdash;specifically, (P3) is false.
+
+	
+[^3]: Of course, this conceptual argument doesn't 'disprove' the Continuity Hypothesis. It just establishes that it is _a priori_ unlikely; it might still be supported by empirical data, though Borer & Wexler argue that the empirical data also favors the Maturation Hypothesis, not the Continuity Hypothesis. Nonetheless, they do seem to put a lot of stock in the conceptual argument for the Maturation Hypothesis (_cf._ note 4).
+
+	
+[^4]: Indeed, they write that "[e]ven if maturation plays a key role in language acquisition, it may turn out, under deeper analysis, and considering a wider array of phenomena, that the particular Maturation Hypothesis has to be reformulated. It would be surprising if this were not the case" (166). That is to say, they seem to put more stock in the conceptual argument for the Maturation Hypothesis, rather than in purportedly having identified an instance of one such principle that undergoes maturation.
