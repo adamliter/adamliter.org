@@ -498,6 +498,10 @@ li.footnote-level-one-example{
     list-style-type: lower-roman;
 }
 
+li.footnote-level-two-example{
+    list-style-type: lower-aplha;
+}
+
 /*
 STUFF FOR THE BLOG INDEX PAGES:
 ----------------------------------------------------
