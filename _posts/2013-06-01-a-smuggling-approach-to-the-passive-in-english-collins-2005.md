@@ -28,7 +28,7 @@ Pesetsky, D. (1995). _Zero Syntax: Experiencers and Cascades_. Cambridge, MA: Th
 #### BibTeX
 
 	@article{collins2005,
-	Author = {Chris Collins},
+	Author = {Collins, Chris},
 	Journal = {Syntax},
 	Keywords = {passives, syntax},
 	Month = {August},
@@ -42,13 +42,13 @@ Pesetsky, D. (1995). _Zero Syntax: Experiencers and Cascades_. Cambridge, MA: Th
 
 #### Notes
 
-[^1]: It was later pointed out to me by Alan that what I have argued is a strength of Collins's analysis (section 2), is not actually necessarily a strength of the analysis&mdash;at least not straightforwardly&mdash;since there are arguably different Θ-roles involved in dative shifted constructions (_cf_. Pesetsky 1995). Compare:
-<p style="margin-left:3em">(i)</p>
-<p style="margin-left:6em">a. John sent the gift to Mary</p>
-<p style="margin-left:6em">b. John sent Mary the gift</p>
-<p style="margin-left:3em">(ii)</p>
-<p style="margin-left:6em">a. John sent the gift to New York</p>
-<p style="margin-left:6em">b. */#John sent New York the gift</p>
-<p style="margin-left:2.5em">Since writing this assignment, I have not given any more thought to this argument and these data. Perhaps there is an independent explanation for the data in (i) and (ii). Perhaps not. To the extent that Θ-roles are syntactic, there might be an independent semantic/pragmatic explanation of (iib)&mdash;hence the hedge on ungrammaticality or anomaly. Such a line of reasoning would require a thorough investigation of the nature of Θ-roles, however, and I do not currently have the expertise (or the time) to pursue this line of reasoning. Thus, for now, I will only note that section 2 of this article review is perhaps a misled extension of Collins's (2005) analysis of the passive.</p>
+[^1]: It was later pointed out to me by Alan that what I have argued is a strength of Collins's analysis (section 2), is not actually necessarily a strength of the analysis&mdash;at least not straightforwardly&mdash;since there are arguably different Θ-roles involved in dative shifted constructions (_cf_. Pesetsky 1995). Compare:
+* {:.footnote-level-one-example}
+  * {:.footnote-level-two-example} John sent the gift to Mary
+  * {:.footnote-level-two-example} John sent Mary the gift
+* {:.footnote-level-one-example}
+  * {:.footnote-level-two-example} John sent the gift to New York
+  * {:.footnote-level-two-example} */#John sent New York the gift
+Since writing this assignment, I have not given any more thought to this argument and these data. Perhaps there is an independent explanation for the data in (i) and (ii). Perhaps not. To the extent that Θ-roles are syntactic, there might be an independent semantic/pragmatic explanation of (iib)&mdash;hence the hedge on ungrammaticality or anomaly. Such a line of reasoning would require a thorough investigation of the nature of Θ-roles, however, and I do not currently have the expertise (or the time) to pursue this line of reasoning. Thus, for now, I will only note that section 2 of this article review is perhaps a misled extension of Collins's (2005) analysis of the passive.
 
 [CollinsArticleReview]: http://adamliter.org/content/article-reviews/collins2005-review-adamliter
