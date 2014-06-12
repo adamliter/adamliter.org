@@ -6,6 +6,8 @@ This CSS sheet is for my personal website.
 
 UPDATES AND CHANGELOG:
 ----------------------------------------------------
+- 2014-06-12
+        - Added styling for examples in footnotes
 - 2014-06-09
         - Switched colors of current and profile
 - 2014-06-02
@@ -490,6 +492,18 @@ STUFF FOR THE BLOG:
     text-align: center;
     margin-top: 4px;
     font-size: smaller;
+}
+
+ol.footnote-level-one-example{
+    list-style-type: none;
+}
+
+ol.footnote-level-one-example li{
+    counter-increment: section;
+}
+
+ol.footnote-level-one-example li:before{
+    content: "(" counter(section, Upper-Roman) ") ";
 }
 
 /*
