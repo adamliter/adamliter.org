@@ -494,15 +494,11 @@ STUFF FOR THE BLOG:
     font-size: smaller;
 }
 
-ol.footnote-level-one-example{
-    list-style-type: none;
-}
-
-ol.footnote-level-one-example li{
+li.footnote-level-one-example li{
     counter-increment: section;
 }
 
-ol.footnote-level-one-example li:before{
+li.footnote-level-one-example:before{
     content: "(" counter(section, Upper-Roman) ") ";
 }
 
