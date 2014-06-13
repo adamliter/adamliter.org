@@ -85,18 +85,14 @@ Pearson, M. (2005). _The Malagasy subject/topic as an A′-element_. Natural Lan
 
 #### BibTeX
 
-	@article{hyams2006b,
-	Author = {Hyams, Nina and Ntelitheos, Dimitris and Manorohanta, Cecile},
-	Isbn = {0167-806X, 0167-806X},
-	Journal = {Natural Language \& Linguistic Theory},
-	Keywords = {Malagasy, acquisition, voicing},
-	Language = {English},
-	Number = {4},
-	Pages = {1049-1092},
-	Title = {Acquisition of the {M}alagasy Voicing System:
-	Implications for the Adult Grammar},
-	Volume = {24},
-	Year = {2006}}
+    @article{hyams2006b,
+    Author = {Hyams, Nina and Ntelitheos, Dimitris and Manorohanta, Cecile},
+    Journal = {Natural Language \& Linguistic Theory},
+    Number = {4},
+    Pages = {1049-1092},
+    Title = {Acquisition of the {M}alagasy Voicing System: Implications for the Adult Grammar},
+    Volume = {24},
+    Year = {2006}}
 
 * * * 
 
