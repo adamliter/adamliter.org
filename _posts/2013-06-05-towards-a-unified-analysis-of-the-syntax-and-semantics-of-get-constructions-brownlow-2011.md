@@ -110,7 +110,7 @@ After demonstrating that Voice and Cause project independently in these construc
 
 This structure is then merged with _get_ and the derivation proceeds normally. Next, Brownlow develops an account of DirPs following Svenonius (2010), arguing that DirPs are compositionally built from LocPs and some _path_ head; Brownlow relies on Zwarts (2005) to account for these _path_ heads, of which there are three (102). Based on the _path_ head denotations, the DirPPs can be seen to have varying numbers of stages in their structures. For example, _through_ has the following stage structure, where the interval [0,1] corresponds to the path in its entirety:
 
-  1. {:.blog-example-continuous}through x\\
+  1. {:.blog-example-continuous} through x\\
       `- - - - - + + + + + + - - - - -`\\
       0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1\\
       (2011:97)
@@ -123,8 +123,8 @@ With regard to _at_, Brownlow argues that there are two flavors of _at_, a LocP 
 
 Now, in chapter 5, Brownlow considers passive complementation of _get_. Again, there is some terminological ground to briefly review. Following Kratzer (2001) and Embick (2004), Brownlow distinguishes between three types of participial-like complementation, summarized in (15):
 
-<p style="margin-left:3em">(15) ![brownlow2011-participialcomplementation](http://i.imgur.com/PrqTd46.jpg)</p>
-<p style="margin-left:3em">(Brownlow 2011:170)</p>
+  1. {:.blog-example-continuous} ![brownlow2011-participialcomplementation](http://i.imgur.com/PrqTd46.jpg){: style="vertical-align:text-top;"}\\
+      (Brownlow 2011:170)
 
 Brownlow argues that _get_ can take either resultative adjective or passive participle complementation, though not stative adjective complementation, as the stative nature of such complementation leads to anomaly, given the presence of cause in the denotation of _get_.[^16]
 
@@ -132,83 +132,83 @@ Now, before considering each type of passive complementation in detail, Brownlow
 
 After these tests, Brownlow considers the passive participle complementation of _get_ first. He motivates the claim that _get_ passives can take passive participle complementation based on the fact that normal passive participle sentences contain implicit Agents that can be specified with a _by_-phrase, as is the case in (16).
 
-<p style="margin-left:3em">(16) Mary got John arrested (by the police)</p>
-<p style="margin-left:3em">(2011:180)</p>
+  1. {:.blog-example-continuous} Mary got John arrested (by the police)\\
+      (2011:180)
 
 He also motivates the ability to take such complementation on the basis of five agent-oriented tests:
 
-<p style="margin-left:3em">(17)</p>
-<p style="margin-left:6em">a. The ship got sunk with an explosive device</p>
-<p style="margin-left:6em">b. The ship got intentionally sunk</p>
-<p style="margin-left:6em">c. The ship got sunk PRO to collect the insurance payout</p>
-<p style="margin-left:6em">d. The ship got sunk by the enemy captain</p>
-<p style="margin-left:6em">e. The ship got sunk on purpose</p>
-<p style="margin-left:3em">(2011:182)</p>
+  1. {:.blog-example-continuous}
+    1. {:.footnote-level-two-example} The ship got sunk with an explosive device
+    1. {:.footnote-level-two-example} The ship got intentionally sunk
+    1. {:.footnote-level-two-example} The ship got sunk PRO to collect the insurance payout
+    1. {:.footnote-level-two-example} The ship got sunk by the enemy captain
+    1. {:.footnote-level-two-example} The ship got sunk on purpose\\
+        (2011:182)
 
 It is worth nothing that the judgments reported in Brownlow (2011) actually disagree with previous judgments reported in the literature. Specifically, Alexiadou (2005), following Fox & Grodzinsky (1998), judges (17c) and (17e) as ungrammatical.[^17] Nonetheless, the motivation for passive complementation in (16) seems plausible, and, at any rate, this post is largely intended to be a summary, not a critical engagement. Thus, I turn to the analysis.
 
 With regard to the analysis thereof, there are a few moving parts to the analysis of the _get_ passive: (i) a second IndentN projection[^18] and (ii) the following denotation for the passive morpheme, where Δ is a spatiotemporal interval and ximp is some implied Agent of the event who may be specified with a _by_-phrase:[^19]
 
-<p style="margin-left:3em">(18) ⟦-edPass-v⟧ = λf<s,t>.λΔπ.[there is an event e and an individual ximp such that f(e) & holds(e,Δ) & Agent(e,ximp)]</p>
-<p style="margin-left:3em">(2011:186)</p>
+  1. {:.blog-example-continuous} ⟦-edPass-v⟧ = λf<s,t>.λΔπ.[there is an event e and an individual ximp such that f(e) & holds(e,Δ) & Agent(e,ximp)]\\
+      (2011:186)
 
 This second posited IndentN projection has the same denotation as the first&mdash;namely, 'λx.x'. However, it is different from the first IndentN in that it is obligatorily phonologically null, whereas the first is lexicalized by _-self_. Brownlow says that this is relatively intuitive insofar as this latter IdentN is not in a case-marked position (_cf_. Burzio's Generalization (1986)), whereas the former is.
 
 This IdentN projection does similar work as the first IdentN projection insofar as it obviates any concerns about a DP receiving multiple Θ-roles, since IdentNP can stay low in the structure and the DP that merges with it instead raises to receive the second Θ-role, as in (19).[^20]
 
-<p style="margin-left:3em">(19) ![brownlow2011-passive](http://i.imgur.com/wKlegtW.jpg) </p>
-<p style="margin-left:3em">(Brownlow 2011:187)</p>
+  1. {:.blog-example-continuous} ![brownlow2011-passive](http://i.imgur.com/wKlegtW.jpg){: style="vertical-align:text-top;"}\\
+      (Brownlow 2011:187)
 
 (19) accounts for normal _be _passives, says Brownlow (187); however, in order to account for _get_ passives, particularly those of either the agentive A-type or those B-type _get_ passives with reflexives, Brownlow hypothesizes that another IdentN projects, as the DP needs to move another time, out of spec,PredP and into spec,<i>v</i>P. Without another IdentN projection, the Θ-role problem would arise again. Thus, the low part of the PredP projection actually looks as it does in (20) for _get_ passives.
 
-<p style="margin-left:3em">(20) ![brownlow2011-passive2](http://i.imgur.com/UEHcMaj.jpg) </p>
-<p style="margin-left:3em">(Brownlow 2011:188)</p>
+  1. {:.blog-example-continuous} ![brownlow2011-passive2](http://i.imgur.com/UEHcMaj.jpg){: style="vertical-align:text-top;"}\\
+      (Brownlow 2011:188)
 
 Then, for example, the derivation of a B-type _get_ passive with a reflexive looks as follows:[^21]
 
-<p style="margin-left:3em">(21) ![brownlow2011-passive3](http://i.imgur.com/wWGGBWY.jpg) </p>
-<p style="margin-left:3em">(Brownlow 2011:190)</p>
+  1. {:.blog-example-continuous} ![brownlow2011-passive3](http://i.imgur.com/wWGGBWY.jpg){: style="vertical-align:text-top;"}\\
+      (Brownlow 2011:190)
 
 Next, Brownlow provides evidence for the ability of _get_ to combine with resultative adjectives. The evidence for this is the following:
 
-<p style="margin-left:3em">(22)</p>
-<p style="margin-left:6em">a. John is washed</p>
-<p style="margin-left:6em">b. John was washed</p>
-<p style="margin-left:6em">c. John got washed</p>
-<p style="margin-left:6em">d. Mary got John washed</p>
-<p style="margin-left:3em">(adapted from Brownlow 2011:191)</p>
+  1. {:.blog-example-continuous}
+    1. {:.footnote-level-two-example} John is washed
+    1. {:.footnote-level-two-example} John was washed
+    1. {:.footnote-level-two-example} John got washed
+    1. {:.footnote-level-two-example} Mary got John washed\\
+        (adapted from Brownlow 2011:191)
 
 The important point is the following: (22a)&mdash;which is an instance of a resultative adjective&mdash;, (22c), and (22d) are compatible with a reflexive-like interpretation where John is the one who washes himself, whereas (22b)&mdash;which is an instance of the verbal passive participle&mdash;is **not** compatible with such an interpretation (note that this reading **cannot** be forced even if you try to do so by adding a PP whose complement is co-indexed with <i>John<sub>i</sub></i> such as <i>by him<sub>i</sub></i> or <i>by himself<sub>i</sub></i> to (22b)). Thus, Brownlow reasons that _get_ must also be compatible with the resultative adjective.
 
 The analysis of this construction is as follows. Brownlow follows Kratzer (2001) in treating the resultative adjective as having a perfective aspect to it; he gives the participle the following denotation:[^22]
 
-<p style="margin-left:3em">(23) ⟦-edRes⟧ = λf<s,t>.λtπ.[there is an event e such that holds(e,T) & f(e) & T < t]</p>
-<p style="margin-left:3em">(2011:193)</p>
+  1. {:.blog-example-continuous} ⟦-edRes⟧ = λf<s,t>.λtπ.[there is an event e such that holds(e,T) & f(e) & T < t]\\
+      (2011:193)
 
 A ResP is then built up, analogous to Pass-vP, except that it is built around _-edRes_ instead of _-edPass-v_. ResP is then merged with Pred, and the derivation proceeds as normal.[^23] (24) and (25) show the derivation.
 
-<p style="margin-left:3em">(24) ![brownlow2011-resp](http://i.imgur.com/uusMLTj.jpg) </p>
-<p style="margin-left:3em">(Brownlow 2011:194)</p>
-<p style="margin-left:3em">(25) ![brownlow2011-adjresderivation](http://i.imgur.com/3dW6JkE.jpg)</p>
-<p style="margin-left:3em">(Brownlow 2011:195)</p>
+  1. {:.blog-example-continuous} ![brownlow2011-resp](http://i.imgur.com/uusMLTj.jpg) style="vertical-align:text-top;"}\\
+      (Brownlow 2011:194)
+  1. {:.blog-example-continuous} ![brownlow2011-adjresderivation](http://i.imgur.com/3dW6JkE.jpg){: style="vertical-align:text-top;"}\\
+      (Brownlow 2011:195)
 
 ##### Chapter 4
 
 In this chapter, Brownlow considers sentences such as those in (26); specifically, he argues that (26a) has the same structure as (26b), the difference simply arising from the fact that _himself_, in these constructions, meets the condition for anaphoric drop (123-128).
 
-<p style="margin-left:3em">(26)</p>
-<p style="margin-left:6em">a. John got dry</p>
-<p style="margin-left:6em">b. John got himself dry</p>
-<p style="margin-left:3em">(2011:164-165)</p>
+  1. {:.blog-example-continuous}
+    1. {:.footnote-level-two-example} John got dry
+    1. {:.footnote-level-two-example} John got himself dry\\
+        (2011:164-165)
 
 The motivation for making this argument, as mentioned above, stems from the fact that (26a) is ambiguous between an agentive reading and a non-agentive reading (though the agentive reading is preferred when the subject of the sentence is animate). This is problematic for Brownlow's claim that _get_ does **not** bundle Voice and Cause in the syntax, since Voice assigns the Agent Θ-role. So, plausibly, Voice and Cause might actually be bundled in constructions such as those in (26a).
 
 The argument that Brownlow makes to avoid this objection is as follows. Following Kayne (2002) and Zwart (2002)&mdash;and building on Kratzer (2009)&mdash;Brownlow develops a theory of reflexive pronouns where _-self _is the head of a projection called IdentNP, whose semantics are 'λx.x' as mentioned above. This merges with the DP _John_, as in (27), which then raises to spec,<i>v</i>P. Moreover, _him_ is spelled out as the trace of _John_, which is necessary because _-self_ must be bound in such a position.[^24] The story for the non-reflexive version is the exact same. Brownlow argues that _himself_ meets the conditions for Anaphoric Object Drop, a phenomenon exhibited in similar syntactic positions (123-128). Thus, the structure for the non-reflexive version is as in (28).
 
-<p style="margin-left:3em">(27) ![brownlow2011-agentivereflex](http://i.imgur.com/HcJGMdo.jpg)</p>
-<p style="margin-left:3em">(Brownlow 2011:164)</p>
-<p style="margin-left:3em">(28) ![brownlow2011-agentivenoreflex](http://i.imgur.com/4TZ3B5s.jpg)</p>
-<p style="margin-left:3em">(Brownlow 2011:165)</p>
+  1. {:.blog-example-continuous} ![brownlow2011-agentivereflex](http://i.imgur.com/HcJGMdo.jpg){: style="vertical-align:text-top;"}\\
+      (Brownlow 2011:164)
+  1. {:.blog-example-continuous} ![brownlow2011-agentivenoreflex](http://i.imgur.com/4TZ3B5s.jpg){: style="vertical-align:text-top;"}\\
+      (Brownlow 2011:165)
 
 If these structures are correct, then the argument can be maintained that Voice and Cause are bundled separately, even in the agentive A-type constructions, such as (26a).[^25]
 
