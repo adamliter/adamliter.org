@@ -505,7 +505,8 @@ li.blog-example-continuous{
 }
 
 li.blog-example-continuous:before{
-    content:"(" counter(chapter) ") ";
+    content: "(" counter(chapter) ") ";
+    display: inline-block;
 }
 
 li.footnote-level-one-example{
