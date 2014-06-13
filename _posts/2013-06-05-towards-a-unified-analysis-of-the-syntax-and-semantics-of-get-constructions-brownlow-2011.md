@@ -324,7 +324,13 @@ Zwarts, J. (2005). Prepositional aspect and the algebra of paths. _Linguistics a
 	
 [^16]: This analysis goes against previous analyses of the _get_ passive: "Fox and Grodzinsky (1998), Taranto (2004) and Alexiadou (2005) argue for an analysis with resultative adjectival complementation, while Haegeman (1985) and Butler and Tsoulas (2006) argue in favour of verbal [_i.e._, passive participle] complementation" (Brownlow 2011:170).
 	
-[^17]: For the record, I think my judgments are as follows, though I'm having a particularly hard time forming a judgment about (17c) for some reason: <br /><p style="margin-left:3em">(17)</p><p style="margin-left:6em">a. The ship got sunk with an explosive device</p><p style="margin-left:6em">b. \*The ship got intentionally sunk</p><p style="margin-left:6em">c. ?/\*The ship got sunk PRO to collect the insurance payout</p><p style="margin-left:6em">d. The ship got sunk by the enemy captain</p><p style="margin-left:6em">e. *The ship got sunk on purpose</p>
+[^17]: For the record, I think my judgments are as follows, though I'm having a particularly hard time forming a judgment about (17c) for some reason:
+
+    1. {: style="list-type:none;"} (17)
+        1. {:.footnote-level-two-example} The ship got sunk with an explosive device        1. {:.footnote-level-two-example} *The ship got intentionally sunk
+        1. {:.footnote-level-two-example} ?/*The ship got sunk PRO to collect the insurance payout
+        1. {:.footnote-level-two-example} The ship got sunk by the enemy captain
+        1. {:.footnote-level-two-example} *The ship got sunk on purpose
   	
 [^18]: The first IdentN projection was briefly mentioned in note 6 and will be discussed in more detail below in the chapter 4 section.
 	
