@@ -350,11 +350,9 @@ Zwarts, J. (2005). Prepositional aspect and the algebra of paths. _Linguistics a
 
        Indeed, I think one cannot even try to force the context. Let me try. Imagine some wealthy bourgeois white-collar criminal opportunist that hires an arson to burn his boat so that he may collect the insurance money. In this context, I do not think one can utter (ii) or even (iii), at least not if the speaker knows that the actual arsonist is a different person than the one collecting the insurance money; (iii) seems acceptable if the speaker does not know this fact (if this is true, and particularly if a theory of control involves c-command, then this would seem to be strong support for Collins's (2005) analysis of the passive):
 
-       1. {:.footnote-level-one-example style="display:none"} &nbsp;
+       ii\. */# The ship was burned by the arsonist<sub>i</sub> [PRO<sub>j</sub> to collect the insurance money]
 
-       1. {:.footnote-level-one-example} */# The ship was burned by the arsonist<sub>i</sub> [PRO<sub>j</sub> to collect the insurance money]
-
-       2. {:.footnote-level-one-example} */# The ship was burned [PRO<sub>j</sub> to collect the insurance money]
+       iii\. */# The ship was burned [PRO<sub>j</sub> to collect the insurance money]
 
        Maybe the judgment of (iii) is a bit questionable. Nonetheless, at the very least, it seems to be problematic for Brownlow's analysis of the _be_ passive which informs his analysis of the _get_ passive, as the interpretations of (i) and (ii) (and (iii)) do not follow except by stipulation.
 	
