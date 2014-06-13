@@ -187,7 +187,7 @@ The analysis of this construction is as follows. Brownlow follows Kratzer (2001)
 
 A ResP is then built up, analogous to Pass-vP, except that it is built around _-edRes_ instead of _-edPass-v_. ResP is then merged with Pred, and the derivation proceeds as normal.[^23] (24) and (25) show the derivation.
 
-  1. {:.blog-example-continuous} ![brownlow2011-resp](http://i.imgur.com/uusMLTj.jpg) style="vertical-align:text-top;"}\\
+  1. {:.blog-example-continuous} ![brownlow2011-resp](http://i.imgur.com/uusMLTj.jpg){: style="vertical-align:text-top;"}\\
       (Brownlow 2011:194)
   1. {:.blog-example-continuous} ![brownlow2011-adjresderivation](http://i.imgur.com/3dW6JkE.jpg){: style="vertical-align:text-top;"}\\
       (Brownlow 2011:195)
