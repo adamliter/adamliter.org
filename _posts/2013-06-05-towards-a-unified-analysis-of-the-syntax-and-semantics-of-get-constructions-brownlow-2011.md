@@ -363,7 +363,9 @@ Zwarts, J. (2005). Prepositional aspect and the algebra of paths. _Linguistics a
 [^25]: Again, I'll briefly engage in mounting some passing criticism of this argument in two ways. First, I'll briefly question the motivation for the IdentNP projection. A major motivating factor in positing the IdentN projection is its ability to unify an analysis of _-self_ across its various distributions, such as those in (i).
 
     1. {:.footnote-level-one-example}
+
         1. {:.footnote-level-two-example} John mutilates himself
+
 	2. {:.footnote-level-two-example} John self-mutilated
 
     (2011:144)
