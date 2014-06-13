@@ -98,7 +98,7 @@ Pearson, M. (2005). _The Malagasy subject/topic as an A′-element_. Natural Lan
 
 #### Notes
 	
-[^1]: For a succinct overview of what is exactly entailed by RIs, see this [handout](http://ling-blogs.bu.edu/lx500a1s10/files/2010/01/lx500acqs10-02b-nrfs-handout.pdf) from Paul Hagstrom.
+[^1]: For a succinct overview of what is exactly entailed by RIs, see this [handout][RIHandout] from Paul Hagstrom.
 
 [^2]: This point will not be discussed in this blog post. See pp. 1062-1064 for the details. Hyams et al. advance what they call the "Canonical alignment hypothesis" (1064).
 
@@ -109,3 +109,5 @@ Pearson, M. (2005). _The Malagasy subject/topic as an A′-element_. Natural Lan
 [^5]: It is probably worth nothing that n=3 is pretty small.
 
 [^6]: It is worth noting that all of the arguments in this paper rely on certain theoretical assumptions about the nature of the Language Acquisition Device and language acquisition in general. See pp. 1051-1052 for a delineation of these assumptions. They are not uncontroversial assumptions; however, I think I largely agree with the assumptions.
+
+[RIHandout]: http://ling-blogs.bu.edu/lx500a1s10/files/2010/01/lx500acqs10-02b-nrfs-handout.pdf
