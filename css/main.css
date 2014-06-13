@@ -502,7 +502,7 @@ li.blog-example-continuous{
 }
 
 li.blog-example-continuous:before{
-    content: "(" counter(continuous-example-counter) ")";
+    content: "(" counter(continuous-example-counter) ") ";
     display: inline-block;
 }
 
