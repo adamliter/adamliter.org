@@ -56,9 +56,7 @@ Given such an outline of the dissertation, I will briefly review the details in 
 
 ##### Chapter 2
 
-Using various tests for agentivity and the presence of Cause, Brownlow demonstrates that _get_ constructions with AP complements&mdash;such as those in (2), repeated here&mdash;project Voice and Cause separately (see pp. 27-43 for the details).
-
-<p style="margin-left:3em">(2) John got angry</p>
+Using various tests for agentivity and the presence of Cause, Brownlow demonstrates that _get_ constructions with AP complements&mdash;such as those in (2)&mdash;project Voice and Cause separately (see pp. 27-43 for the details).
 
 This supports the second claim of the dissertation; thus, the remainder of the chapter is dedicated to establishing that such a denotation for _get_ is correct. To do so, Brownlow demonstrates that an account of why _get_ can combine with certain adjectives and not others (_cf_. (2) and (7)) supports the denotation for _get_ on compositional grounds&mdash;_i.e._, the types fit together.
 
