@@ -280,7 +280,9 @@ Zwarts, J. (2005). Prepositional aspect and the algebra of paths. _Linguistics a
 
 #### Notes
 
-[^1]: In the case that fonts are not rendering correctly: <br /> <p style="margin-left:3em"><img style="vertical-align:text-top;"src="http://i.imgur.com/DJ5E9mn.jpg" alt="brownlow2011-get-denotation" /></p>
+[^1]: In the case that fonts are not rendering correctly:
+
+      ![brownlow2011-get-denotation](http://i.imgur.com/DJ5E9mn.jpg)
 	
 [^2]: See pp. 13-15 for Brownlow's (syntactic and) semantic assumptions. Type s is a type for eventualities that cover both states and events&mdash;the variable for which is e&mdash;following Bach (1986). Also, the Event Identification rule of Kratzer (1996:122) plays a crucial role in Brownlow's analysis.
 
