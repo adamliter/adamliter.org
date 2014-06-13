@@ -268,13 +268,12 @@ Zwarts, J. (2005). Prepositional aspect and the algebra of paths. _Linguistics a
 
 #### BibTeX
 
-	@phdthesis{brownlow2011,
-	Author = {Oliver Brownlow},
-	Keywords = {get-passives, passives},
-	School = {Queen Mary University of London},
-	Title = {Towards a unified analysis of the syntax 
-	and semantics of \emph{get} constructions},
-	Year = {2011}}
+    @phdthesis{brownlow2011,
+    Author = {Brownlow, Oliver},
+    School = {Queen Mary University of London},
+    Title = {Towards a unified analysis of the syntax and semantics of \emph{get} constructions},
+    Year = {2011}}
+
 
 * * *
 
