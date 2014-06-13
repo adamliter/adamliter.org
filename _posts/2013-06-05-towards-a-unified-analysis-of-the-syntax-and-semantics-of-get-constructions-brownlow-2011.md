@@ -18,12 +18,12 @@ tags:
 
 #### Claims 
 
-Brownlow, in his dissertation, argues for the following denotation for _get_:<sup>1,2</sup>
+Brownlow, in his dissertation, argues for the following denotation for _get_:[^1]<sup>,</sup>[^2]
 
 <p style="margin-left:3em">(1) ⟦get⟧ = λf_<s,t>_.λe.∃e'[f(e') & cause(e,e')]</p>
 <p style="margin-left:3em">(2011:16)</p>
 
-This is the same denotation that Pylkkänen (2008) advances for the functional head Cause, which she argues is necessarily bundled with Voice (or accusative little _v_)<sup>3</sup> in the syntax, at least in English.<sup>4</sup> Contra Pylkkänen (2008), though, Brownlow argues that _get_ is a counterexample to the bundling proposal. Specifically, Brownlow's claims are twofold: (i) that this is indeed the correct denotation for _get_; and (ii) that an external argument can project independently of _get_ in the syntax&mdash;_i.e._, Voice and Cause are not necessarily bundled in the syntax of English.
+This is the same denotation that Pylkkänen (2008) advances for the functional head Cause, which she argues is necessarily bundled with Voice (or accusative little _v_)[^3] in the syntax, at least in English.[^4] Contra Pylkkänen (2008), though, Brownlow argues that _get_ is a counterexample to the bundling proposal. Specifically, Brownlow's claims are twofold: (i) that this is indeed the correct denotation for _get_; and (ii) that an external argument can project independently of _get_ in the syntax&mdash;_i.e._, Voice and Cause are not necessarily bundled in the syntax of English.
 
 #### Arguments
 
@@ -33,11 +33,11 @@ First, a terminological note: Brownlow distinguishes between A-type and B-type _
 <p style="margin-left:3em">(3) Mary got John angry</p>
 <p style="margin-left:3em">(2011:9)</p>
 
-The latter clearly projects an Agent argument that is independent of the Theme argument of _get_/Cause,<sup>5</sup> whereas the former, argues Brownlow, are ambiguous between two types of A-type _get_ constructions: "true A-type _get_ constructions" and "agentive A-type _get_ constructions" (40-41).<sup>6</sup>
+The latter clearly projects an Agent argument that is independent of the Theme argument of _get_/Cause,[^5] whereas the former, argues Brownlow, are ambiguous between two types of A-type _get_ constructions: "true A-type _get_ constructions" and "agentive A-type _get_ constructions" (40-41).[^6]
 
 Now, given the two claims, Brownlow must, unsurprisingly, do two things.
 
-First, in order to establish that this is, in fact, the denotation for _get_, Brownlow must show that all allowable complements of _get_ are uniform and able to functionally combine with _get_.<sup>7</sup> Chapter 2 begins with adjectival complementation, and, following Adger & Ramchand (2003), Brownlow argues that _get_ takes a PredP complement. Thus, Brownlow must also show that the PP complements of _get_ (as in (4)) are actually PredPs (chapter 3) and that passive complementation (as in (5)) are also PredPs (chapter 5).
+First, in order to establish that this is, in fact, the denotation for _get_, Brownlow must show that all allowable complements of _get_ are uniform and able to functionally combine with _get_.[^7] Chapter 2 begins with adjectival complementation, and, following Adger & Ramchand (2003), Brownlow argues that _get_ takes a PredP complement. Thus, Brownlow must also show that the PP complements of _get_ (as in (4)) are actually PredPs (chapter 3) and that passive complementation (as in (5)) are also PredPs (chapter 5).
 
 <p style="margin-left:3em">(4) John got on the roof</p>
 <p style="margin-left:3em">(5) John got arrested</p>
@@ -46,12 +46,12 @@ First, in order to establish that this is, in fact, the denotation for _get_, Br
 
 Second, Brownlow must also show that three properties hold of the constructions under consideration in order to show that Voice is projected without also being bundled with Cause&mdash;namely, (i) that there is a causing event in the structure; (ii) that the matrix subject is not an external argument; and (iii) that there is no implicit external argument (26).
 
-Finally, chapter 4 could be construed as fielding an objection to the proposed analysis. Specifically, this chapter is dedicated to the agentive A-type _get_ constructions, as they arguably constitute a problem on the proposed analysis for two reasons. First, since one DP bears two Θ-roles, the analysis putatively goes against a standard assumption of Minimalism.<sup>8</sup> For example, in (6), at least on the agentive A-type interpretation, _John_ is both the Theme of the drying event and the Agent of the getting event:
+Finally, chapter 4 could be construed as fielding an objection to the proposed analysis. Specifically, this chapter is dedicated to the agentive A-type _get_ constructions, as they arguably constitute a problem on the proposed analysis for two reasons. First, since one DP bears two Θ-roles, the analysis putatively goes against a standard assumption of Minimalism.[^8] For example, in (6), at least on the agentive A-type interpretation, _John_ is both the Theme of the drying event and the Agent of the getting event:
 
 <p style="margin-left:3em">(6) John got dry</p>
 <p style="margin-left:3em">(2011:165)</p>
 
-Second, given that the Agentive interpretation is possible&mdash;_i.e._, the interpretation where _John_ is the Agent of the getting event&mdash;one analysis of this construction could be that it projects Voice and Cause together. Thus, chapter 4 is dedicated to arguing that these functional heads are still projected separately in the syntax even in these constructions, the argument for which (purportedly) obviates the Θ-role concern.<sup>9</sup>
+Second, given that the Agentive interpretation is possible&mdash;_i.e._, the interpretation where _John_ is the Agent of the getting event&mdash;one analysis of this construction could be that it projects Voice and Cause together. Thus, chapter 4 is dedicated to arguing that these functional heads are still projected separately in the syntax even in these constructions, the argument for which (purportedly) obviates the Θ-role concern.[^9]
 
 Given such an outline of the dissertation, I will briefly review the details in that order, beginning with chapters 2, 3, and 5 and ending with chapter 4.
 
@@ -66,15 +66,15 @@ This supports the second claim of the dissertation; thus, the remainder of the c
 <p style="margin-left:3em">(7) *John got human</p>
 <p style="margin-left:3em">(2011:44)</p>
 
-First, Brownlow notes that _get_ seems to only combine with adjectives that are stage-level and not those that are individual-level, in the sense of Carlson (1977). Following Adger & Ramchand (2003), Brownlow explains the generalizations of Carlson (1977) in terms of a Pred projection in the syntax, of which there are two types:<sup>10</sup>
+First, Brownlow notes that _get_ seems to only combine with adjectives that are stage-level and not those that are individual-level, in the sense of Carlson (1977). Following Adger & Ramchand (2003), Brownlow explains the generalizations of Carlson (1977) in terms of a Pred projection in the syntax, of which there are two types:[^10]
 
 <p style="margin-left:3em">(8) ⟦Pred⟧ = λπ.λx.λe.[holds(π,e) & Holder(e,x)]</p>
 <p style="margin-left:3em">(9) ⟦Pred⟧ = λπ.λx[holds(π,x)]</p>
 <p style="margin-left:3em">(2011:66)</p>
 
-Specifically, the Pred in (8) accounts for stage-level adjectives because the _holds_ relation holds between a property and an eventuality and the _Holder_ relation then holds between that eventuality and an individual, thereby allowing a property to only be predicated of some stage of an individual. On the other hand, the Pred in (9) predicates some property directly of an individual, accounting for individual-level adjectives, since there is no mediating eventuality argument present in the derivation.<sup>11</sup>
+Specifically, the Pred in (8) accounts for stage-level adjectives because the _holds_ relation holds between a property and an eventuality and the _Holder_ relation then holds between that eventuality and an individual, thereby allowing a property to only be predicated of some stage of an individual. On the other hand, the Pred in (9) predicates some property directly of an individual, accounting for individual-level adjectives, since there is no mediating eventuality argument present in the derivation.[^11]
 
-Now, since the proposed denotation for _get_ only combines with things of type <e,<s,t>>, then this analysis of _get_&mdash;at least on the assumption that this analysis of Carlson's (1977) generalizations about stages and individuals is correct&mdash;explains the data of _get_ constructions with adjectival complementation, thereby providing empirical support for the analysis.<sup>12</sup>
+Now, since the proposed denotation for _get_ only combines with things of type <e,<s,t>>, then this analysis of _get_&mdash;at least on the assumption that this analysis of Carlson's (1977) generalizations about stages and individuals is correct&mdash;explains the data of _get_ constructions with adjectival complementation, thereby providing empirical support for the analysis.[^12]
 
 ##### Chapter 3
 
@@ -104,7 +104,7 @@ In terms of _get_ complementation, then, Brownlow notes that the generalizations
 
 With terminology and empirical generalizations in hand, Brownlow again runs through several tests for agentivity and the presence of Cause, demonstrating that, so long as the denotation of _get_ is correct, it seems English can project Voice and Cause independently in the syntax (71-80).
 
-After demonstrating that Voice and Cause project independently in these constructions, Brownlow begins with an analysis of LocP complementation of _get_ (82-87). He argues that LocPPs are properties relating a set of contiguous points i to some entity, which then combines with Pred, as in (13):<sup>13</sup>
+After demonstrating that Voice and Cause project independently in these constructions, Brownlow begins with an analysis of LocP complementation of _get_ (82-87). He argues that LocPPs are properties relating a set of contiguous points i to some entity, which then combines with Pred, as in (13):[^13]
 
 <p style="margin-left:3em">(13) <img style="vertical-align:text-top;"src="http://i.imgur.com/cqGW6fh.jpg" alt="brownlow2011-johnonroof" /></p>
 <p style="margin-left:3em">(Brownlow 2011:85)</p>
@@ -118,7 +118,7 @@ This structure is then merged with _get_ and the derivation proceeds normally. N
 <p style="margin-left:3em">(2011:97)</p>
 
 
-The plusses and minuses indicate different stages, showing that _through_ has a three-part stage structure. All telic DirPs minimally have a two-part stage structure, since there is a change of state once the telos is reached. And, it is this analysis that explains the empirical generalizations initially noted in this chapter. Specifically, since atelic verbs do not entail a change of state&mdash;in fact, they necessitate a lack of change of state&mdash;they cannot combine with _get_, since _get_ is inherently indicative of a change in state (because of the presence of cause in its denotation); as such, anomaly results.<sup>14,15</sup>
+The plusses and minuses indicate different stages, showing that _through_ has a three-part stage structure. All telic DirPs minimally have a two-part stage structure, since there is a change of state once the telos is reached. And, it is this analysis that explains the empirical generalizations initially noted in this chapter. Specifically, since atelic verbs do not entail a change of state&mdash;in fact, they necessitate a lack of change of state&mdash;they cannot combine with _get_, since _get_ is inherently indicative of a change in state (because of the presence of cause in its denotation); as such, anomaly results.[^14]<sup>,</sup>[^15]
 
 With regard to _at_, Brownlow argues that there are two flavors of _at_, a LocP flavor and a DirP flavor. The explanation for _at_, when it is a DirP, is similar to the foregoing explanation for the atelic DirPs&mdash;namely, the preposition only consists of a single-part stage structure (112). The attempt to explain the incompatibility of _at_ as a LocP with _get_ is notably lacking. An appeal to axial parts of prepositions is made (_cf_. Svenonius 2006), but not much more than the following is said: "_get_, for whatever reason, needs to locate the subject of the SC [small clause—_i.e._, PredP] with respect to an axial part of the prepositional object, and locative _at_, because it does not operate on axial parts, is ungrammatical with _get_ for this reason" (114).
 
@@ -129,7 +129,7 @@ Now, in chapter 5, Brownlow considers passive complementation of _get_. Again, t
 <p style="margin-left:3em">(15) <img style="vertical-align:text-top;"src="http://i.imgur.com/PrqTd46.jpg" alt="brownlow2011-participialcomplementation" /></p>
 <p style="margin-left:3em">(Brownlow 2011:170)</p>
 
-Brownlow argues that _get_ can take either resultative adjective or passive participle complementation, though not stative adjective complementation, as the stative nature of such complementation leads to anomaly, given the presence of cause in the denotation of _get_.<sup>16</sup>
+Brownlow argues that _get_ can take either resultative adjective or passive participle complementation, though not stative adjective complementation, as the stative nature of such complementation leads to anomaly, given the presence of cause in the denotation of _get_.[^16]
 
 Now, before considering each type of passive complementation in detail, Brownlow goes through the standard demonstration that passive complementation project Voice and Cause separately using tests for agentivity and the presence of Cause  (174-179).
 
@@ -148,16 +148,16 @@ He also motivates the ability to take such complementation on the basis of five 
 <p style="margin-left:6em">e. The ship got sunk on purpose</p>
 <p style="margin-left:3em">(2011:182)</p>
 
-It is worth nothing that the judgments reported in Brownlow (2011) actually disagree with previous judgments reported in the literature. Specifically, Alexiadou (2005), following Fox & Grodzinsky (1998), judges (17c) and (17e) as ungrammatical.<sup>17</sup> Nonetheless, the motivation for passive complementation in (16) seems plausible, and, at any rate, this post is largely intended to be a summary, not a critical engagement. Thus, I turn to the analysis.
+It is worth nothing that the judgments reported in Brownlow (2011) actually disagree with previous judgments reported in the literature. Specifically, Alexiadou (2005), following Fox & Grodzinsky (1998), judges (17c) and (17e) as ungrammatical.[^17] Nonetheless, the motivation for passive complementation in (16) seems plausible, and, at any rate, this post is largely intended to be a summary, not a critical engagement. Thus, I turn to the analysis.
 
-With regard to the analysis thereof, there are a few moving parts to the analysis of the _get_ passive: (i) a second IndentN projection<sup>18</sup> and (ii) the following denotation for the passive morpheme, where Δ is a spatiotemporal interval and ximp is some implied Agent of the event who may be specified with a _by_-phrase:<sup>19</sup>
+With regard to the analysis thereof, there are a few moving parts to the analysis of the _get_ passive: (i) a second IndentN projection[^18] and (ii) the following denotation for the passive morpheme, where Δ is a spatiotemporal interval and ximp is some implied Agent of the event who may be specified with a _by_-phrase:[^19]
 
 <p style="margin-left:3em">(18) ⟦-edPass-v⟧ = λf<s,t>.λΔπ.[there is an event e and an individual ximp such that f(e) & holds(e,Δ) & Agent(e,ximp)]</p>
 <p style="margin-left:3em">(2011:186)</p>
 
 This second posited IndentN projection has the same denotation as the first&mdash;namely, 'λx.x'. However, it is different from the first IndentN in that it is obligatorily phonologically null, whereas the first is lexicalized by _-self_. Brownlow says that this is relatively intuitive insofar as this latter IdentN is not in a case-marked position (_cf_. Burzio's Generalization (1986)), whereas the former is.
 
-This IdentN projection does similar work as the first IdentN projection insofar as it obviates any concerns about a DP receiving multiple Θ-roles, since IdentNP can stay low in the structure and the DP that merges with it instead raises to receive the second Θ-role, as in (19).<sup>20</sup>
+This IdentN projection does similar work as the first IdentN projection insofar as it obviates any concerns about a DP receiving multiple Θ-roles, since IdentNP can stay low in the structure and the DP that merges with it instead raises to receive the second Θ-role, as in (19).[^20]
 
 <p style="margin-left:3em">(19) <img style="vertical-align:text-top;"src="http://i.imgur.com/wKlegtW.jpg" alt="brownlow2011-passive" /> </p>
 <p style="margin-left:3em">(Brownlow 2011:187)</p>
@@ -167,7 +167,7 @@ This IdentN projection does similar work as the first IdentN projection insofar 
 <p style="margin-left:3em">(20) <img style="vertical-align:text-top;"src="http://i.imgur.com/UEHcMaj.jpg" alt="brownlow2011-passive2" /> </p>
 <p style="margin-left:3em">(Brownlow 2011:188)</p>
 
-Then, for example, the derivation of a B-type _get_ passive with a reflexive looks as follows:<sup>21</sup>
+Then, for example, the derivation of a B-type _get_ passive with a reflexive looks as follows:[^21]
 
 <p style="margin-left:3em">(21) <img style="vertical-align:text-top;"src="http://i.imgur.com/wWGGBWY.jpg" alt="brownlow2011-passive3" /> </p>
 <p style="margin-left:3em">(Brownlow 2011:190)</p>
@@ -183,12 +183,12 @@ Next, Brownlow provides evidence for the ability of _get_ to combine with result
 
 The important point is the following: (22a)&mdash;which is an instance of a resultative adjective&mdash;, (22c), and (22d) are compatible with a reflexive-like interpretation where John is the one who washes himself, whereas (22b)&mdash;which is an instance of the verbal passive participle&mdash;is **not** compatible with such an interpretation (note that this reading **cannot** be forced even if you try to do so by adding a PP whose complement is co-indexed with <i>John<sub>i</sub></i> such as <i>by him<sub>i</sub></i> or <i>by himself<sub>i</sub></i> to (22b)). Thus, Brownlow reasons that _get_ must also be compatible with the resultative adjective.
 
-The analysis of this construction is as follows. Brownlow follows Kratzer (2001) in treating the resultative adjective as having a perfective aspect to it; he gives the participle the following denotation:<sup>22</sup>
+The analysis of this construction is as follows. Brownlow follows Kratzer (2001) in treating the resultative adjective as having a perfective aspect to it; he gives the participle the following denotation:[^22]
 
 <p style="margin-left:3em">(23) ⟦-edRes⟧ = λf<s,t>.λtπ.[there is an event e such that holds(e,T) & f(e) & T < t]</p>
 <p style="margin-left:3em">(2011:193)</p>
 
-A ResP is then built up, analogous to Pass-vP, except that it is built around _-edRes_ instead of _-edPass-v_. ResP is then merged with Pred, and the derivation proceeds as normal.<sup>23</sup> (24) and (25) show the derivation.
+A ResP is then built up, analogous to Pass-vP, except that it is built around _-edRes_ instead of _-edPass-v_. ResP is then merged with Pred, and the derivation proceeds as normal.[^23] (24) and (25) show the derivation.
 
 <p style="margin-left:3em">(24) <img style="vertical-align:text-top;"src="http://i.imgur.com/uusMLTj.jpg" alt="brownlow2011-resp" /> </p>
 <p style="margin-left:3em">(Brownlow 2011:194)</p>
@@ -206,14 +206,14 @@ In this chapter, Brownlow considers sentences such as those in (26); specificall
 
 The motivation for making this argument, as mentioned above, stems from the fact that (26a) is ambiguous between an agentive reading and a non-agentive reading (though the agentive reading is preferred when the subject of the sentence is animate). This is problematic for Brownlow's claim that _get_ does **not** bundle Voice and Cause in the syntax, since Voice assigns the Agent Θ-role. So, plausibly, Voice and Cause might actually be bundled in constructions such as those in (26a).
 
-The argument that Brownlow makes to avoid this objection is as follows. Following Kayne (2002) and Zwart (2002)&mdash;and building on Kratzer (2009)&mdash;Brownlow develops a theory of reflexive pronouns where _-self _is the head of a projection called IdentNP, whose semantics are 'λx.x' as mentioned above. This merges with the DP _John_, as in (27), which then raises to spec,<i>v</i>P. Moreover, _him_ is spelled out as the trace of _John_, which is necessary because _-self_ must be bound in such a position.<sup>24</sup> The story for the non-reflexive version is the exact same. Brownlow argues that _himself_ meets the conditions for Anaphoric Object Drop, a phenomenon exhibited in similar syntactic positions (123-128). Thus, the structure for the non-reflexive version is as in (28).
+The argument that Brownlow makes to avoid this objection is as follows. Following Kayne (2002) and Zwart (2002)&mdash;and building on Kratzer (2009)&mdash;Brownlow develops a theory of reflexive pronouns where _-self _is the head of a projection called IdentNP, whose semantics are 'λx.x' as mentioned above. This merges with the DP _John_, as in (27), which then raises to spec,<i>v</i>P. Moreover, _him_ is spelled out as the trace of _John_, which is necessary because _-self_ must be bound in such a position.[^24] The story for the non-reflexive version is the exact same. Brownlow argues that _himself_ meets the conditions for Anaphoric Object Drop, a phenomenon exhibited in similar syntactic positions (123-128). Thus, the structure for the non-reflexive version is as in (28).
 
 <p style="margin-left:3em">(27) <img style="vertical-align:text-top;"src="http://i.imgur.com/HcJGMdo.jpg" alt="brownlow2011-agentivereflex" /></p>
 <p style="margin-left:3em">(Brownlow 2011:164)</p>
 <p style="margin-left:3em">(28) <img style="vertical-align:text-top;"src="http://i.imgur.com/4TZ3B5s.jpg" alt="brownlow2011-agentivenoreflex" /></p>
 <p style="margin-left:3em">(Brownlow 2011:165)</p>
 
-If these structures are correct, then the argument can be maintained that Voice and Cause are bundled separately, even in the agentive A-type constructions, such as (26a).<sup>25</sup>
+If these structures are correct, then the argument can be maintained that Voice and Cause are bundled separately, even in the agentive A-type constructions, such as (26a).[^25]
 
 * * *
 
