@@ -30,7 +30,9 @@ This is the same denotation that Pylkkänen (2008) advances for the functional h
 First, a terminological note: Brownlow distinguishes between A-type and B-type _get_ constructions, (2) and (3), respectively:
 
   1. {:.blog-example-continuous} John got angry
-  1. {:.blog-example-continuous} Mary got John angry\\
+
+  1. {:.blog-example-continuous} Mary got John angry
+
       (2011:9)
 
 The latter clearly projects an Agent argument that is independent of the Theme argument of _get_/Cause,[^5] whereas the former, argues Brownlow, are ambiguous between two types of A-type _get_ constructions: "true A-type _get_ constructions" and "agentive A-type _get_ constructions" (40-41).[^6]
@@ -39,17 +41,16 @@ Now, given the two claims, Brownlow must, unsurprisingly, do two things.
 
 First, in order to establish that this is, in fact, the denotation for _get_, Brownlow must show that all allowable complements of _get_ are uniform and able to functionally combine with _get_.[^7] Chapter 2 begins with adjectival complementation, and, following Adger & Ramchand (2003), Brownlow argues that _get_ takes a PredP complement. Thus, Brownlow must also show that the PP complements of _get_ (as in (4)) are actually PredPs (chapter 3) and that passive complementation (as in (5)) are also PredPs (chapter 5).
 
-<p style="margin-left:3em">(4) John got on the roof</p>
-<p style="margin-left:3em">(5) John got arrested</p>
-<p style="margin-left:3em">(2011:9)</p>
-
+  1. {:.blog-example-continuous} John got on the roof
+  1. {:.blog-example-continuous} John got arrested\\
+      (2011:9)
 
 Second, Brownlow must also show that three properties hold of the constructions under consideration in order to show that Voice is projected without also being bundled with Cause&mdash;namely, (i) that there is a causing event in the structure; (ii) that the matrix subject is not an external argument; and (iii) that there is no implicit external argument (26).
 
 Finally, chapter 4 could be construed as fielding an objection to the proposed analysis. Specifically, this chapter is dedicated to the agentive A-type _get_ constructions, as they arguably constitute a problem on the proposed analysis for two reasons. First, since one DP bears two Θ-roles, the analysis putatively goes against a standard assumption of Minimalism.[^8] For example, in (6), at least on the agentive A-type interpretation, _John_ is both the Theme of the drying event and the Agent of the getting event:
 
-<p style="margin-left:3em">(6) John got dry</p>
-<p style="margin-left:3em">(2011:165)</p>
+  1. {:.blog-example-continuous} John got dry
+      (2011:165)
 
 Second, given that the Agentive interpretation is possible&mdash;_i.e._, the interpretation where _John_ is the Agent of the getting event&mdash;one analysis of this construction could be that it projects Voice and Cause together. Thus, chapter 4 is dedicated to arguing that these functional heads are still projected separately in the syntax even in these constructions, the argument for which (purportedly) obviates the Θ-role concern.[^9]
 
