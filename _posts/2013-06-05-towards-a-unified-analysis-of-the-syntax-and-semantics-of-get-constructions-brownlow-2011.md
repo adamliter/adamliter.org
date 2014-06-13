@@ -20,9 +20,9 @@ tags:
 
 Brownlow, in his dissertation, argues for the following denotation for _get_:[^1]<sup>,</sup>[^2]
 
-1. {:.blog-example-continuous} ⟦get⟧ = λf_<s,t>_.λe.∃e'[f(e') & cause(e,e')]
+ 1. {:.blog-example-continuous} ⟦get⟧ = λf_<s,t>_.λe.∃e'[f(e') & cause(e,e')]
 
-    (2011:16)
+     (2011:16)
 
 This is the same denotation that Pylkkänen (2008) advances for the functional head Cause, which she argues is necessarily bundled with Voice (or accusative little _v_)[^3] in the syntax, at least in English.[^4] Contra Pylkkänen (2008), though, Brownlow argues that _get_ is a counterexample to the bundling proposal. Specifically, Brownlow's claims are twofold: (i) that this is indeed the correct denotation for _get_; and (ii) that an external argument can project independently of _get_ in the syntax&mdash;_i.e._, Voice and Cause are not necessarily bundled in the syntax of English.
 
