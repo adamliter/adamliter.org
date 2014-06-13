@@ -110,11 +110,10 @@ After demonstrating that Voice and Cause project independently in these construc
 
 This structure is then merged with _get_ and the derivation proceeds normally. Next, Brownlow develops an account of DirPs following Svenonius (2010), arguing that DirPs are compositionally built from LocPs and some _path_ head; Brownlow relies on Zwarts (2005) to account for these _path_ heads, of which there are three (102). Based on the _path_ head denotations, the DirPPs can be seen to have varying numbers of stages in their structures. For example, _through_ has the following stage structure, where the interval [0,1] corresponds to the path in its entirety:
 
-<p style="margin-left:3em">(14)</p>
-<p style="margin-left:6em">through x</p>
-<p style="margin-left:6em">- - - - - + + + + + + - - - - -</p>
-<p style="margin-left:6em">0                                     1</p>
-<p style="margin-left:3em">(2011:97)</p>
+  1. {:.blog-example-continuous}through x\\
+      - - - - - + + + + + + - - - - -\\
+      0                             1\\
+      (2011:97)
 
 
 The plusses and minuses indicate different stages, showing that _through_ has a three-part stage structure. All telic DirPs minimally have a two-part stage structure, since there is a change of state once the telos is reached. And, it is this analysis that explains the empirical generalizations initially noted in this chapter. Specifically, since atelic verbs do not entail a change of state&mdash;in fact, they necessitate a lack of change of state&mdash;they cannot combine with _get_, since _get_ is inherently indicative of a change in state (because of the presence of cause in its denotation); as such, anomaly results.[^14]<sup>,</sup>[^15]
