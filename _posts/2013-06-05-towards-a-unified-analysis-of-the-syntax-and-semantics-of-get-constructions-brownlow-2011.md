@@ -47,7 +47,7 @@ Second, Brownlow must also show that three properties hold of the constructions 
 
 Finally, chapter 4 could be construed as fielding an objection to the proposed analysis. Specifically, this chapter is dedicated to the agentive A-type _get_ constructions, as they arguably constitute a problem on the proposed analysis for two reasons. First, since one DP bears two Θ-roles, the analysis putatively goes against a standard assumption of Minimalism.[^8] For example, in (6), at least on the agentive A-type interpretation, _John_ is both the Theme of the drying event and the Agent of the getting event:
 
-  1. {:.blog-example-continuous} John got dry
+  1. {:.blog-example-continuous} John got dry\\
       (2011:165)
 
 Second, given that the Agentive interpretation is possible&mdash;_i.e._, the interpretation where _John_ is the Agent of the getting event&mdash;one analysis of this construction could be that it projects Voice and Cause together. Thus, chapter 4 is dedicated to arguing that these functional heads are still projected separately in the syntax even in these constructions, the argument for which (purportedly) obviates the Θ-role concern.[^9]
@@ -62,14 +62,14 @@ Using various tests for agentivity and the presence of Cause, Brownlow demonstra
 
 This supports the second claim of the dissertation; thus, the remainder of the chapter is dedicated to establishing that such a denotation for _get_ is correct. To do so, Brownlow demonstrates that an account of why _get_ can combine with certain adjectives and not others (_cf_. (2) and (7)) supports the denotation for _get_ on compositional grounds&mdash;_i.e._, the types fit together.
 
-<p style="margin-left:3em">(7) *John got human</p>
-<p style="margin-left:3em">(2011:44)</p>
+  1. {:.blog-example-continuous} *John got human\\
+      (2011:44)
 
 First, Brownlow notes that _get_ seems to only combine with adjectives that are stage-level and not those that are individual-level, in the sense of Carlson (1977). Following Adger & Ramchand (2003), Brownlow explains the generalizations of Carlson (1977) in terms of a Pred projection in the syntax, of which there are two types:[^10]
 
-<p style="margin-left:3em">(8) ⟦Pred⟧ = λπ.λx.λe.[holds(π,e) & Holder(e,x)]</p>
-<p style="margin-left:3em">(9) ⟦Pred⟧ = λπ.λx[holds(π,x)]</p>
-<p style="margin-left:3em">(2011:66)</p>
+  1. {:.blog-example-continuous} ⟦Pred⟧ = λπ.λx.λe.[holds(π,e) & Holder(e,x)]
+  1. {:.blog-example-continuous} ⟦Pred⟧ = λπ.λx[holds(π,x)]\\
+      (2011:66)
 
 Specifically, the Pred in (8) accounts for stage-level adjectives because the _holds_ relation holds between a property and an eventuality and the _Holder_ relation then holds between that eventuality and an individual, thereby allowing a property to only be predicated of some stage of an individual. On the other hand, the Pred in (9) predicates some property directly of an individual, accounting for individual-level adjectives, since there is no mediating eventuality argument present in the derivation.[^11]
 
@@ -79,27 +79,27 @@ Now, since the proposed denotation for _get_ only combines with things of type <
 
 In this chapter, Brownlow addresses PP complementation of _get_. First again, however, a terminological note: Brownlow, following Zwarts (2005), distinguishes between locative prepositions (LocPs) and directional prepositions (DirPs), as in (10) and (11), respectively:
 
-<p style="margin-left:3em">(10) The boy is on the table</p>
-<p style="margin-left:3em">(11) The boy crawled onto the car</p>
-<p style="margin-left:3em">(2011:69)</p>
+  1. {:.blog-example-continuous} The boy is on the table
+  1. {:.blog-example-continuous} The boy crawled onto the car
+      (2011:69)
 
 In brief, the former pinpoint a location or position and the latter describe a path of movement. Then, Brownlow further distinguishes the DirPs on the basis of telicity&mdash;namely, as either telic, atelic, or telos ambiguous (70).
 
 In terms of _get_ complementation, then, Brownlow notes that the generalizations are the following: (i) LocPs, telic DirPs, and telos ambiguous DirPs&mdash;but **not** atelic DirPs&mdash;can combine with _get_; (ii) _at _cannot combine with _get_; and (iii) telos ambiguous DirPs disambiguate in favor of telicity when they appear as the complement of _get_:
 
-<p style="margin-left:3em">(12)</p>
-<p style="margin-left:6em">a. LocPs</p>
-<p style="margin-left:6em">&nbsp;&nbsp;&nbsp;&nbsp;John got on/beside/under the ladder</p>
-<p style="margin-left:6em">b. Telic DirPs</p>
-<p style="margin-left:6em">&nbsp;&nbsp;&nbsp;&nbsp;John got out of/into/in the theatre</p>
-<p style="margin-left:6em">c. Atelic DirPs</p>
-<p style="margin-left:6em">&nbsp;&nbsp;&nbsp;&nbsp;*John got towards/along/from the river</p>
-<p style="margin-left:6em">d. Telos Ambiguous DirPs</p>
-<p style="margin-left:6em">&nbsp;&nbsp;&nbsp;&nbsp;John got across/over/through the river</p>
-<p style="margin-left:6em">[note: the interpretation is necessarily telic—_i.e._, John necessarily successfully crossed the river if these sentences are true]</p>
-<p style="margin-left:6em">e. <i>at</i></p>
-<p style="margin-left:6em">&nbsp;&nbsp;&nbsp;&nbsp;*John got at the river</p>
-<p style="margin-left:3em">(2011:71)</p>
+  1. {:.blog-example-continuous}
+    1. {:.footnote-level-two-example} LocPs\\
+        John got on/beside/under the ladder
+    1. {:.footnote-level-two-example} Telic DirPs\\
+        John got out of/into/in the theatre
+    1. {:.footnote-level-two-example} Atelic DirPs\\
+        *John got towards/along/from the river
+    1. {:.footnote-level-two-example} Telos Ambiguous DirPs\\
+        John got across/over/through the river\\
+        [note: the interpretation is necessarily telic—_i.e._, John necessarily successfully crossed the river if these sentences are true]
+    1. {:.footnote-level-two-example} _at_\\
+        *John got at the river\\
+  (2011:71)
 
 With terminology and empirical generalizations in hand, Brownlow again runs through several tests for agentivity and the presence of Cause, demonstrating that, so long as the denotation of _get_ is correct, it seems English can project Voice and Cause independently in the syntax (71-80).
 
