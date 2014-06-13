@@ -505,10 +505,6 @@ li.blog-example-continuous:before{
     content: "(" counter(continuous-example-counter) ") ";
 }
 
-li.blog-example-continuous p{
-    display: inline;
-}
-
 li.footnote-level-one-example{
     list-style-type: lower-roman;
 }

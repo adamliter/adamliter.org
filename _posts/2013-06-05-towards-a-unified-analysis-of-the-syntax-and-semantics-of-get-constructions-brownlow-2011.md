@@ -30,11 +30,8 @@ This is the same denotation that Pylkkänen (2008) advances for the functional h
 First, a terminological note: Brownlow distinguishes between A-type and B-type _get_ constructions, (2) and (3), respectively:
 
   1. {:.blog-example-continuous} John got angry
-
-  1. {:.blog-example-continuous} Mary got John angry  
-
+  1. {:.blog-example-continuous} Mary got John angry\\
       (2011:9)
-      {: style="display:float;clear:both;"}
 
 The latter clearly projects an Agent argument that is independent of the Theme argument of _get_/Cause,[^5] whereas the former, argues Brownlow, are ambiguous between two types of A-type _get_ constructions: "true A-type _get_ constructions" and "agentive A-type _get_ constructions" (40-41).[^6]
 
