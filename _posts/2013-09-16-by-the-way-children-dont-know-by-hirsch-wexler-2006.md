@@ -86,16 +86,18 @@ Verrips, M. (1996). _Potatoes must peel: The acquisition of the Dutch passive_. 
 * * * 
 
 #### BibTeX
-	@inproceedings{hirsch2006a,
-	Author = {Hirsch, Christopher and Wexler, Kenneth},
-	Booktitle = {BUCLD 30: Proceedings of the 30th annual
-	Boston University Conference on Language Development},
-	Editor = {Bamman, David and Magnitskaia, Tatiana and Zaller, Colleen},
-	Pages = {249-261},
-	Publisher = {Somerville, MA: Cascadilla Press},
-	Title = {By the way, children don't know \emph{by}},
-	Volume = {1},
-	Year = {2006}}
+
+
+    @inproceedings{hirsch2006a,
+    Address = {Somerville, MA},
+    Author = {Hirsch, Christopher and Wexler, Kenneth},
+    Booktitle = {{BUCLD}~30: Proceedings of the 30th {A}nnual {B}oston {U}niversity {C}onference on {L}anguage {D}evelopment},
+    Editor = {Bamman, David and Magnitskaia, Tatiana and Zaller, Colleen},
+    Pages = {249-261},
+    Publisher = {Cascadilla Press},
+    Title = {By the way, children don't know \emph{by}},
+    Volume = {1},
+    Year = {2006}}
 
 * * *
 
