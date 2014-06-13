@@ -96,7 +96,7 @@ In terms of _get_ complementation, then, Brownlow notes that the generalizations
         *John got towards/along/from the river
     1. {:.footnote-level-two-example} Telos Ambiguous DirPs\\
         John got across/over/through the river\\
-        [note: the interpretation is necessarily telic—_i.e._, John necessarily successfully crossed the river if these sentences are true]
+        [**note**: the interpretation is necessarily telic—_i.e._, John necessarily successfully crossed the river if these sentences are true]
     1. {:.footnote-level-two-example} _at_\\
         *John got at the river\\
   (2011:71)
@@ -105,8 +105,8 @@ With terminology and empirical generalizations in hand, Brownlow again runs thro
 
 After demonstrating that Voice and Cause project independently in these constructions, Brownlow begins with an analysis of LocP complementation of _get_ (82-87). He argues that LocPPs are properties relating a set of contiguous points i to some entity, which then combines with Pred, as in (13):[^13]
 
-<p style="margin-left:3em">(13) ![brownlow2011-johnonroof](http://i.imgur.com/cqGW6fh.jpg)</p>
-<p style="margin-left:3em">(Brownlow 2011:85)</p>
+  1. {:.blog-example-continuous} ![brownlow2011-johnonroof](http://i.imgur.com/cqGW6fh.jpg)\\
+      (Brownlow 2011:85)
 
 This structure is then merged with _get_ and the derivation proceeds normally. Next, Brownlow develops an account of DirPs following Svenonius (2010), arguing that DirPs are compositionally built from LocPs and some _path_ head; Brownlow relies on Zwarts (2005) to account for these _path_ heads, of which there are three (102). Based on the _path_ head denotations, the DirPPs can be seen to have varying numbers of stages in their structures. For example, _through_ has the following stage structure, where the interval [0,1] corresponds to the path in its entirety:
 
