@@ -8,6 +8,7 @@ UPDATES AND CHANGELOG:
 ----------------------------------------------------
 - 2014-06-12
         - Added styling for examples in footnotes
+        - Added styling for continuous examples in blog posts
 - 2014-06-09
         - Switched colors of current and profile
 - 2014-06-02
@@ -244,6 +245,10 @@ MAIN DIV CONTAINERS AND SOME STYLING THEREOF:
 #content h1,h2,h3,h4,h5,h6{
     color: #B22613;
     font-family: MyRaleway, sans-serif; 
+}
+
+#blog-continuous-wrapper{
+    counter-reset: chapter;
 }
 
 #footer-wrapper{
@@ -492,6 +497,15 @@ STUFF FOR THE BLOG:
     text-align: center;
     margin-top: 4px;
     font-size: smaller;
+}
+
+li.blog-example-continuous{
+    list-style-type: none;
+    counter-increment: chapter;
+}
+
+li.blog-example-continuous:before{
+    content:"(" counter(chapter) ") ";
 }
 
 li.footnote-level-one-example{
