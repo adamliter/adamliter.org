@@ -90,7 +90,7 @@ Verrips, M. (1996). _Potatoes must peel: The acquisition of the Dutch passive_. 
     @inproceedings{hirsch2006a,
     Address = {Somerville, MA},
     Author = {Hirsch, Christopher and Wexler, Kenneth},
-    Booktitle = "{{BUCLD"}~30: Proceedings of the 30th {A}nnual {B}oston {U}niversity {C}onference on {L}anguage {D}evelopment},
+    Booktitle = &#123;&#123;BUCLD}~30: Proceedings of the 30th {A}nnual {B}oston {U}niversity {C}onference on {L}anguage {D}evelopment},
     Editor = {Bamman, David and Magnitskaia, Tatiana and Zaller, Colleen},
     Pages = {249-261},
     Publisher = {Cascadilla Press},
