@@ -31,7 +31,7 @@ First, a terminological note: Brownlow distinguishes between A-type and B-type _
 
   1. {:.blog-example-continuous} John got angry
 
-  1. {:.blog-example-continuous} Mary got John angry
+  1. {:.blog-example-continuous} Mary got John angry\\
 
       (2011:9)
 
