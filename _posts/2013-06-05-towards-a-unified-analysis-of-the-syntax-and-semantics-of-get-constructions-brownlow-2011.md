@@ -326,8 +326,9 @@ Zwarts, J. (2005). Prepositional aspect and the algebra of paths. _Linguistics a
 	
 [^17]: For the record, I think my judgments are as follows, though I'm having a particularly hard time forming a judgment about (17c) for some reason:
 
-    1. {: style="list-type:none;"} (17)
-        1. {:.footnote-level-two-example} The ship got sunk with an explosive device        1. {:.footnote-level-two-example} *The ship got intentionally sunk
+    1. {: style="list-style-type:none;"} (17)
+        1. {:.footnote-level-two-example} The ship got sunk with an explosive device        
+        1. {:.footnote-level-two-example} *The ship got intentionally sunk
         1. {:.footnote-level-two-example} ?/*The ship got sunk PRO to collect the insurance payout
         1. {:.footnote-level-two-example} The ship got sunk by the enemy captain
         1. {:.footnote-level-two-example} *The ship got sunk on purpose
