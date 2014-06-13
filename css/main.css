@@ -503,7 +503,6 @@ li.blog-example-continuous{
 
 li.blog-example-continuous:before{
     content: "(" counter(continuous-example-counter) ") ";
-    display: inline-block;
 }
 
 li.footnote-level-one-example{
