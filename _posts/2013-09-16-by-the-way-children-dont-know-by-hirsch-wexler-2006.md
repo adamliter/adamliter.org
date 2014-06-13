@@ -39,19 +39,15 @@ Thus, Hirsch & Wexler (2006a) conclude that whatever it is that underlies passiv
 
 ##### Rebutting Fox & Grodzinsky (1998)
 
-First, Hirsch & Wexler rightly note that the account in Fox & Grodzinsky (1998) relies on the assumption that children know that _by_ may directly assign an Agent θ-role to its complement (2006a:253). They then go on to argue that children do not know this. First, they offer evidence from a CHILDES search (MacWhinney 2000), where no instances of nominal _by_-phrases (those types of _by_-phrases that are most likely to have an Agentive complement) in either child-produced or child-directed speech.<sup>1</sup>
+First, Hirsch & Wexler rightly note that the account in Fox & Grodzinsky (1998) relies on the assumption that children know that _by_ may directly assign an Agent θ-role to its complement (2006a:253). They then go on to argue that children do not know this. First, they offer evidence from a CHILDES search (MacWhinney 2000), where no instances of nominal _by_-phrases (those types of _by_-phrases that are most likely to have an Agentive complement) in either child-produced or child-directed speech.[^1]
 
-Next, they present evidence from a study that investigated the comprehension of _by_ vs. _about_ in children from ages 3;0 to 5;10. Children were given a forced-choice truth value judgment task, where they were asked something like "the story about/by Minnie had mountains in it" when presented with two possible pictures. Hirsch & Wexler observe that all children performed significantly below chance on the _by_ trials, indicating that they were interpreting _by_ as a Theme assigner, just like _about _(254-257).<sup>2</sup>
+Next, they present evidence from a study that investigated the comprehension of _by_ vs. _about_ in children from ages 3;0 to 5;10. Children were given a forced-choice truth value judgment task, where they were asked something like "the story about/by Minnie had mountains in it" when presented with two possible pictures. Hirsch & Wexler observe that all children performed significantly below chance on the _by_ trials, indicating that they were interpreting _by_ as a Theme assigner, just like _about _(254-257).[^2]
 
 Finally, they argue against a premise that was integral to the account in Fox & Grodzinsky (1998)&mdash;namely, they argue that children do not actually comprehend truncated psychological passives (257-259). They note that Gordon & Chafetz (1990) found this to be the case, as did Hirsch & Wexler (2006b;c).
 
 They take the empirical evidence to be overwhelming that children perform at chance on both truncated psychological passives and non-truncated psychological passives; they thus conclude that any theory attributing the issues of passive acquisition to the _by_-phrase is incorrect (2006a:258).
 
-#### Notes
-
-  1. It is worth explicitly noting that they only looked for _by_-phrases attached to NPs. Moreover, as they themselves note "[c]orpus counts alone are limiting, as paucity of input or productions does not necessitate poverty of comprehension" (2006a:254).
-	
-  2. Two points. First, I'm not sure that it makes sense to say that they're interpreting _by_ as _about_, since their performance on _about_ trials is around 90%, whereas their performance for _by_ trials ranges from 20-35%. If they were really interpreting it as _about_, it seems more reasonable to expect around 10% performance on the _by_ trials, in line with their performance on _about_ trials. This claim actually can be asked, statistically, with a regression, but a _t_-test that tests for chance performance does **not** license the inference that they are treating _by_ as _about_. Of course, this does not bear on whether they actually know that _by_ can assign an Agent θ-role. So, second, it seems that they could have tested other constructions in addition to nominals where _by_ does assign an Agent θ-role. It might be the case that children just have trouble with _by_ adjoining to an NP, or something like that.
+* * * 
 
 #### References
 
@@ -87,7 +83,7 @@ Terzi, A. and Wexler, K. (2002). A-chains and S-homophones in children’s gramm
 
 Verrips, M. (1996). _Potatoes must peel: The acquisition of the Dutch passive_. PhD thesis, Universiteit van Amsterdam.
 
-&mdash;&mdash;&mdash;
+* * * 
 
 #### BibTeX
 	@inproceedings{hirsch2006a,
@@ -100,3 +96,11 @@ Verrips, M. (1996). _Potatoes must peel: The acquisition of the Dutch passive_. 
 	Title = {By the way, children don't know \emph{by}},
 	Volume = {1},
 	Year = {2006}}
+
+* * *
+
+#### Notes
+
+[^1]: It is worth explicitly noting that they only looked for _by_-phrases attached to NPs. Moreover, as they themselves note "[c]orpus counts alone are limiting, as paucity of input or productions does not necessitate poverty of comprehension" (2006a:254).
+	
+[^2]: Two points. First, I'm not sure that it makes sense to say that they're interpreting _by_ as _about_, since their performance on _about_ trials is around 90%, whereas their performance for _by_ trials ranges from 20-35%. If they were really interpreting it as _about_, it seems more reasonable to expect around 10% performance on the _by_ trials, in line with their performance on _about_ trials. This claim actually can be asked, statistically, with a regression, but a _t_-test that tests for chance performance does **not** license the inference that they are treating _by_ as _about_. Of course, this does not bear on whether they actually know that _by_ can assign an Agent θ-role. So, second, it seems that they could have tested other constructions in addition to nominals where _by_ does assign an Agent θ-role. It might be the case that children just have trouble with _by_ adjoining to an NP, or something like that.
