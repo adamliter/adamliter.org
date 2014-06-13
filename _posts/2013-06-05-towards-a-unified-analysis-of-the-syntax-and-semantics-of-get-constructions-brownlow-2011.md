@@ -112,7 +112,7 @@ This structure is then merged with _get_ and the derivation proceeds normally. N
 
   1. {:.blog-example-continuous}through x\\
       `- - - - - + + + + + + - - - - -`\\
-      0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1\\
+      0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1\\
       (2011:97)
 
 The plusses and minuses indicate different stages, showing that _through_ has a three-part stage structure. All telic DirPs minimally have a two-part stage structure, since there is a change of state once the telos is reached. And, it is this analysis that explains the empirical generalizations initially noted in this chapter. Specifically, since atelic verbs do not entail a change of state&mdash;in fact, they necessitate a lack of change of state&mdash;they cannot combine with _get_, since _get_ is inherently indicative of a change in state (because of the presence of cause in its denotation); as such, anomaly results.[^14]<sup>,</sup>[^15]
