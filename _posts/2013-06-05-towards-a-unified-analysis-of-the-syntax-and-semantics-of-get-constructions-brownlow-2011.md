@@ -292,7 +292,13 @@ Zwarts, J. (2005). Prepositional aspect and the algebra of paths. _Linguistics a
 	
 [^5]: Thus, Brownlow's claim that English can project Voice and Cause separately is minimally successful to the extent that his argument for this denotation of _get_ is successful, since there is at least one clearcut case&mdash;namely, B-type constructions&mdash;of independent projection. Nonetheless, Brownlow is of course concerned with showing that this phenomenon is uniform, since the extent to which it can be shown to be uniform is part and parcel of what underwrites the argument for the denotation itself.
 
-[^6]: Roughly, this amounts to being able to either merge accusative little _v_&mdash;_i.e._, Voice&mdash;or unaccusative little _v_ next in the derivation in (i): <br /><p style="margin-left:3em">(i) <img style="vertical-align:text-top;"src="http://i.imgur.com/OjPX5Ze.jpg" alt="brownlow2011-johngotangry" /></p><p style="margin-left:3em"><br />(Brownlow 2011:65)</p><br />Though, strictly speaking, the derivation for an agentive A-type construction is a little different, as Brownlow argues for the presence of an IdentNP projection in these constructions, which addresses the potential objection that Voice and Cause are bundled in these constructions (164).
+[^6]: Roughly, this amounts to being able to either merge accusative little _v_&mdash;_i.e._, Voice&mdash;or unaccusative little _v_ next in the derivation in (i): 
+
+      ![brownlow2011-johngotangry](http://i.imgur.com/OjPX5Ze.jpg)
+
+      (Brownlow 2011:65)
+
+      Though, strictly speaking, the derivation for an agentive A-type construction is a little different, as Brownlow argues for the presence of an IdentNP projection in these constructions, which addresses the potential objection that Voice and Cause are bundled in these constructions (164).
 
 [^7]: The _get_ constructions that are not considered in the dissertation include those with DP complements, those with VP complements, and idiomatic usages of _get_, among others (2011:15-16). The analysis limits itself to AP complements (chapter 2), PP complements (chapter 3), reflexive (or anaphoric) complements (chapter 4), and passive complements (chapter 5).
 	
@@ -300,7 +306,11 @@ Zwarts, J. (2005). Prepositional aspect and the algebra of paths. _Linguistics a
 	
 [^9]: This argument turns on an analysis of _-self_ that I'm not sure that I buy; more on this below, particularly note 25.
 	
-[^10]: Again, in case fonts are not rendering correctly: <br /> <p style="margin-left:3em"><img style="vertical-align:text-top;"src="http://i.imgur.com/se0gMll.jpg" alt="brownlow2011-pred-denotations" /></p><p style="margin-left:3em">Brownlow's (2011) denotations for 'Pred', following Adger & Ramchand (2003)</p>
+[^10]: Again, in case fonts are not rendering correctly:
+
+       ![brownlow2011-pred-denotations](http://i.imgur.com/se0gMll.jpg)
+
+       Brownlow's (2011) denotations for 'Pred', following Adger & Ramchand (2003)
 	
 [^11]: I think this is actually really cool; however, there does seem to be perhaps one reason for concern&mdash;specifically, it is not transparent how to construe the _holds_ relation (in an ontological sense), since it can take a property and either an eventuality (as in (8)) or an individual (as in (9)) as arguments. Nonetheless, the analysis still seems to have a lot of merit, and it's not immediately clear what the problem with the analysis is other than a lack of clarity about what exactly this _holds_ relation is.
 	
@@ -318,7 +328,11 @@ Zwarts, J. (2005). Prepositional aspect and the algebra of paths. _Linguistics a
   	
 [^18]: The first IdentN projection was briefly mentioned in note 6 and will be discussed in more detail below in the chapter 4 section.
 	
-[^19]: For any people having font problems:<br /><p style="margin-left:3em"><img style="vertical-align:text-top;"src="http://i.imgur.com/Ar64eNi.jpg" alt="brownlow2011-passivedenotation" /></p><p style="margin-left:3em">Brownlow's (2011) denotation for the passive participle, '-ed'</p>
+[^19]: For any people having font problems:
+
+       ![brownlow2011-passivedenotation](http://i.imgur.com/Ar64eNi.jpg)
+
+       Brownlow's (2011) denotation for the passive participle, '-ed'
 	
 [^20]: On this analysis, I have the same concern that I had with the analysis of the prepositional complementation of _get_&mdash;namely, I am not sure how the unsaturated argument of the property that Pred takes in its complement gets saturated higher in the structure (_cf_. notes 13 and 15). Am I just missing something? Does the lambda not need to undergo lambda conversion for interpretability? I can't figure it out. To save myself another note in an already lengthy post, the same concern is going to arise again briefly in the analysis of the resultative adjective complementation.
 	
