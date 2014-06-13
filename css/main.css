@@ -236,6 +236,7 @@ MAIN DIV CONTAINERS AND SOME STYLING THEREOF:
     margin: 0 auto;
     padding-top: 1em;
     padding-bottom: 1em;
+    counter-reset: continuous-example-counter 0;
 }
 
 #content a{
@@ -245,10 +246,6 @@ MAIN DIV CONTAINERS AND SOME STYLING THEREOF:
 #content h1,h2,h3,h4,h5,h6{
     color: #B22613;
     font-family: MyRaleway, sans-serif; 
-}
-
-#blog-continuous-wrapper{
-    counter-reset: chapter;
 }
 
 #footer-wrapper{
@@ -501,11 +498,11 @@ STUFF FOR THE BLOG:
 
 li.blog-example-continuous{
     list-style-type: none;
-    counter-increment: chapter;
+    counter-increment: continuous-example-counter;
 }
 
 li.blog-example-continuous:before{
-    content: "(" counter(chapter) ") ";
+    content: "(" counter(continuous-example-counter) ")";
     display: inline-block;
 }
 
