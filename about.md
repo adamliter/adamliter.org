@@ -2,7 +2,7 @@
 title: Adam Liter | About
 layout: main-default-about
 date: 2014-06-02
-nav_chlid: 1
+nav_child: 1
 nav_node: about
 ---
 
