@@ -8,6 +8,8 @@ categories:
 - Travel
 tags:
 - Germany
+nav_child: 3
+nav_node: blog
 ---
 
 #### Samstag, 2. Juli
@@ -25,7 +27,7 @@ Am Sonntag liefen wir ein bisschen mehr um Stuttgart herum, damit ich die Stadt 
 <div class="img-blog-caption">Die Burg Esslingens</div>
 </div>
 
-Am Montag musste ich früh aufstehen, um zur Schule zu fahren. Die Schule ist vielleicht nur 5 oder 10 Kilometer weit von Patricias WG, aber es war trotzdem ein bisschen früh. An diesem Tag beobachten wir einfach ein paar verschiedene Unterrichte. Die Patricia sagte mir, dass sie normalerweise 11 Lehrstunde pro Woche unterrichtet. Nach einer Weile ging ich ein bisschen früh aus der Schule aus, um Esslingen zu erfahren. Ich ging zur Burg Esslingens, und es war _echt_ schön. Es hat sich eindeutig gelohnt auch wenn ich so hochklettern musste und auch wenn ich so schwitzte. Ich lag mich hin und las ein bisschen. Neben mir spielten ein paar Männern Badminton. Die Sonne schien, und es war richtig schön, trotzdem ich ein bisschen rot wurde. Nach einer Weile kriegte ich ein bisschen Hunger, und ich ging deswegen hoch zum Restaurant bei der Burg. Ich aß ein Apfelstrudel mit Eis und hatte auch einen grünen Tee. Danach ging ich wieder zurück nach Patricias WG, wo ich ein bisschen Zeit mit ihren Mitbewohner verpasste. Ich lernte dadurch ein bisschen Schwäbisch, nämlich „Ois isch koins, aber zwoi isch oins.”
+Am Montag musste ich früh aufstehen, um zur Schule zu fahren. Die Schule ist vielleicht nur 5 oder 10 Kilometer weit von Patricias WG, aber es war trotzdem ein bisschen früh. An diesem Tag beobachten wir einfach ein paar verschiedene Unterrichte. Die Patricia sagte mir, dass sie normalerweise 11 Lehrstunde pro Woche unterrichtet. Nach einer Weile ging ich ein bisschen früh aus der Schule aus, um Esslingen zu erfahren. Ich ging zur Burg Esslingens, und es war _echt_ schön. Es hat sich eindeutig gelohnt auch wenn ich so hochklettern musste und auch wenn ich so schwitzte. Ich lag mich hin und las ein bisschen. Neben mir spielten ein paar Männern Badminton. Die Sonne schien, und es war richtig schön, trotzdem ich ein bisschen rot wurde. Nach einer Weile kriegte ich ein bisschen Hunger, und ich ging deswegen hoch zum Restaurant bei der Burg. Ich aß ein Apfelstrudel mit Eis und hatte auch einen grünen Tee. Danach ging ich wieder zurück nach Patricias WG, wo ich ein bisschen Zeit mit ihren Mitbewohner verpasste. Ich lernte dadurch ein bisschen Schwäbisch, nämlich „Ois isch koins, aber zwoi isch oins.”
 
 <div class="img-blog-wrapper">
 <img class="img-blog" alt="Apfelstrudel mit Eis" src="http://i.imgur.com/1H5nhcv.jpg" />
@@ -34,7 +36,7 @@ Am Montag musste ich früh aufstehen, um zur Schule zu fahren. Die Schule ist vi
 
 #### Dienstag, 5. Juli
 
-Am Dienstag ging ich wieder mit der Patricia in den Unterricht. Heute hatten wir englischen Unterricht, und deswegen unterrichtete schließlich ein bisschen. Die Schüler fingen gleich an, die Namen der Zootiere zu lernen, und ich brachte zufälligerweise ein Kinderbuch mit, das dabei hilfreich ist. Dieses Buch wurde von Eric Carle geschrieben, und es heisst „From Head to Toe.” Ich las das Buch vor und brachten die Kindern deswegen die Namen bei. Nach der Schule gingen wir zurück nach Hause und ruhten aus.
+Am Dienstag ging ich wieder mit der Patricia in den Unterricht. Heute hatten wir englischen Unterricht, und deswegen unterrichtete schließlich ein bisschen. Die Schüler fingen gleich an, die Namen der Zootiere zu lernen, und ich brachte zufälligerweise ein Kinderbuch mit, das dabei hilfreich ist. Dieses Buch wurde von Eric Carle geschrieben, und es heisst „From Head to Toe.” Ich las das Buch vor und brachten die Kindern deswegen die Namen bei. Nach der Schule gingen wir zurück nach Hause und ruhten aus.
 
 #### Mittwoch, 6. Juli
 

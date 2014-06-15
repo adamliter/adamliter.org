@@ -15,7 +15,7 @@ tags:
 
 #### Claim
 
-Salustri & Hyams argue for the Imperative Analogue Hypothesis, which holds that the imperative form in pro-drop languages is analogous to Root Infinitives (RI) in non-pro-drop languages.[^1] Furthermore, they also claim that what is universal about this stage in acquisition "is the mapping of irrealis mood onto a tenseless clausal structure" (2006:160).
+Salustri & Hyams argue for the Imperative Analogue Hypothesis, which holds that the imperative form in pro-drop languages is analogous to Root Infinitives (RI) in non-pro-drop languages.[^1] Furthermore, they also claim that what is universal about this stage in acquisition "is the mapping of irrealis mood onto a tenseless clausal structure" (2006:160).
 
 #### Argument
 
@@ -38,7 +38,7 @@ Salustri & Hyams then procede to show that these predictions are, in fact, empir
 
 Then, Salustri & Hyams go on to consider two possible alternative theories that would purportedly explain the data they examine, one is that the third person singular indicative form is the default form for children and the other is that the imperative form is an underspecified form (171).
 
-As responses to these possible alternatives, they offer several counterexamples to the empirical predictions that these alternative theories would make.[^2]
+As responses to these possible alternatives, they offer several counterexamples to the empirical predictions that these alternative theories would make.[^2]
 
 #### 'The Universal Core'
 
