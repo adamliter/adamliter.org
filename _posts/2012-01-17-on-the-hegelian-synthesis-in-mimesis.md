@@ -11,6 +11,8 @@ categories:
 tags:
 - Hegel
 - mimesis
+nav_child: 3
+nav_node: blog
 ---
 
 * * *

@@ -8,6 +8,8 @@ categories:
 - Travel
 tags:
 - Germany
+nav_child: 3
+nav_node: blog
 ---
 
 #### Montag, 18. Juli

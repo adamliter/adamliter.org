@@ -14,6 +14,8 @@ tags:
 - Malagasy
 - syntax
 - voicing
+nav_child: 3
+nav_node: blog
 ---
 
 #### Claim

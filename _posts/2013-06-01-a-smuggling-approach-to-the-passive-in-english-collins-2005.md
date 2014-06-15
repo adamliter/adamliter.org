@@ -11,6 +11,8 @@ categories:
 tags:
 - passives
 - syntax
+nav_child: 3
+nav_node: blog
 ---
 
 My summary of this article was written as assigned article review for LIN 834, taken at Michigan State University with Alan Munn during the spring semester of 2013. As such, it is more in depth than any other review that has so far been posted on this blog, and it was written in LaTeX and is thus in [PDF format][CollinsArticleReview].[^1]

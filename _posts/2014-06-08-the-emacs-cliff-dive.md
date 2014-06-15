@@ -9,6 +9,8 @@ categories:
 tags:
 - Emacs
 - text editors
+nav_child: 3
+nav_node: blog
 ---
 
 #### Rationale
