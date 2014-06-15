@@ -1,6 +1,8 @@
 ---
 title: Adam Liter | Blog
 layout: blog-linguistics
+nav_child: 3
+nav_node: linguistics
 ---
 ## Linguistics-Related Blog Entries
 

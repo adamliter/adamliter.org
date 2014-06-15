@@ -1,6 +1,8 @@
 ---
 title: Adam Liter | Blog
 layout: blog-coffee
+nav_child: 3
+nav_node: coffee
 ---
 ## Coffee-Related Blog Entries
 

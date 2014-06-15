@@ -1,6 +1,8 @@
 ---
 title: Adam Liter | Blog
 layout: blog-default
+nav_child: 3
+nav_node: blog
 ---
 ## Linguistics Summaries
 <p>This is a series of blog posts that are summaries of some of the work in linguistics that I've read. This series is largely for my purposes, though I thought I would put them on the web in case they end up being useful to anyone else. Nonetheless, the main purpose of this series is as a memory aid for me, so it is possible&#8212;perhaps likely&#8212;that they might not be that helpful to others.</p>

@@ -1,6 +1,8 @@
 ---
 title: Adam Liter | Blog
 layout: blog-philosophy
+nav_child: 3
+nav_node: philosophy
 ---
 ## Philosophy-Related Blog Entries
 

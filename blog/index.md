@@ -1,6 +1,8 @@
 ---
 title: Adam Liter | Blog
 layout: blog-default
+nav_child: 3
+nav_node: blog
 ---
 ## All Blog Entries
 

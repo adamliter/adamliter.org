@@ -1,6 +1,8 @@
 ---
 title: Adam Liter | Blog
 layout: blog-travel
+nav_child: 3
+nav_node: travel
 ---
 ## Travel-Related Blog Entries
 
