@@ -2,6 +2,8 @@
 title: Adam Liter | Academic
 layout: academic-default
 date: 2014-06-01
+nav_child: 2
+nav_node: academic
 ---
 
 ## Academic: Linguist &amp; Philosopher

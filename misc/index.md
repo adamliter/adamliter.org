@@ -2,6 +2,8 @@
 title: Adam Liter | Miscellaneous
 layout: misc-default
 date: 2014-05-29
+nav_child: 5
+nav_node: misc
 ---
 
 ## Linguistics Summaries

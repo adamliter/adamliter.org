@@ -2,6 +2,8 @@
 title: Adam Liter | Work
 layout: academic-default-work
 date: 2014-01-03
+nav_child: 2
+nav_node: work
 ---
 
 ## (Selected) Current &amp; Former Work

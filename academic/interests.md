@@ -2,6 +2,8 @@
 title: Adam Liter | Research Interests
 layout: academic-default-interests
 date: 2014-01-03
+nav_child: 2
+nav_node: interests
 ---
 
 ## Research Interests

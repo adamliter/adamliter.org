@@ -2,6 +2,8 @@
 title: Adam Liter | Personal
 layout: personal-default
 date: 2014-05-30
+nav_child: 4
+nav_node: personal
 ---
 
 ## Personal Stuff
