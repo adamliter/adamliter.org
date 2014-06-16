@@ -1,6 +1,6 @@
 ---
 title: Adam Liter | Blog
-layout: blog-philosophy
+layout: default
 nav_child: 3
 nav_node: philosophy
 ---

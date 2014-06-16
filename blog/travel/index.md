@@ -1,6 +1,6 @@
 ---
 title: Adam Liter | Blog
-layout: blog-travel
+layout: default
 nav_child: 3
 nav_node: travel
 ---
