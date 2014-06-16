@@ -40,7 +40,7 @@
 			</ul>
 	</section>
 	<section id="tab2">
-		<h2><a class="profile" href="{{ site.url }}academic/">Academic</a></h2>
+		<h2><a {% if page.nav_node == 'academic' %}class="current"{% else %}class="profile"{% endif %} href="{{ site.url }}academic/">Academic</a></h2>
 			<ul class="tabmenu">
 				<li><a {% if page.nav_node == 'interests' %}class="current"{% else %}class="profile"{% endif %} href="{{ site.url }}academic/interests/">Research Interests</a></li>
 				<li><a {% if page.nav_node == 'work' %}class="current"{% else %}class="profile"{% endif %} href="{{ site.url }}academic/work/">Work</a></li>
