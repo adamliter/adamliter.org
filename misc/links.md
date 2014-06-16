@@ -1,6 +1,6 @@
 ---
 title: Adam Liter | Miscellaneous
-layout: misc-default-links
+layout: default
 date: 2014-01-03
 nav_child: 5
 nav_node: links
