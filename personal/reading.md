@@ -1,6 +1,6 @@
 ---
 title: Adam Liter | Reading List
-layout: personal-default-reading
+layout: default
 date: 2014-01-03
 nav_child: 4
 nav_node: reading
