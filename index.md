@@ -1,6 +1,6 @@
 ---
 title: Adam Liter
-layout: main-default
+layout: default
 date: 2014-01-02
 nav_child: 1
 nav_node: home

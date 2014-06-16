@@ -17,6 +17,10 @@
 		
 		<style type="text/css">article.tab-nav section:nth-child({{page.nav_child}}){z-index:5;}</style>
 		
+		{% if page.nav_child == 3 %}
+			{% include mathjax-and-mathml.html %}
+		{% endif %}
+		
 	</head>
 
 	<body>
