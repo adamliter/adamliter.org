@@ -282,7 +282,7 @@ STYLING FOR NAME IN IPA:
 #ipa{
     text-align: center;
     font-size: 150%;
-    padding-bottom: 3em;
+    padding-bottom: 1em;
 }
 
 p.tooltips{
@@ -296,8 +296,8 @@ p.tooltips span{
     width: 250px;
     color: #B22613;
     background: #000000;
-    height: 30px;
-    line-height: 30px;
+    height: 60px;
+    line-height: 1em;
     text-align: center;
     visibility: hidden;
     border-radius: 6px;
