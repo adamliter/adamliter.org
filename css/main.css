@@ -296,11 +296,12 @@ p.tooltips span{
     width: 250px;
     color: #B22613;
     background: #000000;
-    height: 60px;
-    line-height: 1em;
-    text-align: center;
+    height: 30px;
+    line-height: 1.5em;
+    text-align: left;
     visibility: hidden;
     border-radius: 6px;
+    padding: 10px;
 }
 
 p.tooltips span:after{
