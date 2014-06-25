@@ -321,7 +321,7 @@ p.tooltips:hover span{
     opacity: 0.8;
     left: 100%;
     top: 50%;
-    margin-top: 15px;
+    margin-top: -20px;
     margin-left: 15px;
     z-index: 999;
 }
