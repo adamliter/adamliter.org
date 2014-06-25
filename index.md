@@ -10,4 +10,4 @@ nav_node: home
 					
 <br />
 					
-<p><span style="text-align:center; white-space:nowrap;display: block;margin-left: auto;margin-right: auto; font-size:150%;">[&aelig;&#638;&#601;m.l&#593;&#618;&#638;&#602;]</span><span class="tooltips">This is how you pronounce my name in IPA; if you don't know IPA, you should learn it. And/or learn linguistics.</span></p>
+<p class="tooltips">[&aelig;&#638;&#601;m.l&#593;&#618;&#638;&#602;]<span>This is how you pronounce my name in IPA; if you don't know IPA, you should learn it. And/or learn linguistics.</span></p>

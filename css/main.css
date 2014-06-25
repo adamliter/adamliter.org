@@ -274,12 +274,14 @@ MAIN DIV CONTAINERS AND SOME STYLING THEREOF:
     color: #5BA2D7;
 }
 
-.tooltips{
+p.tooltips{
     position: relative;
     display: inline;
+    text-align: center;
+    font-size: 150%;
 }
 
-.tooltips span{
+p.tooltips span{
     position: absolute;
     width:140px;
     color: #B22613;
@@ -291,7 +293,7 @@ MAIN DIV CONTAINERS AND SOME STYLING THEREOF:
     border-radius: 6px;
 }
 
-.tooltips span:after{
+p.tooltips span:after{
     content: '';
     position: absolute;
     top: 50%;
@@ -303,7 +305,7 @@ MAIN DIV CONTAINERS AND SOME STYLING THEREOF:
     border-bottom: 8px solid transparent;
 }
 
-.tooltips:hover span{
+p.tooltips:hover span{
     visibility: visible;
     opacity: 0.8;
     left: 100%;
