@@ -293,7 +293,7 @@ p.tooltips{
 p.tooltips span{
     font-size: x-small;
     position: absolute;
-    width: 250px;
+    width: 200px;
     color: #B22613;
     background: #000000;
     height: 30px;
