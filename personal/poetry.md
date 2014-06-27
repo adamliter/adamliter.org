@@ -8,7 +8,7 @@ nav_node: poetry
 
 ## Spoken Word That I Procrastinate To
 
-This is a list of spoken word pieces that I (i) procrastinate to, (ii) really like, (iii) don't want to ever forget about, (iv) and/or might want to share with friends (and hence want to have some documentation of the name and/or a link to the piece).
+This is a list of spoken word pieces that I (i) procrastinate to, (ii) really like, (iii) don't want to ever forget about, (iv) and/or might want to share with friends (and hence want to have some documentation of the name of the piece and/or a link to the piece).
 
 The list is currently organized by the artist (specifically, by last name, unless the artist uses a stage name, like Guante).[^1]
 
