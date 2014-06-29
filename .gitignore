@@ -4,3 +4,23 @@
 # Ignore auto-save files from Emacs
 *.*~
 \#*.*\#
+
+# Ignore LaTeX files
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+## Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+## Build tool auxiliary files:
+*.synctex.gz
+*.synctex.gz(busy)
