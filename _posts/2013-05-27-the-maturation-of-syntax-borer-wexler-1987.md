@@ -46,7 +46,7 @@ Thus, (a simplified version of) their conceptual argument is:
 
 <p style="margin-left:3em">(P2) Having to look for (a) specific principle(s) that explain(s) acquisition facts lead to the triggering problem</p>
 
-<p style="margin-left:3em">(P3) The triggering problem cannot be explained, _i.e._, the predictions of (P2) are not empirically borne out</p>
+<p style="margin-left:3em">(P3) The triggering problem cannot be explained, *i.e.*, the predictions of (P2) are not empirically borne out</p>
 
 <p style="margin-left:3em">(P4) ¬Continuity Hypothesis</p>
 
