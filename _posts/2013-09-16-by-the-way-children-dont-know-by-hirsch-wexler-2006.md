@@ -41,7 +41,7 @@ Thus, Hirsch & Wexler (2006a) conclude that whatever it is that underlies passiv
 
 ##### Rebutting Fox & Grodzinsky (1998)
 
-First, Hirsch & Wexler rightly note that the account in Fox & Grodzinsky (1998) relies on the assumption that children know that _by_ may directly assign an Agent θ-role to its complement (2006a:253). They then go on to argue that children do not know this. First, they offer evidence from a CHILDES search (MacWhinney 2000), where no instances of nominal _by_-phrases (those types of _by_-phrases that are most likely to have an Agentive complement) in either child-produced or child-directed speech.[^1]
+First, Hirsch & Wexler rightly note that the account in Fox & Grodzinsky (1998) relies on the assumption that children know that _by_ may directly assign an Agent Θ-role to its complement (2006a:253). They then go on to argue that children do not know this. First, they offer evidence from a CHILDES search (MacWhinney 2000), where no instances of nominal _by_-phrases (those types of _by_-phrases that are most likely to have an Agentive complement) in either child-produced or child-directed speech.[^1]
 
 Next, they present evidence from a study that investigated the comprehension of _by_ vs. _about_ in children from ages 3;0 to 5;10. Children were given a forced-choice truth value judgment task, where they were asked something like "the story about/by Minnie had mountains in it" when presented with two possible pictures. Hirsch & Wexler observe that all children performed significantly below chance on the _by_ trials, indicating that they were interpreting _by_ as a Theme assigner, just like _about _(254-257).[^2]
 
