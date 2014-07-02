@@ -182,7 +182,7 @@ The important point is the following: (22a)&mdash;which is an instance of a resu
 
 The analysis of this construction is as follows. Brownlow follows Kratzer (2001) in treating the resultative adjective as having a perfective aspect to it; he gives the participle the following denotation:[^22]
 
-  1. {:.blog-example-continuous} ⟦-edRes⟧ = λf<s,t>.λtπ.[there is an event e such that holds(e,T) & f(e) & T < t]\\
+  1. {:.blog-example-continuous} ⟦-edRes⟧ = λf<sub><s,t></sub>.λtπ.[there is an event e such that holds(e,T) & f(e) & T < t]\\
       (2011:193)
 
 A ResP is then built up, analogous to Pass-vP, except that it is built around _-edRes_ instead of _-edPass-v_. ResP is then merged with Pred, and the derivation proceeds as normal.[^23] (24) and (25) show the derivation.
@@ -203,7 +203,7 @@ In this chapter, Brownlow considers sentences such as those in (26); specificall
 
 The motivation for making this argument, as mentioned above, stems from the fact that (26a) is ambiguous between an agentive reading and a non-agentive reading (though the agentive reading is preferred when the subject of the sentence is animate). This is problematic for Brownlow's claim that _get_ does **not** bundle Voice and Cause in the syntax, since Voice assigns the Agent Θ-role. So, plausibly, Voice and Cause might actually be bundled in constructions such as those in (26a).
 
-The argument that Brownlow makes to avoid this objection is as follows. Following Kayne (2002) and Zwart (2002)&mdash;and building on Kratzer (2009)&mdash;Brownlow develops a theory of reflexive pronouns where _-self _is the head of a projection called IdentNP, whose semantics are 'λx.x' as mentioned above. This merges with the DP _John_, as in (27), which then raises to spec,<i>v</i>P. Moreover, _him_ is spelled out as the trace of _John_, which is necessary because _-self_ must be bound in such a position.[^24] The story for the non-reflexive version is the exact same. Brownlow argues that _himself_ meets the conditions for Anaphoric Object Drop, a phenomenon exhibited in similar syntactic positions (123-128). Thus, the structure for the non-reflexive version is as in (28).
+The argument that Brownlow makes to avoid this objection is as follows. Following Kayne (2002) and Zwart (2002)&mdash;and building on Kratzer (2009)&mdash;Brownlow develops a theory of reflexive pronouns where _-self_ is the head of a projection called IdentNP, whose semantics are 'λx.x' as mentioned above. This merges with the DP _John_, as in (27), which then raises to spec,<i>v</i>P. Moreover, _him_ is spelled out as the trace of _John_, which is necessary because _-self_ must be bound in such a position.[^24] The story for the non-reflexive version is the exact same. Brownlow argues that _himself_ meets the conditions for Anaphoric Object Drop, a phenomenon exhibited in similar syntactic positions (123-128). Thus, the structure for the non-reflexive version is as in (28).
 
   1. {:.blog-example-continuous} ![brownlow2011-agentivereflex](http://i.imgur.com/HcJGMdo.jpg){: style="vertical-align:text-top;"}\\
       (Brownlow 2011:164)
