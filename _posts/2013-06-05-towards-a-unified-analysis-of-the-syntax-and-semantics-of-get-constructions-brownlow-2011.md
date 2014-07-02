@@ -178,7 +178,7 @@ Next, Brownlow provides evidence for the ability of _get_ to combine with result
     1. {:.footnote-level-two-example} Mary got John washed\\
         (adapted from Brownlow 2011:191)
 
-The important point is the following: (22a)&mdash;which is an instance of a resultative adjective&mdash;, (22c), and (22d) are compatible with a reflexive-like interpretation where John is the one who washes himself, whereas (22b)&mdash;which is an instance of the verbal passive participle&mdash;is **not** compatible with such an interpretation (note that this reading **cannot** be forced even if you try to do so by adding a PP whose complement is co-indexed with <i>John<sub>i</sub></i> such as <i>by him<sub>i</sub></i> or <i>by himself<sub>i</sub></i> to (22b)). Thus, Brownlow reasons that _get_ must also be compatible with the resultative adjective.
+The important point is the following: (22a)&mdash;which is an instance of a resultative adjective&mdash;, (22c), and (22d) are compatible with a reflexive-like interpretation where John is the one who washes himself, whereas (22b)&mdash;which is an instance of the verbal passive participle&mdash;is **not** compatible with such an interpretation (note that this reading **cannot** be forced even if you try to do so by adding a PP whose complement is co-indexed with <em>John<sub>i</sub></em> such as <em>by him<sub>i</sub></em> or <em>by himself<sub>i</sub></em> to (22b)). Thus, Brownlow reasons that _get_ must also be compatible with the resultative adjective.
 
 The analysis of this construction is as follows. Brownlow follows Kratzer (2001) in treating the resultative adjective as having a perfective aspect to it; he gives the participle the following denotation:[^22]
 
