@@ -55,4 +55,4 @@ Pesetsky, D. (1995). _Zero Syntax: Experiencers and Cascades_. Cambridge, MA: Th
 
     Since writing this assignment, I have not given any more thought to this argument and these data. Perhaps there is an independent explanation for the data in (i) and (ii). Perhaps not. To the extent that Θ-roles are syntactic, there might be an independent semantic/pragmatic explanation of (iib)&mdash;hence the hedge on ungrammaticality or anomaly. Such a line of reasoning would require a thorough investigation of the nature of Θ-roles, however, and I do not currently have the expertise (or the time) to pursue this line of reasoning. Thus, for now, I will only note that section 2 of this article review is perhaps a misled extension of Collins's (2005) analysis of the passive.
 
-[CollinsArticleReview]: http://adamliter.org/content/article-reviews/collins2005-review-adamliter
+[CollinsArticleReview]: http://adamliter.org/content/article-reviews/collins2005-review-adamliter.pdf
