@@ -147,7 +147,7 @@ He also motivates the ability to take such complementation on the basis of five 
 
 It is worth nothing that the judgments reported in Brownlow (2011) actually disagree with previous judgments reported in the literature. Specifically, Alexiadou (2005), following Fox & Grodzinsky (1998), judges (17c) and (17e) as ungrammatical.[^17] Nonetheless, the motivation for passive complementation in (16) seems plausible, and, at any rate, this post is largely intended to be a summary, not a critical engagement. Thus, I turn to the analysis.
 
-With regard to the analysis thereof, there are a few moving parts to the analysis of the _get_ passive: (i) a second IndentN projection[^18] and (ii) the following denotation for the passive morpheme, where Δ is a spatiotemporal interval and ximp is some implied Agent of the event who may be specified with a _by_-phrase:[^19]
+With regard to the analysis thereof, there are a few moving parts to the analysis of the _get_ passive: (i) a second IndentN projection[^18] and (ii) the following denotation for the passive morpheme, where Δ is a spatiotemporal interval and x<sub>IMP</sub> is some implied Agent of the event who may be specified with a _by_-phrase:[^19]
 
   1. {:.blog-example-continuous} ⟦-edPass-v⟧ = λf<s,t>.λΔπ.[there is an event e and an individual x<sub>IMP</sub> such that f(e) & holds(e,Δ) & Agent(e,x<sub>IMP</sub>)]\\
       (2011:186)
