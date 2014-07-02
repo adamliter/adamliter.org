@@ -73,7 +73,7 @@ First, Brownlow notes that _get_ seems to only combine with adjectives that are 
 
 Specifically, the Pred in (8) accounts for stage-level adjectives because the _holds_ relation holds between a property and an eventuality and the _Holder_ relation then holds between that eventuality and an individual, thereby allowing a property to only be predicated of some stage of an individual. On the other hand, the Pred in (9) predicates some property directly of an individual, accounting for individual-level adjectives, since there is no mediating eventuality argument present in the derivation.[^11]
 
-Now, since the proposed denotation for _get_ only combines with things of type <e,<s,t>>, then this analysis of _get_&mdash;at least on the assumption that this analysis of Carlson's (1977) generalizations about stages and individuals is correct&mdash;explains the data of _get_ constructions with adjectival complementation, thereby providing empirical support for the analysis.[^12]
+Now, since the proposed denotation for _get_ only combines with things of type <e,<s,t\>>, then this analysis of _get_&mdash;at least on the assumption that this analysis of Carlson's (1977) generalizations about stages and individuals is correct&mdash;explains the data of _get_ constructions with adjectival complementation, thereby providing empirical support for the analysis.[^12]
 
 ##### Chapter 3
 
