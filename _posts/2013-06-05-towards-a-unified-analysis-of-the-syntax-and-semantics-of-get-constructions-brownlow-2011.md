@@ -223,7 +223,7 @@ Alexiadou, A. (2005). A note on non-canonical passives: the case of the _get_-pa
 
 Bach, E. (1986). The algebra of events. _Linguistics and Philosophy_, 9(1):5–16.
 
-Brownlow, O. (2011). _Towards a unified analysis of the syntax and semantics of _get_ constructions_. PhD thesis, Queen Mary University of London.
+Brownlow, O. (2011). _Towards a unified analysis of the syntax and semantics of_ get _constructions_. PhD thesis, Queen Mary University of London.
 
 Burzio, L. (1986). _Italian Syntax: A Government-Binding Approach_. Dordrecht: Reidel.
 
