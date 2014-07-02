@@ -85,7 +85,7 @@ In this chapter, Brownlow addresses PP complementation of _get_. First again, ho
 
 In brief, the former pinpoint a location or position and the latter describe a path of movement. Then, Brownlow further distinguishes the DirPs on the basis of telicity&mdash;namely, as either telic, atelic, or telos ambiguous (70).
 
-In terms of _get_ complementation, then, Brownlow notes that the generalizations are the following: (i) LocPs, telic DirPs, and telos ambiguous DirPs&mdash;but **not** atelic DirPs&mdash;can combine with _get_; (ii) _at _cannot combine with _get_; and (iii) telos ambiguous DirPs disambiguate in favor of telicity when they appear as the complement of _get_:
+In terms of _get_ complementation, then, Brownlow notes that the generalizations are the following: (i) LocPs, telic DirPs, and telos ambiguous DirPs&mdash;but **not** atelic DirPs&mdash;can combine with _get_; (ii) _at_ cannot combine with _get_; and (iii) telos ambiguous DirPs disambiguate in favor of telicity when they appear as the complement of _get_:
 
   1. {:.blog-example-continuous}
     1. {:.footnote-level-two-example} LocPs\\
