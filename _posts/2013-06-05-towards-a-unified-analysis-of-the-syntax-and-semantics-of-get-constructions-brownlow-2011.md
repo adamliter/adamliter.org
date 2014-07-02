@@ -159,12 +159,12 @@ This IdentN projection does similar work as the first IdentN projection insofar 
   1. {:.blog-example-continuous} ![brownlow2011-passive](http://i.imgur.com/wKlegtW.jpg){: style="vertical-align:text-top;"}\\
       (Brownlow 2011:187)
 
-(19) accounts for normal _be _passives, says Brownlow (187); however, in order to account for _get_ passives, particularly those of either the agentive A-type or those B-type _get_ passives with reflexives, Brownlow hypothesizes that another IdentN projects, as the DP needs to move another time, out of spec,PredP and into spec,<i>v</i>P. Without another IdentN projection, the Θ-role problem would arise again. Thus, the low part of the PredP projection actually looks as it does in (20) for _get_ passives.
+(19) accounts for normal _be_-passives, says Brownlow (187); however, in order to account for _get_-passives, particularly those of either the agentive A-type or those B-type _get_-passives with reflexives, Brownlow hypothesizes that another IdentN projects, as the DP needs to move another time, out of spec,PredP and into spec,<em>v</em>P. Without another IdentN projection, the Θ-role problem would arise again. Thus, the low part of the PredP projection actually looks as it does in (20) for _get_-passives.
 
   1. {:.blog-example-continuous} ![brownlow2011-passive2](http://i.imgur.com/UEHcMaj.jpg){: style="vertical-align:text-top;"}\\
       (Brownlow 2011:188)
 
-Then, for example, the derivation of a B-type _get_ passive with a reflexive looks as follows:[^21]
+Then, for example, the derivation of a B-type _get_-passive with a reflexive looks as follows:[^21]
 
   1. {:.blog-example-continuous} ![brownlow2011-passive3](http://i.imgur.com/wWGGBWY.jpg){: style="vertical-align:text-top;"}\\
       (Brownlow 2011:190)
