@@ -14,7 +14,9 @@ nav_node: blog
 ---
 
 * * * 
+
 **Update**: This blog post was updated on 2014.06.02, as the macros now exist on GitHub.
+
 * * * 
 
 Here's a [link to documentation][lingsemDoc] for LaTeX macros that I---with the help of Alan Munn's [answer on TeX.SX][AlanAnswer]---have written in order to make the typesetting of semantic denotations and computations both easier and more readable.[^1] Suggestions and improvements are more than welcome. The source code for macros is available on [GitHub][GitHub], so if you want to contribute feel free to fork the repo and/or submit a pull request. Alternatively, if you just want to suggest an improvement, feel free to open an issue in the [issue tracker][issues].
