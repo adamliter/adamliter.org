@@ -8,9 +8,9 @@ nav_node: spoken-word
 
 ## Spoken Word That I Procrastinate To
 
-This is a list of spoken word pieces that I (i) procrastinate to, (ii) would (or have) watche(d) one, two, three, and even twenty-seven times, (iii) don't want to ever forget about, (iv) and/or might want to share with friends (and hence want to have some documentation of the name of the piece and/or a link to the piece).
+This is a list of spoken word pieces that I (i) procrastinate to, (ii) would (or have) watch(ed) one, two, three, and even twenty-seven times, (iii) don't want to ever forget about, (iv) and/or might want to share with friends (and hence want to have some documentation of the name of the piece and/or a link to the piece).
 
-The list is currently organized by the artist (specifically, by last name, unless the artist uses a stage name, like Guante).[^1]
+The list is currently organized by the artist (specifically, by last name, unless the artist uses a stage name, like Guante, for example).[^1]
 
 ### B
 
@@ -85,6 +85,9 @@ The list is currently organized by the artist (specifically, by last name, unles
 - [Remember How We Forgot](https://www.youtube.com/watch?v=NBVJuA0jr6Y)
 
 ### M
+
+#### Venessa Marco
+- [Patriarchy](https://www.youtube.com/watch?v=TgeriyK1QN4)
 
 #### Pages Matam
 - [Piñata](https://www.youtube.com/watch?v=zgQRkHcEyq8)
