@@ -15,7 +15,7 @@ Email is definitely the best way to reach me. If I don't respond within the day,
 
 Also, I [recently started using a new OpenPGP key][PGPTransition]. You can download the key from a server with:
 
-    gpg --keyserver keys.riseup.net --recv-key '375B 6314 1683 A4D4 669E  1217 9872 3A20 8902 6CD6'
+    gpg --keyserver keys.riseup.net --recv-key '0x98723a2089026cd6'
 
 or you can get a copy of the key [here][NewKey].
 

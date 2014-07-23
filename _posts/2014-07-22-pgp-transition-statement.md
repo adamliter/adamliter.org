@@ -33,7 +33,7 @@ I have issued recovcations for both of these keys, and the [new key][NewKey] tha
 
 You can fetch the key from a public server with:
 
-    gpg --keyserver keys.riseup.net --recv-key '375B 6314 1683 A4D4 669E  1217 9872 3A20 8902 6CD6'
+    gpg --keyserver keys.riseup.net --recv-key '0x98723a2089026cd6'
 
 I have signed this new key with my old keys, which you can verify, if you already had my old keys.
 
