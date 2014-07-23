@@ -1,41 +1,25 @@
 ---
 title: Adam Liter | Contact
 layout: default
-date: 2014-06-01
+date: 2014-07-22
 nav_child: 1
 nav_node: contact
 ---
 
 ## Contact Information
 					
-Email is definitely the best way to reach me. If I don't respond within the day, I'm probably dead.
+Email is definitely the best way to reach me. If I don't respond within the day, I'm probably dead. I can be reached at either of the following email addresses:
 
-<table style="border-spacing: 1em 0em;">
-	<tr>
-		<td>
-			&#8226;
-		</td>
-		<td>
-			adam {dot} liter {at} gmail {dot} com
-		</td>
-		<td>
-			<a href="/content/PGP/adamliter.asc">[PGP Public Key]</a>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			&#8226;
-		</td>
-		<td>
-			literada {at} msu {dot} edu
-		</td>
-		<td>
-			<a href="/content/PGP/literada.asc">[PGP Public Key]</a>
-		</td>
-	</tr>
-</table>
+- adam {dot} liter {at} gmail {dot} com
+- literada {at} msu {dot} edu
 
-Other places you can find me on the internet include:
+Also, I [recently started using a new OpenPGP key][PGPTransition]. You can download the key from a server with:
+
+    gpg --keyserver keys.riseup.net --recv-key '375B 6314 1683 A4D4 669E  1217 9872 3A20 8902 6CD6'
+
+or you can get a copy of the key [here][NewKey].
+
+Laslty, other places you can find me on the internet include:
 
 - [Facebook][facebook]
 - [Twitter][twitter]
@@ -44,3 +28,5 @@ Other places you can find me on the internet include:
 [facebook]: https://www.facebook.com/adam.liter.7
 [twitter]: https://twitter.com/adam_liter
 [tex-sx]: http://tex.stackexchange.com/users/32888/adam-liter
+[NewKey]: https://bit.ly/adamliterpgp
+[PGPTransition]: http://adamliter.org/activism/security/2014/07/22/pgp-transition-statement/
