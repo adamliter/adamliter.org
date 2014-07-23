@@ -31,9 +31,11 @@ I have issued recovcations for both of these keys, and the [new key][NewKey] tha
 	pub   4096R/0x98723A2089026CD6 2014-07-22
           Key fingerprint = 375B 6314 1683 A4D4 669E  1217 9872 3A20 8902 6CD6
 
-You can fetch the key from a public server with `gpg --keyserver keys.riseup.net --recv-key '375B 6314 1683 A4D4 669E  1217 9872 3A20 8902 6CD6'`.
+You can fetch the key from a public server with:
 
-I have signed this with my old keys, which you can verify, if you already had my old keys.[^1]
+    gpg --keyserver keys.riseup.net --recv-key '375B 6314 1683 A4D4 669E  1217 9872 3A20 8902 6CD6'
+
+I have signed this new key with my old keys, which you can verify, if you already had my old keys.[^1]
 
 #### The rationale
 
@@ -43,9 +45,9 @@ I was previously using two keys---one for each of my email addresses---which doe
 
 #### Notes
 
-[^1]: Furthermore, as the source code for this website is hosted on GitHub, you can view [the commit for this blog post][commit], which was signed with my new OpenPGP key.
+[^1]: Furthermore, as the source code for this website is hosted on GitHub, you can view [the commits for this blog post][commits], which were signed with my new OpenPGP key.
 
 [NewKey]: https://bit.ly/adamliterpgp
 [1]: http://www.void.gr/kargig/blog/2013/12/02/creating-a-new-gpg-key-with-subkeys/
 [2]: https://alexcabal.com/creating-the-perfect-gpg-keypair/
-[commit]: https://github.com/adamliter/adamliter.github.io/blob/master/_posts/2014-07-22-pgp-transition-statement.md
+[commits]: https://github.com/adamliter/adamliter.github.io/commits/master/_posts/2014-07-22-pgp-transition-statement.md
