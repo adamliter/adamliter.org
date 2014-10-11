@@ -31,7 +31,7 @@ I **really** like coffee. I worked as a barista, off-and-on, for a few years at 
 
 #### Notes
 
-[^1]: If you're wondering why I'm recognizing the Indigienous peoples who were here before, it is because I think such an act is an important first step in pushing back against colonialism and highlighting the fact that there is an ongoing genocide against Indigineous peoples. A friend of mine has written [a piece][tyler] that goes into more detail about the importance of this.
+[^1]: If you're wondering why I'm recognizing the indigienous peoples who were here before, it is because I think such an act is an important first step in pushing back against colonialism and highlighting the fact that there is an ongoing genocide against indigineous peoples. A friend of mine has written [a piece][tyler] that goes into more detail about the importance of this.
 
 [academic]: http://adamliter.org/academic/
 [DOC]: http://dis-orientation.info/
