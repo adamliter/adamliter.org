@@ -12,7 +12,7 @@ I'm currently pursuing an M.A. in linguistics, at Michigan State University, whe
 
 As an undergraduate, I was President (er&#8230;, well, 'Prime Minister', technically) of [qUALMS][qUALMS], the "q Undergraduate Association for Linguistics at Michigan State", founded by [Chris Heffner][Chris].
 
-If you really want to---though I'm not sure why you would want to---you can do the following here:
+Things you can do here include:
 
 - [Figure out what a 'linguist' is and what I'm (currently) interested in researching][interests]
 - [Take a look at my current and former work][work]
