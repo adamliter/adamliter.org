@@ -14,7 +14,7 @@ As an undergraduate, I was President (er&#8230;, well, 'Prime Minister', technic
 
 Things you can do here include:
 
-- [Figure out what a 'linguist' is and what I'm (currently) interested in researching][interests]
+- [Figure out what a 'linguist' is and what I'm (interested in) researching][interests]
 - [Take a look at my current and former work][work]
 - [Take a look at my CV][CV]
 - [Go figure out what this 'qUALMS' business is about][qUALMS]
