@@ -49,7 +49,7 @@ Here's a (hopefully useful) conglomeration of links to places on the internet th
 
 - [UPenn's no-longer maintained LaTeX advice for linguists](http://www.ling.upenn.edu/advice/latex.html)
 - [LaTeX for Linguists](http://www.essex.ac.uk/linguistics/external/clmt/latex4ling/)
-- A [tree drawing workshop](https://www.msu.edu/~hanson54/latex/workshop/), by my friend [Kenneth Hanson](https://www.msu.edu/~hanson54), in which you can also find a [tree drawing guide](https://www.msu.edu/~amunn/latex/latex-previewer-trees.pdf) from [Alan Munn](http://www.msu.edu/~amunn)
+- A [tree drawing workshop](https://www.msu.edu/~hanson54/latex/workshops/), by my friend [Kenneth Hanson](https://www.msu.edu/~hanson54), in which you can also find a [tree drawing guide](https://www.msu.edu/~amunn/latex/latex-previewer-trees.pdf) from [Alan Munn](http://www.msu.edu/~amunn)
 
 ### Coffee:
 
