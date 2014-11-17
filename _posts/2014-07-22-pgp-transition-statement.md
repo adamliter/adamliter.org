@@ -39,7 +39,7 @@ I have signed this new key with my old keys, which you can verify, if you alread
 
 #### The rationale
 
-I was previously using two keys---one for each of my email addresses---which doesn't necessarily make the most sense. Moreover, I have now set things up to use subkeys and am actively protecting the master key. This is ultimately a better set up than what I was using before. If you would like to do something similar, either of these tutorials ([1][2], [2][2]) would be helpful for doing so, and they both briefly touch on why this is a better set up.
+I was previously using two keys---one for each of my email addresses---which doesn't necessarily make the most sense. Moreover, I have now set things up to use subkeys and am actively protecting the master key. This is ultimately a better set up than what I was using before. If you would like to do something similar, either of these tutorials ([1][1], [2][2]) would be helpful for doing so, and they both briefly touch on why this is a better set up.
 
 [NewKey]: https://bit.ly/adamliterpgp
 [1]: http://www.void.gr/kargig/blog/2013/12/02/creating-a-new-gpg-key-with-subkeys/
