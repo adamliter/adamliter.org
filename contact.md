@@ -1,7 +1,7 @@
 ---
 title: Adam Liter | Contact
 layout: default
-date: 2014-07-22
+date: 2015-07-11
 nav_child: 1
 nav_node: contact
 ---
@@ -21,12 +21,14 @@ or you can get a copy of the key [here][NewKey].
 
 Laslty, other places you can find me on the internet include:
 
-- [Facebook][facebook]
+- [Keybase][keybase]
 - [Twitter][twitter]
 - [TeX.SX][tex-sx]
+- [Facebook][facebook]
 
-[facebook]: https://www.facebook.com/adam.liter.7
+[keybase]: https://keybase.io/adamliter/
 [twitter]: https://twitter.com/adam_liter
 [tex-sx]: http://tex.stackexchange.com/users/32888/adam-liter
-[NewKey]: https://bit.ly/adamliterpgp
+[facebook]: https://www.facebook.com/adam.liter.7
+[NewKey]: https://keybase.io/adamliter/key.asc
 [PGPTransition]: http://adamliter.org/activism/security/2014/07/22/pgp-transition-statement/
