@@ -1,7 +1,7 @@
 ---
 title: Adam Liter | Contact
 layout: default
-date: 2015-07-11
+date: 2015-11-07
 nav_child: 1
 nav_node: contact
 ---
