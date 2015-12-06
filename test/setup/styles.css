@@ -1,0 +1,117 @@
+body {
+	font-size: 14pt;
+	background-color: #445;
+	padding-top: 2ex;
+	text-align: center;
+	overflow-y: scroll;
+}
+
+#main {
+	width: 600px;
+	margin: auto;	
+	border: none;
+	padding: 0px;
+	background-color: #eee;
+	color: #000;
+	position: relative;
+	clear:both;
+}
+#mainwrapper {
+	width: 640px;
+	margin: auto;	
+	border: solid black 1px;
+	padding: 20px 0px;
+	background-color: #eee;
+	position: relative;
+	clear:both;
+}
+h1 {
+	color: #390;
+}
+
+input, select, textarea {
+	font-size: 2ex;
+}
+
+#footer {
+	text-align: left;
+	width: 640px;
+	margin: auto;	
+	padding: 10px 0px 0px 0px;
+	color: #aaa;	
+	font-size: 10pt;
+	clear:both;
+}
+
+
+
+
+#progressbar {
+	float: right;
+	direction: ltr;
+}
+#progress_text {
+	float: right;
+	font-size: 10pt;
+	color: #aaa;
+	padding-right: 6px;
+}
+#progress_bar_full {
+	float: right;
+	height: 3px;
+	margin: 4px 0px 4px 0px;
+	background-color: #aaa;
+	border-left: solid 1px #aaa;
+	border-top: solid 1px #aaa;
+	border-bottom: solid 1px #aaa;
+}
+#progress_bar_empty {
+	float: right;
+	height: 3px;
+	margin: 4px 0px 4px 0px;
+	border-right: solid 1px #aaa;
+	border-top: solid 1px #aaa;
+	border-bottom: solid 1px #aaa;
+}
+
+.trialpartWrapper {
+	display: none;
+	text-align:center; 
+	padding-top: 20px;
+}
+
+.soundbutton {
+}
+
+
+
+.scaleWrapper {
+	text-align: center;
+}
+.scaleEdgeLabel {
+	display: inline;
+	margin: .5ex;
+}
+.scalebuttonWrapper {
+	display: inline;
+}
+.scaleButton {
+	display: inline;
+	margin: .35ex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

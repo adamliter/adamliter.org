@@ -1,0 +1,61 @@
+
+<%
+	frame.text1 = frame.text1.replace(/_+/,"<b><i>" + item + "</i></b>");
+%>
+
+
+<div style="text-align: center; line-height:130%;">
+	<p>
+	<%= frame.text1 %>
+	<br>
+	<%= frame.text2 %>
+</div>
+
+
+<div class="trialpartWrapper" style="float:left; height: 3em; width: 40%;">
+	<%= makeSoundButton({soundFile: file_sg , soundFile2: this["file_pl" + order]}) %>
+</div>
+
+<div class="trialpartWrapper" style="float:right; height: 3em; width: 40%;">
+	<%= makeSoundButton({soundFile: file_sg , soundFile2: this["file_pl" + (3-order)]}) %>
+</div>
+
+
+
+<div class="trialpartWrapper" style="clear:both; text-align: center;">  
+	Which plural do you prefer?
+	<p>
+	<%= makeScale({buttons: ["1","2","3","4","5","6","7"], edgelabels: ["first one", "second one"]}) %>
+</div>
+
+
+<div class="trialpartWrapper" style="clear:both; text-align: center;">  
+	Try a radio button, why don't you.
+	<p>
+	<%= makeScale({buttons: ["1","2","3","4","5"], edgelabels: ["first one", "second one"], buttontype: "radio", disable: true  }) %>
+</div>
+
+
+<div class="trialpartWrapper" style="clear:both; text-align: center;">  
+	Press one of these two buttons.   We'll tell you which one was right as soon as it's too late to change your mind. 
+	<p>
+	<%= makeScale({buttons: ["YMMV", "YOLO"], edgelabels: ["", ""], disable: true, rightAnswer: "YOLO", feedbackID: "#feedback", feedbackWrong: "No, you were supposed to press RIGHTANSWER.",  feedbackRight: "Great! RIGHTANSWER is the right answer."  }) %>
+	<div id="feedback" style="padding:30px;"></div>
+
+</div>
+
+
+<div class="trialpartWrapper" style="clear:both; text-align: center;">  
+	Please make this question disappear by pressing one of the bottons below. 
+	<p>
+	<%= makeScale({buttons: ["OMG", "WTF", "WHATEVER"], edgelabels: ["", ""], disable: true, hide: true }) %>
+</div>
+
+<div class="trialpartWrapper" style="clear:both; text-align: center;">  
+	Ready for the next item?
+	<p>
+	<%= makeScale({buttons: ["sure", "totes"], edgelabels: ["", ""], disable: true  }) %>
+</div>
+
+
+<div style="clear: both; height: 1px;">&nbsp;</div>
