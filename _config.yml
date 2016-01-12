@@ -1,21 +1,92 @@
-name: "Adam Liter"
-description: "Adam Liter's personal webpage."
+# Global configuration
+source:               .
+destination:          ./_site
+plugins_dir:          ./_plugins
+layouts_dir:          ./_layouts
+data_dir:             ./_data
+includes_dir:         ./_includes
+collections:          null
 
-url: "http://adamliter.org/"
 
-paginate: 10
+# Handling reading
+safe:                 false
+include:              []
+exclude:              ["bootstrap"]
+keep_files:           [".git", ".svn"]
+encoding:             "utf-8"
+markdown_ext:         "markdown,mkdown,mkdn,mkd,md"
 
-gems:
-- jekyll-sitemap
 
-markdown: kramdown
+# Filtering content
+show_drafts:          null
+limit_posts:          0
+future:               false
+unpublished:          false
 
-# For enabling footnotes
-# if the markdown converter
-# is rdiscount
+
+# Plugins
+whitelist:            []
+gems:                 [jekyll-paginate, jekyll-gist, jekyll-sitemap]
+
+
+# Conversion
+markdown:             kramdown
+highlighter:          rouge
+lsi:                  false
+excerpt_separator:    "\n\n"
+incremental:          false
+
+
+# Serving locally
+detach:               false
+port:                 4000
+host:                 127.0.0.1
+baseurl:              "" # does not include hostname
+
+
+# Outputting
+permalink:            pretty
+paginate:             10
+paginate_path:        /page:num
+timezone:             null
+quiet:                false
+defaults:
+  -
+    scope:
+      path:           ""
+      type:           "posts"
+    values:
+      layout:         "post-default"
+      author:         "Adam Liter"
+  -
+    scope:
+      path:           ""
+      type:           "pages"
+    values:
+      layout:         "default"
+
+
+# Markdown processors
 rdiscount:
- extensions:
-  - footnotes
+  extensions:         []
 
-permalink: pretty
-highlighter: pygments
+redcarpet:
+  extensions:         []
+
+kramdown:
+  input:              GFM
+  syntax_highlighter: rouge
+  auto_ids:           true
+  footnote_nr:        1
+  entity_output:      as_char
+  toc_levels:         1..6
+  smart_quotes:       lsquo,rsquo,ldquo,rdquo
+  enable_coderay:     false
+
+
+# Meta information
+name:                 "Adam Liter"
+description:          "Adam Liter's personal webpage."
+keywords:             "Adam, Adam Liter, Liter, linguistics, semantics, syntax, philosophy of language, child language acquisition, web development, development, web"
+#url:                  "http://127.0.0.1:4000/"
+url:                  "http://adamliter.org/"
