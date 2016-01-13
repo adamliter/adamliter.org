@@ -1,130 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <!-- meta -->
+    <title>{{ page.title }} </title>
+    <meta charset="utf-8" /> 
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="keywords" content="{{ site.keywords }}" />
+    <!-- styling and favicons -->
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}css/main.css" />
+    <link rel="shortcut icon" href="{{ site.url }}favicon.ico" />
+    {% if page.nav_child == 3 %}
+    <!-- mathjax and mathml -->
+    {% include mathjax-and-mathml.html %}
+    {% endif %}
+  </head>
 
-	<head>
-	
-	  <title>{{ page.title }} </title>
-		
-		<meta charset='utf-8' /> 
-		
-		<meta name="description" content="{{ site.description }}" />
-		
-		<meta name="keywords" content="{{ site.keywords }}" />
-		
-		<link rel="stylesheet" type="text/css" href="{{ site.url }}css/main.css" />
-		
-		<link rel="shortcut icon" href="{{ site.url }}favicon.ico" /> 
-		
-		<style type="text/css">article.tab-nav section:nth-child({{page.nav_child}}){z-index:5;}
-		</style>
-		
-		{% if page.nav_child == 3 %}
-			{% include mathjax-and-mathml.html %}
-		{% endif %}
-		
-	</head>
-
-	<body>
-	
-	<div id="main-wrapper">
-
-		<div id="header-wrapper">
-		
-		  <div id="page-title">
-		    <table>
-		      <tr>
-			<td class="left">
-			  <a href="{{ site.url }}">Adam Liter
-			  </a>
-			</td>
-			<td class="right">
-			  <a href="https://twitter.com/adam_liter">
-			    <img alt="twitter" width="40" src="http://i.imgur.com/c8I975U.png">
-			  </a>
-			  <a href="https://www.facebook.com/adam.liter.7">
-			    <img alt="facebook" width="40" src="http://i.imgur.com/rC9zyQk.png" />
-			  </a>
-			</td>
-		      </tr>
-		    </table>
-		  </div>
-		  <!-- END page-title div-->
-				
-		  <div id="header">
-		    <article class="tab-nav">
-	<section id="tab1">
-	  <h2>
-	    <a {% if page.nav_node == 'home' %}class="current"{% else %}class="profile"{% endif %} href="{{ site.url }}">Me</a>
-	  </h2>
-			<ul class="tabmenu">
-			  <li>
-			    <a {% if page.nav_node == 'about' %}class="current"{% else %}class="profile"{% endif %} href="{{ site.url }}about/">About</a>
-			  </li>
-			  <li>
-			    <a {% if page.nav_node == 'contact' %}class="current"{% else %}class="profile"{% endif %} href="{{ site.url }}contact/">Contact</a>
-			  </li>
-			</ul>
-	</section>
-	<section id="tab2">
-	  <h2>
-	    <a {% if page.nav_node == 'academic' %}class="current"{% else %}class="profile"{% endif %} href="{{ site.url }}academic/">Academic</a>
-	  </h2>
-			<ul class="tabmenu">
-			  <li>
-			    <a {% if page.nav_node == 'interests' %}class="current"{% else %}class="profile"{% endif %} href="{{ site.url }}academic/interests/">Research Interests</a>
-			  </li>
-				<li>
-				  <a {% if page.nav_node == 'work' %}class="current"{% else %}class="profile"{% endif %} href="{{ site.url }}academic/work/">Work</a>
-				</li>
-				<li>
-				  <a class="profile" href="{{ site.url }}content/adamlitercv.pdf">Curriculum Vitae</a>
-				</li>
-				<li>
-				  <a class="profile" href="https://www.msu.edu/~qualms/">qUALMS</a>
-				</li>
-			</ul>
-	</section>
-	<section id="tab3">
-		<h2>
-		  <a {% if page.nav_node == 'blog' %}class="current"{% else %}class="profile"{% endif %} href="{{ site.url }}blog/">Blog</a>
-		</h2>
-			<ul class="tabmenu">
-				<li>
-				  <a {% if page.nav_node == 'linguistics' %}class="current"{% else %}class="profile"{% endif %} href="{{ site.url }}blog/linguistics/">Linguistics</a>
-				</li>
-				<li>
-				  <a {% if page.nav_node == 'philosophy' %}class="current"{% else %}class="profile"{% endif %} href="{{ site.url }}blog/philosophy/">Philosophy</a>
-				</li>
-				<li>
-				  <a {% if page.nav_node == 'travel' %}class="current"{% else %}class="profile"{% endif %} href="{{ site.url }}blog/travel/">Travel</a>
-				</li>
-				<li>
-				  <a {% if page.nav_node == 'coffee' %}class="current"{% else %}class="profile"{% endif %} href="{{ site.url }}blog/coffee/">Coffee</a>
-				</li>
-			</ul>
-	</section>
-	<section id="tab4">
-		<h2>
-		  <a {% if page.nav_node == 'personal' %}class="current"{% else %}class="profile"{% endif %} href="{{ site.url }}personal/">Personal</a>
-		</h2>
-			<ul class="tabmenu">
-				<li>
-				  <a {% if page.nav_node == 'reading' %}class="current"{% else %}class="profile"{% endif %} href="{{ site.url }}personal/reading/">Reading</a>
-				</li>
-			</ul>
-	</section>
-	<section id="tab5">
-		<h2>
-		  <a {% if page.nav_node == 'misc' %}class="current"{% else %}class="profile"{% endif %} href="{{ site.url }}misc/">Miscellaneous</a>
-		</h2>
-			<ul class="tabmenu">
-				<li>
-				  <a {% if page.nav_node == 'links' %}class="current"{% else %}class="profile"{% endif %} href="{{ site.url }}misc/links/">Links</a>
-				</li>
-			</ul>
-	</section>
-	</article></div><!-- END header div-->
-			
-		</div><!-- END header-wrapper div-->
-			
-			<div id="content-wrapper">
+  <body>
+    <!-- header -->
+    <header>
+      <!-- navbar -->
+      <nav class="navbar navbar-default navbar-static-top">
+	<div class="container-fluid">
+	  <div class="navbar-header">
+	    <a href="{{ site.url }}" class="navbar-brand">
+	      Adam Liter
+	    </a>
+	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	      <span class="sr-only">Toggle navigation</span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	    </button>
+	  </div><!-- End of .navbar-header div -->
+	  <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
+	    <li {% if page.nav_node == "home" %} class="active" {% endif %} >
+	      <a href="{{ site.url }}">
+		home
+		{% if page.nav_node == "home" %}<span class="sr-only">(current)</span>{% endif %}   
+	      </a>
+	    </li>
+	    <li {% if page.nav_node == "about" %} class="active" {% endif %} >
+	      <a href="{{ site.url}}about">
+		about
+		{% if page.nav_node == "about" %}<span class="sr-only">(current)</span>{% endif %}
+	      </a>
+	    </li>
+	  </ul>
+	</div><!-- End of .container-fluid div -->
+      </nav><!-- End of navbar -->
+    </header><!-- End of header -->
+    <!-- main content -->
+    <main class="container">
