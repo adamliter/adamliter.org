@@ -64,7 +64,8 @@ defaults:
       type:           "pages"
     values:
       layout:         "default"
-
+sass:
+  style:              compressed
 
 # Markdown processors
 rdiscount:
@@ -88,5 +89,5 @@ kramdown:
 name:                 "Adam Liter"
 description:          "Adam Liter's personal webpage."
 keywords:             "Adam, Adam Liter, Liter, linguistics, semantics, syntax, philosophy of language, child language acquisition, web development, development, web"
-#url:                  "http://127.0.0.1:4000/"
-url:                  "http://adamliter.org/"
+url:                  "http://127.0.0.1:4000/"
+#url:                  "http://adamliter.org/"
