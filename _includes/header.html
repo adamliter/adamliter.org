@@ -9,6 +9,8 @@
     <!-- styling and favicons -->
     <link rel="stylesheet" type="text/css" href="{{ site.url }}css/main.css" />
     <link rel="shortcut icon" href="{{ site.url }}favicon.ico" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     {% if page.nav_child == 3 %}
     <!-- mathjax and mathml -->
     {% include mathjax-and-mathml.html %}
@@ -45,6 +47,64 @@
 		{% if page.nav_node == "about" %}<span class="sr-only">(current)</span>{% endif %}
 	      </a>
 	    </li>
+	    <li {% if page.nav_node == "blog" %} class="active" {% endif %} >
+	      <a href="{{ site.url }}blog">
+		blog
+		{% if page.nav_node == "blog" %}<span class="sr-only">(current)</span>{% endif %}
+	      </a>
+	    </li>
+	    <li {% if page.nav_node == "research" %} class="active" {% endif %} >
+	      <a href="{{ site.url }}research">
+		research
+		{% if page.nav_node == "research" %}<span class="sr-only">(current)</span>{% endif %}
+	      </a>
+	    </li>
+	    <li>
+	      <a href="{{ site.url }}content/adamlitercv.pdf">
+		cv
+	      </a>
+	    </li>
+	    <li class="dropdown">
+	      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+		external
+		<span class="caret"></span>
+	      </a>
+	      <ul class="dropdown-menu">
+		<!-- citations
+		<li>
+		  <a href="https://scholar.google.com/citations?hl=en&user=hdg-68EAAAAJ">
+		    <i class="fa fa-google"></i> Citations
+		  </a>
+		</li>
+		<li class="divider"></li>
+                -->
+		<li>
+		  <a href="https://github.com/adamliter">
+		    <i class="fa fa-github-square"></i> GitHub
+		  </a>
+		</li>
+		<li>
+		  <a href="https://stackexchange.com/users/2978319/adam-liter">
+		    <i class="fa fa-stack-exchange"></i> Stack Exchange
+		  </a>
+		</li>
+		<li>
+		  <a href="https://keybase.io/adamliter">
+		    <i class="fa fa-key"></i> Keybase
+		  </a>
+		</li>
+		<li class="divider"></li>
+		<li>
+		  <a href="https://keybase.io/adamliter/key.asc">
+		    <i class="fa fa-lock"></i> PGP
+		  </a>
+		</li>
+		<li>
+		  <a href="mailto:adam.liter@gmail.com">
+		    <i class="fa fa-inbox"></i> Email me
+		  </a>
+		</li>
+	      </ul>
 	  </ul>
 	</div><!-- End of .container-fluid div -->
       </nav><!-- End of navbar -->
