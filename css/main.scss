@@ -1,4 +1,26 @@
 ---
 ---
 
+// Bootstrap overrides
+@import "variables";
+// Bootstrap
 @import "bootstrap";
+
+// Active navbar links
+.navbar-default .navbar-nav .active a::before{
+    color: black;
+    content: "{";
+    font-size: larger;
+    font-weight: 500;
+}
+
+.navbar-default .navbar-nav .active a::after{
+    color: black;
+    content: "}";
+    font-size: larger;
+    font-weight: 500;
+}
+
+.navbar-default .navbar-nav .dropdown a{
+	color: black !important;
+}

@@ -1,0 +1,49 @@
+////////////////
+// Overrides //
+//////////////
+
+/////////////
+// Colors //
+///////////
+
+$my-red:        #B22613;
+$my-blue:       #5BA2D7;
+$my-yellow:     #E69F00;
+$my-light-grey: #F8F8F8;
+$my-dark-grey:  #F0F0F0;
+
+//////////////////////
+// Semantic colors //
+////////////////////
+
+// Background and body stuff
+$body-bg:    $my-light-grey;
+$text-color: black;
+$text-muted: $my-yellow;
+
+// Brand colors
+$brand-primary: $my-blue;
+
+// Navbar
+$navbar-default-bg:                $my-dark-grey;
+$navbar-default-link-color:        black;
+$navbar-default-link-hover-color:  $my-blue;
+$navbar-default-link-active-color: $my-red;
+$navbar-default-link-active-bg:    transparent !default;
+
+// Navbar brand label
+$navbar-default-brand-color:       $my-red;
+$navbar-default-brand-hover-color: $my-red;
+
+// Dropdowns
+$dropdown-bg:            $my-light-grey;
+$dropdown-link-hover-bg: $my-dark-grey;
+
+// Default button
+$btn-default-bg: $my-light-grey;
+
+// Popovers
+$popover-bg: $my-dark-grey;
+
+// Make sure all variables are declared
+@import "bootstrap/variables";
