@@ -1,12 +1,21 @@
-      <!-- footer -->
-      <footer>
-        (c) Adam Liter
+    <!-- footer -->
+    <div class="container">
+      <footer class="footer pull-right" style="padding-top:30px;">
+        <p class="text-muted">
+          © 2011-2016 Adam Liter | page last updated on {{ page.date | date: "%B %d, %Y" }}
+        </p>
       </footer><!-- End of footer -->
-    </main><!-- End of main content -->
+    </div><!-- End of .container -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="{{ site.url }}/js/bootstrap.min.js"></script>
+    <!-- Enable popovers -->
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="popover"]').popover({html:true});
+      });
+    </script>
   </body>
 </html>
