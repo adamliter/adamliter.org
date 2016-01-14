@@ -1,14 +1,29 @@
 ---
 ---
 
-// Bootstrap overrides
-@import "variables";
-// Bootstrap
-@import "bootstrap";
+@font-face{
+    font-family: 'MyItalianno';
+    src: url('../fonts/italianno.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../fonts/italianno.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
 
+@font-face{
+    font-family: 'MyRaleway';
+    src: url('../fonts/raleway.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../fonts/raleway.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+.navbar-default .navbar-brand{
+	font-family: 'MyItalianno', cursive;
+	font-size: xx-large;
+	font-weight: 900;
+}
+
+/*
 // Active navbar links
 .navbar-default .navbar-nav .active a::before{
     color: black;
+    width: 0;
     content: "{";
     font-size: larger;
     font-weight: 500;
@@ -16,10 +31,12 @@
 
 .navbar-default .navbar-nav .active a::after{
     color: black;
+    width: 0;
     content: "}";
     font-size: larger;
     font-weight: 500;
 }
+*/
 
 .navbar-default .navbar-nav .dropdown a{
 	color: black !important;
@@ -28,3 +45,8 @@
 main{
 	border-bottom: 0.188em solid #8E8E8E;
 }
+
+// Bootstrap overrides
+@import "variables";
+// Bootstrap
+@import "bootstrap";

@@ -2,6 +2,13 @@
 // Overrides //
 //////////////
 
+////////////
+// Fonts //
+//////////
+
+$headings-font-family: "MyRaleway", sans-serif;
+$font-family-base:     Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;;
+
 /////////////
 // Colors //
 ///////////
@@ -21,6 +28,9 @@ $body-bg:    $my-light-grey;
 $text-color: black;
 $text-muted: $my-yellow;
 
+// Headings
+$headings-color: $my-red; 
+
 // Brand colors
 $brand-primary: $my-blue;
 
@@ -28,7 +38,7 @@ $brand-primary: $my-blue;
 $navbar-default-bg:                $my-dark-grey;
 $navbar-default-link-color:        black;
 $navbar-default-link-hover-color:  $my-blue;
-$navbar-default-link-active-color: $my-red;
+$navbar-default-link-active-color: $my-yellow;
 $navbar-default-link-active-bg:    transparent !default;
 
 // Navbar brand label
