@@ -7,7 +7,6 @@
 //////////
 
 $headings-font-family: "MyRaleway", sans-serif;
-$font-family-base:     Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;;
 
 /////////////
 // Colors //
@@ -29,7 +28,8 @@ $text-color: black;
 $text-muted: $my-yellow;
 
 // Headings
-$headings-color: $my-red; 
+$headings-color:       $my-red;
+$headings-font-weight: 900 !important; 
 
 // Brand colors
 $brand-primary: $my-blue;
