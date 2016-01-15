@@ -1,13 +1,31 @@
 ---
-title: Adam Liter
+title: adamliter
 layout: default
 date: 2014-06-25
-nav_child: 1
 nav_node: home
 ---
 
-<img height="266" width="300" style="display: block;margin-left: auto;margin-right: auto;background-color:#F0F0F0;" alt="me" src="http://i.imgur.com/FpD2Z9h.gif" />
+# /about
 
-<div id="ipa">				
-<p class="tooltips">[&aelig;&#638;&#601;m.l&#593;&#618;&#638;&#602;]<span>This is how you pronounce my name in IPA, the <a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet">International Phonetic Alphabet</a>.</span></p>
-</div>
+I'm currently an MA student in linguistics at Michigan State University. My main research interests in linguistics include syntax, semantics, their interface, and architectural issues more broadly. (For more information, see my [research page][research].)
+
+I **really** like coffee. I worked as a barista, off-and-on, for a few years at the [Dunn Bros at the Smith Douglas More House][DB].
+
+I'm interested in system administration, programming, and web development. I've taught myself some of the basics and plan to learn more.
+
+# /recent-updates
+
+<ul>
+{% for post in site.posts %}
+
+{% if post.categories contains "Updates" limit:5 %}
+<li>
+  <strong>{{ post.date | date: "%Y-%m-%d" }}:</strong> {{ post.excerpt }}
+</li>
+{% endif %}
+
+{% endfor %}
+</ul>
+
+[research]: {{ site.url }}/research
+[DB]: https://www.facebook.com/pages/Dunn-Bros-at-the-Smith-Douglas-More-House/133169107463
