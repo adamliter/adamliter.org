@@ -1,7 +1,7 @@
 ---
 title: adamliter
 layout: default
-date: 2014-06-25
+date: 2016-01-14
 nav_node: home
 ---
 
@@ -15,12 +15,16 @@ I'm interested in system administration, programming, and web development. I've 
 
 # /recent-updates
 
+{% assign counter = 1 %}
+
 <ul>
 {% for post in site.posts %}
 
-{% if post.categories contains "Updates" limit:5 %}
+{% if counter < 6 and post.categories contains "Updates" %}
+{% assign counter = counter | plus:1 %}
 <li>
-  <strong>{{ post.date | date: "%Y-%m-%d" }}:</strong> {{ post.excerpt }}
+  <strong>{{ post.date | date: "%Y-%m-%d" }}</strong>
+  <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
 </li>
 {% endif %}
 
