@@ -1,10 +1,11 @@
 ---
-post_author: Adam Liter
+author: Adam Liter
 date: 2013-09-16 00:33:33+00:00
 layout: post-default
 slug: by-the-way-children-dont-know-by-hirsch-wexler-2006
 title: '"By the Way, Children Don’t Know By" - Hirsch & Wexler (2006)'
 categories:
+- Blog
 - Academic
 - Linguistic Summaries
 - Linguistics
@@ -13,7 +14,6 @@ tags:
 - by-phrase
 - passives
 - syntax
-nav_child: 3
 nav_node: blog
 ---
 

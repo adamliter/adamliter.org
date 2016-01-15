@@ -1,10 +1,11 @@
 ---
-post_author: Adam Liter
+author: Adam Liter
 date: 2013-05-27 21:50:32+00:00
 layout: post-default
 slug: the-maturation-of-syntax-borer-wexler-1987
 title: '"The Maturation of Syntax" - Borer & Wexler (1987)'
 categories:
+- Blog
 - Academic
 - Linguistic Summaries
 - Linguistics

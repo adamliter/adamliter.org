@@ -1,15 +1,15 @@
 ---
-post_author: Adam Liter
+author: Adam Liter
 date: 2014-06-08
 layout: post-default
 slug: the-emacs-cliff-dive
 title: "The Emacs cliff dive"
 categories:
+- Blog
 - Coding
 tags:
 - Emacs
 - text editors
-nav_child: 3
 nav_node: blog
 ---
 

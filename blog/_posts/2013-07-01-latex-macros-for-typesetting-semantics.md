@@ -1,10 +1,11 @@
 ---
-post_author: Adam Liter
+author: Adam Liter
 date: 2013-07-01 03:25:59+00:00
 layout: post-default
 slug: latex-macros-for-typesetting-semantics
 title: LaTeX Macros for Typesetting Semantics
 categories:
+- Blog
 - Academic
 - Linguistics
 tags:

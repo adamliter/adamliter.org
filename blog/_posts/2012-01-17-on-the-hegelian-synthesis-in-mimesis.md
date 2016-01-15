@@ -1,17 +1,17 @@
 ---
-post_author: Adam Liter
+author: Adam Liter
 date: 2012-01-17 23:45:48+00:00
 layout: post-default
 slug: on-the-hegelian-synthesis-in-mimesis
 title: '"On" the Hegelian synthesis in Mimesis (Or, why Auerbach is obviously not
   sympathetic to Right Hegelianism)'
 categories:
+- Blog
 - Academic
 - Philosophy
 tags:
 - Hegel
 - mimesis
-nav_child: 3
 nav_node: blog
 ---
 

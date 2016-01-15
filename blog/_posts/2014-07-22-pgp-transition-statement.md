@@ -1,16 +1,16 @@
 ---
-post_author: Adam Liter
+author: Adam Liter
 date: 2014-07-22
 layout: post-default
 slug: pgp-transition-statement
 title: "PGP Transition Statement"
 categories:
+- Blog
 - Activism
 - Security
 tags:
 - email
 - PGP
-nav_child: 3
 nav_node: blog
 ---
 

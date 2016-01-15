@@ -1,11 +1,12 @@
 ---
-post_author: Adam Liter
+author: Adam Liter
 date: 2013-06-05 21:03:06+00:00
 layout: post-default
 slug: towards-a-unified-analysis-of-the-syntax-and-semantics-of-get-constructions-brownlow-2011
 title: '"Towards a unified analysis of the syntax and semantics of get constructions"
   - Brownlow (2011)'
 categories:
+- Blog
 - Academic
 - Linguistic Summaries
 - Linguistics

@@ -1,14 +1,14 @@
 ---
-post_author: Adam Liter
+author: Adam Liter
 date: 2011-07-06 21:36:00+00:00
 layout: post-default
 slug: die-ersten-funf-tage
 title: Die ersten fünf Tage
 categories:
+- Blog
 - Travel
 tags:
 - Germany
-nav_child: 3
 nav_node: blog
 ---
 

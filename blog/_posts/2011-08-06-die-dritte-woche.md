@@ -1,14 +1,14 @@
 ---
-post_author: Adam Liter
+author: Adam Liter
 date: 2011-08-06 16:40:00+00:00
 layout: post-default
 slug: die-dritte-woche
 title: Die dritte Woche
 categories:
+- Blog
 - Travel
 tags:
 - Germany
-nav_child: 3
 nav_node: blog
 ---
 

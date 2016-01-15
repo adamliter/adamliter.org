@@ -1,17 +1,17 @@
 ---
-post_author: Adam Liter
+author: Adam Liter
 date: 2013-06-01 20:41:24+00:00
 layout: post-default
 slug: a-smuggling-approach-to-the-passive-in-english-collins-2005
 title: '"A smuggling approach to the passive in English" - Collins (2005)'
 categories:
+- Blog
 - Academic
 - Linguistic Summaries
 - Linguistics
 tags:
 - passives
 - syntax
-nav_child: 3
 nav_node: blog
 ---
 

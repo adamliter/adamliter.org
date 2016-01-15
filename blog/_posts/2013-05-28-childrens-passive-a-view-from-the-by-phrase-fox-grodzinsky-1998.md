@@ -1,10 +1,11 @@
 ---
-post_author: Adam Liter
+author: Adam Liter
 date: 2013-05-28 03:44:12+00:00
 layout: post-default
 slug: childrens-passive-a-view-from-the-by-phrase-fox-grodzinsky-1998
 title: '"Children''s Passive: A View from the By-Phrase" - Fox & Grodzinsky (1998)'
 categories:
+- Blog
 - Academic
 - Linguistic Summaries
 - Linguistics
@@ -14,7 +15,6 @@ tags:
 - by-phrase
 - passives
 - syntax
-nav_child: 3
 nav_node: blog
 ---
 

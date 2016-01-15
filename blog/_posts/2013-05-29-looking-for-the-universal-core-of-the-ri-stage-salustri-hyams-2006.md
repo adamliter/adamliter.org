@@ -1,17 +1,17 @@
 ---
-post_author: Adam Liter
+author: Adam Liter
 date: 2013-05-29 02:53:57+00:00
 layout: post-default
 slug: looking-for-the-universal-core-of-the-ri-stage-salustri-hyams-2006
 title: '"Looking for the universal core of the RI stage" - Salustri & Hyams (2006)'
 categories:
+- Blog
 - Academic
 - Linguistic Summaries
 - Linguistics
 tags:
 - acquisition
 - RI
-nav_child: 3
 nav_node: blog
 ---
 

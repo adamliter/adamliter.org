@@ -1,14 +1,14 @@
 ---
-post_author: Adam Liter
+author: Adam Liter
 date: 2011-07-18 08:00:00+00:00
 layout: post-default
 slug: die-zweite-woche
 title: Die zweite Woche
 categories:
+- Blog
 - Travel
 tags:
 - Germany
-nav_child: 3
 nav_node: blog
 ---
 

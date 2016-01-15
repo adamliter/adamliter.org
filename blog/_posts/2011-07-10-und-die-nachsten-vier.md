@@ -1,14 +1,14 @@
 ---
-post_author: Adam Liter
+author: Adam Liter
 date: 2011-07-10 17:15:00+00:00
 layout: post-default
 slug: und-die-nachsten-vier
 title: und die nächsten vier
 categories:
+- Blog
 - Travel
 tags:
 - Germany
-nav_child: 3
 nav_node: blog
 ---
 

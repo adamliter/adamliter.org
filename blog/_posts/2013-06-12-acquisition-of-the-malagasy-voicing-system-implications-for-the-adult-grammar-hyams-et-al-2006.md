@@ -1,11 +1,12 @@
 ---
-post_author: Adam Liter
+author: Adam Liter
 date: 2013-06-12 20:51:12+00:00
 layout: post-default
 slug: acquisition-of-the-malagasy-voicing-system-implications-for-the-adult-grammar-hyams-et-al-2006
 title: '"Acquisition of the Malagasy voicing system: implications for the adult grammar"
   - Hyams et al. (2006)'
 categories:
+- Blog
 - Academic
 - Linguistic Summaries
 - Linguistics
@@ -14,7 +15,6 @@ tags:
 - Malagasy
 - syntax
 - voicing
-nav_child: 3
 nav_node: blog
 ---
 
