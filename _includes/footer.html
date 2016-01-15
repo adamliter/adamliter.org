@@ -2,7 +2,7 @@
     <div class="container-fluid">
       <footer class="footer pull-right" style="padding-top:20px;">
         <p class="text-muted">
-          © 2011-2016 Adam Liter | page last updated on {{ page.date | date: "%B %d, %Y" }}
+          © 2011-2016 Adam Liter{% if page.nav_node == "home" or page.nav_node == "research" or page.nav_node == "teaching" %} | page last updated on {{ page.date | date: "%Y-%m-%d" }} {% endif %}
         </p>
       </footer><!-- End of footer -->
     </div><!-- End of .container -->
