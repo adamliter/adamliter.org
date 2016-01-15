@@ -5,13 +5,13 @@ plugins_dir:          ./_plugins
 layouts_dir:          ./_layouts
 data_dir:             ./_data
 includes_dir:         ./_includes
-collections:          null
+collections:          research
 
 
 # Handling reading
 safe:                 false
 include:              []
-exclude:              ["bootstrap"]
+exclude:              ["bootstrap", "README.md"]
 keep_files:           [".git", ".svn"]
 encoding:             "utf-8"
 markdown_ext:         "markdown,mkdown,mkdn,mkd,md"
