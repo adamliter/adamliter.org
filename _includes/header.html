@@ -41,12 +41,6 @@
 		{% if page.nav_node == "home" %}<span class="sr-only">(current)</span>{% endif %}   
 	      </a>
 	    </li>
-	    <li {% if page.nav_node == "about" %} class="active" {% endif %} >
-	      <a href="{{ site.url}}/about">
-		about
-		{% if page.nav_node == "about" %}<span class="sr-only">(current)</span>{% endif %}
-	      </a>
-	    </li>
 	    <li {% if page.nav_node == "blog" %} class="active" {% endif %} >
 	      <a href="{{ site.url }}/blog">
 		blog
@@ -59,11 +53,23 @@
 		{% if page.nav_node == "research" %}<span class="sr-only">(current)</span>{% endif %}
 	      </a>
 	    </li>
+	    <li {% if page.nav_node == "teaching" %} class="active" {% endif %} >
+	      <a href="{{ site.url }}/teaching">
+		teaching
+		{% if page.nav_node == "teaching" %}<span class="sr-only">(current)</span>{% endif %}
+	      </a>
+	    </li>	    
 	    <li>
 	      <a href="{{ site.url }}/content/adamlitercv.pdf">
 		cv
 	      </a>
 	    </li>
+	    <li {% if page.nav_node == "updates" %} class="active" {% endif %} >
+	      <a href="{{ site.url }}/updates">
+		updates
+		{% if page.nav_node == "updates" %}<span class="sr-only">(current)</span>{% endif %}
+	      </a>
+	    </li>	    
 	    <li class="dropdown">
 	      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
 		external
