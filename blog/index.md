@@ -1,17 +1,10 @@
 ---
-title: Adam Liter | Blog
+title: adamliter/blog
 layout: default
 nav_child: 3
 nav_node: blog
 ---
-## All Blog Entries
 
-{% for post in site.posts %} {% capture y %} {{post.date | date:"%Y"}} {% endcapture %} {% if year != y %} {% assign year = y %}
-### {{ y }}
-{% endif %}
+# /blog
 
 {% include blogroll.html %}
-
-{% else %}
-<p>There are no blog posts.</p>
-{% endfor %}
