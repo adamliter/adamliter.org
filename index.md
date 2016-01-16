@@ -24,7 +24,7 @@ I'm interested in system administration, programming, and web development. I've 
 {% assign counter = counter | plus:1 %}
 <li>
   <strong>{{ post.date | date: "%Y-%m-%d" }}</strong>
-  <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+  <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_newlines | markdownify }}</p>
 </li>
 {% endif %}
 
