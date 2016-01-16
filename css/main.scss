@@ -13,6 +13,16 @@
          url('../fonts/raleway.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
+// Thicker text stroke for mobile/retina headings
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6{
+	-webkit-text-stroke: 0.5px;
+}
+
 .navbar-default .navbar-brand{
 	font-family: 'MyItalianno', cursive;
 	font-size: xx-large;
