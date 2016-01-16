@@ -1,3 +1,11 @@
+# Meta information
+name:                 "Adam Liter"
+description:          "Adam Liter's personal webpage."
+keywords:             "Adam, Adam Liter, Liter, linguistics, semantics, syntax, philosophy of language, child language acquisition, web development, development, web"
+#url:                  "http://127.0.0.1:4000"
+url:                  "http://adamliter.org"
+
+
 # Global configuration
 source:               .
 destination:          ./_site
@@ -83,11 +91,3 @@ kramdown:
   toc_levels:         1..6
   smart_quotes:       lsquo,rsquo,ldquo,rdquo
   enable_coderay:     false
-
-
-# Meta information
-name:                 "Adam Liter"
-description:          "Adam Liter's personal webpage."
-keywords:             "Adam, Adam Liter, Liter, linguistics, semantics, syntax, philosophy of language, child language acquisition, web development, development, web"
-url:                  "http://127.0.0.1:4000"
-#url:                  "http://adamliter.org"
