@@ -18,16 +18,14 @@ I'm interested in system administration, programming, and web development. I've 
 {% assign counter = 1 %}
 
 <ul>
-{% for post in site.posts %}
-
-{% if counter < 6 and post.categories contains "Updates" %}
+{% for post in site.categories.Updates %}
+{% if counter < 6 %}
 {% assign counter = counter | plus:1 %}
 <li>
   <strong>{{ post.date | date: "%Y-%m-%d" }}</strong>
-  <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_newlines | markdownify }}</p>
+  {{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_newlines | markdownify }}
 </li>
 {% endif %}
-
 {% endfor %}
 </ul>
 

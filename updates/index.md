@@ -8,16 +8,10 @@ nav_node: updates
 # /all-updates
 
 <ul>
-{% for post in site.posts %}
-
-{% if post.categories contains "Updates" %}
-
+{% for post in site.categories.Updates %}
 <li>
   <strong>{{ post.date | date: "%Y-%m-%d" }}</strong>
-  <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_newlines | markdownify }}</p>
+  {{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_newlines | markdownify }}
 </li>
-
-{% endif %}
-
 {% endfor %}
 </ul>
