@@ -19,7 +19,7 @@ collections:          null
 # Handling reading
 safe:                 false
 include:              []
-exclude:              ["bootstrap", "README.md"]
+exclude:              ["bootstrap", "README.md", "Rakefile"]
 keep_files:           [".git", ".svn"]
 encoding:             "utf-8"
 markdown_ext:         "markdown,mkdown,mkdn,mkd,md"
@@ -84,7 +84,7 @@ redcarpet:
 
 kramdown:
   input:              GFM
-  syntax_highlighter: pygments
+  syntax_highlighter: rouge
   auto_ids:           true
   footnote_nr:        1
   entity_output:      as_char
