@@ -19,7 +19,7 @@ collections:          null
 # Handling reading
 safe:                 false
 include:              []
-exclude:              ["bootstrap", "README.md", "Rakefile"]
+exclude:              ["bootstrap", "README.md", "Rakefile", "blog"]
 keep_files:           [".git", ".svn"]
 encoding:             "utf-8"
 markdown_ext:         "markdown,mkdown,mkdn,mkd,md"
