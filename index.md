@@ -1,7 +1,7 @@
 ---
 title: adamliter
 layout: default
-date: 2016-01-14
+date: 2016-03-20
 nav_node: home
 ---
 
@@ -22,7 +22,7 @@ I'm interested in system administration, programming, and web development. I've 
 {% if counter < 6 %}
 {% assign counter = counter | plus:1 %}
 <li>
-  <strong>{{ post.date | date: "%Y-%m-%d" }}</strong>
+  <strong>{{ post.date | date: "%B %d, %Y" }}</strong>
   {{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_newlines | markdownify }}
 </li>
 {% endif %}
