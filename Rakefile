@@ -1,4 +1,4 @@
-GH_PAGES_DIR = "compiled"
+GH_PAGES_DIR = "website-compiled"
 
 desc "Build Jekyll site and copy files"
 task :build do
