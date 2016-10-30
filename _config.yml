@@ -72,6 +72,12 @@ defaults:
       type:           "pages"
     values:
       layout:         "default"
+  - 
+    scope:
+      path:           "updates"
+      type:           "posts"
+    values:
+      sitemap:        false
 sass:
   style:              compressed
 
