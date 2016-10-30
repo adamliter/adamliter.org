@@ -1,9 +1,12 @@
-GH_PAGES_DIR = "website-compiled"
+COMPILED_DIR = "website-compiled"
+DEST_DIR = "_site"
 
-desc "Build Jekyll site and copy files"
+task :default => [:build]
+
+desc "Build Jekyll site and copy files to COMPILED_DIR"
 task :build do
+  system "rm -rf #{DEST_DIR}/" unless Dir["#{DEST_DIR}/*"].empty?
   system "jekyll build"
-  system "rm -r ../#{GH_PAGES_DIR}/*" unless Dir['../#{GH_PAGES_DIR}/*'].empty?
-  system "echo 'adamliter.org' > ../#{GH_PAGES_DIR}/CNAME"
-  system "cp -r _site/* ../#{GH_PAGES_DIR}/"
+  system "rm -r ../#{COMPILED_DIR}/*" unless Dir["../#{COMPILED_DIR}/*"].empty?
+  system "cp -r _site/* ../#{COMPILED_DIR}/"
 end
