@@ -8,6 +8,8 @@ task :build do
   system "rm -rf #{DEST_DIR}/" unless Dir["#{DEST_DIR}/*"].empty?
   system "jekyll build"
   system "rm -r ../#{COMPILED_DIR}/*" unless Dir["../#{COMPILED_DIR}/*"].empty?
+  # Hack around jekyll build not dereferencing symlinks
+  system "ln -sf ../../bootstrap/assets/javascripts/bootstrap.min.js #{DEST_DIR}/js/bootstrap.min.js"
   system "cp -r _site/* ../#{COMPILED_DIR}/"
   # Remove individual post pages in updates
   UPDATE_DIRS = Dir.glob("../#{COMPILED_DIR}/updates/*").select { |f| File.directory? f }
