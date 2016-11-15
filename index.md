@@ -1,7 +1,7 @@
 ---
 title: adamliter
 layout: default
-date: 2016-08-28
+date: 2016-11-14
 nav_node: home
 ---
 
@@ -10,7 +10,8 @@ nav_node: home
 I'm a trained linguist with interests in web development, programming, and system administration.
 For more information about my research, see my [research page][research].
 
-I **really** like coffee. I worked as a barista, off-and-on, for a few years at the [Dunn Bros at the Smith Douglas More House][DB].
+I **really** like coffee.
+I worked as a barista, off-and-on, for a few years at the Dunn Bros at the Smith Douglas More House, now known as [Rustica][DB].
 
 # /recent-updates
 
