@@ -11,61 +11,42 @@ I hereby claim:
 To do so, I am signing this object:
 
 {
-    "body": {
-        "client": {
-            "name": "keybase.io node.js client",
-            "version": "0.8.23"
-        },
-        "key": {
-            "eldest_kid": "0101acc2a3967a5a5e2e6964c625a5f712ae1bcbce418b89a33f056783582c9623350a",
-            "fingerprint": "375b63141683a4d4669e121798723a2089026cd6",
-            "host": "keybase.io",
-            "key_id": "98723a2089026cd6",
-            "kid": "0101acc2a3967a5a5e2e6964c625a5f712ae1bcbce418b89a33f056783582c9623350a",
-            "uid": "2141e2128ae5e881b51c324b86636f19",
-            "username": "adamliter"
-        },
-        "service": {
-            "hostname": "adamliter.org",
-            "protocol": "http:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "0101acc2a3967a5a5e2e6964c625a5f712ae1bcbce418b89a33f056783582c9623350a",
+      "host": "keybase.io",
+      "kid": "012087ee9e6ff1444bc1bfbb1cdaf672bbe16ef2e47bcc0a5d9464cb6f00ded18b270a",
+      "uid": "2141e2128ae5e881b51c324b86636f19",
+      "username": "adamliter"
     },
-    "ctime": 1446874094,
-    "expire_in": 157680000,
-    "prev": "4dc46896515b11f7724c4aff539e643e0570788682985dd56bbef3ddf66875c2",
-    "seqno": 4,
-    "tag": "signature"
+    "service": {
+      "hostname": "adamliter.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.18"
+  },
+  "ctime": 1479068497,
+  "expire_in": 504576000,
+  "merkle_root": {
+    "ctime": 1479068438,
+    "hash": "8f869462caffa95db326c13f4760319854016dc44a09e3d40471a8cdc23d0974e80277a2282c8506f89033dc39d4cfe9b9938944fedcd3142921a76406bc50b6",
+    "seqno": 712516
+  },
+  "prev": "26d7f5b4ed2797e3279077b897d561c227d22639bdc26507e6652b66ddf31a56",
+  "seqno": 26,
+  "tag": "signature"
 }
 
 which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
 
-owGtkm1QVFUYx5d3IdH1QxEhxVyNJGjd+3buvSsOEI4pqKSFOKEs9+XscmG5u9y9
-rCwv4YQECE4MTQmTiMOM2YQBMjEKmOZK00yLwTCzoxAwTkFpIVFWYIp2L0MfavrY
-+XTOeX7P//k/zzmN4QG6ML+Cj76Rl5aye/y8dzjd/q31C2UIZxfciKkM4W0ilBRt
-J7GFEDEhBdDNsU5oEO0xkl2AhnxnzAqTgLig7BTtkkoZDbQBw5GKBI3XsqFNgE7F
-XCAKWhQ1oizPYyzOAIolWRJiEDCA4AGmHiwUirEQ5XiOhwRKczTD4rjFSAKKxkka
-4xmA4ThpZNWCFlGyQtkhi5pFBKdIDuAogQIaZwmBAICBKIZSDE1hOIsZacaIAV4A
-amKe3an8oxlk2al52d5/8P+z7+JlOUy1CjEUo1lIQppGORLlcYzgaABwYEEZDXRC
-eWXwrMAW2kQFytpU1WuXyENtslor/0YMdtmqZjtku2Ln7TY1lKcoDpOWqbgdGnoY
-cuYVETMnSoI6yOUHbFl5QVRFeUXUZFGCADRFGBkiAYElDlGGZlEjSArQRnVpdaBL
-1SQEXiUZQKIkh6IWisIInmAtFhJnICBwaCQpI0XTgMYYmhQEEnActOCCYAGqPslj
-iNZXkWRHTGolhbWqkk7RKrFKsQyRijr/9YE6vzBdcJC/9kV1YaH6v/9t1Kxe17ct
-/ri3r4m97plrOxZ8cbP5kJ9YfK5oSLed3fJS78TRn5537R70ZQZfC3o9NTXNvSOv
-pu5qQ39lRyfS3H72/dXjKeJA6VO6GxEl7ZX5fXci99JFjbmJaRe2XDl8t1j2pp/a
-Xt1f+PPmB/Olr+bww2NdzSijf3TxhifzW/zmpK215/K9I3/MVM1v0P/Zc6n3l7io
-D58g9rsDgtFqdPBx6Inhsqb6WT4wtji1r9J06/FXa5K39sVlzuXos0KmhOEXsn5s
-Ad5NaWv159MXfZ7Yg4/uZ0c/eTCj9bf+L0wjbRELJ6M/rg6PzB6KmN/x1tT5sdBr
-kVbhk4WH91xrrfqUvoiZ3Elbcsynvw5Hezo3evN9N5Emd73vTHpj7Hp/z8jZ3PKa
-it4ro7bbQWuaGsPSEpOmR3PtVeUFpxeTarwXMp41Oaalo93Xnz4VYlQqGuKCyip9
-rf7xcOPtd87At++vW42uaqcCQnZlXcobX9d0iGwLan7jQWdkcKnb8/vA3stVYoh8
-zNbSLE7tOX1ierarZWY00Ptl0YFyKeIVv7Gh1z4fPJJWISWHu/fF7Okgyt5M7vbU
-3spjpInJmZKkc9tidrsqj9d9kDCXmZgcF55+t2OVoTZj6sWvTe+9m4KPDNSN72vN
-ORn23NVu38CBTdWepcjM+Folf2Jn13cNn32PPxzb9cPLO6N0zyx6/gI=
-=ojgE
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgh+6eb/FES8G/uxza9nK74W7y5HvMCl2UZMtvAN7RiycKp3BheWxvYWTFAvd7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYWNjMmEzOTY3YTVhNWUyZTY5NjRjNjI1YTVmNzEyYWUxYmNiY2U0MThiODlhMzNmMDU2NzgzNTgyYzk2MjMzNTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwODdlZTllNmZmMTQ0NGJjMWJmYmIxY2RhZjY3MmJiZTE2ZWYyZTQ3YmNjMGE1ZDk0NjRjYjZmMDBkZWQxOGIyNzBhIiwidWlkIjoiMjE0MWUyMTI4YWU1ZTg4MWI1MWMzMjRiODY2MzZmMTkiLCJ1c2VybmFtZSI6ImFkYW1saXRlciJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiYWRhbWxpdGVyLm9yZyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE4In0sImN0aW1lIjoxNDc5MDY4NDk3LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NzkwNjg0MzgsImhhc2giOiI4Zjg2OTQ2MmNhZmZhOTVkYjMyNmMxM2Y0NzYwMzE5ODU0MDE2ZGM0NGEwOWUzZDQwNDcxYThjZGMyM2QwOTc0ZTgwMjc3YTIyODJjODUwNmY4OTAzM2RjMzlkNGNmZTliOTkzODk0NGZlZGNkMzE0MjkyMWE3NjQwNmJjNTBiNiIsInNlcW5vIjo3MTI1MTZ9LCJwcmV2IjoiMjZkN2Y1YjRlZDI3OTdlMzI3OTA3N2I4OTdkNTYxYzIyN2QyMjYzOWJkYzI2NTA3ZTY2NTJiNjZkZGYzMWE1NiIsInNlcW5vIjoyNiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEACDqA+QuJDN8lHtOS/0babHjO8+gN9xKhXFAg7OGFWH22mTKOTtxch11HPczsP1TUX3Q5pQdeMrGYwFXmso4wJqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgEj+FH/t/qEeB4L1njQLG/oQ2HmBPTlnjbLeIOHLOAi+jdGFnzQICp3ZlcnNpb24B
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
