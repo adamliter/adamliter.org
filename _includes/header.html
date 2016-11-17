@@ -9,24 +9,24 @@
     <!-- viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- styling -->
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/css/main.css" />
     <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ site.url }}/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.url }}/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="{{ site.url }}/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{ site.url }}/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/favicon/favicon-16x16.png">
-    <link rel="manifest" href="{{ site.url }}/favicon/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}{{ site.baseurl }}/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ site.url }}{{ site.baseurl }}/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}{{ site.baseurl }}/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}{{ site.baseurl }}/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.url }}{{ site.baseurl }}/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}{{ site.baseurl }}/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}{{ site.baseurl }}/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}{{ site.baseurl }}/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}{{ site.baseurl }}/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{{ site.url }}{{ site.baseurl }}/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}{{ site.baseurl }}/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ site.url }}{{ site.baseurl }}/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}{{ site.baseurl }}/favicon/favicon-16x16.png">
+    <link rel="manifest" href="{{ site.url }}{{ site.baseurl }}/favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="{{ site.url }}/favicon/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="{{ site.url }}{{ site.baseurl }}/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!-- font awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -41,7 +41,7 @@
       <nav class="navbar navbar-default navbar-static-top">
 	<div class="container-fluid">
 	  <div class="navbar-header">
-	    <a href="{{ site.url }}" class="navbar-brand">
+	    <a href="{{ site.url }}{{ site.baseurl }}" class="navbar-brand">
 	      Adam Liter
 	    </a>
 	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -53,36 +53,36 @@
 	  </div><!-- End of .navbar-header div -->
 	  <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
 	    <li {% if page.nav_node == "home" %} class="active" {% endif %} >
-	      <a href="{{ site.url }}">
+	      <a href="{{ site.url }}{{ site.baseurl }}">
 		home
 		{% if page.nav_node == "home" %}<span class="sr-only">(current)</span>{% endif %}   
 	      </a>
 	    </li>
 	    <!--<li {% if page.nav_node == "blog" %} class="active" {% endif %} >
-	      <a href="{{ site.url }}/blog">
+	      <a href="{{ site.url }}{{ site.baseurl }}/blog">
 		blog
 		{% if page.nav_node == "blog" %}<span class="sr-only">(current)</span>{% endif %}
 	      </a>
 	    </li>-->
 	    <li {% if page.nav_node == "research" %} class="active" {% endif %} >
-	      <a href="{{ site.url }}/research">
+	      <a href="{{ site.url }}{{ site.baseurl }}/research">
 		research
 		{% if page.nav_node == "research" %}<span class="sr-only">(current)</span>{% endif %}
 	      </a>
 	    </li>
 	    <li {% if page.nav_node == "teaching" %} class="active" {% endif %} >
-	      <a href="{{ site.url }}/teaching">
+	      <a href="{{ site.url }}{{ site.baseurl }}/teaching">
 		teaching
 		{% if page.nav_node == "teaching" %}<span class="sr-only">(current)</span>{% endif %}
 	      </a>
 	    </li>	    
 	    <li>
-	      <a href="{{ site.url }}/content/adamlitercv.pdf">
+	      <a href="{{ site.url }}{{ site.baseurl }}/content/adamlitercv.pdf">
 		cv
 	      </a>
 	    </li>
 	    <li {% if page.nav_node == "updates" %} class="active" {% endif %} >
-	      <a href="{{ site.url }}/updates">
+	      <a href="{{ site.url }}{{ site.baseurl }}/updates">
 		updates
 		{% if page.nav_node == "updates" %}<span class="sr-only">(current)</span>{% endif %}
 	      </a>
