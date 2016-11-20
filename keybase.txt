@@ -4,7 +4,7 @@ https://keybase.io/adamliter
 
 I hereby claim:
 
-  * I am an admin of http://adamliter.org
+  * I am an admin of https://adamliter.org
   * I am adamliter (https://keybase.io/adamliter) on keybase.
   * I have a public key with fingerprint 375B 6314 1683 A4D4 669E  1217 9872 3A20 8902 6CD6
 
