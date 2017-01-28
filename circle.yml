@@ -1,0 +1,17 @@
+dependencies:
+  pre:
+    - gem install bundler
+checkout:
+  post:
+    - git submodule sync
+    - git submodule update --init
+test:
+  pre:
+    - mkdir ../website-compiled
+  post:
+    - bundle exec rake && bundle exec rake deploy:proof
+deployment:
+  production:
+    branch: master
+    commands:
+      - bundle exec rake deploy:deploy_prod
