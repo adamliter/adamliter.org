@@ -29,6 +29,19 @@ task :serve do
   Rake::Task["helper:force_dereference_bootstrap_js"].invoke
 end
 
+namespace :deploy do
+
+  desc "Check HTML output with htmlproofer"
+  task :proof do
+    system "htmlproofer ./_site --only-4xx --check-favicon --check-html --allow-hash-href"
+  end
+
+  desc "Deploy to production"
+  task :deploy_prod do
+    system "rsync -avzHP --exclude='.git' ../#{COMPILED_DIR}/ -e ssh adamliter@l1node.adamliter.org:/var/www/adamliter.org"
+  end
+end
+
 # Helper rake tasks
 namespace :helper do
 
