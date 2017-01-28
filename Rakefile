@@ -12,6 +12,7 @@ task :build do
   Rake::Task["helper:force_dereference_bootstrap_js"].invoke
   system "cp -r _site/* ../#{COMPILED_DIR}/"
   Rake::Task["helper:kill_updates"].invoke
+  Rake::Task["helper:make_well_known"].invoke
 end
 
 desc "Serve Jekyll site locally for development and watch"
@@ -38,7 +39,7 @@ namespace :deploy do
 
   desc "Deploy to production"
   task :deploy_prod do
-    system "rsync -avzHP --exclude='.git' ../#{COMPILED_DIR}/ -e ssh adamliter@l1node.adamliter.org:/var/www/adamliter.org"
+    system "rsync -avzHP --exclude='.git' --delete ../#{COMPILED_DIR}/ -e ssh adamliter@l1node.adamliter.org:/var/www/adamliter.org"
   end
 end
 
@@ -79,5 +80,9 @@ namespace :helper do
     UPDATE_DIRS.each { |dir| system "rm -rf #{dir}" }
   end
 
+  desc "Make the .well-known directory for letsencrypt renewal"
+  task :make_well_known do
+    system "mkdir ../#{COMPILED_DIR}/.well-known"
+  end
 end
 
