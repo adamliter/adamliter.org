@@ -9,7 +9,7 @@ test:
   pre:
     - mkdir ../website-compiled
   post:
-    - bundle exec rake && bundle exec rake deploy:proof
+    - bundle exec rake build && bundle exec rake deploy:proof
 deployment:
   production:
     branch: master
