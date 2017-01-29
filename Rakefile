@@ -10,7 +10,7 @@ task :build do
   Rake::Task["helper:wipe_compiled_dir"].invoke
   # Hack around jekyll build not dereferencing symlinks
   Rake::Task["helper:force_dereference_bootstrap_js"].invoke
-  system "cp -r _site/* ../#{COMPILED_DIR}/"
+  system "cp -RL _site/* ../#{COMPILED_DIR}/"
   Rake::Task["helper:kill_updates"].invoke
   Rake::Task["helper:make_well_known"].invoke
 end
