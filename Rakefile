@@ -82,7 +82,7 @@ namespace :helper do
 
   desc "Make the .well-known directory for letsencrypt renewal"
   task :make_well_known do
-    system "mkdir ../#{COMPILED_DIR}/.well-known"
+    system "mkdir -p ../#{COMPILED_DIR}/.well-known"
   end
 end
 
