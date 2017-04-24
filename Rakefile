@@ -39,6 +39,8 @@ namespace :deploy do
 
   desc "Deploy to production"
   task :deploy_prod do
+    system "rsync -avzHP ../#{COMPILED_DIR}/shiny/index.html -e ssh adamliter@l1node.adamliter.org:/srv/shiny-server/"
+    system "rm -rf ../#{COMPILED_DIR}/shiny"
     system "rsync -avzHP --exclude='.git' --delete ../#{COMPILED_DIR}/ -e ssh adamliter@l1node.adamliter.org:/var/www/adamliter.org"
   end
 end
