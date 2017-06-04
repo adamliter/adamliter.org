@@ -14,6 +14,6 @@ one [Shiny][shiny] app running on this server:
   [Bethany Dickerson][bethany] and [Karthik Durvasula][karthik])
 
 [shiny]: https://shiny.rstudio.com/
-[biasinlinguistics]: {{ site.shiny-url }}/biasinlinguistics
+[biasinlinguistics]: https://biasinlinguistics.org
 [bethany]: https://www.linkedin.com/in/bethanyid
 [karthik]: https://msu.edu/~durvasul/Hello.html
