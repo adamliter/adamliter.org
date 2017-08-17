@@ -71,7 +71,7 @@ namespace :helper do
     end
   end
 
-  desc "Hack around Jekyll build not deferencing symlinks"
+  desc "Hack around Jekyll build not derefencing symlinks"
   task :force_dereference_bootstrap_js do
     system "ln -sf ../../bootstrap/assets/javascripts/bootstrap.min.js #{DEST_DIR}/js/bootstrap.min.js"
   end
