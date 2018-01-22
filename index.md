@@ -5,7 +5,7 @@ date: 2017-09-21
 nav_node: home
 ---
 
-# /about
+# about
 
 I'm a first year PhD student in
 the [Department of Linguistics][umd-ling]
@@ -18,7 +18,7 @@ programming, and system administration.  And I **really** like coffee.
 I worked as a barista, off-and-on, for a few years at the Dunn Bros at
 the Smith Douglas More House, now known as [Rustica][DB].
 
-# /recent-updates
+# recent updates
 
 {% assign counter = 1 %}
 

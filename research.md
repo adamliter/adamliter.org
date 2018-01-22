@@ -5,7 +5,7 @@ date: 2016-01-14
 nav_node: research
 ---
 
-# /research
+# research
 
 This is a selected list of my research. Things that are not listed here but are listed on my [CV][cv] are available upon request.
 

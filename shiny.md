@@ -5,7 +5,7 @@ date: 2017-11-19
 nav_node: shiny
 ---
 
-# /shiny
+# shiny
 
 Hello, welcome to my Shiny Server. There are currently
 two [Shiny][shiny] apps hosted here:

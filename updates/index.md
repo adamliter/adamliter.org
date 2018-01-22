@@ -5,7 +5,7 @@ date: 2016-01-14
 nav_node: updates
 ---
 
-# /all-updates
+# all updates
 
 <ul>
 {% for post in site.categories.Updates %}
