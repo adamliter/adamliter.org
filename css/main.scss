@@ -1,18 +1,6 @@
 ---
 ---
 
-@font-face{
-    font-family: 'MyItalianno';
-    src: url('../fonts/italianno.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-         url('../fonts/italianno.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}
-
-@font-face{
-    font-family: 'MyRaleway';
-    src: url('../fonts/raleway.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-         url('../fonts/raleway.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}
-
 // Thicker text stroke for mobile/retina headings
 body h1,
 body h2,
@@ -23,10 +11,11 @@ body h6{
 	-webkit-text-stroke: 0.5px;
 }
 
+// Font for brand
 .navbar-default .navbar-brand{
-	font-family: 'MyItalianno', cursive;
+	font-family: 'Italianno', cursive;
 	font-size: xx-large;
-	font-weight: 900;
+	font-weight: 400; // only 400 is available for this font
 }
 
 /*
