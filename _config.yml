@@ -6,6 +6,11 @@ url:                  "https://adamliter.org"
 shiny-url:            "https://shiny.adamliter.org"
 
 
+# For constructing collaborator arrays
+# See https://stackoverflow.com/a/27732097/2571049
+empty_array:          []
+my_space:             " "
+
 # Global configuration
 source:               .
 destination:          ./_site
@@ -41,7 +46,7 @@ gems:                 [jekyll-paginate, jekyll-gist, jekyll-sitemap]
 markdown:             kramdown
 highlighter:          rouge
 lsi:                  false
-excerpt_separator:    "\n\n"
+excerpt_separator:    "<!-- more -->"
 incremental:          false
 
 
@@ -72,7 +77,7 @@ defaults:
       type:           "pages"
     values:
       layout:         "default"
-  - 
+  -
     scope:
       path:           "updates"
       type:           "posts"

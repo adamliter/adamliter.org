@@ -1,1 +1,32 @@
-{% if collab.url != nil %}<a href="{{ collab.url }}">{{ collab.name }}</a>,{% else %}{{ collab.name }},{% endif %}
+{%- assign my_comma = ", " -%}
+{%- assign my_and = " and " -%}
+{%- assign my_last_and = "and " -%}
+{%- assign my_myself = "Myself" -%}
+{%- assign my_i = "I" -%}
+
+{%- for collab in collab_array -%}
+
+  {%- if forloop.first and collab.name == "Adam Liter" -%}
+    {{ my_myself }}
+    {%- continue -%}
+  {%- endif -%}
+
+  {%- if forloop.length == 2 and forloop.index == 2 -%}
+    {{ my_and }}
+  {%- endif -%}
+
+  {%- if forloop.length > 2 and forloop.index != 1 -%}
+    {{ my_comma }}
+  {%- endif -%}
+
+  {%- if forloop.length > 2 and forloop.last -%}
+    {{ my_last_and }}
+  {%- endif -%}
+
+  {%- if collab.name == "Adam Liter" and forloop.index != 1 -%}
+    {{ my_i }}
+  {%- else -%}
+    {%- include print_collab.html -%}
+  {%- endif -%}
+
+{%- endfor -%}
