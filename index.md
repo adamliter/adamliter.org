@@ -27,7 +27,7 @@ the Smith Douglas More House, now known as [Rustica][DB].
 {% if counter < 6 %}
 {% assign counter = counter | plus:1 %}
 <li>
-  <strong>{{ post.date | date: "%B %d, %Y" }}</strong>
+  <strong>{{ post.date | date: "%B %-d, %Y" }}</strong>
   {{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_newlines | markdownify }}
 </li>
 {% endif %}

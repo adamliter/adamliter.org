@@ -10,7 +10,7 @@ nav_node: updates
 <ul>
 {% for post in site.categories.Updates %}
 <li>
-  <strong>{{ post.date | date: "%B %d, %Y" }}</strong>
+  <strong>{{ post.date | date: "%B %-d, %Y" }}</strong>
   {{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_newlines | markdownify }}
 </li>
 {% endfor %}
