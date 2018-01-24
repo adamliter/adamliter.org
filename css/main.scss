@@ -13,6 +13,11 @@
         font-weight: 700;
 }
 
+// Font of nested navbar links
+.navbar-static-top .dropdown-menu li a{
+    font-weight: 500;
+}
+
 /*
 // Active navbar links
 .navbar-default .navbar-nav .active a::before{
