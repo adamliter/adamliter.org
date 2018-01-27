@@ -1,0 +1,27 @@
+- project_name: <em>Semantics & Pragmatics</em>' <code>biblatex-sp-unified</code>
+  contrib_description: I've <a href="https://github.com/semprag/biblatex-sp-unified/commits?author=adamliter">suggested improvements and helped to fix bugs and version issues</a> in <a href="http://semprag.org/"><em>S&P</em></a>'s Biblatex implementation of the <a href="https://www.linguisticsociety.org/resource/unified-style-sheet">Unified Style Sheet for Linguistics Journals</a>.
+  display: true
+
+- project_name: <code>leipzig</code>
+  contrib_description: I've made minor <a href="https://github.com/natalieweber/leipzig/commits?author=adamliter">contributions</a> to the LaTeX package <code>leipzig</code>, a package for tracking and printing gloss abbreviations in a linguistics manuscript.
+  display: false
+
+- project_name: psiTurk
+  contrib_description: I've made minor <a href="https://github.com/NYUCCL/psiTurk/commits?author=adamliter">contributions</a> to <a href="https://psiturk.org/">psiTurk</a>, a Python command-line tool for running and interacting with experiments on Amazon Mechanical Turk.
+  display: true
+
+- project_name: Speriment
+  contrib_description: I've made minor <a href="https://github.com/presleyp/Speriment/commits?author=adamliter">contributions</a> to Speriment, a Python package for writing experiments to be deployed with psiTurk on Amazon Mechanical Turk.
+  display: false
+
+- project_name: Homebrew
+  contrib_description: I've made minor contributions to various parts of the broader <a href="https://brew.sh">Homebrew</a> project, including <a href="https://github.com/Homebrew/homebrew-core/commits?author=adamliter">contributions to <code>homebrew-core</code></a> and <a href="https://github.com/Homebrew/homebrew-bundle/commits?author=adamliter">contributions to <code>homebrew-bundle</code></a>.
+  display: true
+
+- project_name: GitHub's <code>.gitignore</code> project
+  contrib_description: I've made minor <a href="https://github.com/github/gitignore/commit">contributions</a> to GitHub's collection of <code>.gitignore</code> templates.
+  display: true
+
+- project_name: <em>The Hitchhiker's Guide to Python</em>
+  contrib_description: I've made minor <a href="https://github.com/kennethreitz/python-guide/commits?author=adamliter">contributions</a> to Kenneth Reitz's <a href="http://docs.python-guide.org/en/latest/"><em>The Hitchhiker's Guide to Python</em></a>.
+  display: false

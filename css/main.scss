@@ -41,6 +41,10 @@
 	color: black !important;
 }
 
+.navbar-default .navbar-nav .dropdown.active > a{
+    color: #E69F00 !important;
+}
+
 main{
 	border-bottom: 0.188em solid #8E8E8E;
 }

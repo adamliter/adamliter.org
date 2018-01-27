@@ -99,6 +99,37 @@
 		{% if page.nav_node == "updates" %}<span class="sr-only">(current)</span>{% endif %}
 	      </a>
 	    </li>
+            <li class='dropdown {% if page.nav_node == "side-projects" %} active {% endif %}'>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                side projects
+                {% if page.nav_node == "side-projects" %}<span class="sr-only">(current)</span>{% endif %}
+		<span class="caret"></span>
+	      </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="{{ site.url }}{{ site.baseurl }}/side-projects/#latex-workshop">
+                    <i class="fa fa-file-code-o"></i> LaTeX workshop
+                  </a>
+                </li>
+                <!--
+                <li>
+                  <a href="{{ site.url }}{{ site.baseurl }}/side-projects/#atomicwriting">
+                    <i class="fa fa-rss"></i> Atomic Writing
+                  </a>
+                </li>
+                -->
+                <li>
+                  <a href="{{ site.url }}{{ site.baseurl }}/side-projects/#psiturk-docker">
+                    <i class="fa fa-flask"></i> psiTurk Docker
+                  </a>
+                </li>
+                <li>
+                  <a href="{{ site.url }}{{ site.baseurl }}/side-projects/#open-source">
+                    <i class="fa fa-code-fork"></i> Open Source
+                  </a>
+                </li>
+              </ul>
+            </li>
 	    <li class="dropdown">
 	      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
 		external

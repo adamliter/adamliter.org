@@ -1,0 +1,19 @@
+- title: <i class="fa fa-file-code-o"></i> LaTeX workshop
+  id: latex-workshop
+  description: What began as part of an impromptu LaTeX workshop at the 2015 Linguistic Institute has turned into a <a href="https://bit.ly/latex-workshop">full-fledged handout</a> intended to familiarize folks with the typesetting system <a href="https://en.wikipedia.org/wiki/LaTeX">LaTeX</a>. The handout is intended to be useful for anyone just starting with LaTeX, though the last section does address some things that might be useful to linguists in particular. I really welcome and appreciate feedback about the handout so that I can continue to improve it. Please send any feedback you might have to me via <a href="mailto:tex@adamliter.org?subject=LaTeX workshop handout feedback">email</a> or raise it as a <a href="https://github.com/adamliter/latex-workshop/issues">GitHub issue</a>.
+  display: true
+
+- title: <i class="fa fa-rss"></i> Atomic Writing
+  id: atomicwriting
+  description: <a href="https://atomicwriting.com">Atomic Writing</a> is an infrequent blog by me. The writing covers topics that I'm interested in, which mostly ends up being technology related-topics.
+  display: false
+
+- title: <i class="fa fa-flask"></i> psiTurk Docker
+  id: psiturk-docker
+  description: I maintain <a href="https://hub.docker.com/r/adamliter/psiturk/">Docker images</a> for past and present versions of <a href="https://psiturk.org/">psiTurk</a>, a Python command-line tool for running and interacting with experiments on Amazon Mechanical Turk.
+  display: true
+
+- title: <i class="fa fa-code-fork"></i> Open Source
+  id: open-source
+  description:
+  display: true
