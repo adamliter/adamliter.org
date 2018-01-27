@@ -1,5 +1,5 @@
-- project_name: <em>Semantics & Pragmatics</em>' <code>biblatex-sp-unified</code>
-  contrib_description: I've <a href="https://github.com/semprag/biblatex-sp-unified/commits?author=adamliter">suggested improvements and helped to fix bugs and version issues</a> in <a href="http://semprag.org/"><em>S&P</em></a>'s Biblatex implementation of the <a href="https://www.linguisticsociety.org/resource/unified-style-sheet">Unified Style Sheet for Linguistics Journals</a>.
+- project_name: <em>S&P</em>'s <code>biblatex-sp-unified</code>
+  contrib_description: I've <a href="https://github.com/semprag/biblatex-sp-unified/commits?author=adamliter">suggested improvements and helped to fix bugs and version issues</a> in <a href="http://semprag.org/"><em>Semantics & Pragmatics</em></a>' Biblatex implementation of the <a href="https://www.linguisticsociety.org/resource/unified-style-sheet">Unified Style Sheet for Linguistics Journals</a>.
   display: true
 
 - project_name: <code>leipzig</code>
