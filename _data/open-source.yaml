@@ -19,7 +19,7 @@
   display: true
 
 - project_name: GitHub's <code>.gitignore</code> project
-  contrib_description: I've made minor <a href="https://github.com/github/gitignore/commit">contributions</a> to GitHub's collection of <code>.gitignore</code> templates.
+  contrib_description: I've made minor <a href="https://github.com/github/gitignore/commits?author=adamliter">contributions</a> to GitHub's collection of <code>.gitignore</code> templates.
   display: true
 
 - project_name: <em>The Hitchhiker's Guide to Python</em>
