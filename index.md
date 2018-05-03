@@ -1,7 +1,7 @@
 ---
 title: adamliter
 layout: default
-date: 2017-09-21
+date: 2018-05-02
 nav_node: home
 ---
 
@@ -16,7 +16,7 @@ research, see my [research page][research].
 Outside of linguistics, I'm also interested in web development,
 programming, and system administration.  And I **really** like coffee.
 I worked as a barista, off-and-on, for a few years at the Dunn Bros at
-the Smith Douglas More House, now known as [Rustica][DB].
+the Smith Douglas More House, now known as [Smith][DB].
 
 # recent updates
 
@@ -39,4 +39,4 @@ the Smith Douglas More House, now known as [Rustica][DB].
 [jeff]: http://ling.umd.edu/~jlidz/
 [norbert]: http://ling.umd.edu/~hornstein/
 [research]: {{ site.url }}/research
-[DB]: https://www.facebook.com/pages/Dunn-Bros-at-the-Smith-Douglas-More-House/133169107463
+[DB]: https://www.smith1877.com/
