@@ -96,6 +96,7 @@ redcarpet:
 kramdown:
   input:              GFM
   syntax_highlighter: rouge
+  parse_block_html:   true
   auto_ids:           true
   footnote_nr:        1
   entity_output:      as_char
