@@ -60,7 +60,7 @@ main{
 // CSS for syntax highlighting
 // Based on https://gist.github.com/demisx/8408522
 
-.highlight  { background: #ffffff; }
+.highlight  pre { background: #ffffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
@@ -121,8 +121,8 @@ main{
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
-.highlight{
-	width: 70%;
+.highlight pre {
+	width: 85%;
 	display: block;
   margin-left: auto;
   margin-right: auto;
