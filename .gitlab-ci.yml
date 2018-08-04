@@ -1,6 +1,7 @@
 image: ruby:2.4
 
 cache:
+  key: "$CI_COMMIT_REF_SLUG"
   paths:
     - vendor
 
