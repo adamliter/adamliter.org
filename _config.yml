@@ -24,7 +24,7 @@ collections:          null
 # Handling reading
 safe:                 false
 include:              []
-exclude:              ["_site", "bootstrap", "README.md", "Rakefile", "blog", ".ruby-gemset", ".ruby-version", "circle.yml", "Gemfile", "Gemfile.lock", "vendor"]
+exclude:              ["_site", "bootstrap", "README.md", "Rakefile", "blog", ".ruby-gemset", ".ruby-version", "circle.yml", "Gemfile", "Gemfile.lock", "vendor", "adamliter.org"]
 keep_files:           [".git", ".svn"]
 encoding:             "utf-8"
 markdown_ext:         "markdown,mkdown,mkdn,mkd,md"
