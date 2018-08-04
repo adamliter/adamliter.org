@@ -7,10 +7,9 @@ nav_node: home
 
 # about
 
-I'm a first year PhD student in
-the [Department of Linguistics][umd-ling]
-at [University of Maryland][umd]. My advisors are [Jeff Lidz][jeff]
-and [Norbert Hornstein][norbert].  For more information about my
+I'm a PhD student in the [Department of Linguistics][umd-ling]
+at [University of Maryland][umd], advised by [Jeff Lidz][jeff]
+and [Norbert Hornstein][norbert]. For more information about my
 research, see my [research page][research].
 
 Outside of linguistics, I'm also interested in web development,
