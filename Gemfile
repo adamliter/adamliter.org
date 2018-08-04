@@ -1,15 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~>3.7'
-gem 'rake'
+gem 'rake', :group => :default
 
-group :test do
-  gem 'html-proofer'
-end
-
-group :jekyll_plugins do
+group :development do
+  gem 'jekyll', '~>3.7'
   gem 'jekyll-paginate'
   gem 'jekyll-gist'
   gem 'jekyll-sitemap'
 end
 
+group :test do
+  gem 'html-proofer'
+end
