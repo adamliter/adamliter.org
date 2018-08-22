@@ -72,7 +72,7 @@ projects. Things that are not listed here but that are listed on my
           {%- if pub.doi != '' -%}
           <a href="https://doi.org/{{ pub.doi }}">
             <span class="label label-default">
-              <i class ="fa fa-link"></i> doi
+              <i class ="ai ai-doi"></i> doi
             </span>
           </a>
           {%- endif -%}
