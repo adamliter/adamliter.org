@@ -1,29 +1,35 @@
 - title:          "Generalising from ambiguous data"
   collaborators:  [karthik_durvasula]
   summary:        'Using an artificial language learning paradigm, we investigate how participants learn a consonant harmony pattern that is consistent with multiple different generalisations. We find that (i) participants keep track of the multiple simplest generalisations and (ii) segments must be as equally "simple" as features.'
+  keywords:       ["phonotactics", "learnability", "artificial language learning"]
   presentations:  []
   publications:   []
   latest:         "!SITE_URL!/content/research/NAPhC2016-Talk.pdf"
   latest_type:    "talk"
+  in_prep:        false
   older_versions: true
-  under_review:   false
+  under_review:   true
 
 - title:          "Reevaluating the Maratsos Effect"
   collaborators:  [tess_huelskamp, susima_weerakoon, alan_munn]
-  summary:        'Maratsos et al. (1985) found that children were later in acquiring the passives of "nonactional" verbs than passives of "actional" verbs; this has since been robustly replicated in the literature and has come to be known as the Maratsos Effect. Looking back at the literature, we question whether the "nonactional" class of verbs was ever a linguistically homogenous class. Based on verbal diagnostics for agentivity and eventivity, the "nonactional" class of verbs that have been tested can be shown to be quite heterogenous, consisting of both nonagentive eventive verbs and nonagentive noneventive (*i.e.*, stative) verbs. We report two experiments showing that there is evidence for a three-way split, rather than a two-way split.'
+  summary:        'Maratsos et al. (1985) found that children were later in acquiring the passives of "nonactional" verbs than passives of "actional" verbs; this has since been robustly replicated in the literature and has come to be known as the Maratsos Effect. Looking back at the literature, we question whether the "nonactional" class of verbs was ever a linguistically homogenous class. Based on verbal diagnostics for agentivity and eventivity, the "nonactional" class of verbs that have been tested can be shown to be quite heterogenous, consisting of both nonagentive eventive verbs and nonagentive noneventive (*i.e.*, stative) verbs. We report two suggesting that the Maratsos Effect depends on agentivity, not eventivity.'
+  keywords:       ["acquisition", "syntax"]
   presentations:  []
   publications:   []
-  latest:         "!SITE_URL!/content/research/MaratsosEffect-GLEAMS2016.pdf"
-  latest_type:    "talk"
+  latest:         ""
+  latest_type:    ""
+  in_prep:        true
   older_versions: true
   under_review:   false
 
 - title:          "Obligatory number and plural morphology"
   collaborators:  [chris_heffner, tess_huelskamp, cristina_schmitt]
+  keywords:       ["semantics", "number", "language universals", "artificial language learning"]
   summary:        "Languages like English allow inclusive interpretations ('one or more') of plural morphology in downward entailing contexts. For example, *there are not books on the table* is false even if there is one book on the table. Other languages, such as Korean, require exclusive interpretations ('more than one') even in downward entailing contexts. We investigate whether these differeing interpretations are mere historical accidents or actually follow from properties of the grammar. With data from two artificial langueage learning experiments, we provide suggestive evidence that non-obligatory number marking necessarily precludes inclsuive interpretations of the plural morpheme."
   presentations:  []
-  publications:   []
-  latest:         "!SITE_URL!/content/research/"
-  latest_type:    "manuscript"
+  publications:   [liter2018_number_glossa, liter2017_number_lld]
+  latest:         ""
+  latest_type:    ""
+  in_prep:        false
   older_versions: true
-  under_review:   true
+  under_review:   false
