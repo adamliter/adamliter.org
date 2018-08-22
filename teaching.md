@@ -7,6 +7,29 @@ nav_node: teaching
 
 # teaching
 
+<ul>
+  <li>
+    <strong>
+      Fall 2018 office hours:
+    </strong>
+    <br />
+    <em>
+      Office:
+    </em>
+    1413H <a href="https://goo.gl/maps/bMRqjVRuSFs" target="_blank">Marie Mount Hall</a>
+    <br />
+    <em>
+      Mondays:
+    </em>
+    12:00 – 1:00
+    <br />
+    <em>
+      Wednesdays:
+    </em>
+    9:00 – 10:00
+  </li>
+</ul>
+
 ## currently
 
 - TA for LING 200 -- "Introductory Linguistics" (fall 2018)
