@@ -18,8 +18,11 @@ projects. Things that are not listed here but that are listed on my
 
 {% for r in site.data.research %}
   {% unless r.under_review == true %}
-<div class="well">
-  <h2>{{ r.title }}</h2>
+<div class="panel panel-primary">
+  <div class="panel-heading">
+  <h2 class="panel-title">{{ r.title }}</h2>
+  </div>
+  <div class="panel-body">
   <ul>
   {%- unless r.collaborators == empty -%}
   {%- assign collab_array = site.empty_array -%}
@@ -50,6 +53,7 @@ projects. Things that are not listed here but that are listed on my
     {{ r.summary | markdownify | remove: '<p>' | remove: '</p>' }}
   </li>
   </ul>
+  </div>
 </div>
 {% endunless %}
 {% endfor %}
