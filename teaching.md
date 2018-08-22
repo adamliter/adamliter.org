@@ -1,7 +1,7 @@
 ---
 title: adamliter/teaching
 layout: default
-date: 2016-08-28
+date: 2018-08-22
 nav_node: teaching
 ---
 
@@ -9,7 +9,7 @@ nav_node: teaching
 
 ## currently
 
-I am not currently teaching.
+- TA for LING 200 -- "Introductory Linguistics" (fall 2018)
 
 ## previously
 
