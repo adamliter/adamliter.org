@@ -39,7 +39,19 @@ projects. Things that are not listed here but that are listed on my
     {%- include print_collabs.html -%}
   </li>
   {%- endunless -%}
-
+  {%- unless r.keywords == empty -%}
+    <li>
+      {%- if r.keywords.size == 1 -%}
+        <strong>Keyword:</strong>
+      {%- else -%}
+        <strong>Keywords:</strong>
+      {%- endif -%}
+      {%- for kw in r.keywords -%}
+        {{ site.my_space }}
+        <span class="label label-default">{{ kw }}</span>
+      {%- endfor -%}
+    </li>
+  {%- endunless -%}
   <li>
     <strong>PDF:</strong>{{ site.my_space }}
     {%- if r.older_versions -%}
