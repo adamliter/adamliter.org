@@ -39,7 +39,7 @@ This is a selected list of my research. Things that are not listed here but are 
     {%- endif -%}
   </li>
   <li>
-    <strong>Brief summary:</strong>{{ site.my_space }}
+    <strong>Overview:</strong>{{ site.my_space }}
     {{ r.summary | markdownify | remove: '<p>' | remove: '</p>' }}
   </li>
   </ul>
