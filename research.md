@@ -1,13 +1,20 @@
 ---
 title: adamliter/research
 layout: default
-date: 2016-01-14
+date: 2018-08-21
 nav_node: research
 ---
 
 # research
 
-This is a selected list of my research. Things that are not listed here but are listed on my [CV][cv] are available upon request.
+I'm most interested in syntax, language acquisition, and semantics.
+Although I'm genuinely interested in most domains of inquiry. For
+example, I've also worked on issues of learnability in the phonotactic
+domain.
+
+Below you'll find a selected list of some of my research
+projects. Things that are not listed here but that are listed on my
+[CV][cv] are available upon request.
 
 {% for r in site.data.research %}
   {% unless r.under_review == true %}
