@@ -53,12 +53,57 @@ projects. Things that are not listed here but that are listed on my
     </li>
   {%- endunless -%}
   <li>
-    <strong>PDF:</strong>{{ site.my_space }}
+  <strong>Output:</strong>{{ site.my_space }}
+  {%- if r.publications != empty -%}
+  {%- assign pub_array = site.empty_array -%}
+    This project has resulted in {{ r.publications.size }}{{ site.my_space }}
+    {%- if r.publications.size == 1 -%}
+      publication
+    {%- else -%}
+      publications
+    {%- endif -%}
+    .
+    <ul>
+      {%- for pub in r.publications -%}
+        {%- assign pub_array = pub_array | push: site.data.publications[pub] -%}
+      {%- endfor -%}
+      {%- for pub in pub_array -%}
+        <li>
+          {%- if pub.doi != '' -%}
+          <a href="https://doi.org/{{ pub.doi }}">
+            <span class="label label-default">
+              <i class ="fa fa-link"></i> doi
+            </span>
+          </a>
+          {%- endif -%}
+          {%- if pub.pdf != '' -%}
+          <!--
+          for some reason this space will only show up with "&nbsp;"
+          {{ site.my_space }} won't work
+          -->
+          &nbsp;
+            <a href="{{ pub.pdf | replace: '!SITE_URL!', site.url }}">
+              <span class="label label-default">
+                <i class ="fa fa-file"></i> pdf
+              </span>
+            </a>
+          {%- endif -%}
+          <br />
+          {{ pub.citation }}
+        </li>
+      {%- endfor -%}
+    </ul>
+  {%- elsif r.in_prep and r.older_versions -%}
+    This project is currently being written up. Older versions are available upon request.
+  {%- elsif r.in_prep -%}
+    This project is currently being written up.
+  {%- elsif r.latest_type != '' -%}
     {%- if r.older_versions -%}
       The latest version of this research is available as a <a href="{{ r.latest | replace: '!SITE_URL!', site.url }}">{{ r.latest_type }}</a>. Older versions are available upon request.
     {%- else -%}
       This research is currently in {{  r.latest_type }} format and is available <a href="{{ r.latest | replace: '!SITE_URL!', site.url }}">here</a>.
     {%- endif -%}
+  {%- endif -%}
   </li>
   <li>
     <strong>Overview:</strong>{{ site.my_space }}

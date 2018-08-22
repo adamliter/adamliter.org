@@ -6,8 +6,9 @@
   publications:   []
   latest:         "!SITE_URL!/content/research/NAPhC2016-Talk.pdf"
   latest_type:    "talk"
+  in_prep:        false
   older_versions: true
-  under_review:   false
+  under_review:   true
 
 - title:          "Reevaluating the Maratsos Effect"
   collaborators:  [tess_huelskamp, susima_weerakoon, alan_munn]
@@ -15,8 +16,9 @@
   keywords:       ["acquisition", "syntax"]
   presentations:  []
   publications:   []
-  latest:         "!SITE_URL!/content/research/MaratsosEffect-GLEAMS2016.pdf"
-  latest_type:    "talk"
+  latest:         ""
+  latest_type:    ""
+  in_prep:        true
   older_versions: true
   under_review:   false
 
@@ -25,8 +27,9 @@
   keywords:       ["semantics", "number", "language universals", "artificial language learning"]
   summary:        "Languages like English allow inclusive interpretations ('one or more') of plural morphology in downward entailing contexts. For example, *there are not books on the table* is false even if there is one book on the table. Other languages, such as Korean, require exclusive interpretations ('more than one') even in downward entailing contexts. We investigate whether these differeing interpretations are mere historical accidents or actually follow from properties of the grammar. With data from two artificial langueage learning experiments, we provide suggestive evidence that non-obligatory number marking necessarily precludes inclsuive interpretations of the plural morpheme."
   presentations:  []
-  publications:   []
-  latest:         "!SITE_URL!/content/research/"
-  latest_type:    "manuscript"
+  publications:   [liter2018_number_glossa, liter2017_number_lld]
+  latest:         ""
+  latest_type:    ""
+  in_prep:        false
   older_versions: true
-  under_review:   true
+  under_review:   false
