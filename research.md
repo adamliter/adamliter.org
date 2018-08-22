@@ -52,6 +52,8 @@ projects. Things that are not listed here but that are listed on my
       {%- endfor -%}
     </li>
   {%- endunless -%}
+  <!-- check if the "Output:" list item should even be there -->
+  {%- if r.publications != empty or r.latest_type != "" or r.in_prep -%}
   <li>
   <strong>Output:</strong>{{ site.my_space }}
   {%- if r.publications != empty -%}
@@ -105,6 +107,7 @@ projects. Things that are not listed here but that are listed on my
     {%- endif -%}
   {%- endif -%}
   </li>
+  {%- endif -%}
   <li>
     <strong>Overview:</strong>{{ site.my_space }}
     {{ r.summary | markdownify | remove: '<p>' | remove: '</p>' }}
