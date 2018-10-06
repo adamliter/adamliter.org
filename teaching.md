@@ -1,7 +1,7 @@
 ---
 title: adamliter/teaching
 layout: default
-date: 2018-08-22
+date: 2018-10-05
 nav_node: teaching
 ---
 
@@ -24,9 +24,9 @@ nav_node: teaching
     12:00 – 1:00
     <br />
     <em>
-      Wednesdays:
+      Thursdays:
     </em>
-    9:00 – 10:00
+    11:00 – 12:00
   </li>
 </ul>
 
