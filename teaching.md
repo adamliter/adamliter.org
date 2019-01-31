@@ -1,7 +1,7 @@
 ---
 title: adamliter/teaching
 layout: default
-date: 2018-10-05
+date: 2019-01-30
 nav_node: teaching
 ---
 
@@ -10,7 +10,7 @@ nav_node: teaching
 <ul>
   <li>
     <strong>
-      Fall 2018 office hours:
+      Spring 2019 office hours:
     </strong>
     <br />
     <em>
@@ -19,20 +19,19 @@ nav_node: teaching
     1413H <a href="https://goo.gl/maps/bMRqjVRuSFs" target="_blank">Marie Mount Hall</a>
     <br />
     <em>
-      Mondays:
+      Tuesdays:
     </em>
-    12:00 – 1:00
+    3:30 – 4:30
     <br />
     <em>
-      Thursdays:
+      or by appointment
     </em>
-    11:00 – 12:00
   </li>
 </ul>
 
 ## currently
 
-- TA for LING 200 -- "Introductory Linguistics" (fall 2018)
+- TA for LING 200 -- "Introductory Linguistics" (fall 2018, spring 2019)
 
 ## previously
 
