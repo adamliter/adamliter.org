@@ -18,7 +18,7 @@ two [Shiny][shiny] apps hosted here:
 [shiny]: https://shiny.rstudio.com/
 
 [biasinlinguistics]: https://biasinlinguistics.org
-[bethany]: https://bethanyid.wordpress.com/
+[bethany]: https://blogs.umass.edu/bdickerson/
 [karthik]: https://msu.edu/~durvasul/Hello.html
 
 [2017lingholidaypartysurvey]: https://shiny.adamliter.org/2017lingholidaypartysurveyresults/
