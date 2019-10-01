@@ -19,7 +19,7 @@ two [Shiny][shiny] apps hosted here:
 
 [biasinlinguistics]: https://biasinlinguistics.org
 [bethany]: https://blogs.umass.edu/bdickerson/
-[karthik]: https://msu.edu/~durvasul/Hello.html
+[karthik]: https://karthikdurvasula.gitlab.io/
 
 [2017lingholidaypartysurvey]: https://shiny.adamliter.org/2017lingholidaypartysurveyresults/
 [2017lingholidaypartysurvey-code]: https://github.com/adamliter/ling-2017-holiday-party-survey-results
