@@ -1,12 +1,13 @@
 ---
 title: adamliter/teaching
 layout: default
-date: 2019-01-30
+date: 2019-10-01
 nav_node: teaching
 ---
 
 # teaching
 
+<!--
 <ul>
   <li>
     <strong>
@@ -28,13 +29,15 @@ nav_node: teaching
     </em>
   </li>
 </ul>
+-->
 
 ## currently
 
-- TA for LING 200 -- "Introductory Linguistics" (fall 2018, spring 2019)
+I am not currently teaching.
 
 ## previously
 
+- TA for LING 200 -- "Introductory Linguistics" (fall 2018, spring 2019)
 - TA for IAH 204 -- "Asia and the World" (fall 2015, spring 2016)
 - Tutor for all classes in the [Department of Philosophy at Michigan State University][msu-philosophy] (fall 2013, spring 2014)
 
