@@ -16,7 +16,7 @@
 
 - project_name: R package <code>psych</code>
   contrib_description: I've <a href="https://cran.r-project.org/web/packages/psych/news.html">identified issues and suggested bugfixes</a> for the R package <code>psych</code>.
-  display: true
+  display: false
 
 - project_name: Homebrew
   contrib_description: I've made minor contributions to various parts of the broader <a href="https://brew.sh">Homebrew</a> project, including <a href="https://github.com/Homebrew/homebrew-core/commits?author=adamliter">contributions to <code>homebrew-core</code></a> and <a href="https://github.com/Homebrew/homebrew-bundle/commits?author=adamliter">contributions to <code>homebrew-bundle</code></a>.
