@@ -1,20 +1,32 @@
 ---
 title: adamliter/research
 layout: default
-date: 2018-08-21
+date: 2019-01-08
 nav_node: research
 ---
 
 # research
 
-I'm most interested in syntax, language acquisition, and semantics.
-Although I'm genuinely interested in most domains of inquiry. For
-example, I've also worked on issues of learnability in the phonotactic
-domain.
+Broadly, I'm interested in syntax, language acquisition, learnability,
+and semantics.
 
-Below you'll find a selected list of some of my research
-projects. Things that are not listed here but that are listed on my
-[CV][cv] are available upon request.
+More specifically, I'm interested in studying grammatical competence
+(*i.e.*, what it is that we know when we know a language). However, we
+only have access to this knowledge via its use in individual humans. One
+major strand of my research involves careful investigation into how we
+can parcel out performance factors to ensure we're identifying aspects
+of grammatical competence. I do this type of psycholinguistic research
+both with children and with adults.
+
+The other major strand of my research involves investigations into
+learnability. Grammatical theories and their concomitant representations
+are often evaluated on the basis of data fit. I'm interested in
+furthermore using learnability considerations to help adjudicate between
+theories and representations.
+
+Below you'll find a selected list of specific research projects. Things
+that are not listed here but that are listed on my [CV][cv] are
+available upon request.
 
 {% for r in site.data.research %}
   {% unless r.under_review == true %}
@@ -77,13 +89,13 @@ projects. Things that are not listed here but that are listed on my
               <i class ="ai ai-doi"></i> doi
             </span>
           </a>
-          {%- endif -%}
-          {%- if pub.pdf != '' -%}
           <!--
           for some reason this space will only show up with "&nbsp;"
           {{ site.my_space }} won't work
           -->
           &nbsp;
+          {%- endif -%}
+          {%- if pub.pdf != '' -%}
             <a href="{{ pub.pdf | replace: '!SITE_URL!', site.url }}">
               <span class="label label-default">
                 <i class ="fa fa-file"></i> pdf
@@ -95,6 +107,10 @@ projects. Things that are not listed here but that are listed on my
         </li>
       {%- endfor -%}
     </ul>
+  {%- elsif r.in_prep and r.latest_type != '' and r.older_versions -%}
+    This project is currently being written up. The latest version of this research is available as a <a href="{{ r.latest | replace: '!SITE_URL!', sit.url }}">{{ r.latest_type }}</a>. Older versions are available upon request.
+  {%- elsif r.in_prep and r.latest_type != '' -%}
+    This project is currently being written up. The latest version of this research is available as a <a href="{{ r.latest | replace: '!SITE_URL!', sit.url }}">{{ r.latest_type }}</a>.
   {%- elsif r.in_prep and r.older_versions -%}
     This project is currently being written up. Older versions are available upon request.
   {%- elsif r.in_prep -%}
