@@ -1,7 +1,7 @@
 ---
 title: adamliter
 layout: default
-date: 2018-05-02
+date: 2019-01-08
 nav_node: home
 ---
 
@@ -12,10 +12,17 @@ at [University of Maryland][umd], advised by [Jeff Lidz][jeff]
 and [Norbert Hornstein][norbert]. For more information about my
 research, see my [research page][research].
 
-Outside of linguistics, I'm also interested in web development,
-programming, and system administration.  And I **really** like coffee.
-I worked as a barista, off-and-on, for a few years at the Dunn Bros at
-the Smith Douglas More House, now known as [Smith][DB].
+Outside of linguistics, I'm also interested in web development and
+programming. I enjoy tinkering with computers as well as teaching others
+about computers. I've put together [materials for a LaTeX
+workshop][latex-ling], loosely aimed at linguists, which I've taught
+several times. I've also put together [materials for a `git`
+workshop][git-workshop], loosely aimed at scientists who do human
+subjects research, which I've taught once over the course of 7 weeks.
+
+I also enjoy snowboarding, backpacking, and hiking. And I **really**
+like coffee.  I worked as a barista, off-and-on, for a few years at the
+Dunn Bros at the Smith Douglas More House, now known as [Smith][DB].
 
 # recent updates
 
@@ -38,4 +45,6 @@ the Smith Douglas More House, now known as [Smith][DB].
 [jeff]: http://ling.umd.edu/~jlidz/
 [norbert]: http://ling.umd.edu/~hornstein/
 [research]: {{ site.url }}/research
+[latex-ling]: {{ site.url }}/content/LaTeX/latex-workshop-for-linguists.pdf
+[git-workshop]: https://gitlab.com/adamliter/git-workshop2018_materials
 [DB]: https://www.smith1877.com/
