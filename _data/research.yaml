@@ -1,3 +1,27 @@
+- title:          "Modeling the learning of the Person Case Constraint"
+  collaborators:  [naomi_feldman]
+  summary:        'We demonstrate the usefulness of using learnability considerations to evaluate different theories and their concommitant feature representations, above and beyond parsimony considerations, in the domain of the Person Case Constraint (PCC). We find that a theory of the PCC that relies on atomic person feature representations may systematically learn an unattested variant of the PCC when learning from data drawn from the grammar of an attested variant of the PCC. On the other hand, a theory of the PCC that relies on person feature representations consisting of bundles of binary-valued Author and Participant features quickly converges on the target grammar and is not led astray.'
+  keywords:       ["morphosyntax", "learnability", "features", "representations", "PCC"]
+  presentations:  []
+  publications:   [liter2020_pcc_scil]
+  latest:         ""
+  latest_type:    ""
+  in_prep:        false
+  older_versions: false
+  under_review:   false
+
+- title:          "Inhibition and children's productions of medial wh-phrases"
+  collaborators:  [elaine_grolla, jeff_lidz]
+  summary:        "We report evidence that children's non-adult-like productions of questions with medial wh-phrases, such as <em>Who do you think <strong>who</strong> was chasing the boys</em>, are the result of immature inhibition control, not the result of having temporarily settled on a non-target grammar (like some have argued)."
+  keywords:       ["acquisition", "syntax", "wh movement"]
+  presentations:  []
+  publications:   []
+  latest:         "!SITE_URL!/content/research/MSULC2019-Talk.pdf"
+  latest_type:    "talk"
+  in_prep:        true
+  older_versions: false
+  under_review:   false
+
 - title:          "Generalising from ambiguous data"
   collaborators:  [karthik_durvasula]
   summary:        'Using an artificial language learning paradigm, we investigate how participants learn a consonant harmony pattern that is consistent with multiple different generalisations. We find that (i) participants keep track of the multiple simplest generalisations and (ii) segments must be as equally "simple" as features.'
