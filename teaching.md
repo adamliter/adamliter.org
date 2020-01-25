@@ -1,17 +1,16 @@
 ---
 title: adamliter/teaching
 layout: default
-date: 2019-10-01
+date: 2019-01-25
 nav_node: teaching
 ---
 
 # teaching
 
-<!--
 <ul>
   <li>
     <strong>
-      Spring 2019 office hours:
+      Spring 2020 office hours:
     </strong>
     <br />
     <em>
@@ -20,20 +19,19 @@ nav_node: teaching
     1413H <a href="https://goo.gl/maps/bMRqjVRuSFs" target="_blank">Marie Mount Hall</a>
     <br />
     <em>
-      Tuesdays:
+      Mondays:
     </em>
-    3:30 – 4:30
+    2:00 – 3:00
     <br />
     <em>
       or by appointment
     </em>
   </li>
 </ul>
--->
 
 ## currently
 
-I am not currently teaching.
+- TA for LING 311 -- "Syntax I" (spring 2020)
 
 ## previously
 
