@@ -1,7 +1,7 @@
 ---
 title: adamliter/research
 layout: default
-date: 2019-01-08
+date: 2020-01-08
 nav_node: research
 ---
 

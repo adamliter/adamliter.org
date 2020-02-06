@@ -1,7 +1,7 @@
 ---
 title: adamliter/teaching
 layout: default
-date: 2019-01-25
+date: 2020-01-25
 nav_node: teaching
 ---
 
