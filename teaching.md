@@ -1,7 +1,7 @@
 ---
 title: adamliter/teaching
 layout: default
-date: 2020-03-23
+date: 2020-04-06
 nav_node: teaching
 ---
 
@@ -16,7 +16,7 @@ nav_node: teaching
     <em>
       Office:
     </em>
-    <del>1413H <a href="https://goo.gl/maps/bMRqjVRuSFs" target="_blank">Marie Mount Hall</a></del> &#8230; <a href="https://umd.zoom.us/my/adamliter"><code>https://umd.zoom.us/my/adamliter</code></a>
+    <del>1413H <a href="https://goo.gl/maps/bMRqjVRuSFs" target="_blank">Marie Mount Hall</a></del> &#8230; <a href="https://umd.zoom.us/j/911831564"><code>https://umd.zoom.us/j/911831564</code></a>
     <br />
     <em>
       Mondays:
