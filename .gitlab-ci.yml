@@ -16,7 +16,9 @@ build:
     - git submodule sync
     - git submodule update --init
     - gem install bundler
-    - bundle install --path vendor --without test
+    - bundle config set path 'vendor'
+    - bundle config set without 'test'
+    - bundle install
   script:
     - mkdir -p adamliter.org
     - bundle exec rake build
@@ -30,7 +32,9 @@ test:
   stage: test
   before_script:
     - gem install bundler
-    - bundle install --path vendor --without development
+    - bundle config set path 'vendor'
+    - bundle config set without 'development'
+    - bundle install
     - "which locale-gen || (apt-get update -y && apt-get install locales -y)"
     - echo "en_US UTF-8" > /etc/locale.gen
     - locale-gen en_US.UTF-8
@@ -54,6 +58,8 @@ deploy:
     - echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
     - chmod 644 ~/.ssh/known_hosts
     - gem install bundler
-    - bundle install --path vendor --without development test
+    - bundle config set path 'vendor'
+    - bundle config set without 'development test'
+    - bundle install
   script:
     - bundle exec rake deploy:deploy_prod
