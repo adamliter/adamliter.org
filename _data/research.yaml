@@ -22,17 +22,17 @@
   older_versions: false
   under_review:   false
 
-- title:          "Generalising from ambiguous data"
+- title:          "There is a simplicity bias when generalising from ambiguous data"
   collaborators:  [karthik_durvasula]
-  summary:        'Using an artificial language learning paradigm, we investigate how participants learn a consonant harmony pattern that is consistent with multiple different generalisations. We find that (i) participants keep track of the multiple simplest generalisations and (ii) segments must be as equally "simple" as features.'
+  summary:        'How exactly do learners generalize in the face of ambiguous data? While there has been a substantial amount of research studying the biases that learners employ, there has been very little work on what sorts of biases are employed in the face of data that is ambiguous between phonological generalizations with different degrees of complexity. We show, via three artificial language learning experiments, that, at least for phonotactic sequence patterns, learners are able to keep track of multiple generalizations related to the same segmental co-occurrences; however, the generalizations they learn are only the simplest ones consistent with the data.'
   keywords:       ["phonotactics", "learnability", "artificial language learning"]
   presentations:  []
-  publications:   []
-  latest:         "!SITE_URL!/content/research/NAPhC2016-Talk.pdf"
-  latest_type:    "talk"
+  publications:   [durvasula2020_simplicity_phonology]
+  latest:         ""
+  latest_type:    ""
   in_prep:        false
   older_versions: true
-  under_review:   true
+  under_review:   false
 
 - title:          "Reevaluating the Maratsos Effect"
   collaborators:  [tess_huelskamp, susima_weerakoon, alan_munn]
