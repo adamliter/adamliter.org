@@ -43,7 +43,7 @@ Dunn Bros at the Smith Douglas More House, now known as [Smith][DB].
 
 [umd-ling]: http://ling.umd.edu/
 [umd]: https://umd.edu/
-[jeff]: http://ling.umd.edu/~jlidz/
+[jeff]: https://jefflidz.com
 [norbert]: http://ling.umd.edu/~hornstein/
 [lsc]: http://languagescience.umd.edu/
 [research]: {{ site.url }}/research
