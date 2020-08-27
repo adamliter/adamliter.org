@@ -1,7 +1,7 @@
 ---
 title: adamliter/teaching
 layout: default
-date: 2020-08-13
+date: 2020-08-27
 nav_node: teaching
 ---
 
@@ -13,16 +13,15 @@ nav_node: teaching
       Fall 2020 office hours:
     </strong>
     <br />
-    TBD
-    <!-- <em>
+    <em>
       Office:
     </em>
-    <del>1413H <a href="https://goo.gl/maps/bMRqjVRuSFs" target="_blank">Marie Mount Hall</a></del> &#8230; <a href="https://umd.zoom.us/j/911831564"><code>https://umd.zoom.us/j/911831564</code></a>
+    <a href="https://umd.zoom.us/j/98029511265"><code>https://umd.zoom.us/j/98029511265</code></a>
     <br />
     <em>
-      Mondays:
+      Tuesdays:
     </em>
-    3:30 – 4:30
+    2:00 – 3:00
     <br />
     <em>
       or by appointment
