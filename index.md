@@ -1,13 +1,13 @@
 ---
 title: adamliter
 layout: default
-date: 2020-01-25
+date: 2020-08-277777777
 nav_node: home
 ---
 
 # about
 
-I'm a PhD student in the [Department of Linguistics][umd-ling] at
+I'm a PhD candidate in the [Department of Linguistics][umd-ling] at
 [University of Maryland][umd], advised by [Jeff Lidz][jeff] and [Norbert
 Hornstein][norbert]. I am also a Language Science Fellow in University
 of Maryland's [Language Science Center][lsc]. For more information about
@@ -50,3 +50,9 @@ Dunn Bros at the Smith Douglas More House, now known as [Smith][DB].
 [latex-ling]: {{ site.url }}/content/LaTeX/latex-workshop-for-linguists.pdf
 [git-workshop]: https://gitlab.com/adamliter/git-workshop2018_materials
 [DB]: https://www.smith1877.com/
+
+<!-- Local Variables: -->
+<!-- mode: markdown -->
+<!-- coding: utf-8 -->
+<!-- fill-column: 72 -->
+<!-- End: -->
