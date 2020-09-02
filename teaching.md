@@ -1,7 +1,7 @@
 ---
 title: adamliter/teaching
 layout: default
-date: 2020-08-27
+date: 2020-09-02
 nav_node: teaching
 ---
 
@@ -25,7 +25,7 @@ nav_node: teaching
     <br />
     <em>
       or by appointment
-    </em> -->
+    </em> 
   </li>
 </ul>
 
