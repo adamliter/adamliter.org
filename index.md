@@ -1,7 +1,7 @@
 ---
 title: adamliter
 layout: default
-date: 2020-08-277777777
+date: 2020-08-27
 nav_node: home
 ---
 
