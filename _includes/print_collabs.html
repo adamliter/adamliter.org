@@ -2,7 +2,7 @@
 {%- assign my_and = " and " -%}
 {%- assign my_last_and = "and " -%}
 {%- assign my_myself = "Myself" -%}
-{%- assign my_i = "I" -%}
+{%- assign my_me = "me" -%}
 
 {%- for collab in collab_array -%}
 
@@ -24,7 +24,7 @@
   {%- endif -%}
 
   {%- if collab.name == "Adam Liter" and forloop.index != 1 -%}
-    {{ my_i }}
+    {{ my_me }}
   {%- else -%}
     {%- include print_collab.html -%}
   {%- endif -%}
