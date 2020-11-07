@@ -1,3 +1,15 @@
+- title:          "Non-actional passives can be comprehended by 4-year olds"
+  collaborators:  [jeff_lidz]
+  summary:        'English-acquiring children have difficulty comprehending passives of non-actional verbs, such as "forget", until 5 or later (e.g., Maratsos et al. 1985). Many have hypothesized that English-acquiring children lack grammatical knowledge of the passive (e.g., Borer & Wexler 1987, 1992; Fox & Grodzinsky 1998; Wexler 2004; Snyder & Hyams 2015). We report experimental evidence that 4-year olds can comprehend passives of non-actional verbs, if their use is licensed by the context. The "by"-phrase of an English passive normally carries narrow focus; it is most naturally used when what is at issue is the content of the "by"-phrase. We conducted a TVJT with stories where there were always three potential forgetters. 4-year olds performed significantly above chance on the passive trials. 4-year-old children do have grammatical knowledge of passives; their failure to comprehend them in previous studies is due to discourse-inappropriate use.'
+  keywords:       ["acquisition", "syntax", "pragmatics"]
+  presentations:  []
+  publications:   []
+  latest:         "!SITE_URL!/content/research/BUCLD2020-Poster.pdf"
+  latest_type:    "poster"
+  in_prep:        false
+  older_versions: false
+  under_review:   false
+
 - title:          "Modeling the learning of the Person Case Constraint"
   collaborators:  [naomi_feldman]
   summary:        'We demonstrate the usefulness of using learnability considerations to evaluate different theories and their concommitant feature representations, above and beyond parsimony considerations, in the domain of the Person Case Constraint (PCC). We find that a theory of the PCC that relies on atomic person feature representations may systematically learn an unattested variant of the PCC when learning from data drawn from the grammar of an attested variant of the PCC. On the other hand, a theory of the PCC that relies on person feature representations consisting of bundles of binary-valued Author and Participant features quickly converges on the target grammar and is not led astray.'
