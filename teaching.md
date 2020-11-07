@@ -31,7 +31,7 @@ nav_node: teaching
 
 ## currently
 
-- Instructor for LING 419E -- "Topics in Syntax; Investigating Linguistic Competence: Theory and Methods"
+- Instructor for LING 419E -- "[Topics in Syntax; Investigating Linguistic Competence: Theory and Methods][ling419e_syllabus]"
 
 ## previously
 
@@ -42,3 +42,4 @@ nav_node: teaching
 
 [office]: http://maps.msu.edu/interactive/index.php?location=wh
 [msu-philosophy]: http://philosophy.msu.edu/
+[ling419e_syllabus]: {{ site.url }}/content/syllabi/LING419E_syllabus.pdf
