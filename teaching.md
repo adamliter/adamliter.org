@@ -1,40 +1,20 @@
 ---
 title: adamliter/teaching
 layout: default
-date: 2021-02-09
+date: 2021-05-27
 nav_node: teaching
 ---
 
 # teaching
 
-<ul>
-  <li>
-    <strong>
-      Spring 2021 office hours:
-    </strong>
-    <br />
-    <em>
-      Office:
-    </em>
-    <a href="https://umd.zoom.us/j/92689555692"><code>https://umd.zoom.us/j/92689555692</code></a>
-    <br />
-    <em>
-      Wednesdays:
-    </em>
-    1:30 – 2:30
-    <br />
-    <em>
-      or by appointment
-    </em> 
-  </li>
-</ul>
 
 ## currently
 
-- TA for LING 312 -- "Syntax II"
+I am not currently teaching or TAing.
 
 ## previously
 
+- TA for LING 312 -- "Syntax II" (spring 2021)
 - Instructor for LING 419E -- "[Topics in Syntax; Investigating Linguistic Competence: Theory and Methods][ling419e_syllabus]" (fall 2020)
 - TA for LING 311 -- "Syntax I" (spring 2020)
 - TA for LING 200 -- "Introductory Linguistics" (fall 2018, spring 2019)
