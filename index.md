@@ -1,23 +1,23 @@
 ---
 title: adamliter
 layout: default
-date: 2020-08-27
+date: 2022-04-23
 nav_node: home
 ---
 
 # about
 
-I'm a PhD candidate in the [Department of Linguistics][umd-ling] at
-[University of Maryland][umd], advised by [Jeff Lidz][jeff] and [Norbert
+I'm a Machine Learning Scientist at [Glassddoor][gd] and a PhD candidate
+in the [Department of Linguistics][umd-ling] at [University of
+Maryland][umd], advised by [Jeff Lidz][jeff] and [Norbert
 Hornstein][norbert]. I am also a Language Science Fellow in University
 of Maryland's [Language Science Center][lsc]. For more information about
 my research, see my [research page][research].
 
-Outside of linguistics, I'm also interested in web development and
-programming. I enjoy tinkering with computers as well as teaching others
-about computers. I've put together [materials for a LaTeX
-workshop][latex-ling], loosely aimed at linguists, which I've taught
-several times. I've also put together [materials for a `git`
+Outside of work and linguistics, I enjoy tinkering with computers as
+well as teaching others about computers. I've put together [materials
+for a LaTeX workshop][latex-ling], loosely aimed at linguists, which
+I've taught several times. I've also put together [materials for a `git`
 workshop][git-workshop], loosely aimed at scientists who do human
 subjects research, which I've taught once over the course of 7 weeks.
 
@@ -41,6 +41,9 @@ Dunn Bros at the Smith Douglas More House, now known as [Smith][DB].
 {% endfor %}
 </ul>
 
+
+<!-- links -->
+[gd]: https://www.glassdoor.com/index.htm
 [umd-ling]: https://linguistics.umd.edu/
 [umd]: https://umd.edu/
 [jeff]: https://jefflidz.com
