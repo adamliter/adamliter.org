@@ -1,3 +1,4 @@
+<!-- -*- mode: web-mode; coding: utf-8; web-mode-markup-indent-offset: 2; -*-  -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -43,60 +44,62 @@
     <header>
       <!-- navbar -->
       <nav class="navbar navbar-default navbar-static-top">
-	<div class="container">
-	  <div class="navbar-header">
-	    <a href="{{ site.url }}{{ site.baseurl }}" class="navbar-brand">
-	      Adam Liter
-	    </a>
-	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-	      <span class="sr-only">Toggle navigation</span>
-	      <span class="icon-bar"></span>
-	      <span class="icon-bar"></span>
-	      <span class="icon-bar"></span>
-	    </button>
-	  </div><!-- End of .navbar-header div -->
-	  <ul class="nav navbar-nav collapse navbar-collapse">
-	    <li {% if page.nav_node == "home" %} class="active" {% endif %} >
-	      <a href="{{ site.url }}{{ site.baseurl }}">
-		home
-		{% if page.nav_node == "home" %}<span class="sr-only">(current)</span>{% endif %}
-	      </a>
-	    </li>
-	    <!--<li {% if page.nav_node == "blog" %} class="active" {% endif %} >
-	      <a href="{{ site.url }}{{ site.baseurl }}/blog">
-		blog
-		{% if page.nav_node == "blog" %}<span class="sr-only">(current)</span>{% endif %}
-	      </a>
-	    </li>-->
-	    <li {% if page.nav_node == "research" %} class="active" {% endif %} >
-	      <a href="{{ site.url }}{{ site.baseurl }}/research">
-		research
-		{% if page.nav_node == "research" %}<span class="sr-only">(current)</span>{% endif %}
-	      </a>
-	    </li>
-	    <li {% if page.nav_node == "teaching" %} class="active" {% endif %} >
-	      <a href="{{ site.url }}{{ site.baseurl }}/teaching">
-		teaching
-		{% if page.nav_node == "teaching" %}<span class="sr-only">(current)</span>{% endif %}
-	      </a>
-	    </li>
-	    <li>
-	      <a href="{{ site.url }}{{ site.baseurl }}/content/adamlitercv.pdf">
-		cv
-	      </a>
-	    </li>
-	    <li {% if page.nav_node == "updates" %} class="active" {% endif %} >
-	      <a href="{{ site.url }}{{ site.baseurl }}/updates">
-		updates
-		{% if page.nav_node == "updates" %}<span class="sr-only">(current)</span>{% endif %}
-	      </a>
-	    </li>
+        <div class="container">
+          <div class="navbar-header">
+            <a href="{{ site.url }}{{ site.baseurl }}" class="navbar-brand">
+              Adam Liter
+            </a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div><!-- End of .navbar-header div -->
+          <ul class="nav navbar-nav collapse navbar-collapse">
+            <li {% if page.nav_node == "home" %} class="active" {% endif %} >
+              <a href="{{ site.url }}{{ site.baseurl }}">
+                home
+                {% if page.nav_node == "home" %}<span class="sr-only">(current)</span>{% endif %}
+              </a>
+            </li>
+            <!--
+            <li {% if page.nav_node == "blog" %} class="active" {% endif %} >
+              <a href="{{ site.url }}{{ site.baseurl }}/blog">
+                blog
+                {% if page.nav_node == "blog" %}<span class="sr-only">(current)</span>{% endif %}
+              </a>
+            </li>
+            -->
+            <li {% if page.nav_node == "research" %} class="active" {% endif %} >
+              <a href="{{ site.url }}{{ site.baseurl }}/research">
+                research
+                {% if page.nav_node == "research" %}<span class="sr-only">(current)</span>{% endif %}
+              </a>
+            </li>
+            <li {% if page.nav_node == "teaching" %} class="active" {% endif %} >
+              <a href="{{ site.url }}{{ site.baseurl }}/teaching">
+                teaching
+                {% if page.nav_node == "teaching" %}<span class="sr-only">(current)</span>{% endif %}
+              </a>
+            </li>
+            <li>
+              <a href="{{ site.url }}{{ site.baseurl }}/content/adamlitercv.pdf">
+                cv
+              </a>
+            </li>
+            <li {% if page.nav_node == "updates" %} class="active" {% endif %} >
+              <a href="{{ site.url }}{{ site.baseurl }}/updates">
+                updates
+                {% if page.nav_node == "updates" %}<span class="sr-only">(current)</span>{% endif %}
+              </a>
+            </li>
             <li class='dropdown {% if page.nav_node == "side-projects" %} active {% endif %}'>
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
                 side projects
                 {% if page.nav_node == "side-projects" %}<span class="sr-only">(current)</span>{% endif %}
-		<span class="caret"></span>
-	      </a>
+                <span class="caret"></span>
+              </a>
               <ul class="dropdown-menu">
                 <li>
                   <a href="{{ site.url }}{{ site.baseurl }}/side-projects/#latex-workshop">
@@ -122,61 +125,63 @@
                 </li>
               </ul>
             </li>
-	    <li class="dropdown">
-	      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
-		external
-		<span class="caret"></span>
-	      </a>
-	      <ul class="dropdown-menu">
-		<li>
-		  <a href="https://scholar.google.com/citations?hl=en&user=hdg-68EAAAAJ">
-		    <i class="ai ai-google-scholar"></i> Google Scholar
-		  </a>
-		</li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                external
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="https://scholar.google.com/citations?hl=en&user=hdg-68EAAAAJ">
+                    <i class="ai ai-google-scholar"></i> Google Scholar
+                  </a>
+                </li>
                 <li>
                   <a href="https://orcid.org/0000-0002-1517-2900">
                     <i class="ai ai-orcid"></i> ORCID
                   </a>
                 </li>
-		<li class="divider"></li>
-		<li>
-		  <a href="https://github.com/adamliter">
-		    <i class="fa fa-github"></i> GitHub
-		  </a>
-		</li>
+                <li class="divider"></li>
+                <li>
+                  <a href="https://github.com/adamliter">
+                    <i class="fa fa-github"></i> GitHub
+                  </a>
+                </li>
                 <li>
                   <a href="https://gitlab.com/adamliter">
                     <i class ="fa fa-gitlab"></i> GitLab
                   </a>
                 </li>
-		<li>
-		  <a href="https://stackexchange.com/users/2978319/adam-liter?tab=accounts">
-		    <i class="fa fa-stack-exchange"></i> Stack Exchange
-		  </a>
-		</li>
-		<li>
-		  <a href="https://keybase.io/adamliter">
-		    <i class="fa fa-key"></i> Keybase
-		  </a>
-		</li>
-		<!--<li>
-		  <a href="https://delicious.com/adamliter">
-		    <i class="fa fa-delicious"></i> Links
-		  </a>
-		</li>-->
-		<li class="divider"></li>
-		<li>
-		  <a href="https://keybase.io/adamliter/key.asc">
-		    <i class="fa fa-lock"></i> PGP
-		  </a>
-		</li>
-		<li>
-		  <a href="mailto:io@adamliter.org">
-		    <i class="fa fa-inbox"></i> Email me
-		  </a>
-		</li>
-	      </ul>
-	  </ul>
-	</div><!-- End of .container-fluid div -->
+                <li>
+                  <a href="https://stackexchange.com/users/2978319/adam-liter?tab=accounts">
+                    <i class="fa fa-stack-exchange"></i> Stack Exchange
+                  </a>
+                </li>
+                <li>
+                  <a href="https://keybase.io/adamliter">
+                    <i class="fa fa-key"></i> Keybase
+                  </a>
+                </li>
+                <!--
+                <li>
+                  <a href="https://delicious.com/adamliter">
+                    <i class="fa fa-delicious"></i> Links
+                  </a>
+                </li>
+                -->
+                <li class="divider"></li>
+                <li>
+                  <a href="https://keybase.io/adamliter/key.asc">
+                    <i class="fa fa-lock"></i> PGP
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:io@adamliter.org">
+                    <i class="fa fa-inbox"></i> Email me
+                  </a>
+                </li>
+              </ul>
+          </ul>
+        </div><!-- End of .container-fluid div -->
       </nav><!-- End of navbar -->
     </header><!-- End of header -->

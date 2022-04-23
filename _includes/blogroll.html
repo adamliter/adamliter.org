@@ -1,26 +1,18 @@
+<!-- -*- mode: web-mode; coding: utf-8; web-mode-markup-indent-offset: 2; -*-  -->
 {% for post in site.posts %}
-
-{% if post.categories contains "Blog" %}
-
-{% capture y %}
-{{post.date | date:"%Y"}}
-{% endcapture %}
-
-{% if year != y %}
-
-{% assign year = y %}
-
-<h2>{{ y }}</h2>
-
-{% endif %}
-
-<ul>
-<li>
-<a href="{{ post.url }}">{{ post.title }}</a>
-<!--{{ post.excerpt }}-->
-</li>
-</ul>
-
-{% endif %}
-
+  {% if post.categories contains "Blog" %}
+    {% capture y %}
+      {{post.date | date:"%Y"}}
+    {% endcapture %}
+    {% if year != y %}
+      {% assign year = y %}
+      <h2>{{ y }}</h2>
+    {% endif %}
+    <ul>
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <!--{{ post.excerpt }}-->
+      </li>
+    </ul>
+  {% endif %}
 {% endfor %}

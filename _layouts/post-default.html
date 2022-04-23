@@ -1,49 +1,45 @@
+<!-- -*- mode: web-mode; coding: utf-8; web-mode-markup-indent-offset: 2; -*-  -->
 {% include header.html %}
 
 <div id="content">
-	
-	<div class="meta-info">
-	
-		<h2>{{ page.title }}</h2>
-    	<h3>{{ page.date | date_to_long_string }}</h3>
-    	
-    	<table>
-    		<tr>
-    			<th>
-    				categories
-    			</th>
-    			<th>
-    				tags
-    			</th>
-    		</tr>
-    		<tr>
-    			<td>
-					<ul>
-						{% for category in page.categories %}
-							<li>{{ category }}</li>
-						{% else %}
-							None listed
-						{% endfor %}
-					</ul>
-    			</td>
-    			<td>
-					<ul>
-						{% for tag in page.tags %}
-							<li>{{ tag }}</li>
-						{% else %}
-							None listed
-						{% endfor %}
-					</ul>
-    			</td>
-    		</tr>
-    	</table>
-	
-	</div><!-- END meta-info div-->
-	
-	{{ content }}
+  <div class="meta-info">
+    <h2>{{ page.title }}</h2>
+    <h3>{{ page.date | date_to_long_string }}</h3>
+    <table>
+      <tr>
+        <th>
+          categories
+        </th>
+        <th>
+          tags
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            {% for category in page.categories %}
+              <li>{{ category }}</li>
+            {% else %}
+              None listed
+            {% endfor %}
+          </ul>
+        </td>
+        <td>
+          <ul>
+            {% for tag in page.tags %}
+              <li>{{ tag }}</li>
+            {% else %}
+              None listed
+            {% endfor %}
+          </ul>
+        </td>
+      </tr>
+    </table>
 
-	{% include comments.html %}
-	
+  </div><!-- END meta-info div-->
+  {{ content }}
+  {% include comments.html %}
+
 </div><!-- END content div-->
 
 {% include footer.html %}
