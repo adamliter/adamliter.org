@@ -2,89 +2,73 @@ adam_liter:
   name: Adam Liter
   url:  https://adamliter.org
 
-karthik_durvasula:
-  name: Karthik Durvasula
-  url:  https://karthikdurvasula.gitlab.io/
+adam_smolinski:
+  name: Adam Smolinski
+  url:
 
 alan_munn:
   name: Alan Munn
   url:  http://msu.edu/~amunn
 
-cristina_schmitt:
-  name: Cristina Schmitt
-  url:  http://msuacquisition.wordpress.com/
+bethany_dickerson:
+  name: Bethany Dickerson
+  url: https://blogs.umass.edu/bdickerson/
 
 chris_heffner:
   name: Chris Heffner
   url: https://www.acsu.buffalo.edu/~ccheffne/
 
-tess_huelskamp:
-  name: Tess Huelskamp
-  url: https://huelskamp.io/
+colin_phillips:
+  name: Colin Phillips
+  url: http://www.colinphillips.net
 
-susima_weerakoon:
-  name: Susima Weerakoon
-  url:
+cristina_schmitt:
+  name: Cristina Schmitt
+  url:  http://msuacquisition.wordpress.com/
 
-rachel_stacey:
-  name: Rachel Stacey
-  url:
-
-robert_felster:
-  name: Robert Felster
-  url:
-
-adam_smolinski:
-  name: Adam Smolinski
-  url:
+elaine_grolla:
+  name: Elaine Grolla
+  url: http://egrolla.fflch.usp.br/
 
 hanna_muller:
   name: Hanna Muller
   url: https://hannamuller.net/
 
-phoebe_gaston:
-  name: Phoebe Gaston
-  url: https://phoebegaston.com/
+howard_lasnik:
+  name: Howard Lasnik
+  url: https://terpconnect.umd.edu/~lasnik/
 
-bethany_dickerson:
-  name: Bethany Dickerson
-  url: https://blogs.umass.edu/bdickerson/
+jackie_nelligan:
+  name: Jackie Nelligan
+  url:
 
-mina_hirzel:
-  name: Mina Hirzel
-  url: https://minahirzel.com/
+jeff_lidz:
+  name: Jeff Lidz
+  url: https://jefflidz.com/
+
+karthik_durvasula:
+  name: Karthik Durvasula
+  url:  https://karthikdurvasula.gitlab.io/
 
 kasia_hitczenko:
   name: Kasia Hitczenko
   url: https://khitczenko.github.io/
 
+laurel_perkins:
+  name: Laurel Perkins
+  url: https://laurelperkins.com/
+
 maggie_kandel:
   name: Maggie Kandel
-  url:
-
-paulina_lsykawa:
-  name: Paulina Lsykawa
-  url: https://paulinalyskawa.wordpress.com/
-
-jackie_nelligan:
-  name: Jackie Nelligan
   url:
 
 max_papillon:
   name: Max Papillon
   url: http://www.maximepapillon.com/
 
-laurel_perkins:
-  name: Laurel Perkins
-  url: https://laurelperkins.com/
-
-jeff_lidz:
-  name: Jeff Lidz
-  url: https://jefflidz.com/
-
-elaine_grolla:
-  name: Elaine Grolla
-  url: http://egrolla.fflch.usp.br/
+mina_hirzel:
+  name: Mina Hirzel
+  url: https://minahirzel.com/
 
 naomi_feldman:
   name: Naomi H. Feldman
@@ -94,18 +78,34 @@ norbert_hornstein:
   name: Norbert Hornstein
   url: https://linguistics.umd.edu/directory/norbert-hornstein
 
-yiting_huang:
-  name: Yi Ting Huang
-  url: https://hesp.umd.edu/facultyprofile/huang/yi-ting
-
-howard_lasnik:
-  name: Howard Lasnik
-  url: https://terpconnect.umd.edu/~lasnik/
-
-colin_phillips:
-  name: Colin Phillips
-  url: http://www.colinphillips.net
-
 omer_preminger:
   name: Omer Preminger
   url: https://omer.lingsite.org/
+
+paulina_lsykawa:
+  name: Paulina Lsykawa
+  url: https://paulinalyskawa.wordpress.com/
+
+phoebe_gaston:
+  name: Phoebe Gaston
+  url: https://phoebegaston.com/
+
+rachel_stacey:
+  name: Rachel Stacey
+  url:
+
+robert_felster:
+  name: Robert Felster
+  url:
+
+susima_weerakoon:
+  name: Susima Weerakoon
+  url:
+
+tess_huelskamp:
+  name: Tess Huelskamp
+  url: https://huelskamp.io/
+
+yiting_huang:
+  name: Yi Ting Huang
+  url: https://hesp.umd.edu/facultyprofile/huang/yi-ting
