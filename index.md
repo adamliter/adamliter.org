@@ -7,7 +7,7 @@ nav_node: home
 
 # about
 
-I'm a Machine Learning Scientist at [Glassddoor][gd] and a PhD candidate
+I'm a Machine Learning Scientist at [Glassdoor][gd] and a PhD candidate
 in the [Department of Linguistics][umd-ling] at [University of
 Maryland][umd], advised by [Jeff Lidz][jeff] and [Norbert
 Hornstein][norbert]. I am also a Language Science Fellow in University
