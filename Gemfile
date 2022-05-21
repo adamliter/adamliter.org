@@ -7,6 +7,7 @@ group :development do
   gem 'jekyll-paginate'
   gem 'jekyll-gist'
   gem 'jekyll-sitemap'
+  gem 'webrick'
 end
 
 group :test do
