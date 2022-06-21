@@ -1,18 +1,20 @@
 ---
 title: adamliter
 layout: default
-date: 2022-04-23
+date: 2022-06-20
 nav_node: home
 ---
 
 # about
 
-I'm a Machine Learning Scientist at [Glassdoor][gd] and a PhD candidate
-in the [Department of Linguistics][umd-ling] at [University of
-Maryland][umd], advised by [Jeff Lidz][jeff] and [Norbert
-Hornstein][norbert]. I am also a Language Science Fellow in University
-of Maryland's [Language Science Center][lsc]. For more information about
-my research, see my [research page][research].
+I'm a Machine Learning Scientist at [Glassdoor][gd]. Before that, I did
+my PhD in the [Department of Linguistics][umd-ling] at [University of
+Maryland][umd], where I was advised by [Jeff Lidz][jeff] and [Norbert
+Hornstein][norbert]. I was also a Language Science Fellow in University
+of Maryland's [Language Science Center][lsc]. I still engage in some
+linguistics research, albeit at a much slower pace since I work in
+industry. For more information about my academic research, see my
+[research page][research].
 
 Outside of work and linguistics, I enjoy tinkering with computers as
 well as teaching others about computers. I've put together [materials
