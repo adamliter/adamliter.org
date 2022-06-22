@@ -1,7 +1,7 @@
 ---
 title: adamliter
 layout: default
-date: 2022-06-20
+date: 2022-06-22
 nav_node: home
 ---
 
@@ -10,11 +10,12 @@ nav_node: home
 I'm a Machine Learning Scientist at [Glassdoor][gd]. Before that, I did
 my PhD in the [Department of Linguistics][umd-ling] at [University of
 Maryland][umd], where I was advised by [Jeff Lidz][jeff] and [Norbert
-Hornstein][norbert]. I was also a Language Science Fellow in University
-of Maryland's [Language Science Center][lsc]. I still engage in some
-linguistics research, albeit at a much slower pace since I work in
-industry. For more information about my academic research, see my
-[research page][research].
+Hornstein][norbert] (my dissertation can be found [here][diss]). I was
+also a Language Science Fellow in University of Maryland's [Language
+Science Center][lsc]. I still engage in some linguistics research,
+albeit at a much slower pace since I work in industry. For more
+information about my academic research, see my [research
+page][research].
 
 Outside of work and linguistics, I enjoy tinkering with computers as
 well as teaching others about computers. I've put together [materials
@@ -55,6 +56,8 @@ Dunn Bros at the Smith Douglas More House, now known as [Smith][DB].
 [latex-ling]: {{ site.url }}/content/LaTeX/latex-workshop-for-linguists.pdf
 [git-workshop]: https://gitlab.com/adamliter/git-workshop2018_materials
 [DB]: https://www.smith1877.com/
+[diss]: https://drum.lib.umd.edu/handle/1903/29000
+
 
 <!-- Local Variables: -->
 <!-- mode: markdown -->
