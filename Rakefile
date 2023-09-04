@@ -34,7 +34,7 @@ namespace :deploy do
 
   desc "Check HTML output with htmlproofer"
   task :proof do
-    sh "htmlproofer #{COMPILED_DIR} --only-4xx --check-favicon --check-html --allow-hash-href --check-img-http"
+    sh "htmlproofer #{COMPILED_DIR} --only-4xx --checks=Links,Images,Scripts --allow-hash-href --enforce-https"
   end
 
   desc "Deploy to production"
