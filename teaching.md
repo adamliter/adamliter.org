@@ -30,5 +30,5 @@ once over the course of 7 weeks.
 [latex-ling]: {{ site.url }}/content/LaTeX/latex-workshop-for-linguists.pdf
 [git-workshop]: https://gitlab.com/adamliter/git-workshop2018_materials
 [office]: http://maps.msu.edu/interactive/index.php?location=wh
-[msu-philosophy]: http://philosophy.msu.edu/
+[msu-philosophy]: https://philosophy.msu.edu/
 [ling419e_syllabus]: {{ site.url }}/content/syllabi/LING419E_syllabus.pdf

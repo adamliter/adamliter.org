@@ -51,7 +51,7 @@ Dunn Bros at the Smith Douglas More House, now known as [Smith][DB].
 [umd]: https://umd.edu/
 [jeff]: https://jefflidz.com
 [norbert]: https://linguistics.umd.edu/directory/norbert-hornstein
-[lsc]: http://languagescience.umd.edu/
+[lsc]: https://languagescience.umd.edu/
 [research]: {{ site.url }}/research
 [latex-ling]: {{ site.url }}/content/LaTeX/latex-workshop-for-linguists.pdf
 [git-workshop]: https://gitlab.com/adamliter/git-workshop2018_materials
