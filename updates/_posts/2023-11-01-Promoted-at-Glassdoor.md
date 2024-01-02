@@ -1,0 +1,11 @@
+---
+date: 2023-11-01
+categories:
+- Updates
+tags:
+- Work
+---
+
+I was promoted to Staff Machine Learning Scientist at [Glassdoor].
+
+[Glassdoor]: https://www.glassdoor.com/index.htm
