@@ -1,13 +1,13 @@
 ---
 title: adamliter
 layout: default
-date: 2022-11-16
+date: 2024-01-05
 nav_node: home
 ---
 
 # about
 
-I'm a Senior Machine Learning Scientist at [Glassdoor][gd]. Before that,
+I'm a Staff Machine Learning Scientist at [Glassdoor][gd]. Before that,
 I did my PhD in the [Department of Linguistics][umd-ling] at [University
 of Maryland][umd], where I was advised by [Jeff Lidz][jeff] and [Norbert
 Hornstein][norbert] (my dissertation can be found [here][diss]). I was
