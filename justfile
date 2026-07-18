@@ -98,6 +98,6 @@ proof dir=(DEST_DIR):
 [group('deploy')]
 [doc('Deploy to production')]
 deploy-prod dir=(DEST_DIR):
-    rsync -avzHPh '{{dir}}'/shiny/index.html -e ssh adamliter@l1node.adamliter.org:/srv/shiny-server/
+    rsync -avzHPhc '{{dir}}'/shiny/index.html -e ssh adamliter@l1node.adamliter.org:/srv/shiny-server/
     rm -rf '{{dir}}'/shiny
-    rsync -avzHPh --exclude='.git' --delete '{{dir}}'/ -e ssh adamliter@l1node.adamliter.org:/var/www/adamliter.org
+    rsync -avzHPhc --exclude='.git' --delete '{{dir}}'/ -e ssh adamliter@l1node.adamliter.org:/var/www/adamliter.org
