@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'rake', :group => :default
 
 group :development do
   gem 'jekyll'

@@ -131,7 +131,6 @@ DEPENDENCIES
   jekyll-gist
   jekyll-paginate
   jekyll-sitemap
-  rake
   webrick
 
 BUNDLED WITH

@@ -7,33 +7,22 @@ at [`adamliter/adamliter.org`][gitlab-adamliter-org].
 
 ## Development
 
-Install `rbenv` for managing multiple Ruby versions.
+Install `rbenv` for managing multiple Ruby versions. Additionally,
+[`just`][just] is used as a task runner.
 
 ``` sh
-brew install rbenv
+brew install rbenv just
 ```
 
-Then install the version of Ruby used by this project.
+Then setup the Ruby development environment with `just`.
 
 ``` sh
-rbenv install $(cat .ruby-version)
+just setup-env
 ```
 
-Then pull the packages used.
-
-``` sh
-bundle install
-```
-
-Development commands use [`rake`][rake]. To see available comamnds, run this
-command.
-
-``` sh
-bundle exec rake -T
-```
-
+To see the other available `just` recipes, run `just`.
 
 <!-- links -->
 [psite]: http://adamliter.org
 [gitlab-adamliter-org]: https://gitlab.com/adamliter/adamliter.org
-[rake]: https://github.com/ruby/rake
+[just]: https://github.com/casey/just
