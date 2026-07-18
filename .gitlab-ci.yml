@@ -1,3 +1,4 @@
+---
 image: ruby:3.1
 
 cache:
@@ -13,6 +14,11 @@ stages:
 build:
   stage: build
   before_script:
+    - mkdir -p ~/bin
+    - >-
+      curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh
+      | bash -s -- --to ~/bin
+    - export PATH="$PATH:$HOME/bin"
     - git submodule sync
     - git submodule update --init
     - gem install bundler
@@ -20,8 +26,7 @@ build:
     - bundle config set without 'test'
     - bundle install
   script:
-    - mkdir -p adamliter.org
-    - bundle exec rake build
+    - just build
   artifacts:
     paths:
       - adamliter.org
@@ -31,6 +36,11 @@ build:
 test:
   stage: test
   before_script:
+    - mkdir -p ~/bin
+    - >-
+      curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh
+      | bash -s -- --to ~/bin
+    - export PATH="$PATH:$HOME/bin"
     - gem install bundler
     - bundle config set path 'vendor'
     - bundle config set without 'development'
@@ -42,7 +52,7 @@ test:
     - export LANGUAGE=en_US.UTF-8
     - export LC_ALL=en_US.UTF-8
   script:
-    - bundle exec rake deploy:proof
+    - just proof
 
 deploy:
   stage: deploy
@@ -57,9 +67,14 @@ deploy:
     - chmod 700 ~/.ssh
     - echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
     - chmod 644 ~/.ssh/known_hosts
+    - mkdir -p ~/bin
+    - >-
+      curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh
+      | bash -s -- --to ~/bin
+    - export PATH="$PATH:$HOME/bin"
     - gem install bundler
     - bundle config set path 'vendor'
     - bundle config set without 'development test'
     - bundle install
   script:
-    - bundle exec rake deploy:deploy_prod
+    - just deploy-prod
