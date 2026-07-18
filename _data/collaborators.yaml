@@ -1,6 +1,7 @@
+---
 adam_liter:
   name: Adam Liter
-  url:  https://adamliter.org
+  url: https://adamliter.org
 
 adam_smolinski:
   name: Adam Smolinski
@@ -8,7 +9,7 @@ adam_smolinski:
 
 alan_munn:
   name: Alan Munn
-  url:  https://amunn.github.io/
+  url: https://amunn.github.io/
 
 bethany_dickerson:
   name: Bethany Dickerson
@@ -24,7 +25,7 @@ colin_phillips:
 
 cristina_schmitt:
   name: Cristina Schmitt
-  url:  https://msuacquisition.wordpress.com/
+  url: https://msuacquisition.wordpress.com/
 
 elaine_grolla:
   name: Elaine Grolla
@@ -48,7 +49,7 @@ jeff_lidz:
 
 karthik_durvasula:
   name: Karthik Durvasula
-  url:  https://karthikdurvasula.gitlab.io/
+  url: https://karthikdurvasula.gitlab.io/
 
 kasia_hitczenko:
   name: Kasia Hitczenko
