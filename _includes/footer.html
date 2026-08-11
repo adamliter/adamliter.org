@@ -1,26 +1,11 @@
 <!-- -*- mode: web-mode; coding: utf-8; web-mode-markup-indent-offset: 2; -*-  -->
     <!-- footer -->
-    <div class="container-fluid">
-      <footer class="footer pull-right" style="padding-top:20px;">
-        <p class="text-muted small">
+    <div>
+      <footer>
+        <p>
           © 2010–{{ 'now' | date: "%Y" }} Adam Liter{% if page.nav_node == "home" or page.nav_node == "teaching" or page.nav_node == "shiny" %} | page last updated on {{ page.date | date: "%Y-%m-%d" }} {% endif %}
         </p>
       </footer><!-- End of footer -->
     </div><!-- End of .container-fluid -->
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script
-      src="https://code.jquery.com/jquery-1.12.4.min.js"
-      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-      crossorigin="anonymous">
-    </script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="{{ site.url }}/js/bootstrap.min.js"></script>
-    <!-- Enable popovers -->
-    <script>
-      $(document).ready(function(){
-        $('[data-toggle="popover"]').popover({html:true});
-      });
-    </script>
   </body>
 </html>

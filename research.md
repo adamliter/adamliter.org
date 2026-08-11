@@ -30,11 +30,11 @@ available upon request.
 
 {% for r in site.data.research %}
   {% unless r.under_review == true %}
-<div class="panel panel-primary">
-  <div class="panel-heading">
-  <h2 class="panel-title">{{ r.title }}</h2>
+<div>
+  <div>
+  <h2>{{ r.title }}</h2>
   </div>
-  <div class="panel-body">
+  <div>
   <ul>
   {%- unless r.collaborators == empty -%}
   {%- assign collab_array = site.empty_array -%}
@@ -60,7 +60,7 @@ available upon request.
       {%- endif -%}
       {%- for kw in r.keywords -%}
         {{ site.my_space }}
-        <span class="label label-default">{{ kw }}</span>
+        <span>{{ kw }}</span>
       {%- endfor -%}
     </li>
   {%- endunless -%}
@@ -85,7 +85,7 @@ available upon request.
         <li>
           {%- if pub.doi != '' -%}
           <a href="https://doi.org/{{ pub.doi }}">
-            <span class="label label-default">
+            <span>
               <i class ="ai ai-doi"></i> doi
             </span>
           </a>
@@ -97,7 +97,7 @@ available upon request.
           {%- endif -%}
           {%- if pub.pdf != '' -%}
             <a href="{{ pub.pdf | replace: '!SITE_URL!', site.url }}">
-              <span class="label label-default">
+              <span>
                 <i class ="fa fa-file"></i> pdf
               </span>
             </a>

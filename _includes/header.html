@@ -10,7 +10,7 @@
     <!-- viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- styling -->
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/css/tailwind_out.css">
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -42,20 +42,20 @@
     <!-- header -->
     <header>
       <!-- navbar -->
-      <nav class="navbar navbar-default navbar-static-top">
-        <div class="container">
-          <div class="navbar-header">
-            <a href="{{ site.url }}{{ site.baseurl }}" class="navbar-brand">
+      <nav>
+        <div>
+          <div>
+            <a href="{{ site.url }}{{ site.baseurl }}">
               Adam Liter
             </a>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <button type="button">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
           </div><!-- End of .navbar-header div -->
-          <ul class="nav navbar-nav collapse navbar-collapse">
+          <ul>
             <li {% if page.nav_node == "home" %} class="active" {% endif %} >
               <a href="{{ site.url }}{{ site.baseurl }}">
                 home
@@ -94,12 +94,12 @@
               </a>
             </li>
             <li class='dropdown {% if page.nav_node == "side-projects" %} active {% endif %}'>
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+              <a href="#">
                 side projects
                 {% if page.nav_node == "side-projects" %}<span class="sr-only">(current)</span>{% endif %}
-                <span class="caret"></span>
+                <span></span>
               </a>
-              <ul class="dropdown-menu">
+              <ul>
                 <li>
                   <a href="{{ site.url }}{{ site.baseurl }}/side-projects/#latex-workshop">
                     <i class="fa fa-file-code-o"></i> LaTeX workshop
@@ -124,12 +124,12 @@
                 </li>
               </ul>
             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+            <li>
+              <a href="#">
                 external
-                <span class="caret"></span>
+                <span></span>
               </a>
-              <ul class="dropdown-menu">
+              <ul>
                 <li>
                   <a href="https://scholar.google.com/citations?hl=en&user=hdg-68EAAAAJ">
                     <i class="ai ai-google-scholar"></i> Google Scholar
@@ -140,7 +140,7 @@
                     <i class="ai ai-orcid"></i> ORCID
                   </a>
                 </li>
-                <li class="divider"></li>
+                <li></li>
                 <li>
                   <a href="https://www.linkedin.com/in/adamliter/">
                     <i class="fa fa-linkedin"></i> LinkedIn
@@ -175,7 +175,7 @@
                   </a>
                 </li>
                 -->
-                <li class="divider"></li>
+                <li></li>
                 <li>
                   <a href="https://keybase.io/adamliter/key.asc">
                     <i class="fa fa-lock"></i> PGP

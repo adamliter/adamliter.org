@@ -11,20 +11,20 @@ Here are some side projects I've worked on in my spare time.
 
 {% for p in site.data.side-projects %}
 {% if p.display %}
-<div class="panel panel-primary">
-  <div class="panel-heading">
-  <h2 class="panel-title" id="{{ p.id }}">{{ p.title }}</h2>
+<div>
+  <div>
+  <h2>{{ p.title }}</h2>
   </div>
-  <div class="panel-body">
+  <div>
   {% if p.id == "open-source" %}
   <p>I've contributed to a variety of open source projects, to varying
   degrees.</p>
-  <ul class="list-group">
+  <ul>
   {% for o in site.data.open-source %}
   {% if o.display %}
-  <li class="list-group-item">
+  <li>
     <h4>
-    <span class="label label-default">
+    <span>
     {{ o.project_name }}
     </span>
     </h4>
