@@ -15,4 +15,26 @@
     --font-main: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-heading: "Raleway", sans-serif;
     --font-title: "Italianno", cursive;
+
+    --font-sans: var(--font-main);
+}
+
+@layer base {
+    h1, h2, h3, h4, h5, h6 {
+        font-family: var(--font-heading);
+        font-weight: var(--font-medium);
+        color: var(--color-my-red);
+    }
+    h1 {font-size: var(--text-4xl);}
+    h2 {font-size: var(--text-3xl);}
+    h3 {font-size: var(--text-2xl);}
+    h4 {font-size: var(--text-xl);}
+    h5 {font-size: var(--text-lg);}
+    h6 {font-size: var(--text-base);}
+
+    a {color: var(--color-my-blue); @apply hover:underline;}
+
+    ul:not([class]) {@apply list-disc list-outside pl-10;}
+
+    p:not([class]) {@apply mb-4;}
 }
