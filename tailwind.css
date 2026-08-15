@@ -1,4 +1,18 @@
+[x-cloak] { display: none !important; }
+
 @import "tailwindcss";
 
 @source "_includes/*.html";
 @source "_layouts/*.html";
+
+@theme {
+    --color-my-red: #B22613;
+    --color-my-blue: #5BA2D7;
+    --color-my-orange: #E69F00;
+    --color-my-light-grey: #F8F8F8;
+    --color-my-dark-grey: #F0F0F0;
+
+    --font-main: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-heading: "Raleway", sans-serif;
+    --font-title: "Italianno", cursive;
+}

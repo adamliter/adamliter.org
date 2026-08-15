@@ -9,6 +9,8 @@
     <meta name="keywords" content="{{ site.keywords }}" />
     <!-- viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Alpine.js -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <!-- styling -->
     <link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/css/main.css">
     <!-- favicon -->
@@ -38,156 +40,440 @@
     </script>
   </head>
 
-  <body>
+  <body class="bg-my-light-grey text-black">
     <!-- header -->
     <header>
       <!-- navbar -->
-      <nav>
-        <div>
-          <div>
-            <a href="{{ site.url }}{{ site.baseurl }}">
+      <nav class="bg-my-dark-grey" x-data="{ mobileOpen: false }">
+        <!-- navbar container div -->
+        <div class="max-w-screen-xl mx-auto px-4">
+          <!-- top-line navbar (not expanded mobile) div -->
+          <div class="flex items-center justify-between">
+
+            <!-- site name: Adam Liter -->
+            <a href="{{ site.url }}{{ site.baseurl }}"
+               class="font-title text-my-red text-4xl py-2 no-underline
+                     hover:no-underline hover:text-my-red"
+            >
               Adam Liter
             </a>
-            <button type="button">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div><!-- End of .navbar-header div -->
-          <ul>
-            <li {% if page.nav_node == "home" %} class="active" {% endif %} >
-              <a href="{{ site.url }}{{ site.baseurl }}">
-                home
-                {% if page.nav_node == "home" %}<span class="sr-only">(current)</span>{% endif %}
-              </a>
-            </li>
-            <!--
-            <li {% if page.nav_node == "blog" %} class="active" {% endif %} >
-              <a href="{{ site.url }}{{ site.baseurl }}/blog">
-                blog
-                {% if page.nav_node == "blog" %}<span class="sr-only">(current)</span>{% endif %}
-              </a>
-            </li>
-            -->
-            <li {% if page.nav_node == "research" %} class="active" {% endif %} >
-              <a href="{{ site.url }}{{ site.baseurl }}/research">
-                research
-                {% if page.nav_node == "research" %}<span class="sr-only">(current)</span>{% endif %}
-              </a>
-            </li>
-            <li {% if page.nav_node == "teaching" %} class="active" {% endif %} >
-              <a href="{{ site.url }}{{ site.baseurl }}/teaching">
-                teaching
-                {% if page.nav_node == "teaching" %}<span class="sr-only">(current)</span>{% endif %}
-              </a>
-            </li>
-            <li>
-              <a href="{{ site.url }}{{ site.baseurl }}/content/adamlitercv.pdf">
-                cv
-              </a>
-            </li>
-            <li {% if page.nav_node == "updates" %} class="active" {% endif %} >
-              <a href="{{ site.url }}{{ site.baseurl }}/updates">
-                updates
-                {% if page.nav_node == "updates" %}<span class="sr-only">(current)</span>{% endif %}
-              </a>
-            </li>
-            <li class='dropdown {% if page.nav_node == "side-projects" %} active {% endif %}'>
-              <a href="#">
-                side projects
-                {% if page.nav_node == "side-projects" %}<span class="sr-only">(current)</span>{% endif %}
-                <span></span>
-              </a>
-              <ul>
-                <li>
-                  <a href="{{ site.url }}{{ site.baseurl }}/side-projects/#latex-workshop">
-                    <i class="fa fa-file-code-o"></i> LaTeX workshop
-                  </a>
-                </li>
-                <!--
-                <li>
-                  <a href="{{ site.url }}{{ site.baseurl }}/side-projects/#atomicwriting">
-                    <i class="fa fa-rss"></i> Atomic Writing
-                  </a>
-                </li>
-                -->
-                <li>
-                  <a href="{{ site.url }}{{ site.baseurl }}/side-projects/#psiturk-docker">
-                    <i class="fa fa-flask"></i> psiTurk Docker
-                  </a>
-                </li>
-                <li>
-                  <a href="{{ site.url }}{{ site.baseurl }}/side-projects/#open-source">
-                    <i class="fa fa-code-fork"></i> Open Source
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">
-                external
-                <span></span>
-              </a>
-              <ul>
-                <li>
-                  <a href="https://scholar.google.com/citations?hl=en&user=hdg-68EAAAAJ">
-                    <i class="ai ai-google-scholar"></i> Google Scholar
-                  </a>
-                </li>
-                <li>
-                  <a href="https://orcid.org/0000-0002-1517-2900">
-                    <i class="ai ai-orcid"></i> ORCID
-                  </a>
-                </li>
-                <li></li>
-                <li>
-                  <a href="https://www.linkedin.com/in/adamliter/">
-                    <i class="fa fa-linkedin"></i> LinkedIn
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/adamliter">
-                    <i class="fa fa-github"></i> GitHub
-                  </a>
-                </li>
-                <li>
-                  <a href="https://gitlab.com/adamliter">
-                    <i class ="fa fa-gitlab"></i> GitLab
-                  </a>
-                </li>
-                <li>
-                  <a href="https://stackexchange.com/users/2978319/adam-liter?tab=accounts">
-                    <i class="fa fa-stack-exchange"></i> Stack Exchange
-                  </a>
-                </li>
-                <!--
-                <li>
-                  <a href="https://keybase.io/adamliter">
-                    <i class="fa fa-key"></i> Keybase
-                  </a>
-                </li>
-                -->
-                <!--
-                <li>
-                  <a href="https://delicious.com/adamliter">
-                    <i class="fa fa-delicious"></i> Links
-                  </a>
-                </li>
-                -->
-                <li></li>
-                <li>
-                  <a href="https://keybase.io/adamliter/key.asc">
-                    <i class="fa fa-lock"></i> PGP
-                  </a>
-                </li>
-                <li>
-                  <a href="mailto:io@adamliter.org">
-                    <i class="fa fa-inbox"></i> Email me
-                  </a>
-                </li>
-              </ul>
-          </ul>
-        </div><!-- End of .container-fluid div -->
-      </nav><!-- End of navbar -->
-    </header><!-- End of header -->
+
+            <!-- mobile nav toggle -->
+            <div class="flex items-center md:hidden">
+              <button type="button" @click="mobileOpen = !mobileOpen"
+                      class="py-2 px-1 focus:outline-none"
+                      aria-label="Toggle navigation"
+              >
+                <span class="sr-only">Toggle navigation</span>
+                <span x-show="!mobileOpen" class="block w-6 h-0.5 bg-black mb-1.5"></span>
+                <span x-show="!mobileOpen" class="block w-6 h-0.5 bg-black mb-1.5"></span>
+                <span x-show="!mobileOpen" class="block w-6 h-0.5 bg-black "></span>
+                <span x-show="mobileOpen" x-cloak class="block relative w-6 h-6">
+                  <span class="block absolute top-1/2 left-0 -translate-y-1/2 w-6 h-0.5 bg-black rotate-45"></span>
+                  <span class="block absolute top-1/2 left-0 -translate-y-1/2 w-6 h-0.5 bg-black -rotate-45"></span>
+                </span>
+              </button>
+            </div>
+
+            <!-- non-mobile nav -->
+            <ul class="hidden md:flex items-center font-bold">
+              <li>
+                <a href="{{ site.url }}{{ site.baseurl }}"
+                   class="block px-3 py-5
+                         {% if page.nav_node == 'home' %}text-my-orange{% else %}
+                         text-black hover:text-my-blue hover:no-underline
+                         active:text-my-blue{% endif %}"
+                >
+                  home{% if page.nav_node == 'home' %}<span class="sr-only"> (current)</span>{% endif %}
+                </a>
+              </li>
+              <!--
+              <li>
+                <a href="{{ site.url }}{{ site.baseurl }}/blog"
+                   class="block px-3 py-5
+                         {% if page.nav_node == 'blog' %}text-my-orange{% else %}
+                         text-black hover:text-my-blue hover:no-underline
+                         active:text-my-blue{% endif %}"
+                >
+                  blog{% if page.nav_node == 'blog' %}<span class="sr-only"> (current)</span>{% endif %}
+                </a>
+              </li>
+              -->
+              <li>
+                <a href="{{ site.url }}{{ site.baseurl }}/research"
+                   class="block px-3 py-5
+                         {% if page.nav_node == 'research' %}text-my-orange{% else %}
+                         text-black hover:text-my-blue hover:no-underline
+                         active:text-my-blue{% endif %}"
+                >
+                  research{% if page.nav_node == 'research' %}<span class="sr-only"> (current)</span>{% endif %}
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.url }}{{ site.baseurl }}/teaching"
+                   class="block px-3 py-5
+                         {% if page.nav_node == 'teaching' % %}text-my-orange {% else %}
+                         text-black hover:text-my-blue hover:no-underline
+                         active:text-my-blue{% endif %}"
+                >
+                  teaching{% if page.nav_node == 'teaching' %}<span class="sr-only"> (current)</span>{% endif %}
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.url }}{{ site.baseurl }}/content/adamlitercv.pdf"
+                   class="block px-3 py-5 text-black hover:text-my-blue hover:no-underline"
+                >
+                  cv
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.url }}{{ site.baseurl }}/updates"
+                   class="block px-3 py-5
+                         {% if page.nav_node == 'updates' %}text-my-orange{% else %}
+                         text-black hover:text-my-blue hover:no-underline
+                         active:text-my-blue{% endif %}"
+                >
+                  updates{% if page.nav_node == 'updates' %}<span class="sr-only"> (current)</span>{% endif %}
+                </a>
+              </li>
+
+              <!-- side projects dropdown -->
+              <li class="relative" x-data="{ open: false }" @click.outside="open = false">
+                <button type="button" @click="open = !open"
+                        class="flex items-center gap-1 px-3 py-5 font-bold
+                              {% if page.nav_node == 'side-projects' %}text-my-orange{% else %}
+                              text-black hover:text-my-blue hover:no-underline
+                              active:text-my-blue{% endif %}"
+                >
+                  side projects{% if page.nav_node == 'side-projects' %}<span class="sr-only"> (current)</span>{% endif %}
+                  <svg class="w-2.5 h-2.5 fill-current mt-0.5"
+                       viewBox="0 0 10 6"
+                       xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0l5 6 5-6z"/>
+                  </svg>
+                </button>
+                <ul x-show="open" x-cloak
+                    class="absolute left-0 top-full bg-my-light-grey
+                            shadow-md min-w-max z-50 font-medium"
+                >
+                  <li>
+                    <a href="{{ site.url }}{{ site.baseurl }}/side-projects/#latex-workshop"
+                       class="flex items-center gap-2 px-4 py-2 text-black
+                             hover:bg-my-dark-grey active:bg-my-dark-grey hover:no-underline
+                             hover:text-my-blue active:text-my-blue"
+                    >
+                      <i class="fa fa-file-code-o"></i> LaTeX workshop
+                    </a>
+                  </li>
+                  <li>
+                    <a href="{{ site.url }}{{ site.baseurl }}/side-projects/#psiturk-docker"
+                       class="flex items-center gap-2 px-4 py-2 text-black
+                             hover:bg-my-dark-grey active:bg-my-dark-grey hover:no-underline
+                             hover:text-my-blue active:text-my-blue"
+                    >
+                      <i class="fa fa-flask"></i> psiTurk Docker
+                    </a>
+                  </li>
+                  <li>
+                    <a href="{{ site.url }}{{ site.baseurl }}/side-projects/#open-source"
+                       class="flex items-center gap-2 px-4 py-2 text-black
+                             hover:bg-my-dark-grey active:bg-my-dark-grey hover:no-underline
+                             hover:text-my-blue active:text-my-blue"
+                    >
+                      <i class="fa fa-code-fork"></i> Open Source
+                    </a>
+                  </li>
+                </ul>
+              </li><!-- end of side projects dropdown -->
+
+              <!-- external dropdown -->
+              <li class="relative" x-data="{ open: false }" @click.outside="open = false">
+                <button type="button" @click="open = !open"
+                        class="flex items-center gap-1 px-3 py-5 font-bold text-black
+                              hover:text-my-blue hover:no-underline active:text-my-blue"
+                >
+                  external
+                  <svg
+                      class="w-2.5 h-2.5 fill-current mt-0.5"
+                      viewBox="0 0 10 6"
+                      xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0l5 6 5-6z"/>
+                  </svg>
+                </button>
+                <ul x-show="open" x-cloak
+                    class="absolute left-0 top-full bg-my-light-grey
+                            shadow-md min-w-max z-50 font-medium"
+                >
+                  <li>
+                    <a href="https://scholar.google.com/citations?hl=en&user=hdg-68EAAAAJ"
+                       class="flex items-center gap-2 px-4 py-2 text-black
+                             hover:bg-my-dark-grey active:bg-my-dark-grey hover:no-underline
+                             hover:text-my-blue active:text-my-blue"
+                    >
+                      <i class="ai ai-google-scholar"></i> Google Scholar
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://orcid.org/0000-0002-1517-2900"
+                       class="flex items-center gap-2 px-4 py-2 text-black
+                             hover:bg-my-dark-grey active:bg-my-dark-grey hover:no-underline
+                             hover:text-my-blue active:text-my-blue"
+                    >
+                      <i class="ai ai-orcid"></i> ORCID
+                    </a>
+                  </li>
+                  <li class="border-t border-gray-300"></li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/adamliter/"
+                       class="flex items-center gap-2 px-4 py-2 text-black
+                             hover:bg-my-dark-grey active:bg-my-dark-grey hover:no-underline
+                             hover:text-my-blue active:text-my-blue"
+                    >
+                      <i class="fa fa-linkedin"></i> LinkedIn
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/adamliter"
+                       class="flex items-center gap-2 px-4 py-2 text-black
+                             hover:bg-my-dark-grey active:bg-my-dark-grey hover:no-underline
+                             hover:text-my-blue active:text-my-blue"
+                    >
+                      <i class="fa fa-github"></i> GitHub
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://gitlab.com/adamliter"
+                       class="flex items-center gap-2 px-4 py-2 text-black
+                             hover:bg-my-dark-grey active:bg-my-dark-grey hover:no-underline
+                             hover:text-my-blue active:text-my-blue"
+                    >
+                      <i class ="fa fa-gitlab"></i> GitLab
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://stackexchange.com/users/2978319/adam-liter?tab=accounts"
+                       class="flex items-center gap-2 px-4 py-2 text-black
+                             hover:bg-my-dark-grey active:bg-my-dark-grey hover:no-underline
+                             hover:text-my-blue active:text-my-blue"
+                    >
+                      <i class="fa fa-stack-exchange"></i> Stack Exchange
+                    </a>
+                  </li>
+                  <li class="border-t border-gray-300"></li>
+                  <li>
+                    <a href="https://keybase.io/adamliter/key.asc"
+                       class="flex items-center gap-2 px-4 py-2 text-black
+                             hover:bg-my-dark-grey active:bg-my-dark-grey hover:no-underline
+                             hover:text-my-blue active:text-my-blue"
+                    >
+                      <i class="fa fa-lock"></i> PGP
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:io@adamliter.org"
+                       class="flex items-center gap-2 px-4 py-2 text-black
+                             hover:bg-my-dark-grey active:bg-my-dark-grey hover:no-underline
+                             hover:text-my-blue active:text-my-blue"
+                    >
+                      <i class="fa fa-inbox"></i> Email me
+                    </a>
+                  </li>
+                </ul>
+              </li><!-- end of external dropdown -->
+            </ul><!-- end of non-mobile nav -->
+          </div><!-- end of top-line navbar (not expanded mobile) div -->
+
+          <!-- expanded mobile nav div -->
+          <div x-show="mobileOpen" x-cloak class="md:hidden pb-4">
+            <ul class="font-bold space-y-0.5">
+              <li>
+                <a href="{{ site.url }}{{ site.baseurl }}"
+                   class="block py-2 {% if page.nav_node == 'home' %}text-my-orange{% else %}
+                         text-black hover:text-my-blue hover:no-underline
+                         active:text-my-blue{% endif %}"
+                >
+                  home{% if page.nav_node == 'home' %}<span class="sr-only"> (current)</span>{% endif %}
+                </a>
+              </li>
+              <!--
+              <li>
+                <a href="{{ site.url }}{{ site.baseurl }}/blog"
+                   class="block py-2 {% if page.nav_node == 'blog' %}text-my-orange{% else %}
+                         text-black hover:text-my-blue hover:no-underline
+                         active:text-my-blue{% endif %}"
+                >
+                  blog{% if page.nav_node == 'blog' %}<span class="sr-only"> (current)</span>{% endif %}
+                </a>
+              </li>
+              -->
+              <li>
+                 <a href="{{ site.url }}{{ site.baseurl }}/research"
+                    class="block py-2 {% if page.nav_node == 'research' %}text-my-orange{% else %}
+                          text-black hover:text-my-blue hover:no-underline
+                          active:text-my-blue{% endif %}"
+                 >
+                  research{% if page.nav_node == 'research' %}<span class="sr-only"> (current)</span>{% endif %}
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.url }}{{ site.baseurl }}/teaching"
+                   class="block py-2 {% if page.nav_node == 'teaching' %}text-my-orange{% else %}
+                         text-black hover:text-my-blue hover:no-underline
+                         active:text-my-blue{% endif %}"
+                >
+                  teaching{% if page.nav_node == 'teaching' %}<span class="sr-only"> (current)</span>{% endif %}
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.url }}{{ site.baseurl }}/content/adamlitercv.pdf"
+                   class="block py-2 text-black hover:text-my-blue hover:no-underline
+                         active:text-my-blue"
+                >
+                  cv
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.url }}{{ site.baseurl }}/updates"
+                   class="block py-2 {% if page.nav_node == 'updates' %}text-my-orange{% else %}
+                         text-black hover:text-my-blue hover:no-underline
+                         active:text-my-blue{% endif %}"
+                >
+                  updates
+                </a>
+              </li>
+
+              <!-- side projects expandable dropdown (mobile) -->
+              <li class="pt-1" x-data="{open: false}">
+                <button type="button"
+                        @click="open = !open"
+                        class="flex items-center gap-1 w-full py-2 text-left
+                              {% if page.nav_node=='side-projects' %}text-my-orange{% else %}
+                              text-black hover:text-my-blue active:text-my-blue{% endif %}"
+                >
+                  side projects{% if page.nav_node == 'side-projects' %}<span class="sr-only"> (current)</span>{% endif %}
+                  <svg class="w-2.5 h-2.5 fill-current mt-0.5"
+                       viewBox="0 0 10 6"
+                       xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0l5 6 5-6z" />
+                  </svg>
+                </button>
+                <ul x-show="open" x-cloak class="pl-4 font-medium space-y-1">
+                  <li>
+                    <a href="{{ site.url }}{{ site.baseurl }}/side-projects/#latex-workshop"
+                       class="block py-1 text-black hover:text-my-blue hover:no-underline
+                             active:text-my-blue"
+                    >
+                      <i class="fa fa-file-code-o"></i> LaTeX workshop
+                    </a>
+                  </li>
+                  <li>
+                    <a href="{{ site.url }}{{ site.baseurl }}/side-projects/#psiturk-docker"
+                       class="block py-1 text-black hover:text-my-blue hover:no-underline
+                             active:text-my-blue"
+                    >
+                      <i class="fa fa-flask"></i> psiTurk Docker
+                    </a>
+                  </li>
+                  <li>
+                    <a href="{{ site.url }}{{ site.baseurl }}/side-projects/#open-source"
+                       class="block py-1 text-black hover:text-my-blue hover:no-underline
+                             active:text-my-blue"
+                    >
+                      <i class="fa fa-code-fork"></i> Open Source
+                    </a>
+                  </li>
+                </ul>
+              </li><!-- end of side projects expandable dropdown (mobile) -->
+
+              <!-- external expandable dropdown (mobile) -->
+              <li class="pt-1" x-data="{open: false}">
+                <button type="button"
+                        @click="open = !open"
+                        class="flex items-center gap-1 w-full py-2 text-left text-black
+                              hover:text-my-blue active:text-my-blue"
+                >
+                  external
+                  <svg class="w-2.5 h-2.5 fill-current mt-0.5"
+                       viewBox="0 0 10 6"
+                       xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0l5 6 5-6z" />
+                  </svg>
+                </button>
+                <ul x-show="open" x-cloak class="pl-4 font-medium space-y-1">
+                  <li>
+                    <a href="https://scholar.google.com/citations?hl=en&user=hdg-68EAAAAJ"
+                       class="block py-1 text-black hover:text-my-blue hover:no-underline
+                             active:text-my-blue"
+                    >
+                      <i class="ai ai-google-scholar"></i> Google Scholar
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://orcid.org/0000-0002-1517-2900"
+                       class="block py-1 text-black hover:text-my-blue hover:no-underline
+                             active:text-my-blue"
+                    >
+                      <i class="ai ai-orcid"></i> ORCID
+                    </a>
+                  </li>
+                  <li class="border-t border-gray-300"></li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/adamliter/"
+                       class="block py-1 text-black hover:text-my-blue hover:no-underline
+                             active:text-my-blue"
+                    >
+                      <i class="fa fa-linkedin"></i> LinkedIn
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/adamliter"
+                       class="block py-1 text-black hover:text-my-blue hover:no-underline
+                             active:text-my-blue"
+                    >
+                      <i class="fa fa-github"></i> GitHub
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://gitlab.com/adamliter"
+                       class="block py-1 text-black hover:text-my-blue hover:no-underline
+                             active:text-my-blue"
+                    >
+                      <i class="fa fa-gitlab"></i> GitLab
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://stackexchange.com/users/2978319/adam-liter?tab=accounts"
+                       class="block py-1 text-black hover:text-my-blue hover:no-underline
+                             active:text-my-blue"
+                    >
+                      <i class="fa fa-stack-exchange"></i> Stack Exchange
+                    </a>
+                  </li>
+                  <li class="border-t border-gray-300"></li>
+                  <li>
+                    <a href="https://keybase.io/adamliter/key.asc"
+                       class="block py-1 text-black hover:text-my-blue hover:no-underline
+                             active:text-my-blue"
+                    >
+                      <i class="fa fa-lock"></i> PGP
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:io@adamliter.org"
+                       class="block py-1 text-black hover:text-my-blue hover:no-underline
+                             active:text-my-blue"
+                    >
+                      <i class="fa fa-inbox"></i> Email me
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- end of expanded mobile nav div -->
+        </div><!-- end of navbar container div-->
+      </nav><!-- end of navbar -->
+    </header><!-- end of header -->
