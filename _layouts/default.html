@@ -1,29 +1,193 @@
 <!-- -*- mode: web-mode; coding: utf-8; web-mode-markup-indent-offset: 2; -*-  -->
 {% include header.html %}
 
-<aside>
-  <!-- For sm and up -->
-  <div>
-    <img src="{{ site.url }}{{ site.baseurl }}/content/images/adamliter.png" alt="me" />
-    <br />
-    <button type="button">
-      [æɾəm.lɑɪɾɚ]
-    </button>
-  </div><!-- End of .col-sm-3 -->
-  <!-- For xs -->
-  <div>
-    <img src="{{ site.url }}{{ site.baseurl }}/content/images/adamliter.png" alt="me" />
-  </div><!-- End of .col-xs-6 -->
-  <div>
-    <button type="button">
-      [æɾəm.lɑɪɾɚ]
-    </button>
-  </div><!-- End of .col-xs-4 -->
-</aside><!-- End of aside -->
+<!-- flex wrapper -->
+<div class="md:flex md:flex-nowrap">
+  <aside class="md:w-1/4 md:flex-shrink-0">
 
-<!-- main content -->
-<main>
-  {{ content }}
-</main><!-- End of main content -->
+    <!-- for md and up: sidebar with image and name -->
+    <div class="hidden md:flex md:flex-col md:items-center md:pl-4 md:pr-14 md:pt-4">
+      <img src="{{ site.url }}{{ site.baseurl }}/content/images/adamliter.png"
+           alt="me"
+           class="max-w-full block"
+      />
+      <br />
+      <div class="relative pt-3" @click.outside="open && toggle()" x-data="{
+            open: false,
+            placed: false,
+            left: 0,
+            top: 0,
+            arrowLeft: 50,
+            init() {
+              this.reposition = () => { if (this.open) this.position(); };
+              this.onScroll = () => {
+                if (!this.open) return;
+                const b = this.$refs.button.getBoundingClientRect();
+                if (b.bottom < 0 || b.top > document.documentElement.clientHeight) {
+                  this.open = false;
+                  this.placed = false;
+                } else {
+                  this.position();
+                }
+              };
+              window.addEventListener('resize', this.reposition);
+              window.addEventListener('orientationchange', this.reposition);
+              window.addEventListener('scroll', this.onScroll, { passive: true });
+            },
+            destroy() {
+              window.removeEventListener('resize', this.reposition);
+              window.removeEventListener('orientationchange', this.reposition);
+              window.removeEventListener('scroll', this.onScroll);
+            },
+            toggle() {
+              if (this.open) {
+                this.open = false;
+                this.placed = false;
+                return;
+              }
+              this.placed = false;
+              this.open = true;
+              this.position();
+            },
+            position() {
+              requestAnimationFrame(() => {
+                if (!this.open) return;
+                const button = this.$refs.button.getBoundingClientRect();
+                const tip = this.$refs.tip;
+                const width = tip.offsetWidth;
+                if (!width) { requestAnimationFrame(() => this.position()); return; }
+                const vw = document.documentElement.clientWidth;
+                const margin = 8;
+                let left = button.left + button.width / 2 - width / 2;
+                left = Math.max(margin, Math.min(left, vw - width - margin));
+                this.left = Math.round(left);
+                this.top = Math.round(button.bottom + 12);
+                const centerX = button.left + button.width / 2;
+                this.arrowLeft = Math.round(Math.max(11, Math.min(centerX - left, width - 11)));
+                this.placed = true;
+              });
+            }
+          }">
+        <button type="button" x-ref="button" @click="toggle"
+                class="block mx-auto px-4 py-1.5 bg-my-light-grey border
+                      border-gray-300 rounded hover:bg-my-dark-grey text-black
+                      text-sm"
+        >
+          [æɾəm.lɑɪɾɚ]
+        </button>
+        <div x-show="open" x-cloak x-ref="tip" :style="'left: ' + left + 'px; top: ' + top + 'px; visibility: ' + (placed ? 'visible' : 'hidden')"
+             class="fixed z-50 w-64 max-w-[calc(100vw-1rem)]
+                    bg-my-dark-grey border border-gray-300 rounded p-3 text-sm
+                    shadow-[0_5px_10px_rgba(0,0,0,0.2)]">
+          <div class="absolute top-[-11px] w-0 h-0 border-l-[11px] border-r-[11px]
+                      border-b-[11px] border-b-gray-300 border-x-transparent"
+               :style="'left: ' + (arrowLeft - 11) + 'px'"></div>
+          <div class="absolute top-[-10px] w-0 h-0 border-l-[10px] border-r-[10px]
+                      border-b-[10px] border-b-my-dark-grey border-x-transparent"
+               :style="'left: ' + (arrowLeft - 10) + 'px'"></div>
+          This is how you pronounce my name in IPA, the
+          <a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet"
+             class="text-my-blue hover:underline"
+          >International Phonetic Alphabet</a>.
+        </div>
+      </div>
+    </div><!-- end of for md and up: sidebar with image and name -->
+
+    <!-- for smaller than md: image and name top of fold -->
+    <div class="flex md:hidden justify-center items-center gap-4 py-4 px-4">
+      <div class="w-5/12">
+        <img src="{{ site.url }}{{ site.baseurl }}/content/images/adamliter.png"
+             alt="me"
+             class="max-w-full block mx-auto"
+        />
+      </div>
+      <div class="w-5/12 flex justify-center">
+        <div class="relative" @click.outside="open && toggle()" x-data="{
+            open: false,
+            placed: false,
+            left: 0,
+            top: 0,
+            arrowLeft: 50,
+            init() {
+              this.reposition = () => { if (this.open) this.position(); };
+              this.onScroll = () => {
+                if (!this.open) return;
+                const b = this.$refs.button.getBoundingClientRect();
+                if (b.bottom < 0 || b.top > document.documentElement.clientHeight) {
+                  this.open = false;
+                  this.placed = false;
+                } else {
+                  this.position();
+                }
+              };
+              window.addEventListener('resize', this.reposition);
+              window.addEventListener('orientationchange', this.reposition);
+              window.addEventListener('scroll', this.onScroll, { passive: true });
+            },
+            destroy() {
+              window.removeEventListener('resize', this.reposition);
+              window.removeEventListener('orientationchange', this.reposition);
+              window.removeEventListener('scroll', this.onScroll);
+            },
+            toggle() {
+              if (this.open) {
+                this.open = false;
+                this.placed = false;
+                return;
+              }
+              this.placed = false;
+              this.open = true;
+              this.position();
+            },
+            position() {
+              requestAnimationFrame(() => {
+                if (!this.open) return;
+                const button = this.$refs.button.getBoundingClientRect();
+                const tip = this.$refs.tip;
+                const width = tip.offsetWidth;
+                if (!width) { requestAnimationFrame(() => this.position()); return; }
+                const vw = document.documentElement.clientWidth;
+                const margin = 8;
+                let left = button.left + button.width / 2 - width / 2;
+                left = Math.max(margin, Math.min(left, vw - width - margin));
+                this.left = Math.round(left);
+                this.top = Math.round(button.bottom + 12);
+                const centerX = button.left + button.width / 2;
+                this.arrowLeft = Math.round(Math.max(11, Math.min(centerX - left, width - 11)));
+                this.placed = true;
+              });
+            }
+          }">
+          <button type="button" x-ref="button" @click="toggle"
+                  class="px-3 py-1.5 bg-my-light-grey border border-gray-300
+                        rounded hover:bg-my-dark-grey text-black text-sm"
+          >
+            [æɾəm.lɑɪɾɚ]
+          </button>
+          <div x-show="open" x-cloak x-ref="tip" :style="'left: ' + left + 'px; top: ' + top + 'px; visibility: ' + (placed ? 'visible' : 'hidden')"
+               class="fixed z-50 w-64 max-w-[calc(100vw-1rem)]
+                     bg-my-dark-grey border border-gray-300 rounded p-3 text-sm
+                     shadow-[0_5px_10px_rgba(0,0,0,0.2)]">
+            <div class="absolute top-[-11px] w-0 h-0 border-l-[11px] border-r-[11px]
+                        border-b-[11px] border-b-gray-300 border-x-transparent"
+                 :style="'left: ' + (arrowLeft - 11) + 'px'"></div>
+            <div class="absolute top-[-10px] w-0 h-0 border-l-[10px] border-r-[10px]
+                        border-b-[10px] border-b-my-dark-grey border-x-transparent"
+                 :style="'left: ' + (arrowLeft - 10) + 'px'"></div>
+            This is how you pronounce my name in IPA, the
+            <a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet"
+               class="text-my-blue hover:underline"
+            >International Phonetic Alphabet</a>.
+          </div>
+        </div>
+      </div>
+    </div><!-- end of for smaller than md: image and name top of fold -->
+  </aside><!-- end of aside -->
+
+  <!-- main content -->
+  <main class="px-4 border-b border-b-3 border-[#8E8E8E]">
+    {{ content }}
+  </main><!-- end of main content -->
+</div><!-- end of flex wrapper -->
 
 {% include footer.html %}
