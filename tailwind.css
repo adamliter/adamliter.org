@@ -4,6 +4,7 @@
 
 @source "_includes/*.html";
 @source "_layouts/*.html";
+@source "teaching.md";
 
 @theme {
     --color-my-red: #B22613;

@@ -1,11 +1,11 @@
 <!-- -*- mode: web-mode; coding: utf-8; web-mode-markup-indent-offset: 2; -*-  -->
     <!-- footer -->
-    <div>
-      <footer>
-        <p>
+    <div class="w-full px-4">
+      <footer class="flex justify-end pt-5 pb-2">
+        <p class="text-my-orange text-sm">
           © 2010–{{ 'now' | date: "%Y" }} Adam Liter{% if page.nav_node == "home" or page.nav_node == "teaching" or page.nav_node == "shiny" %} | page last updated on {{ page.date | date: "%Y-%m-%d" }} {% endif %}
         </p>
-      </footer><!-- End of footer -->
-    </div><!-- End of .container-fluid -->
+      </footer><!-- end of footer -->
+    </div><!-- end of footer wrapper -->
   </body>
 </html>

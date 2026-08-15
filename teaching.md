@@ -25,6 +25,8 @@ once over the course of 7 weeks.
 - TA for IAH 204 -- "Asia and the World" (fall 2015, spring 2016)
 - Tutor for all classes in the [Department of Philosophy at Michigan State University][msu-philosophy] (fall 2013, spring 2014)
 
+<!-- match spacing of other pages before footer rule -->
+<div class="mb-4"></div>
 
 <!-- links -->
 [latex-ling]: {{ site.url }}/content/LaTeX/latex-workshop-for-linguists.pdf
