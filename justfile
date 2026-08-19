@@ -93,7 +93,10 @@ kill-running-jekyll:
 [group('lint')]
 [doc('Check HTML output with htmlproofer')]
 proof dir=(DEST_DIR):
-    bundle exec htmlproofer '{{dir}}' --only-4xx --checks=Links,Images,Scripts --allow-hash-href --enforce-https --ignore-status-codes 403
+    bundle exec htmlproofer '{{dir}}' \
+        --only-4xx --checks=Links,Images,Scripts --allow-hash-href \
+        --enforce-https --ignore-status-codes 403 \
+        --ignore-urls '/https:\/\/github\.com/'
 
 [group('deploy')]
 [doc('Deploy to production')]
