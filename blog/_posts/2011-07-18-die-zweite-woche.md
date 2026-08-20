@@ -25,7 +25,9 @@ Am Mittwoch gingen wir zur Hauptschule und danach hatten wir Seminar. An der Hau
 
 <div class="img-blog-wrapper">
 <img class="img-blog" width="300px" src="http://i.imgur.com/QpwLGZp.jpg" alt="Tübinger Schloss"/>
-<div class="img-blog-caption">Tübinger Schloss</div>
+<div class="img-blog-caption">
+Tübinger Schloss
+</div>
 </div>
 
 Am Donnerstag hatte Sandrina noch Seminar, aber ich ging nicht mit. Anstatt mitzugehen ging ich in die Stadt und erfuhr ein bisschen von Tübingen. Das war auch gut, weil ich anfing, ein bisschen krank zu werden. Also, ausschlafen zu können gefiel mir gut. Als ich gerade in der Stadt ankam, sah ich ein Cafe. Denn ich trinke gern Kaffee und denn ich ein bisschen Hunger hatte, bestellte ich eine Tasse und etwas zum Essen beim Cafe Lieb. Zum Nachttisch aß ich ein Amerikaner, einer Keks mit Glasur. Das fand ich ein bisschen witzig. Nachdem ging ich zum Schloss, um zu lesen und um zu fotografieren.
@@ -42,5 +44,5 @@ Am Sontag stand ich auch ziemlich spät auf. Wir hatten uns überlegt, nach Dach
 #### Zweiter Podcast
 
 <div class="embed-video-center">
-	<iframe width="420" height="315" src="//www.youtube.com/embed/4jB_HqRTejs?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="//www.youtube.com/embed/4jB_HqRTejs?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
