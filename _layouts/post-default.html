@@ -1,45 +1,36 @@
 <!-- -*- mode: web-mode; coding: utf-8; web-mode-markup-indent-offset: 2; -*-  -->
 {% include header.html %}
 
-<div id="content">
-  <div>
-    <h2>{{ page.title }}</h2>
-    <h3>{{ page.date | date_to_long_string }}</h3>
-    <table>
-      <tr>
-        <th>
-          categories
-        </th>
-        <th>
-          tags
-        </th>
-      </tr>
-      <tr>
-        <td>
-          <ul>
-            {% for category in page.categories %}
-              <li>{{ category }}</li>
-            {% else %}
-              None listed
-            {% endfor %}
-          </ul>
-        </td>
-        <td>
-          <ul>
-            {% for tag in page.tags %}
-              <li>{{ tag }}</li>
-            {% else %}
-              None listed
-            {% endfor %}
-          </ul>
-        </td>
-      </tr>
-    </table>
+<article id="content" class="max-w-3xl mx-auto py-6">
 
-  </div><!-- END meta-info div-->
+  <header class="mb-10">
+    <h2 class="font-bold mb-2">{{ page.title }}</h2>
+    <p class="text-gray-500">{{ page.date | date_to_long_string }}</p>
+
+    {% if page.categories or page.tags %}
+      <div class="flex flex-wrap gap-2 mt-4">
+        {% for category in page.categories %}
+          {% unless category == 'blog' %}
+            <span class="inline-flex items-center rounded-full bg-my-red/10 border border-my-red/30
+                         px-3 py-1 text-xs font-medium text-my-red"
+            >{{ category }}</span>
+          {% endunless %}
+        {% endfor %}
+        {% for tag in page.tags %}
+          <span class="inline-flex items-center rounded-full bg-my-blue/10 border border-my-blue/30
+                       px-3 py-1 text-xs font-medium text-my-blue"
+          >{{ tag }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </header><!-- END post header -->
+
   {{ content }}
-  {% include comments.html %}
 
-</div><!-- END content div-->
+  <div class="mt-10">
+    {% include comments.html %}
+  </div>
+
+</article><!-- END content -->
 
 {% include footer.html %}
