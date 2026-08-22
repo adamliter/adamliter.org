@@ -30,11 +30,11 @@ available upon request.
 
 {% for r in site.data.research %}
   {% unless r.under_review == true %}
-<div>
-  <div>
-  <h2>{{ r.title }}</h2>
+<div class="border border-[var(--color-my-blue)] rounded mb-4 overflow-hidden">
+  <div class="bg-[var(--color-my-blue)] px-4 py-3">
+  <h2 class="text-lg font-medium text-white m-0">{{ r.title }}</h2>
   </div>
-  <div>
+  <div class="p-4 bg-white">
   <ul>
   {%- unless r.collaborators == empty -%}
   {%- assign collab_array = site.empty_array -%}
@@ -60,7 +60,7 @@ available upon request.
       {%- endif -%}
       {%- for kw in r.keywords -%}
         {{ site.my_space }}
-        <span>{{ kw }}</span>
+        <span class="inline-block bg-gray-500 text-white text-xs font-semibold px-2 py-0.5 rounded">{{ kw }}</span>
       {%- endfor -%}
     </li>
   {%- endunless -%}
@@ -85,7 +85,7 @@ available upon request.
         <li>
           {%- if pub.doi != '' -%}
           <a href="https://doi.org/{{ pub.doi }}">
-            <span>
+            <span class="inline-block bg-gray-500 text-white text-xs font-semibold px-2 py-0.5 rounded">
               <i class ="ai ai-doi"></i> doi
             </span>
           </a>
@@ -97,7 +97,7 @@ available upon request.
           {%- endif -%}
           {%- if pub.pdf != '' -%}
             <a href="{{ pub.pdf | replace: '!SITE_URL!', site.url }}">
-              <span>
+              <span class="inline-block bg-gray-500 text-white text-xs font-semibold px-2 py-0.5 rounded">
                 <i class ="fa fa-file"></i> pdf
               </span>
             </a>
