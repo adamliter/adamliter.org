@@ -27,23 +27,6 @@ clean dir=(DEST_DIR):
     rm -rf '{{dir}}'
 
 [group('build')]
-[doc('Hack around Jekyll build not dereferencing symlinks')]
-[private]
-force-dereference-bootstrap-js dir=(DEST_DIR):
-    ln -sf ../../bootstrap/assets/javascripts/bootstrap.min.js '{{dir}}'/js/bootstrap.min.js
-
-[group('build')]
-[doc('Recursively replace symlinks in directory')]
-[private]
-replace-symlinks dir=(DEST_DIR):
-    find '{{dir}}' -type l -print0 | \
-        xargs -0 -P 4 -I {} sh -c \
-        'source="$1"; \
-        target=$(readlink -f "$source"); \
-        rm "$source"; \
-        cp -RL "$target" "$source"' _ {}
-
-[group('build')]
 [doc('Remove update pages that Jekyll autogenerates')]
 [private]
 keep-updates-index-only dir=(DEST_DIR):
@@ -56,24 +39,46 @@ make-well-known dir=(DEST_DIR):
     mkdir -p '{{dir}}'/.well-known
 
 [group('build')]
+[doc('Build Tailwind CSS')]
+[private]
+build-tailwind:
+    tailwindcss -i tailwind.css -o css/main.css -m
+
+[group('build')]
 [doc('Build Jekyll site, remove update pages, and add .well-known for SSL')]
-build dir=(DEST_DIR): clean
+[private]
+build-jekyll dir=(DEST_DIR):
     bundle exec jekyll build -d '{{dir}}'
-    @just force-dereference-bootstrap-js '{{dir}}'
-    @just replace-symlinks '{{dir}}'
     @just keep-updates-index-only '{{dir}}'
     @just make-well-known '{{dir}}'
 
+[group('build')]
+[doc('Build site')]
+build dir=(DEST_DIR): (clean dir) build-tailwind (build-jekyll dir)
+
 [group('dev')]
 [doc('Serve Jekyll site locally for development and watch')]
-watch dir=(DEV_DIR): (clean dir) kill-running-jekyll
+[private]
+watch-jekyll dir=(DEV_DIR): (clean dir) kill-running-jekyll
     bundle exec jekyll serve -w
+
+[group('dev')]
+[doc('Compile Tailwind CSS and watch for development')]
+[private]
+watch-tailwind:
+    tailwindcss -i tailwind.css -o css/main.css --watch
+
+[group('dev')]
+[doc('Serve and watch for local development')]
+watch dir=(DEV_DIR):
+    @just watch-tailwind &
+    @just watch-jekyll '{{dir}}'
 
 [group('dev')]
 [doc('Serve Jekyll site locally for development purposes')]
 serve dir=(DEV_DIR): (clean dir) kill-running-jekyll
+    @just build-tailwind
     (bundle exec jekyll serve -B) &
-    @just force-dereference-bootstrap-js '{{dir}}'
 
 [group('dev')]
 [doc('Kill the Jekyll server running in the background')]

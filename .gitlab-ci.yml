@@ -13,14 +13,19 @@ stages:
 
 build:
   stage: build
+  variables:
+    TAILWIND_REPO: https://github.com/tailwindlabs/tailwindcss
+    TAILWIND_VERSION: 4.3.3
   before_script:
     - mkdir -p ~/bin
     - >-
       curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh
       | bash -s -- --to ~/bin
+    - >-
+      curl -sSfL -o ~/bin/tailwindcss
+      ${TAILWIND_REPO}/releases/download/v${TAILWIND_VERSION}/tailwindcss-linux-x64
+    - chmod +x ~/bin/tailwindcss
     - export PATH="$PATH:$HOME/bin"
-    - git submodule sync
-    - git submodule update --init
     - gem install bundler
     - bundle config set path 'vendor'
     - bundle config set without 'test'

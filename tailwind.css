@@ -1,0 +1,242 @@
+[x-cloak] { display: none !important; }
+
+@import "tailwindcss";
+
+@source "_includes/*.html";
+@source "_layouts/*.html";
+@source "teaching.md";
+@source "research.md";
+@source "side-projects.md";
+
+@theme {
+    --color-my-red: #B22613;
+    --color-my-inline-code-red: #c7254e;
+    --color-my-inline-code-white-red-bg: #f9f2f4;
+    --color-my-blue: #5BA2D7;
+    --color-my-orange: #E69F00;
+    --color-my-light-grey: #F8F8F8;
+    --color-my-dark-grey: #F0F0F0;
+
+    --font-main: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-heading: "Raleway", sans-serif;
+    --font-title: "Italianno", cursive;
+
+    --font-sans: var(--font-main);
+}
+
+@layer base {
+    h1, h2, h3, h4, h5, h6 {
+        font-family: var(--font-heading);
+        font-weight: var(--font-medium);
+        color: var(--color-my-red);
+    }
+    h1 {font-size: var(--text-4xl);}
+    h2 {font-size: var(--text-3xl);}
+    h3 {font-size: var(--text-2xl);}
+    h4 {font-size: var(--text-xl);}
+    h5 {font-size: var(--text-lg);}
+    h6 {font-size: var(--text-base);}
+
+    a {color: var(--color-my-blue); @apply hover:underline;}
+
+    code:not([class]) {
+        @apply text-my-inline-code-red bg-my-inline-code-white-red-bg rounded
+               inline-block px-0.5 py-0.5 text-[90%];
+    }
+
+    ul:not([class]) {@apply list-disc list-outside pl-10;}
+    /*ol:not([class]) {@apply list-decimal list-outside pl-10;}*/
+
+    p:not([class]) {@apply mb-4;}
+}
+
+
+@layer components {
+    /* Blog post content */
+    /*
+    #content {
+        counter-reset: blog-example;
+    }
+
+    #content blockquote {
+        @apply my-6 border-l-4 border-my-red bg-my-dark-grey px-5 py-3
+               text-gray-700 italic;
+    }
+
+    #content hr {
+        @apply my-8 border-gray-300;
+    }
+
+    #content table {
+        @apply my-6 w-full border-collapse;
+    }
+
+    #content th,
+    #content td {
+        @apply border border-gray-300 px-4 py-2 align-top;
+    }
+
+    #content th {
+        @apply bg-my-dark-grey;
+    }
+    */
+
+    /* inline code */
+    /*
+    #content :not(pre) > code {
+        @apply rounded border border-gray-300 bg-my-dark-grey px-1.5 py-0.5
+               font-mono text-[0.9em] text-my-red;
+    }
+    */
+
+    /* code blocks */
+    /*
+    #content pre {
+        @apply my-6 overflow-x-auto rounded-md border border-gray-200
+               bg-my-dark-grey p-4 font-mono text-sm leading-relaxed;
+    }
+
+    #content pre code {
+        @apply border-0 bg-transparent p-0 text-inherit;
+    }
+    */
+
+    /* syntax highlighting (rouge) */
+    /*
+    #content .highlight pre code {
+        color: #2f2f2f;
+        white-space: pre;
+        word-wrap: normal;
+    }
+    */
+
+    /* Comments */
+    /*
+    #content .highlight .c, #content .highlight .cm,
+    #content .highlight .c1, #content .highlight .cs {
+        color: #999988;
+        font-style: italic;
+    }
+    */
+
+    /* Keywords & operators */
+    /*
+    #content .highlight .k, #content .highlight .o,
+    #content .highlight .kc, #content .highlight .kd,
+    #content .highlight .kp, #content .highlight .kr,
+    #content .highlight .kt, #content .highlight .ow {
+        font-weight: bold;
+    }
+    */
+
+    /* Names */
+    /*
+    #content .highlight .na, #content .highlight .no,
+    #content .highlight .nv, #content .highlight .vc,
+    #content .highlight .vg, #content .highlight .vi {
+        color: #008080;
+    }
+    #content .highlight .nb { color: #0086b3; }
+    #content .highlight .ni { color: #800080; }
+    #content .highlight .ne, #content .highlight .nf {
+        color: #990000;
+        font-weight: bold;
+    }
+    #content .highlight .nn, #content .highlight .gp {
+        color: #555555;
+    }
+    #content .highlight .nt { color: #000080; }
+    #content .highlight .gh { color: #999999; }
+    #content .highlight .gu { color: #aaaaaa; }
+    */
+
+    /* Literals */
+    /*
+    #content .highlight .m, #content .highlight .mf,
+    #content .highlight .mh, #content .highlight .mi,
+    #content .highlight .mo, #content .highlight .il {
+        color: #009999;
+    }
+    #content .highlight .s, #content .highlight .sb,
+    #content .highlight .sc, #content .highlight .sd,
+    #content .highlight .s2, #content .highlight .se,
+    #content .highlight .sh, #content .highlight .si,
+    #content .highlight .sx, #content .highlight .s1 {
+        color: #d14;
+    }
+    #content .highlight .sr { color: #009926; }
+    #content .highlight .ss { color: #990073; }
+    */
+
+    /* Generic text */
+    /*
+    #content .highlight .ge { font-style: italic; }
+    #content .highlight .gs { font-weight: bold; }
+    #content .highlight .gd { color: #000000; background-color: #ffdddd; }
+    #content .highlight .gd .x { color: #000000; background-color: #ffaaaa; }
+    #content .highlight .gi { color: #000000; background-color: #ddffdd; }
+    #content .highlight .gi .x { color: #000000; background-color: #aaffaa; }
+    #content .highlight .go { color: #888888; }
+    #content .highlight .gr, #content .highlight .gt { color: #aa0000; }
+    #content .highlight .w { color: #bbbbbb; }
+    #content .highlight .bp { color: #999999; }
+    */
+
+    /* images */
+    /*
+    #content img {
+        @apply my-4 h-auto max-w-full;
+    }
+
+    .img-blog-wrapper {
+        @apply my-6 block max-w-full text-center;
+    }
+
+    .img-blog {
+        @apply my-0 inline-block h-auto max-w-full border border-gray-400
+               bg-transparent p-2;
+    }
+
+    .img-blog-caption {
+        @apply mt-1 block text-center text-sm text-gray-500;
+    }
+    */
+
+    /* embedded videos */
+    /*
+    .embed-video-center {
+        @apply my-4 text-center;
+    }
+
+    .embed-video-center iframe {
+        @apply max-w-full;
+    }
+    */
+
+    /* footnotes */
+    /*
+    .footnotes {
+        @apply mt-10 border-t border-gray-300 pt-4 text-sm text-gray-600;
+    }
+    */
+
+    /* numbered linguistic examples */
+    /*
+    #content li.blog-example-continuous {
+        list-style-type: none;
+        counter-increment: blog-example;
+    }
+
+    #content li.blog-example-continuous::before {
+        content: "(" counter(blog-example) ") ";
+    }
+
+    #content li.footnote-level-one-example {
+        list-style-type: lower-roman;
+    }
+
+    #content li.footnote-level-two-example {
+        list-style-type: lower-alpha;
+    }
+    */
+}
